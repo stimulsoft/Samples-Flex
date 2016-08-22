@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					   xmlns:s="library://ns.adobe.com/flex/spark" 
+					   xmlns:mx="library://ns.adobe.com/flex/mx"
+					   initialize="onInitialize()"
+					   showStatusBar="false" backgroundColor="#e8e8e8" width="900" height="600">
+	<fx:Script>
+		<![CDATA[
+			import stimulsoft.report.StiReport;
+			import stimulsoft.report.design.StiDesignerFx;
+			import stimulsoft.viewer.StiViewerFx;
+			
+//--------------------------------------
+//  Constants
+//--------------------------------------
+			
+			private const demoFile: String = "reports/SimpleList.mrt";
+			//private const demoFile: String = "reports/TwoSimpleLists.mrt";
+			//private const demoFile: String = "reports/Invoice.mrt";
+			
+//--------------------------------------
+//  Fields
+//--------------------------------------
+			
+			private var htmlText: String = "";
+			private var reportString: String;
+			
+//--------------------------------------
+//  Events
+//--------------------------------------
+			
+			private function onInitialize(): void
+			{
+				StiViewerFx.initialize();
+				StiDesignerFx.initialize();
+				
+				var request: URLRequest = new URLRequest(demoFile);
+				var loader: URLLoader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE, onLoadComplete);
+				loader.load(request);
+			}
+			
+			private function onLoadComplete(event: Event): void
+			{
+				var loader: URLLoader = event.target as URLLoader;
+				reportString = loader.data as String;
+				
+				var parts: Array = demoFile.split("/");
+				htmlText += "<b>Report file:</b>  " + parts[parts.length - 1] + "\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Methods
+//--------------------------------------
+			
+			private function addTextViewReport(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var</font>" +
+					"</b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font " +
+					"color='#009900'>// Load report from XML string</font></i>\nreport.loadReportFromString(" +
+					"documentString);\n<i><font color='#009900'>// Show report in Viewer dialog window</font></i>\nreport." +
+					"showDialog();\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextDesignReport(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var" + 
+					"</font></b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font " + 
+					"color='#009900'>// Load report from XML string</font></i>\nreport.loadReportFromString(reportString);\n" + 
+					"<i><font color='#009900'>// Design report in dialog window</font></i>\nreport.designDialog();\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Events: Design Report
+//--------------------------------------
+			
+			private function onViewReportClick(): void
+			{
+				addTextViewReport();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load report from XML string
+				report.loadReportFromString(reportString);
+				// Show report in Viewer dialog window
+				report.showDialog();
+			}
+			
+			private function onDesignReportClick(): void
+			{
+				addTextDesignReport();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load report from XML string
+				report.loadReportFromString(reportString);
+				// Design report in dialog window
+				report.designDialog();
+			}
+			
+		]]>
+	</fx:Script>
+	
+	<mx:Button id="buttonViewReport" x="30" y="30" width="170" label="View Report" click="onViewReportClick()" />
+	<mx:Button id="buttonDesignReport" x="30" y="60" width="170" label="Design Report" click="onDesignReportClick()" />
+	<mx:TextArea id="textAreaReport" left="230" right="30" top="30" bottom="30" borderColor="#808080" borderStyle="solid"
+				 editable="false" fontFamily="Courier New" fontSize="14" wordWrap="false" />
+	
+</s:WindowedApplication>

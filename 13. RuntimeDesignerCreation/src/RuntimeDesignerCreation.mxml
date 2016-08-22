@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	minWidth="1024" minHeight="768" backgroundColor="#e8e8e8"
+	creationComplete="onCreationComplete()">
+	
+	<mx:Script>
+		<![CDATA[
+			import stimulsoft.report.StiReport;
+			import stimulsoft.report.design.StiDesignerFx;
+			
+//--------------------------------------
+//  Constants
+//--------------------------------------
+			
+			private const demoFile: String = "reports/SimpleList.mrt";
+			//private const demoFile: String = "reports/TwoSimpleLists.mrt";
+			//private const demoFile: String = "reports/Invoice.mrt";
+			
+//--------------------------------------
+//  Properties
+//--------------------------------------
+			
+			private var _designer: StiDesignerFx;
+			public function get designer(): StiDesignerFx
+			{
+				return _designer;
+			}
+			public function set designer(value: StiDesignerFx): void
+			{
+				_designer = value;
+			}
+			
+//--------------------------------------
+//  Events
+//--------------------------------------
+			
+			private function onCreationComplete(): void
+			{
+				// Create DesignerFx
+				createDesignerFx();
+				
+				var request: URLRequest = new URLRequest(demoFile);
+				var loader: URLLoader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE, onLoadComplete);
+				loader.load(request);
+			}
+			
+			private function onLoadComplete(event: Event): void
+			{
+				var loader: URLLoader = event.target as URLLoader;
+				var reportString: String = loader.data as String;
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load report from XML string
+				report.loadReportFromString(reportString);
+				// Design report in DesignerFx
+				designer.report = report;
+			}
+			
+//--------------------------------------
+//  Methods
+//--------------------------------------
+			
+			private function createDesignerFx(): void
+			{
+				// Create new DesignerFx
+				designer = new StiDesignerFx;
+				// Set DesignerFx location
+				designer.left = 0;
+				designer.top = 0;
+				designer.right = 0;
+				designer.bottom = 0;
+				// Add DesignerFx to Application
+				addElement(designer);
+			}
+			
+		]]>
+	</mx:Script>
+	
+</mx:Application>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	minWidth="1024" minHeight="768" backgroundColor="#e8e8e8"
+	initialize="onInitialize()">
+	
+	<mx:Script>
+		<![CDATA[
+			import stimulsoft.controls.theme.StiTheme;
+			import stimulsoft.controls.theme.StiThemeManager;
+			import stimulsoft.viewer.StiViewerFx;
+			import stimulsoft.report.StiReport;
+			import stimulsoft.report.events.StiReportEvent;
+			
+//--------------------------------------
+//  Constants
+//--------------------------------------
+			
+			//private const demoFile: String = "documents/SimpleList.mdc";
+			private const demoFile: String = "documents/TwoSimpleLists.mdc";
+			//private const demoFile: String = "documents/Invoice.mdc";
+			
+//--------------------------------------
+//  Fields
+//--------------------------------------
+			
+			private var htmlText: String = "";
+			private var documentString: String;
+			
+//--------------------------------------
+//  Events
+//--------------------------------------
+			
+			private function onInitialize(): void
+			{
+				StiViewerFx.initialize();
+				
+				var request: URLRequest = new URLRequest(demoFile);
+				var loader: URLLoader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE, onLoadComplete);
+				loader.load(request);
+			}
+			
+			private function onLoadComplete(event: Event): void
+			{
+				var loader: URLLoader = event.target as URLLoader;
+				documentString = loader.data as String;
+				
+				var parts: Array = demoFile.split("/");
+				htmlText += "<b>Document file:</b>  " + parts[parts.length - 1] + "\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Methods
+//--------------------------------------
+			
+			private function addTextPrintReport(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var</font>" +
+					"</b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font " +
+					"color='#009900'>// Load document from XML string</font></i>\nreport.loadDocumentFromString(" +
+					"documentString);\n<i><font color='#009900'>// Print report</font></i>\nreport.print();\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextPrintSelectedPages(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var</font>" +
+					"</b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font " +
+					"color='#009900'>// Load document from XML string</font></i>\nreport.loadDocumentFromString(" +
+					"documentString);\n<i><font color='#009900'>// Print selected pages (for example: '1, 3, 5-12')</font>" + 
+					"</i>\nreport.print(<b><font color='#0033ff'>false</font></b>, <b><font color='#990000'>\"1-3, 5\"" + 
+					"</font></b>);\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextShowPrintDialog(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var</font>" +
+					"</b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font " +
+					"color='#009900'>// Load document from XML string</font></i>\nreport.loadDocumentFromString(" +
+					"documentString);\n<i><font color='#009900'>// Show print dialog</font></i>\nreport.print(<b><font " + 
+					"color='#0033ff'>true</font></b>);\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Events: Print
+//--------------------------------------
+			
+			private function onPrintReportClick(): void
+			{
+				addTextPrintReport();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load document from XML string
+				report.loadDocumentFromString(documentString);
+				// Print report
+				report.print();
+			}
+			
+			private function onPrintSelectedPagesClick(): void
+			{
+				addTextPrintSelectedPages();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load document from XML string
+				report.loadDocumentFromString(documentString);
+				// Print selected pages (for example: '1, 3, 5-12')
+				report.print(false, "1-3, 5");
+			}
+			
+			private function onShowPrintDialogClick(): void
+			{
+				addTextShowPrintDialog();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load document from XML string
+				report.loadDocumentFromString(documentString);
+				// Show print dialog
+				report.print(true);
+			}
+		]]>
+	</mx:Script>
+	
+	
+	<mx:Button id="buttonPrintReport" x="30" y="30" width="170" label="Print Report" click="onPrintReportClick()" />
+	<mx:Button id="buttonPrintSelectedPages" x="30" y="60" width="170" label="Print Selected Pages" click="onPrintSelectedPagesClick()" />
+	<mx:Button id="buttonShowPrintDialog" x="30" y="90" width="170" label="Show Print Dialog" click="onShowPrintDialogClick()" />
+	<mx:TextArea id="textAreaReport" left="230" right="30" top="30" bottom="30" borderColor="#808080" borderStyle="solid"
+				 editable="false" fontFamily="Courier New" fontSize="14" wordWrap="false" />
+	
+</mx:Application>

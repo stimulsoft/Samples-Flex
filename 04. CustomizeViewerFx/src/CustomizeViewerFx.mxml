@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	minWidth="1024" minHeight="768" backgroundColor="#e8e8e8"
+	initialize="onInitialize()">
+	
+	<mx:Script>
+		<![CDATA[
+			import mx.events.FlexEvent;
+			import stimulsoft.report.enums.StiZoomMode;
+			import stimulsoft.report.StiOptions;
+			import stimulsoft.viewer.StiViewerFx;
+			import stimulsoft.report.StiReport;
+			import stimulsoft.report.events.StiReportEvent;
+			
+//--------------------------------------
+//  Constants
+//--------------------------------------
+			
+			private const demoFile: String = "documents/SimpleList.mdc";
+			//private const demoFile: String = "documents/TwoSimpleLists.mdc";
+			//private const demoFile: String = "documents/Invoice.mdc";
+			
+//--------------------------------------
+//  Fields
+//--------------------------------------
+			
+			private var htmlText: String = "";
+			private var documentString: String;
+			
+//--------------------------------------
+//  Events
+//--------------------------------------
+			
+			private function onInitialize(): void
+			{
+				StiViewerFx.initialize();
+				
+				var request: URLRequest = new URLRequest(demoFile);
+				var loader: URLLoader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE, onLoadComplete);
+				loader.load(request);
+			}
+			
+			private function onLoadComplete(event: Event): void
+			{
+				var loader: URLLoader = event.target as URLLoader;
+				documentString = loader.data as String;
+				
+				var parts: Array = demoFile.split("/");
+				htmlText += "<b>Report file:</b>  " + parts[parts.length - 1] + "\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Methods
+//--------------------------------------
+			
+			private function addTextShowCustomizedViewer(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var</font>" +
+					"</b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font " +
+					"color='#009900'>// Load document from XML string</font></i>\nreport.loadDocumentFromString(" +
+					"documentString);\n\n<i><font color='#009900'>// Customize Viewer toolbar</font></i>\n"; 
+				
+				if (!checkBoxShowPrintButton.selected) htmlText += "StiOptions.viewer.toolbar.showPrintButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowOpenButton.selected) htmlText += "StiOptions.viewer.toolbar.showOpenButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowSaveButton.selected) htmlText += "StiOptions.viewer.toolbar.showSaveButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowBookmarksButton.selected) htmlText += "StiOptions.viewer.toolbar.showBookmarksButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowParametersButton.selected) htmlText += "StiOptions.viewer.toolbar.showParametersButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowThumbnailsButton.selected) htmlText += "StiOptions.viewer.toolbar.showThumbnailsButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowFindButton.selected) htmlText += "StiOptions.viewer.toolbar.showFindButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowExitButton.selected) htmlText += "StiOptions.viewer.toolbar.showExitButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowAboutButton.selected) htmlText += "StiOptions.viewer.toolbar.showAboutButton = <b><font color='#0033ff'>false</font></b>;\n";
+				
+				if (!checkBoxShowFirstPageButton.selected) htmlText += "StiOptions.viewer.toolbar.showFirstPageButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowPreviousPageButton.selected) htmlText += "StiOptions.viewer.toolbar.showPreviousPageButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowGoToPageButton.selected) htmlText += "StiOptions.viewer.toolbar.showGoToPageButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowNextPageButton.selected) htmlText += "StiOptions.viewer.toolbar.showNextPageButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowLastPageButton.selected) htmlText += "StiOptions.viewer.toolbar.showLastPageButton = <b><font color='#0033ff'>false</font></b>;\n";
+				
+				if (!checkBoxShowPageViewModeSingleButton.selected) htmlText += "StiOptions.viewer.toolbar.showPageViewModeSingleButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowPageViewModeContinuousButton.selected) htmlText += "StiOptions.viewer.toolbar.showPageViewModeContinuousButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowPageViewModeMultipleButton.selected) htmlText += "StiOptions.viewer.toolbar.showPageViewModeMultipleButton = <b><font color='#0033ff'>false</font></b>;\n";
+				if (!checkBoxShowZoom.selected) htmlText += "StiOptions.viewer.toolbar.showZoom = <b><font color='#0033ff'>false</font></b>;\n";
+				
+				htmlText += "\n<i><font color='#009900'>// Create bounds of Viewer window</font></i>\n<b><font color='#6699cc'>var" + 
+					"</font></b> rect: Rectangle = <b><font color='#0033ff'>new</font></b> Rectangle(100, 100, 900, 600);\n" + 
+					"<i><font color='#009900'>// Show report in Viewer dialog window</font></i>\nreport.showDialog(rect, <b>" + 
+					"<font color='#990000'>\"Customized ViewerFx\"</font></b>, <b><font color='#0033ff'>true</font></b>, <b>" + 
+					"<font color='#0033ff'>true</font></b>);\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Events: View Document
+//--------------------------------------
+			
+			private function onShowCustomizedViewerClick(): void
+			{
+				addTextShowCustomizedViewer();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load document from XML string
+				report.loadDocumentFromString(documentString);
+				
+				// Customize Viewer toolbar
+				StiOptions.viewer.toolbar.showPrintButton = checkBoxShowPrintButton.selected;
+				StiOptions.viewer.toolbar.showOpenButton = checkBoxShowOpenButton.selected;
+				StiOptions.viewer.toolbar.showSaveButton = checkBoxShowSaveButton.selected;
+				StiOptions.viewer.toolbar.showBookmarksButton = checkBoxShowBookmarksButton.selected;
+				StiOptions.viewer.toolbar.showParametersButton = checkBoxShowParametersButton.selected;
+				StiOptions.viewer.toolbar.showThumbnailsButton = checkBoxShowThumbnailsButton.selected;
+				StiOptions.viewer.toolbar.showFindButton = checkBoxShowFindButton.selected;
+				StiOptions.viewer.toolbar.showExitButton = checkBoxShowExitButton.selected;
+				StiOptions.viewer.toolbar.showAboutButton = checkBoxShowAboutButton.selected;
+				
+				StiOptions.viewer.toolbar.showFirstPageButton = checkBoxShowFirstPageButton.selected;
+				StiOptions.viewer.toolbar.showPreviousPageButton = checkBoxShowPreviousPageButton.selected;
+				StiOptions.viewer.toolbar.showGoToPageButton = checkBoxShowGoToPageButton.selected;
+				StiOptions.viewer.toolbar.showNextPageButton = checkBoxShowNextPageButton.selected;
+				StiOptions.viewer.toolbar.showLastPageButton = checkBoxShowLastPageButton.selected;
+				
+				StiOptions.viewer.toolbar.showPageViewModeSingleButton = checkBoxShowPageViewModeSingleButton.selected;
+				StiOptions.viewer.toolbar.showPageViewModeContinuousButton = checkBoxShowPageViewModeContinuousButton.selected;
+				StiOptions.viewer.toolbar.showPageViewModeMultipleButton = checkBoxShowPageViewModeMultipleButton.selected;
+				StiOptions.viewer.toolbar.showZoom = checkBoxShowZoom.selected;
+				
+				// Create bounds of Viewer window
+				var rect: Rectangle = new Rectangle(100, 100, 900, 600);
+				// Show report in Viewer dialog window
+				report.showDialog(rect, "Customized ViewerFx", true, true);
+			}
+		]]>
+	</mx:Script>
+	
+	
+	<mx:Button id="buttonShowCustomizedViewer" x="30" y="30" width="240" label="Show Customized Viewer" click="onShowCustomizedViewerClick()" />
+	<mx:CheckBox id="checkBoxShowPrintButton" x="30" y="80" label="Show Print Button" selected="true" />
+	<mx:CheckBox id="checkBoxShowOpenButton" x="30" y="100" label="Show Open Button" selected="false" />
+	<mx:CheckBox id="checkBoxShowSaveButton" x="30" y="120" label="Show Save Button" selected="false" />
+	<mx:CheckBox id="checkBoxShowBookmarksButton" x="30" y="140" label="Show Bookmarks Button" selected="false" />
+	<mx:CheckBox id="checkBoxShowParametersButton" x="30" y="160" label="Show Parameters Button" selected="false" />
+	<mx:CheckBox id="checkBoxShowThumbnailsButton" x="30" y="180" label="Show Thumbnails Button" selected="false" />
+	<mx:CheckBox id="checkBoxShowFindButton" x="30" y="200" label="Show Find Button" selected="false" />
+	<mx:CheckBox id="checkBoxShowExitButton" x="30" y="220" label="Show Exit Button" selected="true" />
+	<mx:CheckBox id="checkBoxShowAboutButton" x="30" y="240" label="Show About Button" selected="true" />
+	<mx:CheckBox id="checkBoxShowFirstPageButton" x="30" y="270" label="Show First Page Button" selected="true" />
+	<mx:CheckBox id="checkBoxShowPreviousPageButton" x="30" y="290" label="Show Previous Page Button" selected="true" />
+	<mx:CheckBox id="checkBoxShowGoToPageButton" x="30" y="310" label="Show Go To Page Button" selected="true" />
+	<mx:CheckBox id="checkBoxShowNextPageButton" x="30" y="330" label="Show Next Page Button" selected="true" />
+	<mx:CheckBox id="checkBoxShowLastPageButton" x="30" y="350" label="Show Last Page Button" selected="true" />
+	<mx:CheckBox id="checkBoxShowPageViewModeSingleButton" x="30" y="380" label="Show Single Page View Mode Button" selected="true" />
+	<mx:CheckBox id="checkBoxShowPageViewModeContinuousButton" x="30" y="400" label="Show Continuous Page View Mode Button" selected="true" />
+	<mx:CheckBox id="checkBoxShowPageViewModeMultipleButton" x="30" y="420" label="Show Multiple Page View Mode Button" selected="true" />
+	<mx:CheckBox id="checkBoxShowZoom" x="30" y="440" label="Show Zoom" selected="true" />
+	<mx:TextArea id="textAreaReport" left="300" right="30" top="30" bottom="30" borderColor="#808080" borderStyle="solid"
+				 editable="false" fontFamily="Courier New" fontSize="14" wordWrap="false" />
+	
+</mx:Application>

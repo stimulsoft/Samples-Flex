@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	minWidth="1024" minHeight="768" backgroundColor="#e8e8e8"
+	initialize="onInitialize()">
+	
+	<mx:Script>
+		<![CDATA[
+			import stimulsoft.report.dictionary.databases.StiMySqlDatabase;
+			import stimulsoft.report.dictionary.databases.StiXmlDatabase;
+			import stimulsoft.viewer.StiViewerFx;
+			import stimulsoft.report.StiReport;
+			
+//--------------------------------------
+//  Constants
+//--------------------------------------
+			
+			private const demoFile: String = "reports/SimpleList.mrt";
+			//private const demoFile: String = "reports/TwoSimpleLists.mrt";
+			//private const demoFile: String = "reports/Invoice.mrt";
+			
+//--------------------------------------
+//  Fields
+//--------------------------------------
+			
+			private var htmlText: String = "";
+			private var reportString: String;
+			
+//--------------------------------------
+//  Events
+//--------------------------------------
+			
+			private function onInitialize(): void
+			{
+				StiViewerFx.initialize();
+				
+				var request: URLRequest = new URLRequest(demoFile);
+				var loader: URLLoader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE, onLoadComplete);
+				loader.load(request);
+			}
+			
+			private function onLoadComplete(event: Event): void
+			{
+				var loader: URLLoader = event.target as URLLoader;
+				reportString = loader.data as String;
+				
+				var parts: Array = demoFile.split("/");
+				htmlText += "<b>Report file:</b>  " + parts[parts.length - 1] + "\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Methods
+//--------------------------------------
+			
+			private function addTextConnectToXML(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var</font>" +
+					"</b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font " +
+					"color='#009900'>// Load report from XML string</font></i>\nreport.loadReportFromString(" +
+					"documentString);\n<i><font color='#009900'>// Create new XML database</font></i>\n<b><font " + 
+					"color='#6699cc'>var</font></b> database: StiXmlDatabase = <b><font color='#0033ff'>new</font></b> " + 
+					"StiXmlDatabase(<b><font color='#990000'>\"Demo\"</font></b>, <b><font color='#990000'>\"reports/data/" + 
+					"Demo.xsd\"</font></b>, <b><font color='#990000'>\"reports/data/Demo.xml\"</font></b>);\n" + 
+					"<i><font color='#009900'>// Add database to report</font></i>\nreport.dictionary.databases.add(" + 
+					"database);\n<i><font color='#009900'>// Show report in Viewer</font></i>\nreport.showDialog();\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextConnectToMySql(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var</font>" +
+					"</b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font " +
+					"color='#009900'>// Load report from XML string</font></i>\nreport.loadReportFromString(" +
+					"documentString);\n<i><font color='#009900'>// Create new MySql database</font></i>\n<b><font " + 
+					"color='#6699cc'>var</font></b> database: StiMySqlDatabase = <b><font color='#0033ff'>new</font></b> " + 
+					"StiMySqlDatabase(<b><font color='#990000'>\"Demo\"</font></b>, <b><font color='#990000'>\"\"</font>" + 
+					"</b>, <b><font color='#990000'>\"Server=localhost;Port=3306;Database=db_name;Uid=root;Pwd=;\"</font>" + 
+					"</b>, <b><font color='#0033ff'>false</font></b>);\n<i><font color='#009900'>// Add database to report" + 
+					"</font></i>\nreport.dictionary.databases.add(database);\n<i><font color='#009900'>// Show report in " + 
+					"Viewer</font></i>\nreport.showDialog();\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Events: Connect to Database
+//--------------------------------------
+			
+			private function onConnectToXMLClick(): void
+			{
+				addTextConnectToXML();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load report from XML string
+				report.loadReportFromString(reportString);
+				// Create new XML database with same name "Demo"
+				var database: StiXmlDatabase = new StiXmlDatabase("Demo", "reports/data/Demo.xsd", "reports/data/Demo.xml");
+				// Clear all existing databases in report 
+				report.dictionary.databases.clear();
+				// Add database to report
+				report.dictionary.databases.add(database);
+				// Show report in Viewer dialog window
+				report.showDialog();
+			}
+			
+			private function onConnectToMySqlClick(): void
+			{
+				addTextConnectToMySql();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load report from XML string
+				report.loadReportFromString(reportString);
+				// Create new MySql database with same name "Demo"
+				var database: StiMySqlDatabase = new StiMySqlDatabase("Demo", "", "Server=localhost;Port=3306;Database=db_name;Uid=root;Pwd=;", false);
+				// Clear all existing databases in report 
+				report.dictionary.databases.clear();
+				// Add database to report
+				report.dictionary.databases.add(database);
+			}
+		]]>
+	</mx:Script>
+	
+	
+	<mx:Button id="buttonConnectToXML" x="30" y="30" width="170" label="Connect to XML" click="onConnectToXMLClick()" />
+	<mx:Button id="buttonConnectToMySql" x="30" y="60" width="170" label="Connect to MySql" click="onConnectToMySqlClick()" />
+	<mx:TextArea id="textAreaReport" left="230" right="30" top="30" bottom="30" borderColor="#808080" borderStyle="solid"
+				 editable="false" fontFamily="Courier New" fontSize="14" wordWrap="false" />
+	
+</mx:Application>

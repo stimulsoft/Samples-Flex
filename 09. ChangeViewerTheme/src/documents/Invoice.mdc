@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiDocument">
+  <ReportName>Report</ReportName>
+  <ReportAlias>Invoice</ReportAlias>
+  <ReportVersion>2010.1.611</ReportVersion>
+  <ReportCreated>12/31/2009 2:03:11 PM</ReportCreated>
+  <Unit Ref="1" type="cm" isKey="true" />
+  <Pages isList="true" count="2">
+    <Page1 Ref="2" type="Page" isKey="true">
+      <PageWidth>21</PageWidth>
+      <PageHeight>29.7</PageHeight>
+      <Watermark Ref="3" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <fn>Arial,100,Bold</fn>
+        <tb>[50:0:0:0]</tb>
+      </Watermark>
+      <Margins>1,1,1,1</Margins>
+      <br>None;Black;2;Solid;False;4;Black</br>
+      <bh>White</bh>
+      <Components isList="true" count="227">
+        <item0 Ref="4" type="Container" isSer="true" name="ReportTitle1" rc="0,1.4,19,2.4" bh="Transparent" br="All;SaddleBrown;1;Solid;False;4;Black" />
+        <item1 Ref="5" type="Container" isSer="true" name="DataBand1" rc="0,4.8,19,0.6" bh="PapayaWhip" />
+        <item2 Ref="6" type="Container" isSer="true" name="DataBand1" rc="0,6,19,0.6" bh="PapayaWhip" />
+        <item3 Ref="7" type="Container" isSer="true" name="DataBand1" rc="0,7.2,19,0.6" bh="PapayaWhip" />
+        <item4 Ref="8" type="Container" isSer="true" name="DataBand1" rc="0,8.4,19,0.6" bh="PapayaWhip" />
+        <item5 Ref="9" type="Container" isSer="true" name="DataBand1" rc="0,9.6,19,0.6" bh="PapayaWhip" />
+        <item6 Ref="10" type="Container" isSer="true" name="DataBand1" rc="0,10.8,19,0.6" bh="PapayaWhip" />
+        <item7 Ref="11" type="Container" isSer="true" name="DataBand1" rc="0,12,19,0.6" bh="PapayaWhip" />
+        <item8 Ref="12" type="Container" isSer="true" name="DataBand1" rc="0,13.2,19,0.6" bh="PapayaWhip" />
+        <item9 Ref="13" type="Container" isSer="true" name="DataBand1" rc="0,14.4,19,0.6" bh="PapayaWhip" />
+        <item10 Ref="14" type="Container" isSer="true" name="DataBand1" rc="0,15.6,19,0.6" bh="PapayaWhip" />
+        <item11 Ref="15" type="Container" isSer="true" name="DataBand1" rc="0,16.8,19,0.6" bh="PapayaWhip" />
+        <item12 Ref="16" type="Container" isSer="true" name="DataBand1" rc="0,18,19,0.6" bh="PapayaWhip" />
+        <item13 Ref="17" type="Container" isSer="true" name="DataBand1" rc="0,19.2,19,0.6" bh="PapayaWhip" />
+        <item14 Ref="18" type="Container" isSer="true" name="DataBand1" rc="0,20.4,19,0.6" bh="PapayaWhip" />
+        <item15 Ref="19" type="Container" isSer="true" name="DataBand1" rc="0,21.6,19,0.6" bh="PapayaWhip" />
+        <item16 Ref="20" type="Container" isSer="true" name="DataBand1" rc="0,22.8,19,0.6" bh="PapayaWhip" />
+        <item17 Ref="21" type="Container" isSer="true" name="DataBand1" rc="0,24,19,0.6" bh="PapayaWhip" />
+        <item18 Ref="22" type="Container" isSer="true" name="DataBand1" rc="0,25.2,19,0.6" bh="PapayaWhip" />
+        <item19 Ref="23" type="Container" isSer="true" name="DataBand1" rc="0,26.4,19,0.6" bh="PapayaWhip" />
+        <item20 Ref="24" type="Text" isSer="true" name="Text16" text="Invoice" ha="Center" va="Center" pl="rt.ReportTitleBand1" rc="0,0,19,1.2" fn="Arial,22,Bold" tb="SaddleBrown" bh="Transparent" />
+        <item21 Ref="25" type="Text" isSer="true" name="Text17" text="&#xD;&#xA;BILL&#xD;&#xA;TO" ha="Center" pl="rt.ReportTitle1" rc="0,1.4,1.8,2.4" fn="Arial,11" tb="SaddleBrown" bh="Transparent" br="Right;SaddleBrown;1;Solid;False;4;Black" />
+        <item22 Ref="26" type="Text" isSer="true" name="Text18" text="Name&#xD;&#xA;Street Address&#xD;&#xA;Address 2&#xD;&#xA;City, ST  ZIP Code&#xD;&#xA;" pl="rt.ReportTitle1" rc="1.8,1.4,4.2,2.4" fn="Arial,11" tb="SaddleBrown" bh="Transparent" br="None;SaddleBrown;1;Solid;False;4;Black" mr="5,0,5,0" />
+        <item23 Ref="27" type="Text" isSer="true" name="Text19" text="&#xD;&#xA;SHIP&#xD;&#xA;TO" ha="Center" pl="rt.ReportTitle1" rc="6.8,1.4,1.8,2.4" fn="Arial,11" tb="SaddleBrown" bh="Transparent" br="Right;SaddleBrown;1;Solid;False;4;Black" />
+        <item24 Ref="28" type="Text" isSer="true" name="Text21" text="Invoice #123456" va="Center" pl="rt.ReportTitle1" rc="13.2,1.4,5.8,0.8" fn="Arial,11" tb="SaddleBrown" bh="Transparent" br="All;SaddleBrown;1;Solid;False;4;Black" />
+        <item25 Ref="29" type="Text" isSer="true" name="Text22" text="Invoice date 31.12.2009" va="Center" pl="rt.ReportTitle1" rc="13.2,2.2,5.8,0.8" fn="Arial,11" tb="SaddleBrown" bh="Transparent" br="All;SaddleBrown;1;Solid;False;4;Black" />
+        <item26 Ref="30" type="Text" isSer="true" name="Text23" text="Customer ID 123" va="Center" pl="rt.ReportTitle1" rc="13.2,3,5.8,0.8" fn="Arial,11" tb="SaddleBrown" bh="Transparent" br="All;SaddleBrown;1;Solid;False;4;Black" />
+        <item27 Ref="31" type="Text" isSer="true" name="Text20" text="Name&#xD;&#xA;Street Address&#xD;&#xA;Address 2&#xD;&#xA;City, ST  ZIP Code&#xD;&#xA;" pl="rt.ReportTitle1" rc="8.6,1.4,4.2,2.4" fn="Arial,11" tb="SaddleBrown" bh="Transparent" br="None;SaddleBrown;1;Solid;False;4;Black" mr="5,0,5,0" />
+        <item28 Ref="32" type="Text" isSer="true" name="Text10" text="Unit Name" ha="Center" va="Center" pl="h.ap.HeaderBand1" rc="0,4.2,5.8,0.6" fn="Arial,10,Bold" tb="White" bh="Peru" />
+        <item29 Ref="33" type="Text" isSer="true" name="Text2" text="Description" ha="Center" va="Center" pl="h.ap.HeaderBand1" rc="5.8,4.2,3.4,0.6" fn="Arial,10,Bold" tb="White" bh="Peru" />
+        <item30 Ref="34" type="Text" isSer="true" name="Text24" text="Item Price" ha="Center" va="Center" pl="h.ap.HeaderBand1" rc="10.8,4.2,4.4,0.6" fn="Arial,10,Bold" tb="White" bh="Peru" />
+        <item31 Ref="35" type="Text" isSer="true" name="Text26" text="Total" ha="Center" va="Center" pl="h.ap.HeaderBand1" rc="15.2,4.2,3.8,0.6" fn="Arial,10,Bold" tb="White" bh="Peru" />
+        <item32 Ref="36" type="Text" isSer="true" name="Text11" text="Qty" ha="Center" va="Center" pl="h.ap.HeaderBand1" rc="9.2,4.2,1.6,0.6" fn="Arial,10,Bold" tb="White" bh="Peru" />
+        <item33 Ref="37" type="Text" isSer="true" name="Text1" text="Alice Mutton" pl="d.DataBand1" rc="0,4.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item34 Ref="38" type="Text" isSer="true" name="Text3" text="20 - 1 kg tins" pl="d.DataBand1" rc="5.8,4.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item35 Ref="39" type="Text" isSer="true" name="Text25" text="39,00р." ha="Right" excelvalue="39" format="C" pl="d.DataBand1" rc="10.8,4.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item36 Ref="40" type="Text" isSer="true" name="Text12" text="0,00р." ha="Right" excelvalue="0" format="C" pl="d.DataBand1" rc="15.2,4.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item37 Ref="41" type="Text" isSer="true" name="Text9" text="0,00" ha="Right" excelvalue="0" format="N" pl="d.DataBand1" rc="9.2,4.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item38 Ref="42" type="Text" isSer="true" name="Text1" text="Aniseed Syrup" pl="d.DataBand1" rc="0,5.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item39 Ref="43" type="Text" isSer="true" name="Text3" text="12 - 550 ml bottles" pl="d.DataBand1" rc="5.8,5.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item40 Ref="44" type="Text" isSer="true" name="Text25" text="10,00р." ha="Right" excelvalue="10" format="C" pl="d.DataBand1" rc="10.8,5.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item41 Ref="45" type="Text" isSer="true" name="Text12" text="130,00р." ha="Right" excelvalue="130" format="C" pl="d.DataBand1" rc="15.2,5.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item42 Ref="46" type="Text" isSer="true" name="Text9" text="13,00" ha="Right" excelvalue="13" format="N" pl="d.DataBand1" rc="9.2,5.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item43 Ref="47" type="Text" isSer="true" name="Text1" text="Boston Crab Meat" pl="d.DataBand1" rc="0,6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item44 Ref="48" type="Text" isSer="true" name="Text3" text="24 - 4 oz tins" pl="d.DataBand1" rc="5.8,6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item45 Ref="49" type="Text" isSer="true" name="Text25" text="18,40р." ha="Right" excelvalue="18,4" format="C" pl="d.DataBand1" rc="10.8,6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item46 Ref="50" type="Text" isSer="true" name="Text12" text="2 263,20р." ha="Right" excelvalue="2263,2" format="C" pl="d.DataBand1" rc="15.2,6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item47 Ref="51" type="Text" isSer="true" name="Text9" text="123,00" ha="Right" excelvalue="123" format="N" pl="d.DataBand1" rc="9.2,6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item48 Ref="52" type="Text" isSer="true" name="Text1" text="Camembert Pierrot" pl="d.DataBand1" rc="0,6.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item49 Ref="53" type="Text" isSer="true" name="Text3" text="15 - 300 g rounds" pl="d.DataBand1" rc="5.8,6.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item50 Ref="54" type="Text" isSer="true" name="Text25" text="34,00р." ha="Right" excelvalue="34" format="C" pl="d.DataBand1" rc="10.8,6.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item51 Ref="55" type="Text" isSer="true" name="Text12" text="646,00р." ha="Right" excelvalue="646" format="C" pl="d.DataBand1" rc="15.2,6.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item52 Ref="56" type="Text" isSer="true" name="Text9" text="19,00" ha="Right" excelvalue="19" format="N" pl="d.DataBand1" rc="9.2,6.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item53 Ref="57" type="Text" isSer="true" name="Text1" text="Carnarvon Tigers" pl="d.DataBand1" rc="0,7.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item54 Ref="58" type="Text" isSer="true" name="Text3" text="16 kg pkg." pl="d.DataBand1" rc="5.8,7.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item55 Ref="59" type="Text" isSer="true" name="Text25" text="62,50р." ha="Right" excelvalue="62,5" format="C" pl="d.DataBand1" rc="10.8,7.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item56 Ref="60" type="Text" isSer="true" name="Text12" text="2 625,00р." ha="Right" excelvalue="2625,0" format="C" pl="d.DataBand1" rc="15.2,7.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item57 Ref="61" type="Text" isSer="true" name="Text9" text="42,00" ha="Right" excelvalue="42" format="N" pl="d.DataBand1" rc="9.2,7.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item58 Ref="62" type="Text" isSer="true" name="Text1" text="Chai" pl="d.DataBand1" rc="0,7.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item59 Ref="63" type="Text" isSer="true" name="Text3" text="10 boxes x 20 bags" pl="d.DataBand1" rc="5.8,7.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item60 Ref="64" type="Text" isSer="true" name="Text25" text="18,00р." ha="Right" excelvalue="18" format="C" pl="d.DataBand1" rc="10.8,7.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item61 Ref="65" type="Text" isSer="true" name="Text12" text="702,00р." ha="Right" excelvalue="702" format="C" pl="d.DataBand1" rc="15.2,7.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item62 Ref="66" type="Text" isSer="true" name="Text9" text="39,00" ha="Right" excelvalue="39" format="N" pl="d.DataBand1" rc="9.2,7.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item63 Ref="67" type="Text" isSer="true" name="Text1" text="Chang" pl="d.DataBand1" rc="0,8.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item64 Ref="68" type="Text" isSer="true" name="Text3" text="24 - 12 oz bottles" pl="d.DataBand1" rc="5.8,8.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item65 Ref="69" type="Text" isSer="true" name="Text25" text="19,00р." ha="Right" excelvalue="19" format="C" pl="d.DataBand1" rc="10.8,8.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item66 Ref="70" type="Text" isSer="true" name="Text12" text="323,00р." ha="Right" excelvalue="323" format="C" pl="d.DataBand1" rc="15.2,8.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item67 Ref="71" type="Text" isSer="true" name="Text9" text="17,00" ha="Right" excelvalue="17" format="N" pl="d.DataBand1" rc="9.2,8.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item68 Ref="72" type="Text" isSer="true" name="Text1" text="Chartreuse verte" pl="d.DataBand1" rc="0,9,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item69 Ref="73" type="Text" isSer="true" name="Text3" text="750 cc per bottle" pl="d.DataBand1" rc="5.8,9,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item70 Ref="74" type="Text" isSer="true" name="Text25" text="18,00р." ha="Right" excelvalue="18" format="C" pl="d.DataBand1" rc="10.8,9,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item71 Ref="75" type="Text" isSer="true" name="Text12" text="1 242,00р." ha="Right" excelvalue="1242" format="C" pl="d.DataBand1" rc="15.2,9,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item72 Ref="76" type="Text" isSer="true" name="Text9" text="69,00" ha="Right" excelvalue="69" format="N" pl="d.DataBand1" rc="9.2,9,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item73 Ref="77" type="Text" isSer="true" name="Text1" text="Chef Anton's Cajun Seasoning" pl="d.DataBand1" rc="0,9.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item74 Ref="78" type="Text" isSer="true" name="Text3" text="48 - 6 oz jars" pl="d.DataBand1" rc="5.8,9.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item75 Ref="79" type="Text" isSer="true" name="Text25" text="22,00р." ha="Right" excelvalue="22" format="C" pl="d.DataBand1" rc="10.8,9.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item76 Ref="80" type="Text" isSer="true" name="Text12" text="1 166,00р." ha="Right" excelvalue="1166" format="C" pl="d.DataBand1" rc="15.2,9.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item77 Ref="81" type="Text" isSer="true" name="Text9" text="53,00" ha="Right" excelvalue="53" format="N" pl="d.DataBand1" rc="9.2,9.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item78 Ref="82" type="Text" isSer="true" name="Text1" text="Chef Anton's Gumbo Mix" pl="d.DataBand1" rc="0,10.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item79 Ref="83" type="Text" isSer="true" name="Text3" text="36 boxes" pl="d.DataBand1" rc="5.8,10.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item80 Ref="84" type="Text" isSer="true" name="Text25" text="21,35р." ha="Right" excelvalue="21,35" format="C" pl="d.DataBand1" rc="10.8,10.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item81 Ref="85" type="Text" isSer="true" name="Text12" text="0,00р." ha="Right" excelvalue="0,00" format="C" pl="d.DataBand1" rc="15.2,10.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item82 Ref="86" type="Text" isSer="true" name="Text9" text="0,00" ha="Right" excelvalue="0" format="N" pl="d.DataBand1" rc="9.2,10.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item83 Ref="87" type="Text" isSer="true" name="Text1" text="Chocolade" pl="d.DataBand1" rc="0,10.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item84 Ref="88" type="Text" isSer="true" name="Text3" text="10 pkgs." pl="d.DataBand1" rc="5.8,10.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item85 Ref="89" type="Text" isSer="true" name="Text25" text="12,75р." ha="Right" excelvalue="12,75" format="C" pl="d.DataBand1" rc="10.8,10.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item86 Ref="90" type="Text" isSer="true" name="Text12" text="191,25р." ha="Right" excelvalue="191,25" format="C" pl="d.DataBand1" rc="15.2,10.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item87 Ref="91" type="Text" isSer="true" name="Text9" text="15,00" ha="Right" excelvalue="15" format="N" pl="d.DataBand1" rc="9.2,10.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item88 Ref="92" type="Text" isSer="true" name="Text1" text="Côte de Blaye" pl="d.DataBand1" rc="0,11.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item89 Ref="93" type="Text" isSer="true" name="Text3" text="12 - 75 cl bottles" pl="d.DataBand1" rc="5.8,11.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item90 Ref="94" type="Text" isSer="true" name="Text25" text="263,50р." ha="Right" excelvalue="263,5" format="C" pl="d.DataBand1" rc="10.8,11.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item91 Ref="95" type="Text" isSer="true" name="Text12" text="4 479,50р." ha="Right" excelvalue="4479,5" format="C" pl="d.DataBand1" rc="15.2,11.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item92 Ref="96" type="Text" isSer="true" name="Text9" text="17,00" ha="Right" excelvalue="17" format="N" pl="d.DataBand1" rc="9.2,11.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item93 Ref="97" type="Text" isSer="true" name="Text1" text="Escargots de Bourgogne" pl="d.DataBand1" rc="0,12,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item94 Ref="98" type="Text" isSer="true" name="Text3" text="24 pieces" pl="d.DataBand1" rc="5.8,12,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item95 Ref="99" type="Text" isSer="true" name="Text25" text="13,25р." ha="Right" excelvalue="13,25" format="C" pl="d.DataBand1" rc="10.8,12,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item96 Ref="100" type="Text" isSer="true" name="Text12" text="821,50р." ha="Right" excelvalue="821,50" format="C" pl="d.DataBand1" rc="15.2,12,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item97 Ref="101" type="Text" isSer="true" name="Text9" text="62,00" ha="Right" excelvalue="62" format="N" pl="d.DataBand1" rc="9.2,12,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item98 Ref="102" type="Text" isSer="true" name="Text1" text="Filo Mix" pl="d.DataBand1" rc="0,12.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item99 Ref="103" type="Text" isSer="true" name="Text3" text="16 - 2 kg boxes" pl="d.DataBand1" rc="5.8,12.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item100 Ref="104" type="Text" isSer="true" name="Text25" text="7,00р." ha="Right" excelvalue="7" format="C" pl="d.DataBand1" rc="10.8,12.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item101 Ref="105" type="Text" isSer="true" name="Text12" text="266,00р." ha="Right" excelvalue="266" format="C" pl="d.DataBand1" rc="15.2,12.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item102 Ref="106" type="Text" isSer="true" name="Text9" text="38,00" ha="Right" excelvalue="38" format="N" pl="d.DataBand1" rc="9.2,12.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item103 Ref="107" type="Text" isSer="true" name="Text1" text="Flotemysost" pl="d.DataBand1" rc="0,13.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item104 Ref="108" type="Text" isSer="true" name="Text3" text="10 - 500 g pkgs." pl="d.DataBand1" rc="5.8,13.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item105 Ref="109" type="Text" isSer="true" name="Text25" text="21,50р." ha="Right" excelvalue="21,5" format="C" pl="d.DataBand1" rc="10.8,13.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item106 Ref="110" type="Text" isSer="true" name="Text12" text="559,00р." ha="Right" excelvalue="559,0" format="C" pl="d.DataBand1" rc="15.2,13.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item107 Ref="111" type="Text" isSer="true" name="Text9" text="26,00" ha="Right" excelvalue="26" format="N" pl="d.DataBand1" rc="9.2,13.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item108 Ref="112" type="Text" isSer="true" name="Text1" text="Geitost" pl="d.DataBand1" rc="0,13.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item109 Ref="113" type="Text" isSer="true" name="Text3" text="500 g" pl="d.DataBand1" rc="5.8,13.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item110 Ref="114" type="Text" isSer="true" name="Text25" text="2,50р." ha="Right" excelvalue="2,5" format="C" pl="d.DataBand1" rc="10.8,13.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item111 Ref="115" type="Text" isSer="true" name="Text12" text="280,00р." ha="Right" excelvalue="280,0" format="C" pl="d.DataBand1" rc="15.2,13.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item112 Ref="116" type="Text" isSer="true" name="Text9" text="112,00" ha="Right" excelvalue="112" format="N" pl="d.DataBand1" rc="9.2,13.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item113 Ref="117" type="Text" isSer="true" name="Text1" text="Genen Shouyu" pl="d.DataBand1" rc="0,14.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item114 Ref="118" type="Text" isSer="true" name="Text3" text="24 - 250 ml bottles" pl="d.DataBand1" rc="5.8,14.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item115 Ref="119" type="Text" isSer="true" name="Text25" text="15,50р." ha="Right" excelvalue="15,5" format="C" pl="d.DataBand1" rc="10.8,14.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item116 Ref="120" type="Text" isSer="true" name="Text12" text="604,50р." ha="Right" excelvalue="604,5" format="C" pl="d.DataBand1" rc="15.2,14.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item117 Ref="121" type="Text" isSer="true" name="Text9" text="39,00" ha="Right" excelvalue="39" format="N" pl="d.DataBand1" rc="9.2,14.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item118 Ref="122" type="Text" isSer="true" name="Text1" text="Gnocchi di nonna Alice" pl="d.DataBand1" rc="0,15,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item119 Ref="123" type="Text" isSer="true" name="Text3" text="24 - 250 g pkgs." pl="d.DataBand1" rc="5.8,15,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item120 Ref="124" type="Text" isSer="true" name="Text25" text="38,00р." ha="Right" excelvalue="38" format="C" pl="d.DataBand1" rc="10.8,15,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item121 Ref="125" type="Text" isSer="true" name="Text12" text="798,00р." ha="Right" excelvalue="798" format="C" pl="d.DataBand1" rc="15.2,15,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item122 Ref="126" type="Text" isSer="true" name="Text9" text="21,00" ha="Right" excelvalue="21" format="N" pl="d.DataBand1" rc="9.2,15,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item123 Ref="127" type="Text" isSer="true" name="Text1" text="Gorgonzola Telino" pl="d.DataBand1" rc="0,15.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item124 Ref="128" type="Text" isSer="true" name="Text3" text="12 - 100 g pkgs" pl="d.DataBand1" rc="5.8,15.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item125 Ref="129" type="Text" isSer="true" name="Text25" text="12,50р." ha="Right" excelvalue="12,5" format="C" pl="d.DataBand1" rc="10.8,15.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item126 Ref="130" type="Text" isSer="true" name="Text12" text="0,00р." ha="Right" excelvalue="0,0" format="C" pl="d.DataBand1" rc="15.2,15.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item127 Ref="131" type="Text" isSer="true" name="Text9" text="0,00" ha="Right" excelvalue="0" format="N" pl="d.DataBand1" rc="9.2,15.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item128 Ref="132" type="Text" isSer="true" name="Text1" text="Grandma's Boysenberry Spread" pl="d.DataBand1" rc="0,16.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item129 Ref="133" type="Text" isSer="true" name="Text3" text="12 - 8 oz jars" pl="d.DataBand1" rc="5.8,16.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item130 Ref="134" type="Text" isSer="true" name="Text25" text="25,00р." ha="Right" excelvalue="25" format="C" pl="d.DataBand1" rc="10.8,16.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item131 Ref="135" type="Text" isSer="true" name="Text12" text="3 000,00р." ha="Right" excelvalue="3000" format="C" pl="d.DataBand1" rc="15.2,16.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item132 Ref="136" type="Text" isSer="true" name="Text9" text="120,00" ha="Right" excelvalue="120" format="N" pl="d.DataBand1" rc="9.2,16.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item133 Ref="137" type="Text" isSer="true" name="Text1" text="Gravad lax" pl="d.DataBand1" rc="0,16.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item134 Ref="138" type="Text" isSer="true" name="Text3" text="12 - 500 g pkgs." pl="d.DataBand1" rc="5.8,16.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item135 Ref="139" type="Text" isSer="true" name="Text25" text="26,00р." ha="Right" excelvalue="26" format="C" pl="d.DataBand1" rc="10.8,16.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item136 Ref="140" type="Text" isSer="true" name="Text12" text="286,00р." ha="Right" excelvalue="286" format="C" pl="d.DataBand1" rc="15.2,16.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item137 Ref="141" type="Text" isSer="true" name="Text9" text="11,00" ha="Right" excelvalue="11" format="N" pl="d.DataBand1" rc="9.2,16.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item138 Ref="142" type="Text" isSer="true" name="Text1" text="Guaraná Fantástica" pl="d.DataBand1" rc="0,17.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item139 Ref="143" type="Text" isSer="true" name="Text3" text="12 - 355 ml cans" pl="d.DataBand1" rc="5.8,17.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item140 Ref="144" type="Text" isSer="true" name="Text25" text="4,50р." ha="Right" excelvalue="4,5" format="C" pl="d.DataBand1" rc="10.8,17.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item141 Ref="145" type="Text" isSer="true" name="Text12" text="90,00р." ha="Right" excelvalue="90,0" format="C" pl="d.DataBand1" rc="15.2,17.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item142 Ref="146" type="Text" isSer="true" name="Text9" text="20,00" ha="Right" excelvalue="20" format="N" pl="d.DataBand1" rc="9.2,17.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item143 Ref="147" type="Text" isSer="true" name="Text1" text="Gudbrandsdalsost" pl="d.DataBand1" rc="0,18,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item144 Ref="148" type="Text" isSer="true" name="Text3" text="10 kg pkg." pl="d.DataBand1" rc="5.8,18,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item145 Ref="149" type="Text" isSer="true" name="Text25" text="36,00р." ha="Right" excelvalue="36" format="C" pl="d.DataBand1" rc="10.8,18,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item146 Ref="150" type="Text" isSer="true" name="Text12" text="936,00р." ha="Right" excelvalue="936" format="C" pl="d.DataBand1" rc="15.2,18,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item147 Ref="151" type="Text" isSer="true" name="Text9" text="26,00" ha="Right" excelvalue="26" format="N" pl="d.DataBand1" rc="9.2,18,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item148 Ref="152" type="Text" isSer="true" name="Text1" text="Gula Malacca" pl="d.DataBand1" rc="0,18.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item149 Ref="153" type="Text" isSer="true" name="Text3" text="20 - 2 kg bags" pl="d.DataBand1" rc="5.8,18.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item150 Ref="154" type="Text" isSer="true" name="Text25" text="19,45р." ha="Right" excelvalue="19,45" format="C" pl="d.DataBand1" rc="10.8,18.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item151 Ref="155" type="Text" isSer="true" name="Text12" text="525,15р." ha="Right" excelvalue="525,15" format="C" pl="d.DataBand1" rc="15.2,18.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item152 Ref="156" type="Text" isSer="true" name="Text9" text="27,00" ha="Right" excelvalue="27" format="N" pl="d.DataBand1" rc="9.2,18.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item153 Ref="157" type="Text" isSer="true" name="Text1" text="Gumbär Gummibärchen" pl="d.DataBand1" rc="0,19.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item154 Ref="158" type="Text" isSer="true" name="Text3" text="100 - 250 g bags" pl="d.DataBand1" rc="5.8,19.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item155 Ref="159" type="Text" isSer="true" name="Text25" text="31,23р." ha="Right" excelvalue="31,23" format="C" pl="d.DataBand1" rc="10.8,19.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item156 Ref="160" type="Text" isSer="true" name="Text12" text="468,45р." ha="Right" excelvalue="468,45" format="C" pl="d.DataBand1" rc="15.2,19.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item157 Ref="161" type="Text" isSer="true" name="Text9" text="15,00" ha="Right" excelvalue="15" format="N" pl="d.DataBand1" rc="9.2,19.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item158 Ref="162" type="Text" isSer="true" name="Text1" text="Gustaf's Knäckebröd" pl="d.DataBand1" rc="0,19.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item159 Ref="163" type="Text" isSer="true" name="Text3" text="24 - 500 g pkgs." pl="d.DataBand1" rc="5.8,19.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item160 Ref="164" type="Text" isSer="true" name="Text25" text="21,00р." ha="Right" excelvalue="21" format="C" pl="d.DataBand1" rc="10.8,19.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item161 Ref="165" type="Text" isSer="true" name="Text12" text="2 184,00р." ha="Right" excelvalue="2184" format="C" pl="d.DataBand1" rc="15.2,19.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item162 Ref="166" type="Text" isSer="true" name="Text9" text="104,00" ha="Right" excelvalue="104" format="N" pl="d.DataBand1" rc="9.2,19.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item163 Ref="167" type="Text" isSer="true" name="Text1" text="Ikura" pl="d.DataBand1" rc="0,20.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item164 Ref="168" type="Text" isSer="true" name="Text3" text="12 - 200 ml jars" pl="d.DataBand1" rc="5.8,20.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item165 Ref="169" type="Text" isSer="true" name="Text25" text="31,00р." ha="Right" excelvalue="31" format="C" pl="d.DataBand1" rc="10.8,20.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item166 Ref="170" type="Text" isSer="true" name="Text12" text="961,00р." ha="Right" excelvalue="961" format="C" pl="d.DataBand1" rc="15.2,20.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item167 Ref="171" type="Text" isSer="true" name="Text9" text="31,00" ha="Right" excelvalue="31" format="N" pl="d.DataBand1" rc="9.2,20.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item168 Ref="172" type="Text" isSer="true" name="Text1" text="Inlagd Sill" pl="d.DataBand1" rc="0,21,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item169 Ref="173" type="Text" isSer="true" name="Text3" text="24 - 250 g  jars" pl="d.DataBand1" rc="5.8,21,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item170 Ref="174" type="Text" isSer="true" name="Text25" text="19,00р." ha="Right" excelvalue="19" format="C" pl="d.DataBand1" rc="10.8,21,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item171 Ref="175" type="Text" isSer="true" name="Text12" text="2 128,00р." ha="Right" excelvalue="2128" format="C" pl="d.DataBand1" rc="15.2,21,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item172 Ref="176" type="Text" isSer="true" name="Text9" text="112,00" ha="Right" excelvalue="112" format="N" pl="d.DataBand1" rc="9.2,21,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item173 Ref="177" type="Text" isSer="true" name="Text1" text="Ipoh Coffee" pl="d.DataBand1" rc="0,21.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item174 Ref="178" type="Text" isSer="true" name="Text3" text="16 - 500 g tins" pl="d.DataBand1" rc="5.8,21.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item175 Ref="179" type="Text" isSer="true" name="Text25" text="46,00р." ha="Right" excelvalue="46" format="C" pl="d.DataBand1" rc="10.8,21.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item176 Ref="180" type="Text" isSer="true" name="Text12" text="782,00р." ha="Right" excelvalue="782" format="C" pl="d.DataBand1" rc="15.2,21.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item177 Ref="181" type="Text" isSer="true" name="Text9" text="17,00" ha="Right" excelvalue="17" format="N" pl="d.DataBand1" rc="9.2,21.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item178 Ref="182" type="Text" isSer="true" name="Text1" text="Jack's New England Clam Chowder" pl="d.DataBand1" rc="0,22.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item179 Ref="183" type="Text" isSer="true" name="Text3" text="12 - 12 oz cans" pl="d.DataBand1" rc="5.8,22.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item180 Ref="184" type="Text" isSer="true" name="Text25" text="9,65р." ha="Right" excelvalue="9,65" format="C" pl="d.DataBand1" rc="10.8,22.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item181 Ref="185" type="Text" isSer="true" name="Text12" text="820,25р." ha="Right" excelvalue="820,25" format="C" pl="d.DataBand1" rc="15.2,22.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item182 Ref="186" type="Text" isSer="true" name="Text9" text="85,00" ha="Right" excelvalue="85" format="N" pl="d.DataBand1" rc="9.2,22.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item183 Ref="187" type="Text" isSer="true" name="Text1" text="Konbu" pl="d.DataBand1" rc="0,22.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item184 Ref="188" type="Text" isSer="true" name="Text3" text="2 kg box" pl="d.DataBand1" rc="5.8,22.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item185 Ref="189" type="Text" isSer="true" name="Text25" text="6,00р." ha="Right" excelvalue="6" format="C" pl="d.DataBand1" rc="10.8,22.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item186 Ref="190" type="Text" isSer="true" name="Text12" text="144,00р." ha="Right" excelvalue="144" format="C" pl="d.DataBand1" rc="15.2,22.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item187 Ref="191" type="Text" isSer="true" name="Text9" text="24,00" ha="Right" excelvalue="24" format="N" pl="d.DataBand1" rc="9.2,22.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item188 Ref="192" type="Text" isSer="true" name="Text1" text="Lakkalikööri" pl="d.DataBand1" rc="0,23.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item189 Ref="193" type="Text" isSer="true" name="Text3" text="500 ml" pl="d.DataBand1" rc="5.8,23.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item190 Ref="194" type="Text" isSer="true" name="Text25" text="18,00р." ha="Right" excelvalue="18" format="C" pl="d.DataBand1" rc="10.8,23.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item191 Ref="195" type="Text" isSer="true" name="Text12" text="1 026,00р." ha="Right" excelvalue="1026" format="C" pl="d.DataBand1" rc="15.2,23.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item192 Ref="196" type="Text" isSer="true" name="Text9" text="57,00" ha="Right" excelvalue="57" format="N" pl="d.DataBand1" rc="9.2,23.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item193 Ref="197" type="Text" isSer="true" name="Text1" text="Laughing Lumberjack Lager" pl="d.DataBand1" rc="0,24,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item194 Ref="198" type="Text" isSer="true" name="Text3" text="24 - 12 oz bottles" pl="d.DataBand1" rc="5.8,24,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item195 Ref="199" type="Text" isSer="true" name="Text25" text="14,00р." ha="Right" excelvalue="14" format="C" pl="d.DataBand1" rc="10.8,24,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item196 Ref="200" type="Text" isSer="true" name="Text12" text="728,00р." ha="Right" excelvalue="728" format="C" pl="d.DataBand1" rc="15.2,24,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item197 Ref="201" type="Text" isSer="true" name="Text9" text="52,00" ha="Right" excelvalue="52" format="N" pl="d.DataBand1" rc="9.2,24,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item198 Ref="202" type="Text" isSer="true" name="Text1" text="Longlife Tofu" pl="d.DataBand1" rc="0,24.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item199 Ref="203" type="Text" isSer="true" name="Text3" text="5 kg pkg." pl="d.DataBand1" rc="5.8,24.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item200 Ref="204" type="Text" isSer="true" name="Text25" text="10,00р." ha="Right" excelvalue="10" format="C" pl="d.DataBand1" rc="10.8,24.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item201 Ref="205" type="Text" isSer="true" name="Text12" text="40,00р." ha="Right" excelvalue="40" format="C" pl="d.DataBand1" rc="15.2,24.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item202 Ref="206" type="Text" isSer="true" name="Text9" text="4,00" ha="Right" excelvalue="4" format="N" pl="d.DataBand1" rc="9.2,24.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item203 Ref="207" type="Text" isSer="true" name="Text1" text="Louisiana Fiery Hot Pepper Sauce" pl="d.DataBand1" rc="0,25.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item204 Ref="208" type="Text" isSer="true" name="Text3" text="32 - 8 oz bottles" pl="d.DataBand1" rc="5.8,25.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item205 Ref="209" type="Text" isSer="true" name="Text25" text="21,05р." ha="Right" excelvalue="21,05" format="C" pl="d.DataBand1" rc="10.8,25.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item206 Ref="210" type="Text" isSer="true" name="Text12" text="1 599,80р." ha="Right" excelvalue="1599,80" format="C" pl="d.DataBand1" rc="15.2,25.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item207 Ref="211" type="Text" isSer="true" name="Text9" text="76,00" ha="Right" excelvalue="76" format="N" pl="d.DataBand1" rc="9.2,25.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item208 Ref="212" type="Text" isSer="true" name="Text1" text="Louisiana Hot Spiced Okra" pl="d.DataBand1" rc="0,25.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item209 Ref="213" type="Text" isSer="true" name="Text3" text="24 - 8 oz jars" pl="d.DataBand1" rc="5.8,25.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item210 Ref="214" type="Text" isSer="true" name="Text25" text="17,00р." ha="Right" excelvalue="17" format="C" pl="d.DataBand1" rc="10.8,25.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item211 Ref="215" type="Text" isSer="true" name="Text12" text="68,00р." ha="Right" excelvalue="68" format="C" pl="d.DataBand1" rc="15.2,25.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item212 Ref="216" type="Text" isSer="true" name="Text9" text="4,00" ha="Right" excelvalue="4" format="N" pl="d.DataBand1" rc="9.2,25.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item213 Ref="217" type="Text" isSer="true" name="Text1" text="Manjimup Dried Apples" pl="d.DataBand1" rc="0,26.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item214 Ref="218" type="Text" isSer="true" name="Text3" text="50 - 300 g pkgs." pl="d.DataBand1" rc="5.8,26.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item215 Ref="219" type="Text" isSer="true" name="Text25" text="53,00р." ha="Right" excelvalue="53" format="C" pl="d.DataBand1" rc="10.8,26.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item216 Ref="220" type="Text" isSer="true" name="Text12" text="1 060,00р." ha="Right" excelvalue="1060" format="C" pl="d.DataBand1" rc="15.2,26.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item217 Ref="221" type="Text" isSer="true" name="Text9" text="20,00" ha="Right" excelvalue="20" format="N" pl="d.DataBand1" rc="9.2,26.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item218 Ref="222" type="Text" isSer="true" name="Text8" text="Items per page 37" ha="Right" va="Center" tvh="1" excelvalue="Items per page 37" format="C" pl="f.ap.FooterBand1" rc="10.8,27.1,8.2,0.6" fn="Arial,11,Bold" tb="SaddleBrown" bh="Transparent" br="None;SaddleBrown;1;Solid;False;4;Black" />
+        <VerticalLine1 Ref="223" type="VerticalLinePrimitive" isKey="true">
+          <StartCap Ref="224" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="225" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>5.8,4.2,0.0254,22.9</ClientRectangle>
+          <Guid>nullGuid</Guid>
+          <Name>VerticalLine1</Name>
+          <ComponentPlacement>p.Page1</ComponentPlacement>
+        </VerticalLine1>
+        <VerticalLine2 Ref="226" type="VerticalLinePrimitive" isKey="true">
+          <StartCap Ref="227" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="228" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>9.2,4.2,0.0254,22.9</ClientRectangle>
+          <Guid>nullGuid</Guid>
+          <Name>VerticalLine2</Name>
+          <ComponentPlacement>p.Page1</ComponentPlacement>
+        </VerticalLine2>
+        <VerticalLine3 Ref="229" type="VerticalLinePrimitive" isKey="true">
+          <StartCap Ref="230" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="231" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>10.8,4.2,0.0254,22.9</ClientRectangle>
+          <Guid>nullGuid</Guid>
+          <Name>VerticalLine3</Name>
+          <ComponentPlacement>p.Page1</ComponentPlacement>
+        </VerticalLine3>
+        <VerticalLine4 Ref="232" type="VerticalLinePrimitive" isKey="true">
+          <StartCap Ref="233" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="234" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>15.2,4.2,0.0254,22.9</ClientRectangle>
+          <Guid>nullGuid</Guid>
+          <Name>VerticalLine4</Name>
+          <ComponentPlacement>p.Page1</ComponentPlacement>
+        </VerticalLine4>
+        <Rectangle1_Left Ref="235" type="VerticalLinePrimitive" isKey="true">
+          <StartCap Ref="236" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="237" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>0,4.2,0.0254,22.9</ClientRectangle>
+          <Guid>nullGuid</Guid>
+          <Name>Rectangle1_Left</Name>
+        </Rectangle1_Left>
+        <Rectangle1_Right Ref="238" type="VerticalLinePrimitive" isKey="true">
+          <StartCap Ref="239" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="240" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>19,4.2,0.0254,22.9</ClientRectangle>
+          <Guid>nullGuid</Guid>
+          <Name>Rectangle1_Right</Name>
+        </Rectangle1_Right>
+        <Rectangle1_Top Ref="241" type="HorizontalLinePrimitive" isKey="true">
+          <StartCap Ref="242" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="243" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>0,4.2,19,0.0254</ClientRectangle>
+          <Name>Rectangle1_Top</Name>
+        </Rectangle1_Top>
+        <Rectangle1_Bottom Ref="244" type="HorizontalLinePrimitive" isKey="true">
+          <StartCap Ref="245" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="246" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>0,27.1,19,0.0254</ClientRectangle>
+          <Name>Rectangle1_Bottom</Name>
+        </Rectangle1_Bottom>
+      </Components>
+      <Guid>366bfdc35bcf48f3aeb38f2b5f58db21</Guid>
+      <Conditions isList="true" count="0" />
+      <Name>Page1</Name>
+    </Page1>
+    <Page1 Ref="247" type="Page" isKey="true">
+      <PageWidth>21</PageWidth>
+      <PageHeight>29.7</PageHeight>
+      <Watermark Ref="248" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <fn>Arial,100,Bold</fn>
+        <tb>[50:0:0:0]</tb>
+      </Watermark>
+      <Margins>1,1,1,1</Margins>
+      <br>None;Black;2;Solid;False;4;Black</br>
+      <bh>White</bh>
+      <Components isList="true" count="236">
+        <item0 Ref="249" type="Container" isSer="true" name="DataBand1" rc="0,1.2,19,0.6" bh="PapayaWhip" />
+        <item1 Ref="250" type="Container" isSer="true" name="DataBand1" rc="0,2.4,19,0.6" bh="PapayaWhip" />
+        <item2 Ref="251" type="Container" isSer="true" name="DataBand1" rc="0,3.6,19,0.6" bh="PapayaWhip" />
+        <item3 Ref="252" type="Container" isSer="true" name="DataBand1" rc="0,4.8,19,0.6" bh="PapayaWhip" />
+        <item4 Ref="253" type="Container" isSer="true" name="DataBand1" rc="0,6,19,0.6" bh="PapayaWhip" />
+        <item5 Ref="254" type="Container" isSer="true" name="DataBand1" rc="0,7.2,19,0.6" bh="PapayaWhip" />
+        <item6 Ref="255" type="Container" isSer="true" name="DataBand1" rc="0,8.4,19,0.6" bh="PapayaWhip" />
+        <item7 Ref="256" type="Container" isSer="true" name="DataBand1" rc="0,9.6,19,0.6" bh="PapayaWhip" />
+        <item8 Ref="257" type="Container" isSer="true" name="DataBand1" rc="0,10.8,19,0.6" bh="PapayaWhip" />
+        <item9 Ref="258" type="Container" isSer="true" name="DataBand1" rc="0,12,19,0.6" bh="PapayaWhip" />
+        <item10 Ref="259" type="Container" isSer="true" name="DataBand1" rc="0,13.2,19,0.6" bh="PapayaWhip" />
+        <item11 Ref="260" type="Container" isSer="true" name="DataBand1" rc="0,14.4,19,0.6" bh="PapayaWhip" />
+        <item12 Ref="261" type="Container" isSer="true" name="DataBand1" rc="0,15.6,19,0.6" bh="PapayaWhip" />
+        <item13 Ref="262" type="Container" isSer="true" name="DataBand1" rc="0,16.8,19,0.6" bh="PapayaWhip" />
+        <item14 Ref="263" type="Container" isSer="true" name="DataBand1" rc="0,18,19,0.6" bh="PapayaWhip" />
+        <item15 Ref="264" type="Container" isSer="true" name="DataBand1" rc="0,19.2,19,0.6" bh="PapayaWhip" />
+        <item16 Ref="265" type="Container" isSer="true" name="DataBand1" rc="0,20.4,19,0.6" bh="PapayaWhip" />
+        <item17 Ref="266" type="Container" isSer="true" name="DataBand1" rc="0,21.6,19,0.6" bh="PapayaWhip" />
+        <item18 Ref="267" type="Container" isSer="true" name="DataBand1" rc="0,22.8,19,0.6" bh="PapayaWhip" />
+        <item19 Ref="268" type="Container" isSer="true" name="DataBand1" rc="0,24,19,0.6" bh="PapayaWhip" />
+        <item20 Ref="269" type="Text" isSer="true" name="Text10" text="Unit Name" ha="Center" va="Center" pl="h.ap.HeaderBand1" rc="0,0,5.8,0.6" fn="Arial,10,Bold" tb="White" bh="Peru" />
+        <item21 Ref="270" type="Text" isSer="true" name="Text2" text="Description" ha="Center" va="Center" pl="h.ap.HeaderBand1" rc="5.8,0,3.4,0.6" fn="Arial,10,Bold" tb="White" bh="Peru" />
+        <item22 Ref="271" type="Text" isSer="true" name="Text24" text="Item Price" ha="Center" va="Center" pl="h.ap.HeaderBand1" rc="10.8,0,4.4,0.6" fn="Arial,10,Bold" tb="White" bh="Peru" />
+        <item23 Ref="272" type="Text" isSer="true" name="Text26" text="Total" ha="Center" va="Center" pl="h.ap.HeaderBand1" rc="15.2,0,3.8,0.6" fn="Arial,10,Bold" tb="White" bh="Peru" />
+        <item24 Ref="273" type="Text" isSer="true" name="Text11" text="Qty" ha="Center" va="Center" pl="h.ap.HeaderBand1" rc="9.2,0,1.6,0.6" fn="Arial,10,Bold" tb="White" bh="Peru" />
+        <item25 Ref="274" type="Text" isSer="true" name="Text1" text="Mascarpone Fabioli" pl="d.DataBand1" rc="0,0.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item26 Ref="275" type="Text" isSer="true" name="Text3" text="24 - 200 g pkgs." pl="d.DataBand1" rc="5.8,0.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item27 Ref="276" type="Text" isSer="true" name="Text25" text="32,00р." ha="Right" excelvalue="32" format="C" pl="d.DataBand1" rc="10.8,0.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item28 Ref="277" type="Text" isSer="true" name="Text12" text="288,00р." ha="Right" excelvalue="288" format="C" pl="d.DataBand1" rc="15.2,0.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item29 Ref="278" type="Text" isSer="true" name="Text9" text="9,00" ha="Right" excelvalue="9" format="N" pl="d.DataBand1" rc="9.2,0.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item30 Ref="279" type="Text" isSer="true" name="Text1" text="Maxilaku" pl="d.DataBand1" rc="0,1.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item31 Ref="280" type="Text" isSer="true" name="Text3" text="24 - 50 g pkgs." pl="d.DataBand1" rc="5.8,1.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item32 Ref="281" type="Text" isSer="true" name="Text25" text="20,00р." ha="Right" excelvalue="20" format="C" pl="d.DataBand1" rc="10.8,1.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item33 Ref="282" type="Text" isSer="true" name="Text12" text="200,00р." ha="Right" excelvalue="200" format="C" pl="d.DataBand1" rc="15.2,1.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item34 Ref="283" type="Text" isSer="true" name="Text9" text="10,00" ha="Right" excelvalue="10" format="N" pl="d.DataBand1" rc="9.2,1.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item35 Ref="284" type="Text" isSer="true" name="Text1" text="Mishi Kobe Niku" pl="d.DataBand1" rc="0,1.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item36 Ref="285" type="Text" isSer="true" name="Text3" text="18 - 500 g pkgs." pl="d.DataBand1" rc="5.8,1.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item37 Ref="286" type="Text" isSer="true" name="Text25" text="97,00р." ha="Right" excelvalue="97" format="C" pl="d.DataBand1" rc="10.8,1.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item38 Ref="287" type="Text" isSer="true" name="Text12" text="2 813,00р." ha="Right" excelvalue="2813" format="C" pl="d.DataBand1" rc="15.2,1.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item39 Ref="288" type="Text" isSer="true" name="Text9" text="29,00" ha="Right" excelvalue="29" format="N" pl="d.DataBand1" rc="9.2,1.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item40 Ref="289" type="Text" isSer="true" name="Text1" text="Mozzarella di Giovanni" pl="d.DataBand1" rc="0,2.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item41 Ref="290" type="Text" isSer="true" name="Text3" text="24 - 200 g pkgs." pl="d.DataBand1" rc="5.8,2.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item42 Ref="291" type="Text" isSer="true" name="Text25" text="34,80р." ha="Right" excelvalue="34,8" format="C" pl="d.DataBand1" rc="10.8,2.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item43 Ref="292" type="Text" isSer="true" name="Text12" text="487,20р." ha="Right" excelvalue="487,2" format="C" pl="d.DataBand1" rc="15.2,2.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item44 Ref="293" type="Text" isSer="true" name="Text9" text="14,00" ha="Right" excelvalue="14" format="N" pl="d.DataBand1" rc="9.2,2.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item45 Ref="294" type="Text" isSer="true" name="Text1" text="Nord-Ost Matjeshering" pl="d.DataBand1" rc="0,3,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item46 Ref="295" type="Text" isSer="true" name="Text3" text="10 - 200 g glasses" pl="d.DataBand1" rc="5.8,3,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item47 Ref="296" type="Text" isSer="true" name="Text25" text="25,89р." ha="Right" excelvalue="25,89" format="C" pl="d.DataBand1" rc="10.8,3,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item48 Ref="297" type="Text" isSer="true" name="Text12" text="258,90р." ha="Right" excelvalue="258,90" format="C" pl="d.DataBand1" rc="15.2,3,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item49 Ref="298" type="Text" isSer="true" name="Text9" text="10,00" ha="Right" excelvalue="10" format="N" pl="d.DataBand1" rc="9.2,3,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item50 Ref="299" type="Text" isSer="true" name="Text1" text="Northwoods Cranberry Sauce" pl="d.DataBand1" rc="0,3.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item51 Ref="300" type="Text" isSer="true" name="Text3" text="12 - 12 oz jars" pl="d.DataBand1" rc="5.8,3.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item52 Ref="301" type="Text" isSer="true" name="Text25" text="40,00р." ha="Right" excelvalue="40" format="C" pl="d.DataBand1" rc="10.8,3.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item53 Ref="302" type="Text" isSer="true" name="Text12" text="240,00р." ha="Right" excelvalue="240" format="C" pl="d.DataBand1" rc="15.2,3.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item54 Ref="303" type="Text" isSer="true" name="Text9" text="6,00" ha="Right" excelvalue="6" format="N" pl="d.DataBand1" rc="9.2,3.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item55 Ref="304" type="Text" isSer="true" name="Text1" text="NuNuCa Nuß-Nougat-Creme" pl="d.DataBand1" rc="0,4.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item56 Ref="305" type="Text" isSer="true" name="Text3" text="20 - 450 g glasses" pl="d.DataBand1" rc="5.8,4.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item57 Ref="306" type="Text" isSer="true" name="Text25" text="14,00р." ha="Right" excelvalue="14" format="C" pl="d.DataBand1" rc="10.8,4.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item58 Ref="307" type="Text" isSer="true" name="Text12" text="1 064,00р." ha="Right" excelvalue="1064" format="C" pl="d.DataBand1" rc="15.2,4.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item59 Ref="308" type="Text" isSer="true" name="Text9" text="76,00" ha="Right" excelvalue="76" format="N" pl="d.DataBand1" rc="9.2,4.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item60 Ref="309" type="Text" isSer="true" name="Text1" text="Original Frankfurter grüne Soße" pl="d.DataBand1" rc="0,4.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item61 Ref="310" type="Text" isSer="true" name="Text3" text="12 boxes" pl="d.DataBand1" rc="5.8,4.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item62 Ref="311" type="Text" isSer="true" name="Text25" text="13,00р." ha="Right" excelvalue="13" format="C" pl="d.DataBand1" rc="10.8,4.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item63 Ref="312" type="Text" isSer="true" name="Text12" text="416,00р." ha="Right" excelvalue="416" format="C" pl="d.DataBand1" rc="15.2,4.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item64 Ref="313" type="Text" isSer="true" name="Text9" text="32,00" ha="Right" excelvalue="32" format="N" pl="d.DataBand1" rc="9.2,4.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item65 Ref="314" type="Text" isSer="true" name="Text1" text="Outback Lager" pl="d.DataBand1" rc="0,5.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item66 Ref="315" type="Text" isSer="true" name="Text3" text="24 - 355 ml bottles" pl="d.DataBand1" rc="5.8,5.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item67 Ref="316" type="Text" isSer="true" name="Text25" text="15,00р." ha="Right" excelvalue="15" format="C" pl="d.DataBand1" rc="10.8,5.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item68 Ref="317" type="Text" isSer="true" name="Text12" text="225,00р." ha="Right" excelvalue="225" format="C" pl="d.DataBand1" rc="15.2,5.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item69 Ref="318" type="Text" isSer="true" name="Text9" text="15,00" ha="Right" excelvalue="15" format="N" pl="d.DataBand1" rc="9.2,5.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item70 Ref="319" type="Text" isSer="true" name="Text1" text="Pâté chinois" pl="d.DataBand1" rc="0,6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item71 Ref="320" type="Text" isSer="true" name="Text3" text="24 boxes x 2 pies" pl="d.DataBand1" rc="5.8,6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item72 Ref="321" type="Text" isSer="true" name="Text25" text="24,00р." ha="Right" excelvalue="24" format="C" pl="d.DataBand1" rc="10.8,6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item73 Ref="322" type="Text" isSer="true" name="Text12" text="2 760,00р." ha="Right" excelvalue="2760" format="C" pl="d.DataBand1" rc="15.2,6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item74 Ref="323" type="Text" isSer="true" name="Text9" text="115,00" ha="Right" excelvalue="115" format="N" pl="d.DataBand1" rc="9.2,6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item75 Ref="324" type="Text" isSer="true" name="Text1" text="Pavlova" pl="d.DataBand1" rc="0,6.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item76 Ref="325" type="Text" isSer="true" name="Text3" text="32 - 500 g boxes" pl="d.DataBand1" rc="5.8,6.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item77 Ref="326" type="Text" isSer="true" name="Text25" text="17,45р." ha="Right" excelvalue="17,45" format="C" pl="d.DataBand1" rc="10.8,6.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item78 Ref="327" type="Text" isSer="true" name="Text12" text="506,05р." ha="Right" excelvalue="506,05" format="C" pl="d.DataBand1" rc="15.2,6.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item79 Ref="328" type="Text" isSer="true" name="Text9" text="29,00" ha="Right" excelvalue="29" format="N" pl="d.DataBand1" rc="9.2,6.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item80 Ref="329" type="Text" isSer="true" name="Text1" text="Perth Pasties" pl="d.DataBand1" rc="0,7.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item81 Ref="330" type="Text" isSer="true" name="Text3" text="48 pieces" pl="d.DataBand1" rc="5.8,7.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item82 Ref="331" type="Text" isSer="true" name="Text25" text="32,80р." ha="Right" excelvalue="32,8" format="C" pl="d.DataBand1" rc="10.8,7.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item83 Ref="332" type="Text" isSer="true" name="Text12" text="0,00р." ha="Right" excelvalue="0,0" format="C" pl="d.DataBand1" rc="15.2,7.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item84 Ref="333" type="Text" isSer="true" name="Text9" text="0,00" ha="Right" excelvalue="0" format="N" pl="d.DataBand1" rc="9.2,7.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item85 Ref="334" type="Text" isSer="true" name="Text1" text="Queso Cabrales" pl="d.DataBand1" rc="0,7.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item86 Ref="335" type="Text" isSer="true" name="Text3" text="1 kg pkg." pl="d.DataBand1" rc="5.8,7.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item87 Ref="336" type="Text" isSer="true" name="Text25" text="21,00р." ha="Right" excelvalue="21" format="C" pl="d.DataBand1" rc="10.8,7.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item88 Ref="337" type="Text" isSer="true" name="Text12" text="462,00р." ha="Right" excelvalue="462" format="C" pl="d.DataBand1" rc="15.2,7.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item89 Ref="338" type="Text" isSer="true" name="Text9" text="22,00" ha="Right" excelvalue="22" format="N" pl="d.DataBand1" rc="9.2,7.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item90 Ref="339" type="Text" isSer="true" name="Text1" text="Queso Manchego La Pastora" pl="d.DataBand1" rc="0,8.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item91 Ref="340" type="Text" isSer="true" name="Text3" text="10 - 500 g pkgs." pl="d.DataBand1" rc="5.8,8.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item92 Ref="341" type="Text" isSer="true" name="Text25" text="38,00р." ha="Right" excelvalue="38" format="C" pl="d.DataBand1" rc="10.8,8.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item93 Ref="342" type="Text" isSer="true" name="Text12" text="3 268,00р." ha="Right" excelvalue="3268" format="C" pl="d.DataBand1" rc="15.2,8.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item94 Ref="343" type="Text" isSer="true" name="Text9" text="86,00" ha="Right" excelvalue="86" format="N" pl="d.DataBand1" rc="9.2,8.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item95 Ref="344" type="Text" isSer="true" name="Text1" text="Raclette Courdavault" pl="d.DataBand1" rc="0,9,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item96 Ref="345" type="Text" isSer="true" name="Text3" text="5 kg pkg." pl="d.DataBand1" rc="5.8,9,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item97 Ref="346" type="Text" isSer="true" name="Text25" text="55,00р." ha="Right" excelvalue="55" format="C" pl="d.DataBand1" rc="10.8,9,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item98 Ref="347" type="Text" isSer="true" name="Text12" text="4 345,00р." ha="Right" excelvalue="4345" format="C" pl="d.DataBand1" rc="15.2,9,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item99 Ref="348" type="Text" isSer="true" name="Text9" text="79,00" ha="Right" excelvalue="79" format="N" pl="d.DataBand1" rc="9.2,9,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item100 Ref="349" type="Text" isSer="true" name="Text1" text="Ravioli Angelo" pl="d.DataBand1" rc="0,9.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item101 Ref="350" type="Text" isSer="true" name="Text3" text="24 - 250 g pkgs." pl="d.DataBand1" rc="5.8,9.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item102 Ref="351" type="Text" isSer="true" name="Text25" text="19,50р." ha="Right" excelvalue="19,5" format="C" pl="d.DataBand1" rc="10.8,9.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item103 Ref="352" type="Text" isSer="true" name="Text12" text="702,00р." ha="Right" excelvalue="702,0" format="C" pl="d.DataBand1" rc="15.2,9.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item104 Ref="353" type="Text" isSer="true" name="Text9" text="36,00" ha="Right" excelvalue="36" format="N" pl="d.DataBand1" rc="9.2,9.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item105 Ref="354" type="Text" isSer="true" name="Text1" text="Rhönbräu Klosterbier" pl="d.DataBand1" rc="0,10.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item106 Ref="355" type="Text" isSer="true" name="Text3" text="24 - 0.5 l bottles" pl="d.DataBand1" rc="5.8,10.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item107 Ref="356" type="Text" isSer="true" name="Text25" text="7,75р." ha="Right" excelvalue="7,75" format="C" pl="d.DataBand1" rc="10.8,10.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item108 Ref="357" type="Text" isSer="true" name="Text12" text="968,75р." ha="Right" excelvalue="968,75" format="C" pl="d.DataBand1" rc="15.2,10.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item109 Ref="358" type="Text" isSer="true" name="Text9" text="125,00" ha="Right" excelvalue="125" format="N" pl="d.DataBand1" rc="9.2,10.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item110 Ref="359" type="Text" isSer="true" name="Text1" text="Röd Kaviar" pl="d.DataBand1" rc="0,10.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item111 Ref="360" type="Text" isSer="true" name="Text3" text="24 - 150 g jars" pl="d.DataBand1" rc="5.8,10.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item112 Ref="361" type="Text" isSer="true" name="Text25" text="15,00р." ha="Right" excelvalue="15" format="C" pl="d.DataBand1" rc="10.8,10.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item113 Ref="362" type="Text" isSer="true" name="Text12" text="1 515,00р." ha="Right" excelvalue="1515" format="C" pl="d.DataBand1" rc="15.2,10.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item114 Ref="363" type="Text" isSer="true" name="Text9" text="101,00" ha="Right" excelvalue="101" format="N" pl="d.DataBand1" rc="9.2,10.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item115 Ref="364" type="Text" isSer="true" name="Text1" text="Rogede sild" pl="d.DataBand1" rc="0,11.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item116 Ref="365" type="Text" isSer="true" name="Text3" text="1k pkg." pl="d.DataBand1" rc="5.8,11.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item117 Ref="366" type="Text" isSer="true" name="Text25" text="9,50р." ha="Right" excelvalue="9,5" format="C" pl="d.DataBand1" rc="10.8,11.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item118 Ref="367" type="Text" isSer="true" name="Text12" text="47,50р." ha="Right" excelvalue="47,5" format="C" pl="d.DataBand1" rc="15.2,11.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item119 Ref="368" type="Text" isSer="true" name="Text9" text="5,00" ha="Right" excelvalue="5" format="N" pl="d.DataBand1" rc="9.2,11.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item120 Ref="369" type="Text" isSer="true" name="Text1" text="Rössle Sauerkraut" pl="d.DataBand1" rc="0,12,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item121 Ref="370" type="Text" isSer="true" name="Text3" text="25 - 825 g cans" pl="d.DataBand1" rc="5.8,12,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item122 Ref="371" type="Text" isSer="true" name="Text25" text="45,60р." ha="Right" excelvalue="45,6" format="C" pl="d.DataBand1" rc="10.8,12,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item123 Ref="372" type="Text" isSer="true" name="Text12" text="1 185,60р." ha="Right" excelvalue="1185,6" format="C" pl="d.DataBand1" rc="15.2,12,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item124 Ref="373" type="Text" isSer="true" name="Text9" text="26,00" ha="Right" excelvalue="26" format="N" pl="d.DataBand1" rc="9.2,12,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item125 Ref="374" type="Text" isSer="true" name="Text1" text="Sasquatch Ale" pl="d.DataBand1" rc="0,12.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item126 Ref="375" type="Text" isSer="true" name="Text3" text="24 - 12 oz bottles" pl="d.DataBand1" rc="5.8,12.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item127 Ref="376" type="Text" isSer="true" name="Text25" text="14,00р." ha="Right" excelvalue="14" format="C" pl="d.DataBand1" rc="10.8,12.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item128 Ref="377" type="Text" isSer="true" name="Text12" text="1 554,00р." ha="Right" excelvalue="1554" format="C" pl="d.DataBand1" rc="15.2,12.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item129 Ref="378" type="Text" isSer="true" name="Text9" text="111,00" ha="Right" excelvalue="111" format="N" pl="d.DataBand1" rc="9.2,12.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item130 Ref="379" type="Text" isSer="true" name="Text1" text="Schoggi Schokolade" pl="d.DataBand1" rc="0,13.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item131 Ref="380" type="Text" isSer="true" name="Text3" text="100 - 100 g pieces" pl="d.DataBand1" rc="5.8,13.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item132 Ref="381" type="Text" isSer="true" name="Text25" text="43,90р." ha="Right" excelvalue="43,9" format="C" pl="d.DataBand1" rc="10.8,13.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item133 Ref="382" type="Text" isSer="true" name="Text12" text="2 151,10р." ha="Right" excelvalue="2151,1" format="C" pl="d.DataBand1" rc="15.2,13.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item134 Ref="383" type="Text" isSer="true" name="Text9" text="49,00" ha="Right" excelvalue="49" format="N" pl="d.DataBand1" rc="9.2,13.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item135 Ref="384" type="Text" isSer="true" name="Text1" text="Scottish Longbreads" pl="d.DataBand1" rc="0,13.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item136 Ref="385" type="Text" isSer="true" name="Text3" text="10 boxes x 8 pieces" pl="d.DataBand1" rc="5.8,13.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item137 Ref="386" type="Text" isSer="true" name="Text25" text="12,50р." ha="Right" excelvalue="12,5" format="C" pl="d.DataBand1" rc="10.8,13.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item138 Ref="387" type="Text" isSer="true" name="Text12" text="75,00р." ha="Right" excelvalue="75,0" format="C" pl="d.DataBand1" rc="15.2,13.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item139 Ref="388" type="Text" isSer="true" name="Text9" text="6,00" ha="Right" excelvalue="6" format="N" pl="d.DataBand1" rc="9.2,13.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item140 Ref="389" type="Text" isSer="true" name="Text1" text="Singaporean Hokkien Fried Mee" pl="d.DataBand1" rc="0,14.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item141 Ref="390" type="Text" isSer="true" name="Text3" text="32 - 1 kg pkgs." pl="d.DataBand1" rc="5.8,14.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item142 Ref="391" type="Text" isSer="true" name="Text25" text="14,00р." ha="Right" excelvalue="14" format="C" pl="d.DataBand1" rc="10.8,14.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item143 Ref="392" type="Text" isSer="true" name="Text12" text="364,00р." ha="Right" excelvalue="364" format="C" pl="d.DataBand1" rc="15.2,14.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item144 Ref="393" type="Text" isSer="true" name="Text9" text="26,00" ha="Right" excelvalue="26" format="N" pl="d.DataBand1" rc="9.2,14.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item145 Ref="394" type="Text" isSer="true" name="Text1" text="Sir Rodney's Marmalade" pl="d.DataBand1" rc="0,15,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item146 Ref="395" type="Text" isSer="true" name="Text3" text="30 gift boxes" pl="d.DataBand1" rc="5.8,15,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item147 Ref="396" type="Text" isSer="true" name="Text25" text="81,00р." ha="Right" excelvalue="81" format="C" pl="d.DataBand1" rc="10.8,15,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item148 Ref="397" type="Text" isSer="true" name="Text12" text="3 240,00р." ha="Right" excelvalue="3240" format="C" pl="d.DataBand1" rc="15.2,15,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item149 Ref="398" type="Text" isSer="true" name="Text9" text="40,00" ha="Right" excelvalue="40" format="N" pl="d.DataBand1" rc="9.2,15,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item150 Ref="399" type="Text" isSer="true" name="Text1" text="Sir Rodney's Scones" pl="d.DataBand1" rc="0,15.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item151 Ref="400" type="Text" isSer="true" name="Text3" text="24 pkgs. x 4 pieces" pl="d.DataBand1" rc="5.8,15.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item152 Ref="401" type="Text" isSer="true" name="Text25" text="10,00р." ha="Right" excelvalue="10" format="C" pl="d.DataBand1" rc="10.8,15.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item153 Ref="402" type="Text" isSer="true" name="Text12" text="30,00р." ha="Right" excelvalue="30" format="C" pl="d.DataBand1" rc="15.2,15.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item154 Ref="403" type="Text" isSer="true" name="Text9" text="3,00" ha="Right" excelvalue="3" format="N" pl="d.DataBand1" rc="9.2,15.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item155 Ref="404" type="Text" isSer="true" name="Text1" text="Sirop d'érable" pl="d.DataBand1" rc="0,16.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item156 Ref="405" type="Text" isSer="true" name="Text3" text="24 - 500 ml bottles" pl="d.DataBand1" rc="5.8,16.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item157 Ref="406" type="Text" isSer="true" name="Text25" text="28,50р." ha="Right" excelvalue="28,5" format="C" pl="d.DataBand1" rc="10.8,16.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item158 Ref="407" type="Text" isSer="true" name="Text12" text="3 220,50р." ha="Right" excelvalue="3220,5" format="C" pl="d.DataBand1" rc="15.2,16.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item159 Ref="408" type="Text" isSer="true" name="Text9" text="113,00" ha="Right" excelvalue="113" format="N" pl="d.DataBand1" rc="9.2,16.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item160 Ref="409" type="Text" isSer="true" name="Text1" text="Spegesild" pl="d.DataBand1" rc="0,16.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item161 Ref="410" type="Text" isSer="true" name="Text3" text="4 - 450 g glasses" pl="d.DataBand1" rc="5.8,16.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item162 Ref="411" type="Text" isSer="true" name="Text25" text="12,00р." ha="Right" excelvalue="12" format="C" pl="d.DataBand1" rc="10.8,16.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item163 Ref="412" type="Text" isSer="true" name="Text12" text="1 140,00р." ha="Right" excelvalue="1140" format="C" pl="d.DataBand1" rc="15.2,16.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item164 Ref="413" type="Text" isSer="true" name="Text9" text="95,00" ha="Right" excelvalue="95" format="N" pl="d.DataBand1" rc="9.2,16.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item165 Ref="414" type="Text" isSer="true" name="Text1" text="Steeleye Stout" pl="d.DataBand1" rc="0,17.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item166 Ref="415" type="Text" isSer="true" name="Text3" text="24 - 12 oz bottles" pl="d.DataBand1" rc="5.8,17.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item167 Ref="416" type="Text" isSer="true" name="Text25" text="18,00р." ha="Right" excelvalue="18" format="C" pl="d.DataBand1" rc="10.8,17.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item168 Ref="417" type="Text" isSer="true" name="Text12" text="360,00р." ha="Right" excelvalue="360" format="C" pl="d.DataBand1" rc="15.2,17.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item169 Ref="418" type="Text" isSer="true" name="Text9" text="20,00" ha="Right" excelvalue="20" format="N" pl="d.DataBand1" rc="9.2,17.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item170 Ref="419" type="Text" isSer="true" name="Text1" text="Tarte au sucre" pl="d.DataBand1" rc="0,18,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item171 Ref="420" type="Text" isSer="true" name="Text3" text="48 pies" pl="d.DataBand1" rc="5.8,18,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item172 Ref="421" type="Text" isSer="true" name="Text25" text="49,30р." ha="Right" excelvalue="49,3" format="C" pl="d.DataBand1" rc="10.8,18,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item173 Ref="422" type="Text" isSer="true" name="Text12" text="838,10р." ha="Right" excelvalue="838,1" format="C" pl="d.DataBand1" rc="15.2,18,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item174 Ref="423" type="Text" isSer="true" name="Text9" text="17,00" ha="Right" excelvalue="17" format="N" pl="d.DataBand1" rc="9.2,18,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item175 Ref="424" type="Text" isSer="true" name="Text1" text="Teatime Chocolate Biscuits" pl="d.DataBand1" rc="0,18.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item176 Ref="425" type="Text" isSer="true" name="Text3" text="10 boxes x 12 pieces" pl="d.DataBand1" rc="5.8,18.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item177 Ref="426" type="Text" isSer="true" name="Text25" text="9,20р." ha="Right" excelvalue="9,2" format="C" pl="d.DataBand1" rc="10.8,18.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item178 Ref="427" type="Text" isSer="true" name="Text12" text="230,00р." ha="Right" excelvalue="230,0" format="C" pl="d.DataBand1" rc="15.2,18.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item179 Ref="428" type="Text" isSer="true" name="Text9" text="25,00" ha="Right" excelvalue="25" format="N" pl="d.DataBand1" rc="9.2,18.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item180 Ref="429" type="Text" isSer="true" name="Text1" text="Thüringer Rostbratwurst" pl="d.DataBand1" rc="0,19.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item181 Ref="430" type="Text" isSer="true" name="Text3" text="50 bags x 30 sausgs." pl="d.DataBand1" rc="5.8,19.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item182 Ref="431" type="Text" isSer="true" name="Text25" text="123,79р." ha="Right" excelvalue="123,79" format="C" pl="d.DataBand1" rc="10.8,19.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item183 Ref="432" type="Text" isSer="true" name="Text12" text="0,00р." ha="Right" excelvalue="0,00" format="C" pl="d.DataBand1" rc="15.2,19.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item184 Ref="433" type="Text" isSer="true" name="Text9" text="0,00" ha="Right" excelvalue="0" format="N" pl="d.DataBand1" rc="9.2,19.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item185 Ref="434" type="Text" isSer="true" name="Text1" text="Tofu" pl="d.DataBand1" rc="0,19.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item186 Ref="435" type="Text" isSer="true" name="Text3" text="40 - 100 g pkgs." pl="d.DataBand1" rc="5.8,19.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item187 Ref="436" type="Text" isSer="true" name="Text25" text="23,25р." ha="Right" excelvalue="23,25" format="C" pl="d.DataBand1" rc="10.8,19.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item188 Ref="437" type="Text" isSer="true" name="Text12" text="813,75р." ha="Right" excelvalue="813,75" format="C" pl="d.DataBand1" rc="15.2,19.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item189 Ref="438" type="Text" isSer="true" name="Text9" text="35,00" ha="Right" excelvalue="35" format="N" pl="d.DataBand1" rc="9.2,19.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item190 Ref="439" type="Text" isSer="true" name="Text1" text="Tourtière" pl="d.DataBand1" rc="0,20.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item191 Ref="440" type="Text" isSer="true" name="Text3" text="16 pies" pl="d.DataBand1" rc="5.8,20.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item192 Ref="441" type="Text" isSer="true" name="Text25" text="7,45р." ha="Right" excelvalue="7,45" format="C" pl="d.DataBand1" rc="10.8,20.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item193 Ref="442" type="Text" isSer="true" name="Text12" text="156,45р." ha="Right" excelvalue="156,45" format="C" pl="d.DataBand1" rc="15.2,20.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item194 Ref="443" type="Text" isSer="true" name="Text9" text="21,00" ha="Right" excelvalue="21" format="N" pl="d.DataBand1" rc="9.2,20.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item195 Ref="444" type="Text" isSer="true" name="Text1" text="Tunnbröd" pl="d.DataBand1" rc="0,21,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item196 Ref="445" type="Text" isSer="true" name="Text3" text="12 - 250 g pkgs." pl="d.DataBand1" rc="5.8,21,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item197 Ref="446" type="Text" isSer="true" name="Text25" text="9,00р." ha="Right" excelvalue="9" format="C" pl="d.DataBand1" rc="10.8,21,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item198 Ref="447" type="Text" isSer="true" name="Text12" text="549,00р." ha="Right" excelvalue="549" format="C" pl="d.DataBand1" rc="15.2,21,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item199 Ref="448" type="Text" isSer="true" name="Text9" text="61,00" ha="Right" excelvalue="61" format="N" pl="d.DataBand1" rc="9.2,21,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item200 Ref="449" type="Text" isSer="true" name="Text1" text="Uncle Bob's Organic Dried Pears" pl="d.DataBand1" rc="0,21.6,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item201 Ref="450" type="Text" isSer="true" name="Text3" text="12 - 1 lb pkgs." pl="d.DataBand1" rc="5.8,21.6,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item202 Ref="451" type="Text" isSer="true" name="Text25" text="30,00р." ha="Right" excelvalue="30" format="C" pl="d.DataBand1" rc="10.8,21.6,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item203 Ref="452" type="Text" isSer="true" name="Text12" text="450,00р." ha="Right" excelvalue="450" format="C" pl="d.DataBand1" rc="15.2,21.6,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item204 Ref="453" type="Text" isSer="true" name="Text9" text="15,00" ha="Right" excelvalue="15" format="N" pl="d.DataBand1" rc="9.2,21.6,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item205 Ref="454" type="Text" isSer="true" name="Text1" text="Valkoinen suklaa" pl="d.DataBand1" rc="0,22.2,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item206 Ref="455" type="Text" isSer="true" name="Text3" text="12 - 100 g bars" pl="d.DataBand1" rc="5.8,22.2,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item207 Ref="456" type="Text" isSer="true" name="Text25" text="16,25р." ha="Right" excelvalue="16,25" format="C" pl="d.DataBand1" rc="10.8,22.2,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item208 Ref="457" type="Text" isSer="true" name="Text12" text="1 056,25р." ha="Right" excelvalue="1056,25" format="C" pl="d.DataBand1" rc="15.2,22.2,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item209 Ref="458" type="Text" isSer="true" name="Text9" text="65,00" ha="Right" excelvalue="65" format="N" pl="d.DataBand1" rc="9.2,22.2,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item210 Ref="459" type="Text" isSer="true" name="Text1" text="Vegie-spread" pl="d.DataBand1" rc="0,22.8,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item211 Ref="460" type="Text" isSer="true" name="Text3" text="15 - 625 g jars" pl="d.DataBand1" rc="5.8,22.8,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item212 Ref="461" type="Text" isSer="true" name="Text25" text="43,90р." ha="Right" excelvalue="43,9" format="C" pl="d.DataBand1" rc="10.8,22.8,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item213 Ref="462" type="Text" isSer="true" name="Text12" text="1 053,60р." ha="Right" excelvalue="1053,6" format="C" pl="d.DataBand1" rc="15.2,22.8,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item214 Ref="463" type="Text" isSer="true" name="Text9" text="24,00" ha="Right" excelvalue="24" format="N" pl="d.DataBand1" rc="9.2,22.8,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item215 Ref="464" type="Text" isSer="true" name="Text1" text="Wimmers gute Semmelknödel" pl="d.DataBand1" rc="0,23.4,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item216 Ref="465" type="Text" isSer="true" name="Text3" text="20 bags x 4 pieces" pl="d.DataBand1" rc="5.8,23.4,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item217 Ref="466" type="Text" isSer="true" name="Text25" text="33,25р." ha="Right" excelvalue="33,25" format="C" pl="d.DataBand1" rc="10.8,23.4,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item218 Ref="467" type="Text" isSer="true" name="Text12" text="731,50р." ha="Right" excelvalue="731,50" format="C" pl="d.DataBand1" rc="15.2,23.4,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item219 Ref="468" type="Text" isSer="true" name="Text9" text="22,00" ha="Right" excelvalue="22" format="N" pl="d.DataBand1" rc="9.2,23.4,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item220 Ref="469" type="Text" isSer="true" name="Text1" text="Zaanse koeken" pl="d.DataBand1" rc="0,24,5.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" to="HotkeyPrefix=None, LineLimit=False, RightToLeft=False, Trimming=None, WordWrap=True, Angle=0, FirstTabOffset=40, DistanceBetweenTabs=20," />
+        <item221 Ref="470" type="Text" isSer="true" name="Text3" text="10 - 4 oz boxes" pl="d.DataBand1" rc="5.8,24,3.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item222 Ref="471" type="Text" isSer="true" name="Text25" text="9,50р." ha="Right" excelvalue="9,5" format="C" pl="d.DataBand1" rc="10.8,24,4.4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item223 Ref="472" type="Text" isSer="true" name="Text12" text="342,00р." ha="Right" excelvalue="342,0" format="C" pl="d.DataBand1" rc="15.2,24,3.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item224 Ref="473" type="Text" isSer="true" name="Text9" text="36,00" ha="Right" excelvalue="36" format="N" pl="d.DataBand1" rc="9.2,24,1.6,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item225 Ref="474" type="Text" isSer="true" name="Text8" text="Items per page 40" ha="Right" va="Center" tvh="1" excelvalue="Items per page 40" format="C" pl="f.ap.FooterBand1" rc="10.8,26.1,8.2,0.6" fn="Arial,11,Bold" tb="SaddleBrown" bh="Transparent" br="None;SaddleBrown;1;Solid;False;4;Black" />
+        <item226 Ref="475" type="Text" isSer="true" name="Text5" text="74 050,85р." ha="Right" va="Center" tvh="1" excelvalue="74050,85" format="C" pl="f.Footer1" rc="15.2,27.1,3.8,0.6" fn="Arial,10,Bold" tb="White" bh="Peru" />
+        <item227 Ref="476" type="Text" isSer="true" name="Text6" text="Total:" ha="Right" va="Center" excelvalue="Total:" format="C" pl="f.Footer1" rc="10.8,27.1,4.4,0.6" fn="Arial,11,Bold" tb="SaddleBrown" bh="Transparent" br="None;SaddleBrown;1;Solid;False;4;Black" />
+        <VerticalLine1 Ref="477" type="VerticalLinePrimitive" isKey="true">
+          <StartCap Ref="478" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="479" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>5.8,0,1,26.1</ClientRectangle>
+          <Guid>nullGuid</Guid>
+          <Name>VerticalLine1</Name>
+          <ComponentPlacement>p.Page1</ComponentPlacement>
+        </VerticalLine1>
+        <VerticalLine2 Ref="480" type="VerticalLinePrimitive" isKey="true">
+          <StartCap Ref="481" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="482" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>9.2,0,1,26.1</ClientRectangle>
+          <Guid>nullGuid</Guid>
+          <Name>VerticalLine2</Name>
+          <ComponentPlacement>p.Page1</ComponentPlacement>
+        </VerticalLine2>
+        <VerticalLine3 Ref="483" type="VerticalLinePrimitive" isKey="true">
+          <StartCap Ref="484" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="485" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>10.8,0,1,26.1</ClientRectangle>
+          <Guid>nullGuid</Guid>
+          <Name>VerticalLine3</Name>
+          <ComponentPlacement>p.Page1</ComponentPlacement>
+        </VerticalLine3>
+        <VerticalLine4 Ref="486" type="VerticalLinePrimitive" isKey="true">
+          <StartCap Ref="487" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="488" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>15.2,0,1,26.1</ClientRectangle>
+          <Guid>nullGuid</Guid>
+          <Name>VerticalLine4</Name>
+          <ComponentPlacement>p.Page1</ComponentPlacement>
+        </VerticalLine4>
+        <Rectangle1_Left Ref="489" type="VerticalLinePrimitive" isKey="true">
+          <StartCap Ref="490" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="491" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>0,0,1,26.1</ClientRectangle>
+          <Guid>nullGuid</Guid>
+          <Name>Rectangle1_Left</Name>
+        </Rectangle1_Left>
+        <Rectangle1_Right Ref="492" type="VerticalLinePrimitive" isKey="true">
+          <StartCap Ref="493" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="494" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>19,0,1,26.1</ClientRectangle>
+          <Guid>nullGuid</Guid>
+          <Name>Rectangle1_Right</Name>
+        </Rectangle1_Right>
+        <Rectangle1_Top Ref="495" type="HorizontalLinePrimitive" isKey="true">
+          <StartCap Ref="496" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="497" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>0,0,19,1</ClientRectangle>
+          <Name>Rectangle1_Top</Name>
+        </Rectangle1_Top>
+        <Rectangle1_Bottom Ref="498" type="HorizontalLinePrimitive" isKey="true">
+          <StartCap Ref="499" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+          <EndCap Ref="500" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Color>SaddleBrown</Color>
+          <ClientRectangle>0,26.1,19,1</ClientRectangle>
+          <Name>Rectangle1_Bottom</Name>
+        </Rectangle1_Bottom>
+      </Components>
+      <Guid>4f5f611a240d4736ba2c69d62a471f92</Guid>
+      <Conditions isList="true" count="0" />
+      <Name>Page1</Name>
+    </Page1>
+  </Pages>
+  <Variables isList="true" count="0" />
+  <Bookmark Ref="501" type="Bookmark" isKey="true">
+    <Bookmarks isList="true" count="0" />
+    <text>Invoice</text>
+    <Engine>EngineV2</Engine>
+    <IsManualBookmark>False</IsManualBookmark>
+  </Bookmark>
+</StiSerializer>

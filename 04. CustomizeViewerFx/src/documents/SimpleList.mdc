@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiDocument">
+  <ReportName>Report</ReportName>
+  <ReportAlias>Simple List</ReportAlias>
+  <ReportAuthor />
+  <ReportVersion>2010.1.611</ReportVersion>
+  <ReportDescription />
+  <ReportCreated>12/31/2009 2:03:37 PM</ReportCreated>
+  <Unit Ref="1" type="cm" isKey="true" />
+  <Pages isList="true" count="3">
+    <Page1 Ref="2" type="Page" isKey="true">
+      <PageWidth>21</PageWidth>
+      <PageHeight>29.7</PageHeight>
+      <Watermark Ref="3" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <fn>Arial,100,Bold</fn>
+        <tb>[50:0:0:0]</tb>
+      </Watermark>
+      <Margins>1,1,1,1</Margins>
+      <br>None;Black;2;Solid;False;4;Black</br>
+      <bh>White</bh>
+      <Components isList="true" count="188">
+        <item0 Ref="4" type="Container" isSer="true" name="DataBand1" rc="0,2.2,19,0.6" bh="PapayaWhip" />
+        <item1 Ref="5" type="Container" isSer="true" name="DataBand1" rc="0,3.4,19,0.6" bh="PapayaWhip" />
+        <item2 Ref="6" type="Container" isSer="true" name="DataBand1" rc="0,4.6,19,0.6" bh="PapayaWhip" />
+        <item3 Ref="7" type="Container" isSer="true" name="DataBand1" rc="0,5.8,19,0.6" bh="PapayaWhip" />
+        <item4 Ref="8" type="Container" isSer="true" name="DataBand1" rc="0,7,19,0.6" bh="PapayaWhip" />
+        <item5 Ref="9" type="Container" isSer="true" name="DataBand1" rc="0,8.2,19,0.6" bh="PapayaWhip" />
+        <item6 Ref="10" type="Container" isSer="true" name="DataBand1" rc="0,9.4,19,0.6" bh="PapayaWhip" />
+        <item7 Ref="11" type="Container" isSer="true" name="DataBand1" rc="0,10.6,19,0.6" bh="PapayaWhip" />
+        <item8 Ref="12" type="Container" isSer="true" name="DataBand1" rc="0,11.8,19,0.6" bh="PapayaWhip" />
+        <item9 Ref="13" type="Container" isSer="true" name="DataBand1" rc="0,13,19,0.6" bh="PapayaWhip" />
+        <item10 Ref="14" type="Container" isSer="true" name="DataBand1" rc="0,14.2,19,0.6" bh="PapayaWhip" />
+        <item11 Ref="15" type="Container" isSer="true" name="DataBand1" rc="0,15.4,19,0.6" bh="PapayaWhip" />
+        <item12 Ref="16" type="Container" isSer="true" name="DataBand1" rc="0,16.6,19,0.6" bh="PapayaWhip" />
+        <item13 Ref="17" type="Container" isSer="true" name="DataBand1" rc="0,17.8,19,0.6" bh="PapayaWhip" />
+        <item14 Ref="18" type="Container" isSer="true" name="DataBand1" rc="0,19,19,0.6" bh="PapayaWhip" />
+        <item15 Ref="19" type="Container" isSer="true" name="DataBand1" rc="0,20.2,19,0.6" bh="PapayaWhip" />
+        <item16 Ref="20" type="Container" isSer="true" name="DataBand1" rc="0,21.4,19,0.6" bh="PapayaWhip" />
+        <item17 Ref="21" type="Container" isSer="true" name="DataBand1" rc="0,22.6,19,0.6" bh="PapayaWhip" />
+        <item18 Ref="22" type="Container" isSer="true" name="DataBand1" rc="0,23.8,19,0.6" bh="PapayaWhip" />
+        <item19 Ref="23" type="Container" isSer="true" name="DataBand1" rc="0,25,19,0.6" bh="PapayaWhip" />
+        <item20 Ref="24" type="Text" isSer="true" name="Text7" text="(c) 2003-2009 Stimulsoft" ha="Center" va="Center" hyperlink="http://www.stimulsoft.com" pl="pf.PageFooterBand1" rc="0,26.9,6.8,0.8" fn="Arial,14,Bold" tb="SaddleBrown" bh="Transparent" />
+        <item21 Ref="25" type="Text" isSer="true" name="Text6" text="Page 1 of 3" ha="Right" va="Center" tvh="1" pl="pf.PageFooterBand1" rc="6.8,26.9,12.2,0.8" fn="Arial,14,Bold" tb="SaddleBrown" bh="Transparent" />
+        <item22 Ref="26" type="Text" isSer="true" name="Text5" text="Simple List" ha="Center" va="Center" pl="rt.ReportTitleBand1" rc="0,0,19,1.6" fn="Arial,36,Bold" tb="SaddleBrown" bh="Transparent" />
+        <item23 Ref="27" type="Text" isSer="true" name="Text11" text="Address" va="Center" pl="h.ap.HeaderBand1" rc="6.8,1.6,5.2,0.6" fn="Arial,14,Bold" tb="White" bh="Peru" />
+        <item24 Ref="28" type="Text" isSer="true" name="Text10" text="Company" va="Center" pl="h.ap.HeaderBand1" rc="0,1.6,6.8,0.6" fn="Arial,14,Bold" tb="White" bh="Peru" />
+        <item25 Ref="29" type="Text" isSer="true" name="Text12" text="Phone" va="Center" pl="h.ap.HeaderBand1" rc="12,1.6,3,0.6" fn="Arial,14,Bold" tb="White" bh="Peru" />
+        <item26 Ref="30" type="Text" isSer="true" name="Text13" text="Contact" va="Center" pl="h.ap.HeaderBand1" rc="15,1.6,4,0.6" fn="Arial,14,Bold" tb="White" bh="Peru" />
+        <item27 Ref="31" type="Text" isSer="true" name="Text4" text="030-0074321" va="Center" pl="d.DataBand1" rc="12,2.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item28 Ref="32" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,2.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item29 Ref="33" type="Text" isSer="true" name="Text1" text="Alfreds Futterkiste" va="Center" pl="d.DataBand1" rc="0,2.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item30 Ref="34" type="Text" isSer="true" name="Text2" text="Obere Str. 57" va="Center" pl="d.DataBand1" rc="6.8,2.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item31 Ref="35" type="Text" isSer="true" name="Text4" text="(5) 555-4729" va="Center" pl="d.DataBand1" rc="12,2.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item32 Ref="36" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,2.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item33 Ref="37" type="Text" isSer="true" name="Text1" text="Ana Trujillo Emparedados y helados" va="Center" pl="d.DataBand1" rc="0,2.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item34 Ref="38" type="Text" isSer="true" name="Text2" text="Avda. de la Constitución 2222" va="Center" pl="d.DataBand1" rc="6.8,2.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item35 Ref="39" type="Text" isSer="true" name="Text4" text="(5) 555-3932" va="Center" pl="d.DataBand1" rc="12,3.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item36 Ref="40" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,3.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item37 Ref="41" type="Text" isSer="true" name="Text1" text="Antonio Moreno Taquería" va="Center" pl="d.DataBand1" rc="0,3.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item38 Ref="42" type="Text" isSer="true" name="Text2" text="Mataderos  2312" va="Center" pl="d.DataBand1" rc="6.8,3.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item39 Ref="43" type="Text" isSer="true" name="Text4" text="(171) 555-7788" va="Center" pl="d.DataBand1" rc="12,4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item40 Ref="44" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item41 Ref="45" type="Text" isSer="true" name="Text1" text="Around the Horn" va="Center" pl="d.DataBand1" rc="0,4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item42 Ref="46" type="Text" isSer="true" name="Text2" text="120 Hanover Sq." va="Center" pl="d.DataBand1" rc="6.8,4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item43 Ref="47" type="Text" isSer="true" name="Text4" text="0921-12 34 65" va="Center" pl="d.DataBand1" rc="12,4.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item44 Ref="48" type="Text" isSer="true" name="Text3" text="Order Administrator" va="Center" pl="d.DataBand1" rc="15,4.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item45 Ref="49" type="Text" isSer="true" name="Text1" text="Berglunds snabbköp" va="Center" pl="d.DataBand1" rc="0,4.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item46 Ref="50" type="Text" isSer="true" name="Text2" text="Berguvsvägen  8" va="Center" pl="d.DataBand1" rc="6.8,4.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item47 Ref="51" type="Text" isSer="true" name="Text4" text="0621-08460" va="Center" pl="d.DataBand1" rc="12,5.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item48 Ref="52" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,5.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item49 Ref="53" type="Text" isSer="true" name="Text1" text="Blauer See Delikatessen" va="Center" pl="d.DataBand1" rc="0,5.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item50 Ref="54" type="Text" isSer="true" name="Text2" text="Forsterstr. 57" va="Center" pl="d.DataBand1" rc="6.8,5.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item51 Ref="55" type="Text" isSer="true" name="Text4" text="88.60.15.31" va="Center" pl="d.DataBand1" rc="12,5.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item52 Ref="56" type="Text" isSer="true" name="Text3" text="Marketing Manager" va="Center" pl="d.DataBand1" rc="15,5.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item53 Ref="57" type="Text" isSer="true" name="Text1" text="Blondesddsl père et fils" va="Center" pl="d.DataBand1" rc="0,5.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item54 Ref="58" type="Text" isSer="true" name="Text2" text="24, place Kléber" va="Center" pl="d.DataBand1" rc="6.8,5.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item55 Ref="59" type="Text" isSer="true" name="Text4" text="(91) 555 22 82" va="Center" pl="d.DataBand1" rc="12,6.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item56 Ref="60" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,6.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item57 Ref="61" type="Text" isSer="true" name="Text1" text="Bólido Comidas preparadas" va="Center" pl="d.DataBand1" rc="0,6.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item58 Ref="62" type="Text" isSer="true" name="Text2" text="C/ Araquil, 67" va="Center" pl="d.DataBand1" rc="6.8,6.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item59 Ref="63" type="Text" isSer="true" name="Text4" text="91.24.45.40" va="Center" pl="d.DataBand1" rc="12,7,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item60 Ref="64" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,7,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item61 Ref="65" type="Text" isSer="true" name="Text1" text="Bon app'" va="Center" pl="d.DataBand1" rc="0,7,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item62 Ref="66" type="Text" isSer="true" name="Text2" text="12, rue des Bouchers" va="Center" pl="d.DataBand1" rc="6.8,7,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item63 Ref="67" type="Text" isSer="true" name="Text4" text="(604) 555-4729" va="Center" pl="d.DataBand1" rc="12,7.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item64 Ref="68" type="Text" isSer="true" name="Text3" text="Accounting Manager" va="Center" pl="d.DataBand1" rc="15,7.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item65 Ref="69" type="Text" isSer="true" name="Text1" text="Bottom-Dollar Markets" va="Center" pl="d.DataBand1" rc="0,7.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item66 Ref="70" type="Text" isSer="true" name="Text2" text="23 Tsawassen Blvd." va="Center" pl="d.DataBand1" rc="6.8,7.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item67 Ref="71" type="Text" isSer="true" name="Text4" text="(171) 555-1212" va="Center" pl="d.DataBand1" rc="12,8.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item68 Ref="72" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,8.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item69 Ref="73" type="Text" isSer="true" name="Text1" text="B's Beverages" va="Center" pl="d.DataBand1" rc="0,8.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item70 Ref="74" type="Text" isSer="true" name="Text2" text="Fauntleroy Circus" va="Center" pl="d.DataBand1" rc="6.8,8.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item71 Ref="75" type="Text" isSer="true" name="Text4" text="(1) 135-5555" va="Center" pl="d.DataBand1" rc="12,8.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item72 Ref="76" type="Text" isSer="true" name="Text3" text="Sales Agent" va="Center" pl="d.DataBand1" rc="15,8.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item73 Ref="77" type="Text" isSer="true" name="Text1" text="Cactus Comidas para llevar" va="Center" pl="d.DataBand1" rc="0,8.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item74 Ref="78" type="Text" isSer="true" name="Text2" text="Cerrito 333" va="Center" pl="d.DataBand1" rc="6.8,8.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item75 Ref="79" type="Text" isSer="true" name="Text4" text="(5) 555-3392" va="Center" pl="d.DataBand1" rc="12,9.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item76 Ref="80" type="Text" isSer="true" name="Text3" text="Marketing Manager" va="Center" pl="d.DataBand1" rc="15,9.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item77 Ref="81" type="Text" isSer="true" name="Text1" text="Centro comercial Moctezuma" va="Center" pl="d.DataBand1" rc="0,9.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item78 Ref="82" type="Text" isSer="true" name="Text2" text="Sierras de Granada 9993" va="Center" pl="d.DataBand1" rc="6.8,9.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item79 Ref="83" type="Text" isSer="true" name="Text4" text="0452-076545" va="Center" pl="d.DataBand1" rc="12,10,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item80 Ref="84" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,10,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item81 Ref="85" type="Text" isSer="true" name="Text1" text="Chop-suey Chinese" va="Center" pl="d.DataBand1" rc="0,10,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item82 Ref="86" type="Text" isSer="true" name="Text2" text="Hauptstr. 29" va="Center" pl="d.DataBand1" rc="6.8,10,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item83 Ref="87" type="Text" isSer="true" name="Text4" text="(11) 555-7647" va="Center" pl="d.DataBand1" rc="12,10.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item84 Ref="88" type="Text" isSer="true" name="Text3" text="Sales Associate" va="Center" pl="d.DataBand1" rc="15,10.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item85 Ref="89" type="Text" isSer="true" name="Text1" text="Comércio Mineiro" va="Center" pl="d.DataBand1" rc="0,10.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item86 Ref="90" type="Text" isSer="true" name="Text2" text="Av. dos Lusíadas, 23" va="Center" pl="d.DataBand1" rc="6.8,10.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item87 Ref="91" type="Text" isSer="true" name="Text4" text="(171) 555-2282" va="Center" pl="d.DataBand1" rc="12,11.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item88 Ref="92" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,11.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item89 Ref="93" type="Text" isSer="true" name="Text1" text="Consolidated Holdings" va="Center" pl="d.DataBand1" rc="0,11.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item90 Ref="94" type="Text" isSer="true" name="Text2" text="Berkeley Gardens 12  Brewery" va="Center" pl="d.DataBand1" rc="6.8,11.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item91 Ref="95" type="Text" isSer="true" name="Text4" text="0241-039123" va="Center" pl="d.DataBand1" rc="12,11.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item92 Ref="96" type="Text" isSer="true" name="Text3" text="Order Administrator" va="Center" pl="d.DataBand1" rc="15,11.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item93 Ref="97" type="Text" isSer="true" name="Text1" text="Drachenblut Delikatessen" va="Center" pl="d.DataBand1" rc="0,11.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item94 Ref="98" type="Text" isSer="true" name="Text2" text="Walserweg 21" va="Center" pl="d.DataBand1" rc="6.8,11.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item95 Ref="99" type="Text" isSer="true" name="Text4" text="40.67.88.88" va="Center" pl="d.DataBand1" rc="12,12.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item96 Ref="100" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,12.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item97 Ref="101" type="Text" isSer="true" name="Text1" text="Du monde entier" va="Center" pl="d.DataBand1" rc="0,12.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item98 Ref="102" type="Text" isSer="true" name="Text2" text="67, rue des Cinquante Otages" va="Center" pl="d.DataBand1" rc="6.8,12.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item99 Ref="103" type="Text" isSer="true" name="Text4" text="(171) 555-0297" va="Center" pl="d.DataBand1" rc="12,13,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item100 Ref="104" type="Text" isSer="true" name="Text3" text="Sales Agent" va="Center" pl="d.DataBand1" rc="15,13,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item101 Ref="105" type="Text" isSer="true" name="Text1" text="Eastern Connection" va="Center" pl="d.DataBand1" rc="0,13,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item102 Ref="106" type="Text" isSer="true" name="Text2" text="35 King George" va="Center" pl="d.DataBand1" rc="6.8,13,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item103 Ref="107" type="Text" isSer="true" name="Text4" text="7675-3425" va="Center" pl="d.DataBand1" rc="12,13.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item104 Ref="108" type="Text" isSer="true" name="Text3" text="Sales Manager" va="Center" pl="d.DataBand1" rc="15,13.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item105 Ref="109" type="Text" isSer="true" name="Text1" text="Ernst Handel" va="Center" pl="d.DataBand1" rc="0,13.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item106 Ref="110" type="Text" isSer="true" name="Text2" text="Kirchgasse 6" va="Center" pl="d.DataBand1" rc="6.8,13.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item107 Ref="111" type="Text" isSer="true" name="Text4" text="(11) 555-9857" va="Center" pl="d.DataBand1" rc="12,14.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item108 Ref="112" type="Text" isSer="true" name="Text3" text="Marketing Assistant" va="Center" pl="d.DataBand1" rc="15,14.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item109 Ref="113" type="Text" isSer="true" name="Text1" text="Familia Arquibaldo" va="Center" pl="d.DataBand1" rc="0,14.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item110 Ref="114" type="Text" isSer="true" name="Text2" text="Rua Orós, 92" va="Center" pl="d.DataBand1" rc="6.8,14.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item111 Ref="115" type="Text" isSer="true" name="Text4" text="(91) 555 94 44" va="Center" pl="d.DataBand1" rc="12,14.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item112 Ref="116" type="Text" isSer="true" name="Text3" text="Accounting Manager" va="Center" pl="d.DataBand1" rc="15,14.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item113 Ref="117" type="Text" isSer="true" name="Text1" text="FISSA Fabrica Inter. Salchichas S.A." va="Center" pl="d.DataBand1" rc="0,14.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item114 Ref="118" type="Text" isSer="true" name="Text2" text="C/ Moralzarzal, 86" va="Center" pl="d.DataBand1" rc="6.8,14.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item115 Ref="119" type="Text" isSer="true" name="Text4" text="20.16.10.16" va="Center" pl="d.DataBand1" rc="12,15.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item116 Ref="120" type="Text" isSer="true" name="Text3" text="Assistant Sales Agent" va="Center" pl="d.DataBand1" rc="15,15.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item117 Ref="121" type="Text" isSer="true" name="Text1" text="Folies gourmandes" va="Center" pl="d.DataBand1" rc="0,15.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item118 Ref="122" type="Text" isSer="true" name="Text2" text="184, chaussée de Tournai" va="Center" pl="d.DataBand1" rc="6.8,15.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item119 Ref="123" type="Text" isSer="true" name="Text4" text="0695-34 67 21" va="Center" pl="d.DataBand1" rc="12,16,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item120 Ref="124" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,16,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item121 Ref="125" type="Text" isSer="true" name="Text1" text="Folk och fä HB" va="Center" pl="d.DataBand1" rc="0,16,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item122 Ref="126" type="Text" isSer="true" name="Text2" text="Åkergatan 24" va="Center" pl="d.DataBand1" rc="6.8,16,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item123 Ref="127" type="Text" isSer="true" name="Text4" text="089-0877310" va="Center" pl="d.DataBand1" rc="12,16.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item124 Ref="128" type="Text" isSer="true" name="Text3" text="Marketing Manager" va="Center" pl="d.DataBand1" rc="15,16.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item125 Ref="129" type="Text" isSer="true" name="Text1" text="Frankenversand" va="Center" pl="d.DataBand1" rc="0,16.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item126 Ref="130" type="Text" isSer="true" name="Text2" text="Berliner Platz 43" va="Center" pl="d.DataBand1" rc="6.8,16.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item127 Ref="131" type="Text" isSer="true" name="Text4" text="40.32.21.21" va="Center" pl="d.DataBand1" rc="12,17.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item128 Ref="132" type="Text" isSer="true" name="Text3" text="Marketing Manager" va="Center" pl="d.DataBand1" rc="15,17.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item129 Ref="133" type="Text" isSer="true" name="Text1" text="France restauration" va="Center" pl="d.DataBand1" rc="0,17.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item130 Ref="134" type="Text" isSer="true" name="Text2" text="54, rue Royale" va="Center" pl="d.DataBand1" rc="6.8,17.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item131 Ref="135" type="Text" isSer="true" name="Text4" text="011-4988260" va="Center" pl="d.DataBand1" rc="12,17.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item132 Ref="136" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,17.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item133 Ref="137" type="Text" isSer="true" name="Text1" text="Franchi S.p.A." va="Center" pl="d.DataBand1" rc="0,17.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item134 Ref="138" type="Text" isSer="true" name="Text2" text="Via Monte Bianco 34" va="Center" pl="d.DataBand1" rc="6.8,17.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item135 Ref="139" type="Text" isSer="true" name="Text4" text="(1) 354-2534" va="Center" pl="d.DataBand1" rc="12,18.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item136 Ref="140" type="Text" isSer="true" name="Text3" text="Sales Manager" va="Center" pl="d.DataBand1" rc="15,18.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item137 Ref="141" type="Text" isSer="true" name="Text1" text="Furia Bacalhau e Frutos do Mar" va="Center" pl="d.DataBand1" rc="0,18.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item138 Ref="142" type="Text" isSer="true" name="Text2" text="Jardim das rosas n. 32" va="Center" pl="d.DataBand1" rc="6.8,18.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item139 Ref="143" type="Text" isSer="true" name="Text4" text="(93) 203 4560" va="Center" pl="d.DataBand1" rc="12,19,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item140 Ref="144" type="Text" isSer="true" name="Text3" text="Marketing Manager" va="Center" pl="d.DataBand1" rc="15,19,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item141 Ref="145" type="Text" isSer="true" name="Text1" text="Galería del gastrónomo" va="Center" pl="d.DataBand1" rc="0,19,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item142 Ref="146" type="Text" isSer="true" name="Text2" text="Rambla de Cataluña, 23" va="Center" pl="d.DataBand1" rc="6.8,19,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item143 Ref="147" type="Text" isSer="true" name="Text4" text="(95) 555 82 82" va="Center" pl="d.DataBand1" rc="12,19.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item144 Ref="148" type="Text" isSer="true" name="Text3" text="Sales Manager" va="Center" pl="d.DataBand1" rc="15,19.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item145 Ref="149" type="Text" isSer="true" name="Text1" text="Godos Cocina Típica" va="Center" pl="d.DataBand1" rc="0,19.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item146 Ref="150" type="Text" isSer="true" name="Text2" text="C/ Romero, 33" va="Center" pl="d.DataBand1" rc="6.8,19.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item147 Ref="151" type="Text" isSer="true" name="Text4" text="(11) 555-9482" va="Center" pl="d.DataBand1" rc="12,20.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item148 Ref="152" type="Text" isSer="true" name="Text3" text="Sales Associate" va="Center" pl="d.DataBand1" rc="15,20.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item149 Ref="153" type="Text" isSer="true" name="Text1" text="Gourmet Lanchonetes" va="Center" pl="d.DataBand1" rc="0,20.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item150 Ref="154" type="Text" isSer="true" name="Text2" text="Av. Brasil, 442" va="Center" pl="d.DataBand1" rc="6.8,20.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item151 Ref="155" type="Text" isSer="true" name="Text4" text="(503) 555-7555" va="Center" pl="d.DataBand1" rc="12,20.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item152 Ref="156" type="Text" isSer="true" name="Text3" text="Marketing Manager" va="Center" pl="d.DataBand1" rc="15,20.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item153 Ref="157" type="Text" isSer="true" name="Text1" text="Great Lakes Food Market" va="Center" pl="d.DataBand1" rc="0,20.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item154 Ref="158" type="Text" isSer="true" name="Text2" text="2732 Baker Blvd." va="Center" pl="d.DataBand1" rc="6.8,20.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item155 Ref="159" type="Text" isSer="true" name="Text4" text="(2) 283-2951" va="Center" pl="d.DataBand1" rc="12,21.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item156 Ref="160" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,21.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item157 Ref="161" type="Text" isSer="true" name="Text1" text="GROSELLA-Restaurante" va="Center" pl="d.DataBand1" rc="0,21.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item158 Ref="162" type="Text" isSer="true" name="Text2" text="5ª Ave. Los Palos Grandes" va="Center" pl="d.DataBand1" rc="6.8,21.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item159 Ref="163" type="Text" isSer="true" name="Text4" text="(21) 555-0091" va="Center" pl="d.DataBand1" rc="12,22,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item160 Ref="164" type="Text" isSer="true" name="Text3" text="Accounting Manager" va="Center" pl="d.DataBand1" rc="15,22,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item161 Ref="165" type="Text" isSer="true" name="Text1" text="Hanari Carnes" va="Center" pl="d.DataBand1" rc="0,22,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item162 Ref="166" type="Text" isSer="true" name="Text2" text="Rua do Paço, 67" va="Center" pl="d.DataBand1" rc="6.8,22,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item163 Ref="167" type="Text" isSer="true" name="Text4" text="(5) 555-1340" va="Center" pl="d.DataBand1" rc="12,22.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item164 Ref="168" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,22.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item165 Ref="169" type="Text" isSer="true" name="Text1" text="HILARION-Abastos" va="Center" pl="d.DataBand1" rc="0,22.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item166 Ref="170" type="Text" isSer="true" name="Text2" text="Carrera 22 con Ave. Carlos Soublette #8-35" va="Center" pl="d.DataBand1" rc="6.8,22.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item167 Ref="171" type="Text" isSer="true" name="Text4" text="(503) 555-6874" va="Center" pl="d.DataBand1" rc="12,23.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item168 Ref="172" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,23.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item169 Ref="173" type="Text" isSer="true" name="Text1" text="Hungry Coyote Import Store" va="Center" pl="d.DataBand1" rc="0,23.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item170 Ref="174" type="Text" isSer="true" name="Text2" text="City Center Plaza 516 Main St." va="Center" pl="d.DataBand1" rc="6.8,23.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item171 Ref="175" type="Text" isSer="true" name="Text4" text="2967 542" va="Center" pl="d.DataBand1" rc="12,23.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item172 Ref="176" type="Text" isSer="true" name="Text3" text="Sales Associate" va="Center" pl="d.DataBand1" rc="15,23.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item173 Ref="177" type="Text" isSer="true" name="Text1" text="Hungry Owl All-Night Grocers" va="Center" pl="d.DataBand1" rc="0,23.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item174 Ref="178" type="Text" isSer="true" name="Text2" text="8 Johnstown Road" va="Center" pl="d.DataBand1" rc="6.8,23.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item175 Ref="179" type="Text" isSer="true" name="Text4" text="(198) 555-8888" va="Center" pl="d.DataBand1" rc="12,24.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item176 Ref="180" type="Text" isSer="true" name="Text3" text="Marketing Manager" va="Center" pl="d.DataBand1" rc="15,24.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item177 Ref="181" type="Text" isSer="true" name="Text1" text="Island Trading" va="Center" pl="d.DataBand1" rc="0,24.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item178 Ref="182" type="Text" isSer="true" name="Text2" text="Garden House Crowther Way" va="Center" pl="d.DataBand1" rc="6.8,24.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item179 Ref="183" type="Text" isSer="true" name="Text4" text="0555-09876" va="Center" pl="d.DataBand1" rc="12,25,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item180 Ref="184" type="Text" isSer="true" name="Text3" text="Sales Associate" va="Center" pl="d.DataBand1" rc="15,25,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item181 Ref="185" type="Text" isSer="true" name="Text1" text="Königlich Essen" va="Center" pl="d.DataBand1" rc="0,25,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item182 Ref="186" type="Text" isSer="true" name="Text2" text="Maubelstr. 90" va="Center" pl="d.DataBand1" rc="6.8,25,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item183 Ref="187" type="Text" isSer="true" name="Text4" text="30.59.84.10" va="Center" pl="d.DataBand1" rc="12,25.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item184 Ref="188" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,25.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item185 Ref="189" type="Text" isSer="true" name="Text1" text="La corne d'abondance" va="Center" pl="d.DataBand1" rc="0,25.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item186 Ref="190" type="Text" isSer="true" name="Text2" text="67, avenue de l'Europe" va="Center" pl="d.DataBand1" rc="6.8,25.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item187 Ref="191" type="Text" isSer="true" name="Text8" text="" va="Center" pl="f.ap.FooterBand1" rc="0,26.2,19,0.2" fn="Arial,10" tb="Black" bh="Transparent" />
+      </Components>
+      <Guid>366bfdc35bcf48f3aeb38f2b5f58db21</Guid>
+      <Conditions isList="true" count="0" />
+      <Name>Page1</Name>
+    </Page1>
+    <Page1 Ref="192" type="Page" isKey="true">
+      <PageWidth>21</PageWidth>
+      <PageHeight>29.7</PageHeight>
+      <Watermark Ref="193" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <fn>Arial,100,Bold</fn>
+        <tb>[50:0:0:0]</tb>
+      </Watermark>
+      <Margins>1,1,1,1</Margins>
+      <br>None;Black;2;Solid;False;4;Black</br>
+      <bh>White</bh>
+      <Components isList="true" count="201">
+        <item0 Ref="194" type="Container" isSer="true" name="DataBand1" rc="0,0.6,19,0.6" bh="PapayaWhip" />
+        <item1 Ref="195" type="Container" isSer="true" name="DataBand1" rc="0,1.8,19,0.6" bh="PapayaWhip" />
+        <item2 Ref="196" type="Container" isSer="true" name="DataBand1" rc="0,3,19,0.6" bh="PapayaWhip" />
+        <item3 Ref="197" type="Container" isSer="true" name="DataBand1" rc="0,4.2,19,0.6" bh="PapayaWhip" />
+        <item4 Ref="198" type="Container" isSer="true" name="DataBand1" rc="0,5.4,19,0.6" bh="PapayaWhip" />
+        <item5 Ref="199" type="Container" isSer="true" name="DataBand1" rc="0,6.6,19,0.6" bh="PapayaWhip" />
+        <item6 Ref="200" type="Container" isSer="true" name="DataBand1" rc="0,7.8,19,0.6" bh="PapayaWhip" />
+        <item7 Ref="201" type="Container" isSer="true" name="DataBand1" rc="0,9,19,0.6" bh="PapayaWhip" />
+        <item8 Ref="202" type="Container" isSer="true" name="DataBand1" rc="0,10.2,19,0.6" bh="PapayaWhip" />
+        <item9 Ref="203" type="Container" isSer="true" name="DataBand1" rc="0,11.4,19,0.6" bh="PapayaWhip" />
+        <item10 Ref="204" type="Container" isSer="true" name="DataBand1" rc="0,12.6,19,0.6" bh="PapayaWhip" />
+        <item11 Ref="205" type="Container" isSer="true" name="DataBand1" rc="0,13.8,19,0.6" bh="PapayaWhip" />
+        <item12 Ref="206" type="Container" isSer="true" name="DataBand1" rc="0,15,19,0.6" bh="PapayaWhip" />
+        <item13 Ref="207" type="Container" isSer="true" name="DataBand1" rc="0,16.2,19,0.6" bh="PapayaWhip" />
+        <item14 Ref="208" type="Container" isSer="true" name="DataBand1" rc="0,17.4,19,0.6" bh="PapayaWhip" />
+        <item15 Ref="209" type="Container" isSer="true" name="DataBand1" rc="0,18.6,19,0.6" bh="PapayaWhip" />
+        <item16 Ref="210" type="Container" isSer="true" name="DataBand1" rc="0,19.8,19,0.6" bh="PapayaWhip" />
+        <item17 Ref="211" type="Container" isSer="true" name="DataBand1" rc="0,21,19,0.6" bh="PapayaWhip" />
+        <item18 Ref="212" type="Container" isSer="true" name="DataBand1" rc="0,22.2,19,0.6" bh="PapayaWhip" />
+        <item19 Ref="213" type="Container" isSer="true" name="DataBand1" rc="0,23.4,19,0.6" bh="PapayaWhip" />
+        <item20 Ref="214" type="Container" isSer="true" name="DataBand1" rc="0,24.6,19,0.6" bh="PapayaWhip" />
+        <item21 Ref="215" type="Container" isSer="true" name="DataBand1" rc="0,25.8,19,0.6" bh="PapayaWhip" />
+        <item22 Ref="216" type="Text" isSer="true" name="Text7" text="(c) 2003-2009 Stimulsoft" ha="Center" va="Center" hyperlink="http://www.stimulsoft.com" pl="pf.PageFooterBand1" rc="0,26.9,6.8,0.8" fn="Arial,14,Bold" tb="SaddleBrown" bh="Transparent" />
+        <item23 Ref="217" type="Text" isSer="true" name="Text6" text="Page 2 of 3" ha="Right" va="Center" tvh="1" pl="pf.PageFooterBand1" rc="6.8,26.9,12.2,0.8" fn="Arial,14,Bold" tb="SaddleBrown" bh="Transparent" />
+        <item24 Ref="218" type="Text" isSer="true" name="Text11" text="Address" va="Center" pl="h.ap.HeaderBand1" rc="6.8,0,5.2,0.6" fn="Arial,14,Bold" tb="White" bh="Peru" />
+        <item25 Ref="219" type="Text" isSer="true" name="Text10" text="Company" va="Center" pl="h.ap.HeaderBand1" rc="0,0,6.8,0.6" fn="Arial,14,Bold" tb="White" bh="Peru" />
+        <item26 Ref="220" type="Text" isSer="true" name="Text12" text="Phone" va="Center" pl="h.ap.HeaderBand1" rc="12,0,3,0.6" fn="Arial,14,Bold" tb="White" bh="Peru" />
+        <item27 Ref="221" type="Text" isSer="true" name="Text13" text="Contact" va="Center" pl="h.ap.HeaderBand1" rc="15,0,4,0.6" fn="Arial,14,Bold" tb="White" bh="Peru" />
+        <item28 Ref="222" type="Text" isSer="true" name="Text4" text="61.77.61.10" va="Center" pl="d.DataBand1" rc="12,0.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item29 Ref="223" type="Text" isSer="true" name="Text3" text="Sales Manager" va="Center" pl="d.DataBand1" rc="15,0.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item30 Ref="224" type="Text" isSer="true" name="Text1" text="La maison d'Asie" va="Center" pl="d.DataBand1" rc="0,0.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item31 Ref="225" type="Text" isSer="true" name="Text2" text="1 rue Alsace-Lorraine" va="Center" pl="d.DataBand1" rc="6.8,0.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item32 Ref="226" type="Text" isSer="true" name="Text4" text="(604) 555-3392" va="Center" pl="d.DataBand1" rc="12,1.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item33 Ref="227" type="Text" isSer="true" name="Text3" text="Marketing Assistant" va="Center" pl="d.DataBand1" rc="15,1.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item34 Ref="228" type="Text" isSer="true" name="Text1" text="Laughing Bacchus Wine Cellars" va="Center" pl="d.DataBand1" rc="0,1.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item35 Ref="229" type="Text" isSer="true" name="Text2" text="1900 Oak St." va="Center" pl="d.DataBand1" rc="6.8,1.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item36 Ref="230" type="Text" isSer="true" name="Text4" text="(509) 555-7969" va="Center" pl="d.DataBand1" rc="12,1.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item37 Ref="231" type="Text" isSer="true" name="Text3" text="Marketing Manager" va="Center" pl="d.DataBand1" rc="15,1.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item38 Ref="232" type="Text" isSer="true" name="Text1" text="Lazy K Kountry Store" va="Center" pl="d.DataBand1" rc="0,1.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item39 Ref="233" type="Text" isSer="true" name="Text2" text="12 Orchestra Terrace" va="Center" pl="d.DataBand1" rc="6.8,1.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item40 Ref="234" type="Text" isSer="true" name="Text4" text="069-0245984" va="Center" pl="d.DataBand1" rc="12,2.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item41 Ref="235" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,2.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item42 Ref="236" type="Text" isSer="true" name="Text1" text="Lehmanns Marktstand" va="Center" pl="d.DataBand1" rc="0,2.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item43 Ref="237" type="Text" isSer="true" name="Text2" text="Magazinweg 7" va="Center" pl="d.DataBand1" rc="6.8,2.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item44 Ref="238" type="Text" isSer="true" name="Text4" text="(415) 555-5938" va="Center" pl="d.DataBand1" rc="12,3,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item45 Ref="239" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,3,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item46 Ref="240" type="Text" isSer="true" name="Text1" text="Let's Stop N Shop" va="Center" pl="d.DataBand1" rc="0,3,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item47 Ref="241" type="Text" isSer="true" name="Text2" text="87 Polk St. Suite 5" va="Center" pl="d.DataBand1" rc="6.8,3,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item48 Ref="242" type="Text" isSer="true" name="Text4" text="(9) 331-6954" va="Center" pl="d.DataBand1" rc="12,3.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item49 Ref="243" type="Text" isSer="true" name="Text3" text="Accounting Manager" va="Center" pl="d.DataBand1" rc="15,3.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item50 Ref="244" type="Text" isSer="true" name="Text1" text="LILA-Supermercado" va="Center" pl="d.DataBand1" rc="0,3.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item51 Ref="245" type="Text" isSer="true" name="Text2" text="Carrera 52 con Ave. Bolívar #65-98 Llano Largo" va="Center" pl="d.DataBand1" rc="6.8,3.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item52 Ref="246" type="Text" isSer="true" name="Text4" text="(8) 34-56-12" va="Center" pl="d.DataBand1" rc="12,4.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item53 Ref="247" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,4.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item54 Ref="248" type="Text" isSer="true" name="Text1" text="LINO-Delicateses" va="Center" pl="d.DataBand1" rc="0,4.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item55 Ref="249" type="Text" isSer="true" name="Text2" text="Ave. 5 de Mayo Porlamar" va="Center" pl="d.DataBand1" rc="6.8,4.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item56 Ref="250" type="Text" isSer="true" name="Text4" text="(503) 555-9573" va="Center" pl="d.DataBand1" rc="12,4.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item57 Ref="251" type="Text" isSer="true" name="Text3" text="Sales Manager" va="Center" pl="d.DataBand1" rc="15,4.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item58 Ref="252" type="Text" isSer="true" name="Text1" text="Lonesome Pine Restaurant" va="Center" pl="d.DataBand1" rc="0,4.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item59 Ref="253" type="Text" isSer="true" name="Text2" text="89 Chiaroscuro Rd." va="Center" pl="d.DataBand1" rc="6.8,4.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item60 Ref="254" type="Text" isSer="true" name="Text4" text="035-640230" va="Center" pl="d.DataBand1" rc="12,5.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item61 Ref="255" type="Text" isSer="true" name="Text3" text="Marketing Manager" va="Center" pl="d.DataBand1" rc="15,5.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item62 Ref="256" type="Text" isSer="true" name="Text1" text="Magazzini Alimentari Riuniti" va="Center" pl="d.DataBand1" rc="0,5.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item63 Ref="257" type="Text" isSer="true" name="Text2" text="Via Ludovico il Moro 22" va="Center" pl="d.DataBand1" rc="6.8,5.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item64 Ref="258" type="Text" isSer="true" name="Text4" text="(02) 201 24 67" va="Center" pl="d.DataBand1" rc="12,6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item65 Ref="259" type="Text" isSer="true" name="Text3" text="Sales Agent" va="Center" pl="d.DataBand1" rc="15,6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item66 Ref="260" type="Text" isSer="true" name="Text1" text="Maison Dewey" va="Center" pl="d.DataBand1" rc="0,6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item67 Ref="261" type="Text" isSer="true" name="Text2" text="Rue Joseph-Bens 532" va="Center" pl="d.DataBand1" rc="6.8,6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item68 Ref="262" type="Text" isSer="true" name="Text4" text="(514) 555-8054" va="Center" pl="d.DataBand1" rc="12,6.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item69 Ref="263" type="Text" isSer="true" name="Text3" text="Marketing Assistant" va="Center" pl="d.DataBand1" rc="15,6.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item70 Ref="264" type="Text" isSer="true" name="Text1" text="Mère Paillarde" va="Center" pl="d.DataBand1" rc="0,6.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item71 Ref="265" type="Text" isSer="true" name="Text2" text="43 rue St. Laurent" va="Center" pl="d.DataBand1" rc="6.8,6.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item72 Ref="266" type="Text" isSer="true" name="Text4" text="0342-023176" va="Center" pl="d.DataBand1" rc="12,7.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item73 Ref="267" type="Text" isSer="true" name="Text3" text="Marketing Assistant" va="Center" pl="d.DataBand1" rc="15,7.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item74 Ref="268" type="Text" isSer="true" name="Text1" text="Morgenstern Gesundkost" va="Center" pl="d.DataBand1" rc="0,7.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item75 Ref="269" type="Text" isSer="true" name="Text2" text="Heerstr. 22" va="Center" pl="d.DataBand1" rc="6.8,7.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item76 Ref="270" type="Text" isSer="true" name="Text4" text="(171) 555-7733" va="Center" pl="d.DataBand1" rc="12,7.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item77 Ref="271" type="Text" isSer="true" name="Text3" text="Sales Associate" va="Center" pl="d.DataBand1" rc="15,7.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item78 Ref="272" type="Text" isSer="true" name="Text1" text="North/South" va="Center" pl="d.DataBand1" rc="0,7.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item79 Ref="273" type="Text" isSer="true" name="Text2" text="South House 300 Queensbridge" va="Center" pl="d.DataBand1" rc="6.8,7.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item80 Ref="274" type="Text" isSer="true" name="Text4" text="(1) 135-5333" va="Center" pl="d.DataBand1" rc="12,8.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item81 Ref="275" type="Text" isSer="true" name="Text3" text="Sales Agent" va="Center" pl="d.DataBand1" rc="15,8.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item82 Ref="276" type="Text" isSer="true" name="Text1" text="Océano Atlántico Ltda." va="Center" pl="d.DataBand1" rc="0,8.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item83 Ref="277" type="Text" isSer="true" name="Text2" text="Ing. Gustavo Moncada 8585 Piso 20-A" va="Center" pl="d.DataBand1" rc="6.8,8.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item84 Ref="278" type="Text" isSer="true" name="Text4" text="(907) 555-7584" va="Center" pl="d.DataBand1" rc="12,9,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item85 Ref="279" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,9,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item86 Ref="280" type="Text" isSer="true" name="Text1" text="Old World Delicatessen" va="Center" pl="d.DataBand1" rc="0,9,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item87 Ref="281" type="Text" isSer="true" name="Text2" text="2743 Bering St." va="Center" pl="d.DataBand1" rc="6.8,9,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item88 Ref="282" type="Text" isSer="true" name="Text4" text="0221-0644327" va="Center" pl="d.DataBand1" rc="12,9.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item89 Ref="283" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,9.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item90 Ref="284" type="Text" isSer="true" name="Text1" text="Ottilies Käseladen" va="Center" pl="d.DataBand1" rc="0,9.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item91 Ref="285" type="Text" isSer="true" name="Text2" text="Mehrheimerstr. 369" va="Center" pl="d.DataBand1" rc="6.8,9.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item92 Ref="286" type="Text" isSer="true" name="Text4" text="(1) 42.34.22.66" va="Center" pl="d.DataBand1" rc="12,10.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item93 Ref="287" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,10.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item94 Ref="288" type="Text" isSer="true" name="Text1" text="Paris spécialités" va="Center" pl="d.DataBand1" rc="0,10.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item95 Ref="289" type="Text" isSer="true" name="Text2" text="265, boulevard Charonne" va="Center" pl="d.DataBand1" rc="6.8,10.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item96 Ref="290" type="Text" isSer="true" name="Text4" text="(5) 552-3745" va="Center" pl="d.DataBand1" rc="12,10.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item97 Ref="291" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,10.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item98 Ref="292" type="Text" isSer="true" name="Text1" text="Pericles Comidas clásicas" va="Center" pl="d.DataBand1" rc="0,10.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item99 Ref="293" type="Text" isSer="true" name="Text2" text="Calle Dr. Jorge Cash 321" va="Center" pl="d.DataBand1" rc="6.8,10.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item100 Ref="294" type="Text" isSer="true" name="Text4" text="6562-9722" va="Center" pl="d.DataBand1" rc="12,11.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item101 Ref="295" type="Text" isSer="true" name="Text3" text="Sales Manager" va="Center" pl="d.DataBand1" rc="15,11.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item102 Ref="296" type="Text" isSer="true" name="Text1" text="Piccolo und mehr" va="Center" pl="d.DataBand1" rc="0,11.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item103 Ref="297" type="Text" isSer="true" name="Text2" text="Geislweg 14" va="Center" pl="d.DataBand1" rc="6.8,11.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item104 Ref="298" type="Text" isSer="true" name="Text4" text="(1) 356-5634" va="Center" pl="d.DataBand1" rc="12,12,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item105 Ref="299" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,12,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item106 Ref="300" type="Text" isSer="true" name="Text1" text="Princesa Isabel Vinhos" va="Center" pl="d.DataBand1" rc="0,12,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item107 Ref="301" type="Text" isSer="true" name="Text2" text="Estrada da saúde n. 58" va="Center" pl="d.DataBand1" rc="6.8,12,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item108 Ref="302" type="Text" isSer="true" name="Text4" text="(21) 555-4252" va="Center" pl="d.DataBand1" rc="12,12.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item109 Ref="303" type="Text" isSer="true" name="Text3" text="Accounting Manager" va="Center" pl="d.DataBand1" rc="15,12.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item110 Ref="304" type="Text" isSer="true" name="Text1" text="Que Delícia" va="Center" pl="d.DataBand1" rc="0,12.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item111 Ref="305" type="Text" isSer="true" name="Text2" text="Rua da Panificadora, 12" va="Center" pl="d.DataBand1" rc="6.8,12.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item112 Ref="306" type="Text" isSer="true" name="Text4" text="(11) 555-1189" va="Center" pl="d.DataBand1" rc="12,13.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item113 Ref="307" type="Text" isSer="true" name="Text3" text="Marketing Assistant" va="Center" pl="d.DataBand1" rc="15,13.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item114 Ref="308" type="Text" isSer="true" name="Text1" text="Queen Cozinha" va="Center" pl="d.DataBand1" rc="0,13.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item115 Ref="309" type="Text" isSer="true" name="Text2" text="Alameda dos Canàrios, 891" va="Center" pl="d.DataBand1" rc="6.8,13.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item116 Ref="310" type="Text" isSer="true" name="Text4" text="0372-035188" va="Center" pl="d.DataBand1" rc="12,13.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item117 Ref="311" type="Text" isSer="true" name="Text3" text="Accounting Manager" va="Center" pl="d.DataBand1" rc="15,13.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item118 Ref="312" type="Text" isSer="true" name="Text1" text="QUICK-Stop" va="Center" pl="d.DataBand1" rc="0,13.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item119 Ref="313" type="Text" isSer="true" name="Text2" text="Taucherstraße 10" va="Center" pl="d.DataBand1" rc="6.8,13.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item120 Ref="314" type="Text" isSer="true" name="Text4" text="(1) 123-5555" va="Center" pl="d.DataBand1" rc="12,14.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item121 Ref="315" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,14.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item122 Ref="316" type="Text" isSer="true" name="Text1" text="Rancho grande" va="Center" pl="d.DataBand1" rc="0,14.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item123 Ref="317" type="Text" isSer="true" name="Text2" text="Av. del Libertador 900" va="Center" pl="d.DataBand1" rc="6.8,14.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item124 Ref="318" type="Text" isSer="true" name="Text4" text="(505) 555-5939" va="Center" pl="d.DataBand1" rc="12,15,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item125 Ref="319" type="Text" isSer="true" name="Text3" text="Assistant Sales Representative" va="Center" pl="d.DataBand1" rc="15,15,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item126 Ref="320" type="Text" isSer="true" name="Text1" text="Rattlesnake Canyon Grocery" va="Center" pl="d.DataBand1" rc="0,15,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item127 Ref="321" type="Text" isSer="true" name="Text2" text="2817 Milton Dr." va="Center" pl="d.DataBand1" rc="6.8,15,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item128 Ref="322" type="Text" isSer="true" name="Text4" text="0522-556721" va="Center" pl="d.DataBand1" rc="12,15.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item129 Ref="323" type="Text" isSer="true" name="Text3" text="Sales Associate" va="Center" pl="d.DataBand1" rc="15,15.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item130 Ref="324" type="Text" isSer="true" name="Text1" text="Reggiani Caseifici" va="Center" pl="d.DataBand1" rc="0,15.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item131 Ref="325" type="Text" isSer="true" name="Text2" text="Strada Provinciale 124" va="Center" pl="d.DataBand1" rc="6.8,15.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item132 Ref="326" type="Text" isSer="true" name="Text4" text="(21) 555-3412" va="Center" pl="d.DataBand1" rc="12,16.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item133 Ref="327" type="Text" isSer="true" name="Text3" text="Assistant Sales Agent" va="Center" pl="d.DataBand1" rc="15,16.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item134 Ref="328" type="Text" isSer="true" name="Text1" text="Ricardo Adocicados" va="Center" pl="d.DataBand1" rc="0,16.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item135 Ref="329" type="Text" isSer="true" name="Text2" text="Av. Copacabana, 267" va="Center" pl="d.DataBand1" rc="6.8,16.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item136 Ref="330" type="Text" isSer="true" name="Text4" text="0897-034214" va="Center" pl="d.DataBand1" rc="12,16.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item137 Ref="331" type="Text" isSer="true" name="Text3" text="Sales Manager" va="Center" pl="d.DataBand1" rc="15,16.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item138 Ref="332" type="Text" isSer="true" name="Text1" text="Richter Supermarkt" va="Center" pl="d.DataBand1" rc="0,16.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item139 Ref="333" type="Text" isSer="true" name="Text2" text="Grenzacherweg 237" va="Center" pl="d.DataBand1" rc="6.8,16.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item140 Ref="334" type="Text" isSer="true" name="Text4" text="(91) 745 6200" va="Center" pl="d.DataBand1" rc="12,17.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item141 Ref="335" type="Text" isSer="true" name="Text3" text="Accounting Manager" va="Center" pl="d.DataBand1" rc="15,17.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item142 Ref="336" type="Text" isSer="true" name="Text1" text="Romero y tomillo" va="Center" pl="d.DataBand1" rc="0,17.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item143 Ref="337" type="Text" isSer="true" name="Text2" text="Gran Vía, 1" va="Center" pl="d.DataBand1" rc="6.8,17.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item144 Ref="338" type="Text" isSer="true" name="Text4" text="07-98 92 35" va="Center" pl="d.DataBand1" rc="12,18,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item145 Ref="339" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,18,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item146 Ref="340" type="Text" isSer="true" name="Text1" text="Santé Gourmet" va="Center" pl="d.DataBand1" rc="0,18,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item147 Ref="341" type="Text" isSer="true" name="Text2" text="Erling Skakkes gate 78" va="Center" pl="d.DataBand1" rc="6.8,18,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item148 Ref="342" type="Text" isSer="true" name="Text4" text="(208) 555-8097" va="Center" pl="d.DataBand1" rc="12,18.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item149 Ref="343" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,18.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item150 Ref="344" type="Text" isSer="true" name="Text1" text="Save-a-lot Markets" va="Center" pl="d.DataBand1" rc="0,18.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item151 Ref="345" type="Text" isSer="true" name="Text2" text="187 Suffolk Ln." va="Center" pl="d.DataBand1" rc="6.8,18.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item152 Ref="346" type="Text" isSer="true" name="Text4" text="(171) 555-1717" va="Center" pl="d.DataBand1" rc="12,19.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item153 Ref="347" type="Text" isSer="true" name="Text3" text="Sales Manager" va="Center" pl="d.DataBand1" rc="15,19.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item154 Ref="348" type="Text" isSer="true" name="Text1" text="Seven Seas Imports" va="Center" pl="d.DataBand1" rc="0,19.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item155 Ref="349" type="Text" isSer="true" name="Text2" text="90 Wadhurst Rd." va="Center" pl="d.DataBand1" rc="6.8,19.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item156 Ref="350" type="Text" isSer="true" name="Text4" text="31 12 34 56" va="Center" pl="d.DataBand1" rc="12,19.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item157 Ref="351" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,19.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item158 Ref="352" type="Text" isSer="true" name="Text1" text="Simons bistro" va="Center" pl="d.DataBand1" rc="0,19.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item159 Ref="353" type="Text" isSer="true" name="Text2" text="Vinbæltet 34" va="Center" pl="d.DataBand1" rc="6.8,19.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item160 Ref="354" type="Text" isSer="true" name="Text4" text="(1) 47.55.60.10" va="Center" pl="d.DataBand1" rc="12,20.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item161 Ref="355" type="Text" isSer="true" name="Text3" text="Marketing Manager" va="Center" pl="d.DataBand1" rc="15,20.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item162 Ref="356" type="Text" isSer="true" name="Text1" text="Spécialités du monde" va="Center" pl="d.DataBand1" rc="0,20.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item163 Ref="357" type="Text" isSer="true" name="Text2" text="25, rue Lauriston" va="Center" pl="d.DataBand1" rc="6.8,20.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item164 Ref="358" type="Text" isSer="true" name="Text4" text="(307) 555-4680" va="Center" pl="d.DataBand1" rc="12,21,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item165 Ref="359" type="Text" isSer="true" name="Text3" text="Sales Manager" va="Center" pl="d.DataBand1" rc="15,21,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item166 Ref="360" type="Text" isSer="true" name="Text1" text="Split Rail Beer &amp; Ale" va="Center" pl="d.DataBand1" rc="0,21,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item167 Ref="361" type="Text" isSer="true" name="Text2" text="P.O. Box 555" va="Center" pl="d.DataBand1" rc="6.8,21,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item168 Ref="362" type="Text" isSer="true" name="Text4" text="(071) 23 67 22 20" va="Center" pl="d.DataBand1" rc="12,21.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item169 Ref="363" type="Text" isSer="true" name="Text3" text="Accounting Manager" va="Center" pl="d.DataBand1" rc="15,21.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item170 Ref="364" type="Text" isSer="true" name="Text1" text="Suprêmes délices" va="Center" pl="d.DataBand1" rc="0,21.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item171 Ref="365" type="Text" isSer="true" name="Text2" text="Boulevard Tirou, 255" va="Center" pl="d.DataBand1" rc="6.8,21.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item172 Ref="366" type="Text" isSer="true" name="Text4" text="(503) 555-3612" va="Center" pl="d.DataBand1" rc="12,22.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item173 Ref="367" type="Text" isSer="true" name="Text3" text="Marketing Manager" va="Center" pl="d.DataBand1" rc="15,22.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item174 Ref="368" type="Text" isSer="true" name="Text1" text="The Big Cheese" va="Center" pl="d.DataBand1" rc="0,22.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item175 Ref="369" type="Text" isSer="true" name="Text2" text="89 Jefferson Way Suite 2" va="Center" pl="d.DataBand1" rc="6.8,22.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item176 Ref="370" type="Text" isSer="true" name="Text4" text="(406) 555-5834" va="Center" pl="d.DataBand1" rc="12,22.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item177 Ref="371" type="Text" isSer="true" name="Text3" text="Marketing Assistant" va="Center" pl="d.DataBand1" rc="15,22.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item178 Ref="372" type="Text" isSer="true" name="Text1" text="The Cracker Box" va="Center" pl="d.DataBand1" rc="0,22.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item179 Ref="373" type="Text" isSer="true" name="Text2" text="55 Grizzly Peak Rd." va="Center" pl="d.DataBand1" rc="6.8,22.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item180 Ref="374" type="Text" isSer="true" name="Text4" text="0251-031259" va="Center" pl="d.DataBand1" rc="12,23.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item181 Ref="375" type="Text" isSer="true" name="Text3" text="Marketing Manager" va="Center" pl="d.DataBand1" rc="15,23.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item182 Ref="376" type="Text" isSer="true" name="Text1" text="Toms Spezialitäten" va="Center" pl="d.DataBand1" rc="0,23.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item183 Ref="377" type="Text" isSer="true" name="Text2" text="Luisenstr. 48" va="Center" pl="d.DataBand1" rc="6.8,23.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item184 Ref="378" type="Text" isSer="true" name="Text4" text="(5) 555-2933" va="Center" pl="d.DataBand1" rc="12,24,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item185 Ref="379" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,24,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item186 Ref="380" type="Text" isSer="true" name="Text1" text="Tortuga Restaurante" va="Center" pl="d.DataBand1" rc="0,24,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item187 Ref="381" type="Text" isSer="true" name="Text2" text="Avda. Azteca 123" va="Center" pl="d.DataBand1" rc="6.8,24,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item188 Ref="382" type="Text" isSer="true" name="Text4" text="(11) 555-2167" va="Center" pl="d.DataBand1" rc="12,24.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item189 Ref="383" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,24.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item190 Ref="384" type="Text" isSer="true" name="Text1" text="Tradição Hipermercados" va="Center" pl="d.DataBand1" rc="0,24.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item191 Ref="385" type="Text" isSer="true" name="Text2" text="Av. Inês de Castro, 414" va="Center" pl="d.DataBand1" rc="6.8,24.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item192 Ref="386" type="Text" isSer="true" name="Text4" text="(206) 555-8257" va="Center" pl="d.DataBand1" rc="12,25.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item193 Ref="387" type="Text" isSer="true" name="Text3" text="Sales Associate" va="Center" pl="d.DataBand1" rc="15,25.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item194 Ref="388" type="Text" isSer="true" name="Text1" text="Trail's Head Gourmet Provisioners" va="Center" pl="d.DataBand1" rc="0,25.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item195 Ref="389" type="Text" isSer="true" name="Text2" text="722 DaVinci Blvd." va="Center" pl="d.DataBand1" rc="6.8,25.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item196 Ref="390" type="Text" isSer="true" name="Text4" text="86 21 32 43" va="Center" pl="d.DataBand1" rc="12,25.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item197 Ref="391" type="Text" isSer="true" name="Text3" text="Sales Manager" va="Center" pl="d.DataBand1" rc="15,25.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item198 Ref="392" type="Text" isSer="true" name="Text1" text="Vaffeljernet" va="Center" pl="d.DataBand1" rc="0,25.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item199 Ref="393" type="Text" isSer="true" name="Text2" text="Smagsloget 45" va="Center" pl="d.DataBand1" rc="6.8,25.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item200 Ref="394" type="Text" isSer="true" name="Text8" text="" va="Center" pl="f.ap.FooterBand1" rc="0,26.4,19,0.2" fn="Arial,10" tb="Black" bh="Transparent" />
+      </Components>
+      <Guid>68bc887b1a044c59abe7e8b48e9586e0</Guid>
+      <Conditions isList="true" count="0" />
+      <Name>Page1</Name>
+    </Page1>
+    <Page1 Ref="395" type="Page" isKey="true">
+      <PageWidth>21</PageWidth>
+      <PageHeight>29.7</PageHeight>
+      <Watermark Ref="396" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <fn>Arial,100,Bold</fn>
+        <tb>[50:0:0:0]</tb>
+      </Watermark>
+      <Margins>1,1,1,1</Margins>
+      <br>None;Black;2;Solid;False;4;Black</br>
+      <bh>White</bh>
+      <Components isList="true" count="43">
+        <item0 Ref="397" type="Container" isSer="true" name="DataBand1" rc="0,1.2,19,0.6" bh="PapayaWhip" />
+        <item1 Ref="398" type="Container" isSer="true" name="DataBand1" rc="0,2.4,19,0.6" bh="PapayaWhip" />
+        <item2 Ref="399" type="Container" isSer="true" name="DataBand1" rc="0,3.6,19,0.6" bh="PapayaWhip" />
+        <item3 Ref="400" type="Container" isSer="true" name="DataBand1" rc="0,4.8,19,0.6" bh="PapayaWhip" />
+        <item4 Ref="401" type="Text" isSer="true" name="Text7" text="(c) 2003-2009 Stimulsoft" ha="Center" va="Center" hyperlink="http://www.stimulsoft.com" pl="pf.PageFooterBand1" rc="0,26.9,6.8,0.8" fn="Arial,14,Bold" tb="SaddleBrown" bh="Transparent" />
+        <item5 Ref="402" type="Text" isSer="true" name="Text6" text="Page 3 of 3" ha="Right" va="Center" tvh="1" pl="pf.PageFooterBand1" rc="6.8,26.9,12.2,0.8" fn="Arial,14,Bold" tb="SaddleBrown" bh="Transparent" />
+        <item6 Ref="403" type="Text" isSer="true" name="Text11" text="Address" va="Center" pl="h.ap.HeaderBand1" rc="6.8,0,5.2,0.6" fn="Arial,14,Bold" tb="White" bh="Peru" />
+        <item7 Ref="404" type="Text" isSer="true" name="Text10" text="Company" va="Center" pl="h.ap.HeaderBand1" rc="0,0,6.8,0.6" fn="Arial,14,Bold" tb="White" bh="Peru" />
+        <item8 Ref="405" type="Text" isSer="true" name="Text12" text="Phone" va="Center" pl="h.ap.HeaderBand1" rc="12,0,3,0.6" fn="Arial,14,Bold" tb="White" bh="Peru" />
+        <item9 Ref="406" type="Text" isSer="true" name="Text13" text="Contact" va="Center" pl="h.ap.HeaderBand1" rc="15,0,4,0.6" fn="Arial,14,Bold" tb="White" bh="Peru" />
+        <item10 Ref="407" type="Text" isSer="true" name="Text4" text="78.32.54.86" va="Center" pl="d.DataBand1" rc="12,0.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item11 Ref="408" type="Text" isSer="true" name="Text3" text="Sales Agent" va="Center" pl="d.DataBand1" rc="15,0.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item12 Ref="409" type="Text" isSer="true" name="Text1" text="Victuailles en stock" va="Center" pl="d.DataBand1" rc="0,0.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item13 Ref="410" type="Text" isSer="true" name="Text2" text="2, rue du Commerce" va="Center" pl="d.DataBand1" rc="6.8,0.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item14 Ref="411" type="Text" isSer="true" name="Text4" text="26.47.15.10" va="Center" pl="d.DataBand1" rc="12,1.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item15 Ref="412" type="Text" isSer="true" name="Text3" text="Accounting Manager" va="Center" pl="d.DataBand1" rc="15,1.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item16 Ref="413" type="Text" isSer="true" name="Text1" text="Vins et alcools Chevalier" va="Center" pl="d.DataBand1" rc="0,1.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item17 Ref="414" type="Text" isSer="true" name="Text2" text="59 rue de l'Abbaye" va="Center" pl="d.DataBand1" rc="6.8,1.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item18 Ref="415" type="Text" isSer="true" name="Text4" text="0711-020361" va="Center" pl="d.DataBand1" rc="12,1.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item19 Ref="416" type="Text" isSer="true" name="Text3" text="Sales Representative" va="Center" pl="d.DataBand1" rc="15,1.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item20 Ref="417" type="Text" isSer="true" name="Text1" text="Die Wandernde Kuh" va="Center" pl="d.DataBand1" rc="0,1.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item21 Ref="418" type="Text" isSer="true" name="Text2" text="Adenauerallee 900" va="Center" pl="d.DataBand1" rc="6.8,1.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item22 Ref="419" type="Text" isSer="true" name="Text4" text="981-443655" va="Center" pl="d.DataBand1" rc="12,2.4,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item23 Ref="420" type="Text" isSer="true" name="Text3" text="Accounting Manager" va="Center" pl="d.DataBand1" rc="15,2.4,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item24 Ref="421" type="Text" isSer="true" name="Text1" text="Wartian Herkku" va="Center" pl="d.DataBand1" rc="0,2.4,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item25 Ref="422" type="Text" isSer="true" name="Text2" text="Torikatu 38" va="Center" pl="d.DataBand1" rc="6.8,2.4,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item26 Ref="423" type="Text" isSer="true" name="Text4" text="(14) 555-8122" va="Center" pl="d.DataBand1" rc="12,3,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item27 Ref="424" type="Text" isSer="true" name="Text3" text="Sales Manager" va="Center" pl="d.DataBand1" rc="15,3,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item28 Ref="425" type="Text" isSer="true" name="Text1" text="Wellington Importadora" va="Center" pl="d.DataBand1" rc="0,3,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item29 Ref="426" type="Text" isSer="true" name="Text2" text="Rua do Mercado, 12" va="Center" pl="d.DataBand1" rc="6.8,3,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item30 Ref="427" type="Text" isSer="true" name="Text4" text="(206) 555-4112" va="Center" pl="d.DataBand1" rc="12,3.6,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item31 Ref="428" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,3.6,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item32 Ref="429" type="Text" isSer="true" name="Text1" text="White Clover Markets" va="Center" pl="d.DataBand1" rc="0,3.6,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item33 Ref="430" type="Text" isSer="true" name="Text2" text="305 - 14th Ave. S. Suite 3B" va="Center" pl="d.DataBand1" rc="6.8,3.6,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item34 Ref="431" type="Text" isSer="true" name="Text4" text="90-224 8858" va="Center" pl="d.DataBand1" rc="12,4.2,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item35 Ref="432" type="Text" isSer="true" name="Text3" text="Owner/Marketing Assistant" va="Center" pl="d.DataBand1" rc="15,4.2,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item36 Ref="433" type="Text" isSer="true" name="Text1" text="Wilman Kala" va="Center" pl="d.DataBand1" rc="0,4.2,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item37 Ref="434" type="Text" isSer="true" name="Text2" text="Keskuskatu 45" va="Center" pl="d.DataBand1" rc="6.8,4.2,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item38 Ref="435" type="Text" isSer="true" name="Text4" text="(26) 642-7012" va="Center" pl="d.DataBand1" rc="12,4.8,3,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item39 Ref="436" type="Text" isSer="true" name="Text3" text="Owner" va="Center" pl="d.DataBand1" rc="15,4.8,4,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item40 Ref="437" type="Text" isSer="true" name="Text1" text="Wolski  Zajazd" va="Center" pl="d.DataBand1" rc="0,4.8,6.8,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item41 Ref="438" type="Text" isSer="true" name="Text2" text="ul. Filtrowa 68" va="Center" pl="d.DataBand1" rc="6.8,4.8,5.2,0.6" fn="Arial,10" tb="Black" bh="Transparent" />
+        <item42 Ref="439" type="Text" isSer="true" name="Text8" text="" va="Center" pl="f.ap.FooterBand1" rc="0,5.4,19,0.2" fn="Arial,10" tb="Black" bh="Transparent" />
+      </Components>
+      <Guid>679a47f8c90d4dd19ef486a845ad81f6</Guid>
+      <Conditions isList="true" count="0" />
+      <Name>Page1</Name>
+    </Page1>
+  </Pages>
+  <Variables isList="true" count="0" />
+  <Bookmark Ref="440" type="Bookmark" isKey="true">
+    <Bookmarks isList="true" count="0" />
+    <text>Simple List</text>
+    <Engine>EngineV2</Engine>
+    <IsManualBookmark>False</IsManualBookmark>
+  </Bookmark>
+</StiSerializer>

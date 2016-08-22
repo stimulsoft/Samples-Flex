@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.0" application="StiReport">
+  <Dictionary type="Dictionary" Ref="1" isKey="true">
+    <Databases isList="true" count="0"/>
+    <DataSources isList="true" count="0"/>
+    <Relations isList="true" count="0"/>
+    <Report isRef="0"/>
+    <Variables isList="true" count="3">
+      <value>,VariableString,VariableString,,System.String,text,False,False,False</value>
+      <value>,VariableNumber,VariableNumber,,System.Double,_x0031_0,False,False,False</value>
+      <value>,VariableBoolean,VariableBoolean,,System.Boolean,false,False,False,False</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <MetaTags isList="true" count="0"/>
+  <Pages isList="true" count="1">
+    <Page1 type="Page" Ref="2" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="6">
+        <Text1 type="Text" Ref="3" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.6,0,6.8,0.6</ClientRectangle>
+          <Conditions isList="true" count="0"/>
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text1</Name>
+          <Page isRef="2"/>
+          <Parent isRef="2"/>
+          <Text>{VariableString}</Text>
+          <TextBrush>[23:54:93]</TextBrush>
+          <Type>Expression</Type>
+        </Text1>
+        <Text2 type="Text" Ref="4" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0,3.6,0.6</ClientRectangle>
+          <Conditions isList="true" count="0"/>
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text2</Name>
+          <Page isRef="2"/>
+          <Parent isRef="2"/>
+          <Text>VariableString:</Text>
+          <TextBrush>[23:54:93]</TextBrush>
+          <Type>Expression</Type>
+        </Text2>
+        <Text3 type="Text" Ref="5" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.6,0.6,6.8,0.6</ClientRectangle>
+          <Conditions isList="true" count="0"/>
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text3</Name>
+          <Page isRef="2"/>
+          <Parent isRef="2"/>
+          <Text>{VariableNumber}</Text>
+          <TextBrush>[23:54:93]</TextBrush>
+          <Type>Expression</Type>
+        </Text3>
+        <Text4 type="Text" Ref="6" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.6,3.6,0.6</ClientRectangle>
+          <Conditions isList="true" count="0"/>
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text4</Name>
+          <Page isRef="2"/>
+          <Parent isRef="2"/>
+          <Text>VariableNumber:</Text>
+          <TextBrush>[23:54:93]</TextBrush>
+          <Type>Expression</Type>
+        </Text4>
+        <Text5 type="Text" Ref="7" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.6,1.2,6.8,0.6</ClientRectangle>
+          <Conditions isList="true" count="0"/>
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text5</Name>
+          <Page isRef="2"/>
+          <Parent isRef="2"/>
+          <Text>{VariableBoolean}</Text>
+          <TextBrush>[23:54:93]</TextBrush>
+          <Type>Expression</Type>
+        </Text5>
+        <Text6 type="Text" Ref="8" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,1.2,3.6,0.6</ClientRectangle>
+          <Conditions isList="true" count="0"/>
+          <Font>Arial,10</Font>
+          <Margins>0,0,0,0</Margins>
+          <Name>Text6</Name>
+          <Page isRef="2"/>
+          <Parent isRef="2"/>
+          <Text>VariableBoolean:</Text>
+          <TextBrush>[23:54:93]</TextBrush>
+          <Type>Expression</Type>
+        </Text6>
+      </Components>
+      <Conditions isList="true" count="0"/>
+      <Guid>8b28c2faf9a247cb872dab45e001ac06</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0"/>
+      <Watermark type="Stimulsoft.Report.Components.StiWatermark" Ref="9" isKey="true">
+        <Font>Arial,100</Font>
+        <TextBrush>[50:0:0:0]</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings type="Stimulsoft.Report.Print.StiPrinterSettings" Ref="10" isKey="true"/>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>11/12/2010 11:45:30 AM</ReportChanged>
+  <ReportCreated>11/12/2010 11:45:30 AM</ReportCreated>
+  <ReportFile/>
+  <ReportGuid>168750979cfe4156959797e47cfedfa2</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2010.3.805</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        
+        public Report()
+        {
+            this.InitializeComponent();
+        }
+        #region StiReport Designer generated code - do not modify#endregion StiReport Designer generated code - do not modify
+    }
+}</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0"/>
+</StiSerializer>

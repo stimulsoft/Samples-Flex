@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	minWidth="1024" minHeight="768" backgroundColor="#e8e8e8"
+	initialize="onInitialize()">
+	
+	<mx:Script>
+		<![CDATA[
+			import mx.events.FlexEvent;
+			import stimulsoft.report.StiReport;
+			import stimulsoft.report.events.StiReportEvent;
+			
+//--------------------------------------
+//  Constants
+//--------------------------------------
+			
+			private const demoFile: String = "reports/SimpleList.mrt";
+			//private const demoFile: String = "reports/TwoSimpleLists.mrt";
+			//private const demoFile: String = "reports/Invoice.mrt";
+			
+//--------------------------------------
+//  Fields
+//--------------------------------------
+			
+			private var htmlText: String = "";
+			private var fileReference: FileReference;
+			private var report: StiReport;
+			private var reportString: String;
+			
+//--------------------------------------
+//  Events
+//--------------------------------------
+			
+			private function onInitialize(): void
+			{
+				var request: URLRequest = new URLRequest(demoFile);
+				var loader: URLLoader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE, onLoadComplete);
+				loader.load(request);
+			}
+			
+			private function onLoadComplete(event: Event): void
+			{
+				var loader: URLLoader = event.target as URLLoader;
+				reportString = loader.data as String;
+				
+				var parts: Array = demoFile.split("/");
+				htmlText += "<b>Report file:</b>  " + parts[parts.length - 1] + "\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Methods
+//--------------------------------------
+			
+			private function addTextRenderReport(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var" +
+					"</font></b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font " +
+					"color='#009900'>// Load report from XML string</font></i>\nreport.loadReportFromString(reportString);\n" +
+					"<i><font color='#009900'>// Add event listener invoked after report is rendered</font></i>\nreport." +
+					"addEventListener(StiReportEvent.RENDER_COMPLETE, onRenderComplete);\n<i><font color='#009900'>// " +
+					"Render report</font></i>\nreport.render();\n\n<b>Rendering, please wait... </b>";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextRenderComplete(): void
+			{
+				buttonSaveDocument.enabled = true;
+				htmlText += "<b>complete</b>\n<i><font color='#009900'>// Remove event listener</font></i>\nreport." +
+					"removeEventListener(StiReportEvent.RENDER_COMPLETE, onRenderComplete);\n<i><font color='#009900'>// " +
+					"Save rendered document to XML string</font></i>\n<b><font color='#6699cc'>var</font></b> " +
+					"documentString: String = report.saveDocumentToString();\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextSaveDocument(): void
+			{
+				htmlText += "<i><font color='#009900'>// Save rendered report to XML ByteArray</font></i>\n<b><font " +
+					"color='#6699cc'>var</font></b> buffer: ByteArray = report.saveDocumentToByteArray();\n\n<b>Saving " +
+					"document file... </b>";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Events: Render Report
+//--------------------------------------
+			
+			private function onRenderReportClick(): void
+			{
+				addTextRenderReport();
+				
+				// Create new report object
+				report = new StiReport();
+				// Load report from XML string
+				report.loadReportFromString(reportString);
+				// Add event listener invoked after report is rendered
+				report.addEventListener(StiReportEvent.END_RENDER, onRenderComplete);
+				// Render report
+				report.render();
+			}
+			
+			private function onRenderComplete(event: StiReportEvent): void
+			{
+				addTextRenderComplete();
+				
+				// Remove event listener
+				report.removeEventListener(StiReportEvent.END_RENDER, onRenderComplete);
+				// Save rendered document to XML string
+				var documentString: String = report.saveDocumentToString();
+			}
+			
+//--------------------------------------
+//  Events: Save Document
+//--------------------------------------
+			
+			private function onSaveDocumentClick(): void
+			{
+				addTextSaveDocument();
+				
+				// Save rendered report to XML ByteArray
+				var buffer: ByteArray = report.saveDocumentToByteArray();
+				
+				saveBuffer(buffer);
+			}
+			
+			private function saveBuffer(buffer: ByteArray): void
+			{
+				fileReference = new FileReference();
+				fileReference.addEventListener(Event.COMPLETE, onFileReferenceSave);
+				fileReference.addEventListener(Event.CANCEL, onFileReferenceSave);
+				fileReference.save(buffer, "Document.mdc");
+			}
+			
+			private function onFileReferenceSave(event: Event): void
+			{
+				var text: String = "complete";
+				if (event.type == Event.CANCEL) text = "cancel";
+				
+				htmlText += "<b>" + text + "</b>\n\n";
+				textAreaReport.htmlText = htmlText;
+				
+				fileReference.removeEventListener(Event.COMPLETE, onFileReferenceSave);
+				fileReference.removeEventListener(Event.CANCEL, onFileReferenceSave);
+			}
+
+		]]>
+	</mx:Script>
+	
+	
+	<mx:Button id="buttonRenderReport" x="30" y="30" width="170" label="Render Report" click="onRenderReportClick()" />
+	<mx:Button id="buttonSaveDocument" x="30" y="60" width="170" label="Save Document File" enabled="false" click="onSaveDocumentClick()" />
+	<mx:TextArea id="textAreaReport" left="230" right="30" top="30" bottom="30" borderColor="#808080" borderStyle="solid"
+				 editable="false" fontFamily="Courier New" fontSize="14" wordWrap="false" />
+	
+</mx:Application>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	xmlns:designer="stimulsoft.report.design.*"
+	xmlns:viewer="stimulsoft.viewer.*"
+	minWidth="1024" minHeight="768" backgroundColor="#e8e8e8"
+	initialize="onInitialize()">
+	
+	<mx:Script>
+		<![CDATA[
+			import stimulsoft.report.StiOptions;
+			import stimulsoft.report.StiReport;
+			import stimulsoft.report.design.StiDesignerFx;
+			import stimulsoft.viewer.StiViewerFx;
+			
+//--------------------------------------
+//  Fields
+//--------------------------------------
+			
+			private var htmlText: String = "";
+			private var report: StiReport = null;
+			
+//--------------------------------------
+//  Events
+//--------------------------------------
+			
+			private function onInitialize(): void
+			{
+				htmlText += "<b>MXML Code:</b>\n<font color='#0033ff'>&lt;viewer:StiViewerFx</font> id=\"<font color='#990000'>" +
+					"viewerFx</font>\" <font color='#0033ff'>/&gt;</font>\n\n";
+				textAreaReport.htmlText = htmlText;
+				
+				StiDesignerFx.initialize();
+				StiOptions.viewer.toolbar.showExitButton = false;
+			}
+			
+//--------------------------------------
+//  Methods
+//--------------------------------------
+			
+			private function addTextCreateNewReport(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\nreport = <b><font color='#0033ff'>" + 
+					"new</font></b> StiReport();\n<i><font color='#009900'>// Assign report to Viewer</font></i>\nviewerFx." + 
+					"report = report;\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextDesignReport(): void
+			{
+				htmlText += "<i><font color='#009900'>// Design report in Designer dialog window</font></i>\nreport." + 
+					"designDialog();\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextViewDesignedReport(): void
+			{
+				htmlText += "<i><font color='#009900'>// Mark report as not rendered</font></i>\nreport.isRendered = <b><font " +
+							"color='#0033ff'>false</font></b>;\n<i><font color='#009900'>// Reassign designed report to Viewer" +
+							"</font></i>\nviewerFx.report = report;\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Events: Create Report
+//--------------------------------------
+			
+			private function onCreateNewReportClick(): void
+			{
+				addTextCreateNewReport();
+				buttonDesignReport.enabled = true;
+				
+				// Create new report object
+				report = new StiReport();
+				// Assign report to Viewer
+				viewerFx.report = report;
+				
+				var a: * = viewerFx.styleManager;
+			}
+			
+//--------------------------------------
+//  Events: Design Report
+//--------------------------------------
+			
+			private function onDesignReportClick(): void
+			{
+				addTextDesignReport();
+				buttonViewDesignedReport.enabled = true;
+				
+				// Design report in Designer dialog window
+				report.designDialog();
+			}
+			
+//--------------------------------------
+//  Events: View Report
+//--------------------------------------
+			
+			private function onViewDesignedReportClick(): void
+			{
+				addTextViewDesignedReport();
+				
+				// Mark report as not rendered
+				report.isRendered = false;
+				// Reassign designed report to Viewer
+				viewerFx.report = report;
+			}
+		]]>
+	</mx:Script>
+	
+	
+	<mx:Button id="buttonCreateNewReport" x="20" y="30" width="170" label="Create New Report" click="onCreateNewReportClick()" />
+	<mx:Button id="buttonDesignReport" x="20" y="60" width="170" label="Design Report" enabled="false" click="onDesignReportClick()" />
+	<mx:Button id="buttonViewDesignedReport" x="20" y="90" width="170" label="View Designed Report" enabled="false" click="onViewDesignedReportClick()" />
+	<mx:TextArea id="textAreaReport" left="15" top="140" bottom="20" width="385" borderColor="#808080" borderStyle="solid"
+				 editable="false" fontFamily="Courier New" fontSize="14" wordWrap="false" />
+	<viewer:StiViewerFx id="viewerFx" left="415" right="20" top="20" bottom="20" />
+	
+</mx:Application>

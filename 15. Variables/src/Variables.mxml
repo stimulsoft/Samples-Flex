@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	minWidth="1024" minHeight="768" backgroundColor="#e8e8e8"
+	initialize="onInitialize()">
+	
+	<mx:Script>
+		<![CDATA[
+			import stimulsoft.report.StiReport;
+			import stimulsoft.report.design.StiDesignerFx;
+			import stimulsoft.report.dictionary.StiVariable;
+			import stimulsoft.viewer.StiViewerFx;
+			
+//--------------------------------------
+//  Fields
+//--------------------------------------
+			
+			private var htmlText: String = "";
+			private var reportString: String;
+			
+//--------------------------------------
+//  Events
+//--------------------------------------
+			
+			private function onInitialize(): void
+			{
+				StiViewerFx.initialize();
+				StiDesignerFx.initialize();
+				
+				var request: URLRequest = new URLRequest("reports/Variables.mrt");
+				var loader: URLLoader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE, onLoadComplete);
+				loader.load(request);
+			}
+			
+			private function onLoadComplete(event: Event): void
+			{
+				var loader: URLLoader = event.target as URLLoader;
+				reportString = loader.data as String;
+				
+				htmlText += "<b>Report file:</b>  Variables.mrt\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Methods
+//--------------------------------------
+			
+			private function addTextShowReport1(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var</font>" +
+					"</b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font color='#009900'>" +
+					"// Load report from XML string</font></i>\nreport.loadReportFromString(documentString);\n<i><font " +
+					"color='#009900'>// Change the variables values</font></i>\n<b><font color='#0033ff'>for each</font></b> " +
+					"(<b><font color='#6699cc'>var</font></b> variable: StiVariable <b><font color='#0033ff'>in</font></b> " +
+					"report.dictionary.variables)\n{\n    <b><font color='#0033ff'>if</font></b>(variable.name == <b><font " +
+					"color='#990000'>\"VariableString\"</font></b>) variable.valueObject = <b><font color='#990000'>\"String " +
+					"text, variant one\"</font></b>;\n    <b><font color='#0033ff'>if</font></b>(variable.name == <b><font " +
+					"color='#990000'>\"VariableNumber\"</font></b>) variable.valueObject = 1;\n    <b><font color='#0033ff'>" +
+					"if</font></b>(variable.name == <b><font color='#990000'>\"VariableBoolean\"</font></b>) variable.valueObject = " +
+					"<b><font color='#0033ff'>true</font></b>;\n}\n<i><font color='#009900'>// Show report in Viewer</font></i>" +
+					"\nreport.showDialog();\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextShowReport2(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var</font>" +
+					"</b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font color='#009900'>" +
+					"// Load report from XML string</font></i>\nreport.loadReportFromString(documentString);\n<i><font " +
+					"color='#009900'>// Change the variables values</font></i>\n<b><font color='#0033ff'>for each</font></b> " +
+					"(<b><font color='#6699cc'>var</font></b> variable: StiVariable <b><font color='#0033ff'>in</font></b> " +
+					"report.dictionary.variables)\n{\n    <b><font color='#0033ff'>if</font></b>(variable.name == <b><font " +
+					"color='#990000'>\"VariableString\"</font></b>) variable.valueObject = <b><font color='#990000'>\"String " +
+					"text, variant two\"</font></b>;\n    <b><font color='#0033ff'>if</font></b>(variable.name == <b><font " +
+					"color='#990000'>\"VariableNumber\"</font></b>) variable.valueObject = 2;\n    <b><font color='#0033ff'>" +
+					"if</font></b>(variable.name == <b><font color='#990000'>\"VariableBoolean\"</font></b>) variable.valueObject = " +
+					"<b><font color='#0033ff'>false</font></b>;\n}\n<i><font color='#009900'>// Show report in Viewer</font></i>" +
+					"\nreport.showDialog();\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextDesignReport(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var" + 
+					"</font></b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font " + 
+					"color='#009900'>// Load report from XML string</font></i>\nreport.loadReportFromString(reportString);\n" + 
+					"<i><font color='#009900'>// Design report in dialog window</font></i>\nreport.designDialog();\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Events: Show Report
+//--------------------------------------
+			
+			private function onShowReport1Click(): void
+			{
+				addTextShowReport1();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load report from XML string
+				report.loadReportFromString(reportString);
+				// Change the variables values
+				for each (var variable: StiVariable in report.dictionary.variables)
+				{
+					if (variable.name == "VariableString") variable.valueObject = "String text, variant one";
+					if (variable.name == "VariableNumber") variable.valueObject = 1;
+					if (variable.name == "VariableBoolean") variable.valueObject = true;
+				}
+				// Show report in Viewer dialog window
+				report.showDialog();
+			}
+			
+			private function onShowReport2Click(): void
+			{
+				addTextShowReport2();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load report from XML string
+				report.loadReportFromString(reportString);
+				// Change the variables values
+				for each (var variable: StiVariable in report.dictionary.variables)
+				{
+					if (variable.name == "VariableString") variable.valueObject = "String text, variant two";
+					if (variable.name == "VariableNumber") variable.valueObject = 2;
+					if (variable.name == "VariableBoolean") variable.valueObject = false;
+				}
+				// Show report in Viewer dialog window
+				report.showDialog();
+			}
+			
+			private function onDesignReportClick(): void
+			{
+				addTextDesignReport();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load report from XML string
+				report.loadReportFromString(reportString);
+				// Design report in dialog window
+				report.designDialog();
+			}
+		]]>
+	</mx:Script>
+	
+	
+	<mx:Button id="buttonShowReport1" x="30" y="30" width="170" label="Show Report,  Variant 1" click="onShowReport1Click()" />
+	<mx:Button id="buttonShowReport2" x="30" y="60" width="170" label="Show Report,  Variant 2" click="onShowReport2Click()" />
+	<mx:Button id="buttonDesignReport" x="30" y="100" width="170" label="Design Report" click="onDesignReportClick()" />
+	<mx:TextArea id="textAreaReport" left="230" right="30" top="30" bottom="30" borderColor="#808080" borderStyle="solid"
+				 editable="false" fontFamily="Courier New" fontSize="14" wordWrap="false" />
+	
+</mx:Application>

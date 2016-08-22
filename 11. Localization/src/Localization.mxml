@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	minWidth="1024" minHeight="768" backgroundColor="#e8e8e8"
+	initialize="onInitialize()">
+	
+	<mx:Script>
+		<![CDATA[
+			import stimulsoft.base.localization.StiLanguage;
+			import stimulsoft.base.localization.StiLocalization;
+			import stimulsoft.report.StiReport;
+			import stimulsoft.report.design.StiDesignerFx;
+			
+//--------------------------------------
+//  Constants
+//--------------------------------------
+			
+			private const demoFile: String = "reports/SimpleList.mrt";
+			//private const demoFile: String = "reports/TwoSimpleLists.mrt";
+			//private const demoFile: String = "reports/Invoice.mrt";
+			
+//--------------------------------------
+//  Fields
+//--------------------------------------
+			
+			private var htmlText: String = "";
+			private var reportString: String;
+			
+//--------------------------------------
+//  Events
+//--------------------------------------
+			
+			private function onInitialize(): void
+			{
+				StiDesignerFx.initialize();
+				
+				var request: URLRequest = new URLRequest(demoFile);
+				var loader: URLLoader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE, onLoadComplete);
+				loader.load(request);
+			}
+			
+			private function onLoadComplete(event: Event): void
+			{
+				var loader: URLLoader = event.target as URLLoader;
+				reportString = loader.data as String;
+				
+				var parts: Array = demoFile.split("/");
+				htmlText += "<b>Report file:</b>  " + parts[parts.length - 1] + "\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Methods
+//--------------------------------------
+			
+			private function addTextSetLocalization(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create Language object</font></i>\n<font color='#6699cc'>var</font></b> " + 
+					"language: StiLanguage = StiLanguage.fromUrl(<b><font color='#990000'>\"localization/" + 
+					comboLocalizations.text + "\"</font></b>);\n<i><font color='#009900'>// Set Localization</font></i>\n" + 
+					"StiLocalization.setLanguage(language);\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextShowViewer(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var" + 
+					"</font></b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font " + 
+					"color='#009900'>// Load report from XML string</font></i>\nreport.loadReportFromString(reportString);\n" + 
+					"<i><font color='#009900'>// Show report Viewer</font></i>\nreport.showDialog();\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextShowDesigner(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var" + 
+					"</font></b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font " + 
+					"color='#009900'>// Load report from XML string</font></i>\nreport.loadReportFromString(reportString);\n" + 
+					"<i><font color='#009900'>// Show report Designer</font></i>\nreport.designDialog();\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Events: Localization
+//--------------------------------------
+			
+			private function onSetLocalization(): void
+			{
+				addTextSetLocalization();
+				
+				// Create Language object
+				var language: StiLanguage = StiLanguage.fromUrl("localization/" + comboLocalizations.text);
+				// Set Localization
+				StiLocalization.setLanguage(language);
+			}
+			
+			private function onShowViewerClick(): void
+			{
+				addTextShowViewer();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load report from XML string
+				report.loadReportFromString(reportString);
+				// Show report Viewer
+				report.showDialog();
+			}
+			
+			private function onShowDesignerClick(): void
+			{
+				addTextShowDesigner();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load report from XML string
+				report.loadReportFromString(reportString);
+				// Show report Designer
+				report.designDialog();
+			}
+		]]>
+	</mx:Script>
+	
+	
+	<mx:ComboBox
+		id="comboLocalizations" x="30" y="30" width="100" rowCount="10" openDuration="150" closeDuration="150" 
+		dataProvider="['be.xml', 'cro.xml', 'cz.xml', 'de.xml', 'en.xml', 'es.xml', 'fa.xml', 'fr.xml', 'hu.xml', 'it.xml',
+		'ka.xml', 'lt.xml', 'nl.xml', 'pl.xml', 'pt-BR.xml', 'ro.xml', 'ru.xml', 'se.xml', 'ser.xml', 'sk.xml',
+		'ua.xml', 'zh-CHS.xml', 'zh-CHT.xml']" />
+	<mx:Button id="buttonSetLanguage" x="140" y="30" width="120" label="Set Language" click="onSetLocalization()" />
+	<mx:Button id="buttonShowViewer" x="30" y="80" width="230" label="Show Viewer" click="onShowViewerClick()" />
+	<mx:Button id="buttonShowDesigner" x="30" y="110" width="230" label="Show Designer" click="onShowDesignerClick()" />
+	<mx:TextArea id="textAreaReport" left="280" right="30" top="30" bottom="30" borderColor="#808080" borderStyle="solid"
+				 editable="false" fontFamily="Courier New" fontSize="14" wordWrap="false" />
+	
+</mx:Application>

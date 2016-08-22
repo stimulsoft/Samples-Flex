@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	minWidth="1024" minHeight="768" backgroundColor="#e8e8e8"
+	initialize="onInitialize()">
+	
+	<mx:Script>
+		<![CDATA[
+			import stimulsoft.controls.theme.StiTheme;
+			import stimulsoft.controls.theme.StiThemeManager;
+			import stimulsoft.report.StiReport;
+			import stimulsoft.report.events.StiReportEvent;
+			import stimulsoft.report.export.services.StiExcelExportService;
+			import stimulsoft.report.export.services.StiPdfExportService;
+			import stimulsoft.report.export.services.StiRtfExportService;
+			import stimulsoft.report.export.settings.StiExcelExportSettings;
+			import stimulsoft.report.export.settings.StiPdfExportSettings;
+			import stimulsoft.report.export.settings.StiRtfExportSettings;
+			import stimulsoft.viewer.StiViewerFx;
+			
+//--------------------------------------
+//  Constants
+//--------------------------------------
+			
+			private const demoFile: String = "documents/SimpleList.mdc";
+			//private const demoFile: String = "documents/TwoSimpleLists.mdc";
+			//private const demoFile: String = "documents/Invoice.mdc";
+			
+//--------------------------------------
+//  Fields
+//--------------------------------------
+			
+			private var htmlText: String = "";
+			private var documentString: String;
+			
+//--------------------------------------
+//  Events
+//--------------------------------------
+			
+			private function onInitialize(): void
+			{
+				StiViewerFx.initialize();
+				
+				var request: URLRequest = new URLRequest(demoFile);
+				var loader: URLLoader = new URLLoader();
+				loader.addEventListener(Event.COMPLETE, onLoadComplete);
+				loader.load(request);
+			}
+			
+			private function onLoadComplete(event: Event): void
+			{
+				var loader: URLLoader = event.target as URLLoader;
+				documentString = loader.data as String;
+				
+				var parts: Array = demoFile.split("/");
+				htmlText += "<b>Document file:</b>  " + parts[parts.length - 1] + "\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Methods
+//--------------------------------------
+			
+			private function addTextExportPDF(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var</font>" +
+					"</b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font color='#009900'>// " +
+					"Load document from XML string</font></i>\nreport.loadDocumentFromString(documentString);\n<i><font color='" +
+					"#009900'>// Create a new PDF export service</font></i>\n<b><font color='#6699cc'>var</font></b> service: " +
+					"StiPdfExportService = <b><font color='#0033ff'>new</font></b> StiPdfExportService();\n<i><font color='#009900'>" +
+					"// Create a new PDF export settings</font></i>\n<b><font color='#6699cc'>var</font></b> settings: StiPdfExportSettings " +
+					"= <b><font color='#0033ff'>new</font></b> StiPdfExportSettings();\n<i><font color='#009900'>// Create a buffer for " +
+					"report exporting</font></i>\n<b><font color='#6699cc'>var</font></b> buffer: ByteArray = <b><font color='#0033ff'>new" +
+					"</font></b> ByteArray();\n<i><font color='#009900'>// Export report to ByteArray</font></i>\nservice.exportPdf(report, " +
+					"buffer, settings);\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextExportExcel(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var</font>" +
+					"</b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font color='#009900'>// " +
+					"Load document from XML string</font></i>\nreport.loadDocumentFromString(documentString);\n<i><font color='" +
+					"#009900'>// Create a new Excel export service</font></i>\n<b><font color='#6699cc'>var</font></b> service: " +
+					"StiExcelExportService = <b><font color='#0033ff'>new</font></b> StiExcelExportService();\n<i><font color='#009900'>" +
+					"// Create a new Excel export settings</font></i>\n<b><font color='#6699cc'>var</font></b> settings: StiExcelExportSettings " +
+					"= <b><font color='#0033ff'>new</font></b> StiExcelExportSettings();\n<i><font color='#009900'>// Create a buffer for " +
+					"report exporting</font></i>\n<b><font color='#6699cc'>var</font></b> buffer: ByteArray = <b><font color='#0033ff'>new" +
+					"</font></b> ByteArray();\n<i><font color='#009900'>// Export report to ByteArray</font></i>\nservice.exportExcel(report, " +
+					"buffer, settings);\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextExportRTF(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var</font>" +
+					"</b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font color='#009900'>// " +
+					"Load document from XML string</font></i>\nreport.loadDocumentFromString(documentString);\n<i><font color='" +
+					"#009900'>// Create a new RTF export service</font></i>\n<b><font color='#6699cc'>var</font></b> service: " +
+					"StiRtfExportService = <b><font color='#0033ff'>new</font></b> StiRtfExportService();\n<i><font color='#009900'>" +
+					"// Create a new RTF export settings</font></i>\n<b><font color='#6699cc'>var</font></b> settings: StiRtfExportSettings " +
+					"= <b><font color='#0033ff'>new</font></b> StiRtfExportSettings();\n<i><font color='#009900'>// Create a buffer for " +
+					"report exporting</font></i>\n<b><font color='#6699cc'>var</font></b> buffer: ByteArray = <b><font color='#0033ff'>new" +
+					"</font></b> ByteArray();\n<i><font color='#009900'>// Export report to ByteArray</font></i>\nservice.exportRtf(report, " +
+					"buffer, settings);\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Events: Export
+//--------------------------------------
+			
+			private function onExportPDFClick(): void
+			{
+				addTextExportPDF();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load document from XML string
+				report.loadDocumentFromString(documentString);
+				// Create a new PDF export service
+				var service: StiPdfExportService = new StiPdfExportService();
+				// Create a new PDF export settings
+				var settings: StiPdfExportSettings = new StiPdfExportSettings();
+				// Create a buffer for report exporting
+				var buffer: ByteArray = new ByteArray();
+				// Export report to ByteArray
+				service.exportPdf(report, buffer, settings);
+			}
+			
+			private function onExportExcelClick(): void
+			{
+				addTextExportExcel();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load document from XML string
+				report.loadDocumentFromString(documentString);
+				// Create a new Excel export service
+				var service: StiExcelExportService = new StiExcelExportService();
+				// Create a new Excel export settings
+				var settings: StiExcelExportSettings = new StiExcelExportSettings();
+				// Create a buffer for report exporting
+				var buffer: ByteArray = new ByteArray();
+				// Export report to ByteArray
+				service.exportExcel(report, buffer, settings);
+			}
+			
+			private function onExportRTFClick(): void
+			{
+				addTextExportRTF();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load document from XML string
+				report.loadDocumentFromString(documentString);
+				// Create a new RTF export service
+				var service: StiRtfExportService = new StiRtfExportService();
+				// Create a new RTF export settings
+				var settings: StiRtfExportSettings = new StiRtfExportSettings();
+				// Create a buffer for report exporting
+				var buffer: ByteArray = new ByteArray();
+				// Export report to ByteArray
+				service.exportRtf(report, buffer, settings);
+			}
+		]]>
+	</mx:Script>
+	
+	
+	<mx:Button id="buttonExportPDF" x="30" y="30" width="170" label="Export to PDF format" click="onExportPDFClick()" />
+	<mx:Button id="buttonExportExcel" x="30" y="60" width="170" label="Export to Excel format" click="onExportExcelClick()" />
+	<mx:Button id="buttonExportRTF" x="30" y="90" width="170" label="Export to RTF format" click="onExportRTFClick()" />
+	<mx:TextArea id="textAreaReport" left="230" right="30" top="30" bottom="30" borderColor="#808080" borderStyle="solid"
+				 editable="false" fontFamily="Courier New" fontSize="14" wordWrap="false" />
+	
+</mx:Application>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	xmlns:designer="stimulsoft.report.design.*"
+	minWidth="1024" minHeight="768" backgroundColor="#e8e8e8"
+	initialize="onInitialize()">
+	
+	<mx:Script>
+		<![CDATA[
+			import stimulsoft.report.StiReport;
+			import stimulsoft.report.design.events.StiDesignerEvent;
+			
+//--------------------------------------
+//  Fields
+//--------------------------------------
+			
+			private var htmlText: String = "";
+			
+//--------------------------------------
+//  Events
+//--------------------------------------
+			
+			private function onInitialize(): void
+			{
+				htmlText += "<b>MXML Code:</b>\n<font color='#0033ff'>&lt;designer:StiDesignerFx</font>\n    id=\"<font " +
+					"color='#990000'>designerFx</font>\"\n    designerSaveReport=\"onSaveReport(event)\" <font " +
+					"color='#0033ff'>/&gt;</font>\n\n";
+				textAreaReport.htmlText = htmlText;
+				
+				// Create a new Report in DesignerFx
+				designerFx.report = new StiReport();
+			}
+			
+//--------------------------------------
+//  Methods
+//--------------------------------------
+			
+			private function addTextDesignerSaveReport(): void
+			{
+				htmlText += "<b>Save event is invoked</b>\n<i><font color='#009900'>// Get report from designer</font></i>\n<b>" + 
+					"<font color='#6699cc'>var</font></b> report: StiReport = event.report;\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Events: Save Report
+//--------------------------------------
+			
+			private function onSaveReport(event: StiDesignerEvent): void
+			{
+				addTextDesignerSaveReport();
+				
+				// Get report from designer
+				var report: StiReport = event.report;
+			}
+		]]>
+	</mx:Script>
+	
+	
+	<mx:TextArea id="textAreaReport" right="15" top="30" bottom="20" width="385" borderColor="#808080" borderStyle="solid"
+				 editable="false" fontFamily="Courier New" fontSize="14" wordWrap="false" />
+	<mx:Label id="labelHint" left="21" top="10" width="300" height="16" text="Press 'Save' button in DesignerFx window." />
+	<mx:Canvas id="canvasDesigner" left="20" top="30" bottom="20" right="415" borderStyle="solid" borderColor="#808080">
+		<designer:StiDesignerFx id="designerFx" left="1" top="1" right="1" bottom="1" saveReport="onSaveReport(event)" />
+	</mx:Canvas>
+	
+</mx:Application>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Application
+	xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	minWidth="1024" minHeight="768" backgroundColor="#e8e8e8"
+	initialize="onInitialize()">
+	
+	<mx:Script>
+		<![CDATA[
+			import stimulsoft.flex.data.DataColumn;
+			import stimulsoft.flex.data.DataSet;
+			import stimulsoft.flex.data.DataTable;
+			import stimulsoft.flex.data.StorageType;
+			import stimulsoft.flex.serialize.StiTypeConverter;
+			import stimulsoft.report.StiReport;
+			import stimulsoft.report.design.StiDesignerFx;
+			import stimulsoft.report.dictionary.databases.StiMySqlDatabase;
+			import stimulsoft.report.dictionary.databases.StiXmlDatabase;
+			import stimulsoft.viewer.StiViewerFx;
+			
+//--------------------------------------
+//  Constants
+//--------------------------------------
+			
+			private const demoFile: String = "reports/SimpleList.mrt";
+			//private const demoFile: String = "reports/TwoSimpleLists.mrt";
+			//private const demoFile: String = "reports/Invoice.mrt";
+			
+//--------------------------------------
+//  Fields
+//--------------------------------------
+			
+			private var htmlText: String = "";
+			private var reportString: String;
+			private var xmlData: XMLNode;
+			
+//--------------------------------------
+//  Events
+//--------------------------------------
+			
+			private function onInitialize(): void
+			{
+				StiViewerFx.initialize();
+				StiDesignerFx.initialize();
+				
+				var request1: URLRequest = new URLRequest(demoFile);
+				var loader1: URLLoader = new URLLoader();
+				loader1.addEventListener(Event.COMPLETE, onLoadComplete);
+				loader1.load(request1);
+				
+				// Load XML data file
+				var request2: URLRequest = new URLRequest("reports/data/Demo.xml");
+				var loader2: URLLoader = new URLLoader();
+				loader2.addEventListener(Event.COMPLETE, onXmlLoadComplete);
+				loader2.load(request2);
+			}
+			
+			private function onLoadComplete(event: Event): void
+			{
+				var loader: URLLoader = event.target as URLLoader;
+				reportString = loader.data as String;
+				
+				var parts: Array = demoFile.split("/");
+				htmlText += "<b>Report file:</b>  " + parts[parts.length - 1] + "\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function onXmlLoadComplete(event: Event): void
+			{
+				var loader: URLLoader = event.target as URLLoader;
+				var data: String = loader.data as String;
+				
+				xmlData = StiTypeConverter.stringToXml(data);
+			}
+			
+//--------------------------------------
+//  Methods
+//--------------------------------------
+			
+			private function addTextRegDataXml(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var</font>" +
+					"</b> report: StiReport = <b><font color='#0033ff'>new</font></b> StiReport();\n<i><font " +
+					"color='#009900'>// Load report from XML string</font></i>\nreport.loadReportFromString(" +
+					"documentString);\n<i><font color='#009900'>// Registration of XML data with same name \"Demo\"</font></i>\n" +
+					"report.regData(<b><font color='#990000'>\"Demo\"</font></b>, xmlData);\n<i><font color='#009900'>// Show " +
+					"report in Viewer</font></i>\nreport.showDialog();\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+			private function addTextRegDataSet(): void
+			{
+				htmlText += "<i><font color='#009900'>// Create new Data Table</font></i>\n<b><font color='#6699cc'>var</font></b>" +
+							" table: DataTable = <b><font color='#0033ff'>new</font></b> DataTable(<b><font color='#990000'>" +
+							"\"Customers\"</font></b>);\n<i><font color='#009900'>// Create new Data Column</font></i>\n" +
+							"<b><font color='#6699cc'>var</font></b> column: DataColumn = <b><font color='#0033ff'>new</font></b>" +
+							" DataColumn(<b><font color='#990000'>\"CustomerName\"</font></b>, StorageType.StringType);\n" +
+							"<i><font color='#009900'>// Add Data Column to Data Table</font></i>\ntable.columns.add(column);\n\n" +
+							"<i><font color='#009900'>// Create new Data Rows</font></i>\ntable.addNewRow().setValue(<b><font color=" +
+							"'#990000'>\"CustomerName\"</font></b>, <b><font color='#990000'>\"John Smith\"</font></b>);\n" +
+							"table.addNewRow().setValue(<b><font color='#990000'>\"CustomerName\"</font></b>, <b><font color='#990000'>" +
+							"\"Antonio Moreno\"</font></b>);\ntable.addNewRow().setValue(<b><font color='#990000'>\"CustomerName\"</font>" +
+							"</b>, <b><font color='#990000'>\"Elizabeth Brown\"</font></b>);\n\n<i><font color='#009900'>// Create new" +
+							" Data Set</font></i>\n<b><font color='#6699cc'>var</font></b> dataSet: DataSet = <b><font color='#0033ff'>" +
+							"new</font></b> DataSet(<b><font color='#990000'>\"DataSetName\"</font></b>);\n<i><font color='#009900'>//" +
+							" Add Data Table to Data Set</font></i>\ndataSet.tables.add(table);\n\n<i><font color='#009900'>// Create " +
+							"new report object</font></i>\n<b><font color='#6699cc'>var</font></b> report: StiReport = <b><font color=" +
+							"'#0033ff'>new</font></b> StiReport();\n<i><font color='#009900'>// Registration of user Data Set</font></i>\n" +
+							"report.regData(<b><font color='#990000'>\"DataSetName\"</font></b>, <b><font color='#990000'>\"DataSetName" +
+							"\"</font></b>, dataSet);\n<i><font color='#009900'>// Synchronize report dictionary</font></i>\nreport." +
+							"dictionary.synchronize();\n<i><font color='#009900'>// Design report in Designer dialog window</font></i>\n" +
+							"report.designDialog();\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
+//--------------------------------------
+//  Events: Data Registration
+//--------------------------------------
+			
+			private function onRegDataXmlClick(): void
+			{
+				addTextRegDataXml();
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Load report from XML string
+				report.loadReportFromString(reportString);
+				// Registration of XML data with same name "Demo"
+				report.regData("Demo", "Demo", xmlData);
+				// Show report in Viewer dialog window
+				report.showDialog();
+			}
+			
+			private function onRegDataSetClick(): void
+			{
+				addTextRegDataSet();
+				
+				// Create new Data Table
+				var table: DataTable = new DataTable("Customers");
+				// Create new Data Column
+				var column: DataColumn = new DataColumn("CustomerName", StorageType.StringType);
+				// Add Data Column to Data Table
+				table.columns.add(column);
+				
+				// Create new Data Rows
+				table.addNewRow().setValue("CustomerName", "John Smith");
+				table.addNewRow().setValue("CustomerName", "Antonio Moreno");
+				table.addNewRow().setValue("CustomerName", "Elizabeth Brown");
+				
+				// Create new Data Set
+				var dataSet: DataSet = new DataSet("DataSetName");
+				// Add Data Table to Data Set
+				dataSet.tables.add(table);
+				
+				// Create new report object
+				var report: StiReport = new StiReport();
+				// Registration of user Data Set
+				report.regData("DataSetName", "DataSetName", dataSet);
+				// Synchronize report dictionary
+				report.dictionary.synchronize();
+				// Design report in Designer dialog window
+				report.designDialog();
+			}
+		]]>
+	</mx:Script>
+	
+	
+	<mx:Button id="buttonRegDataXml" x="30" y="30" width="170" label="Registration of XML Data" click="onRegDataXmlClick()" />
+	<mx:Button id="buttonRegDataSet" x="30" y="60" width="170" label="Registration of User Data" click="onRegDataSetClick()" />
+	<mx:TextArea id="textAreaReport" left="230" right="30" top="30" bottom="30" borderColor="#808080" borderStyle="solid"
+				 editable="false" fontFamily="Courier New" fontSize="14" wordWrap="false" />
+	
+</mx:Application>
