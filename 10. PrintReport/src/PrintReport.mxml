@@ -6,11 +6,8 @@
 	
 	<mx:Script>
 		<![CDATA[
-			import stimulsoft.controls.theme.StiTheme;
-			import stimulsoft.controls.theme.StiThemeManager;
 			import stimulsoft.viewer.StiViewerFx;
 			import stimulsoft.report.StiReport;
-			import stimulsoft.report.events.StiReportEvent;
 			
 //--------------------------------------
 //  Constants

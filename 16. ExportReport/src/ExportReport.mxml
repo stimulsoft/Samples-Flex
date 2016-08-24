@@ -6,16 +6,14 @@
 	
 	<mx:Script>
 		<![CDATA[
-			import stimulsoft.controls.theme.StiTheme;
-			import stimulsoft.controls.theme.StiThemeManager;
 			import stimulsoft.report.StiReport;
-			import stimulsoft.report.events.StiReportEvent;
+			import stimulsoft.report.export.enums.StiExcelType;
 			import stimulsoft.report.export.services.StiExcelExportService;
 			import stimulsoft.report.export.services.StiPdfExportService;
 			import stimulsoft.report.export.services.StiRtfExportService;
-			import stimulsoft.report.export.settings.StiExcelExportSettings;
 			import stimulsoft.report.export.settings.StiPdfExportSettings;
 			import stimulsoft.report.export.settings.StiRtfExportSettings;
+			import stimulsoft.report.export.settings.office.StiExcelExportSettings;
 			import stimulsoft.viewer.StiViewerFx;
 			
 //--------------------------------------
@@ -139,7 +137,7 @@
 				// Create a new Excel export service
 				var service: StiExcelExportService = new StiExcelExportService();
 				// Create a new Excel export settings
-				var settings: StiExcelExportSettings = new StiExcelExportSettings();
+				var settings: StiExcelExportSettings = new StiExcelExportSettings(StiExcelType.ExcelBinary);
 				// Create a buffer for report exporting
 				var buffer: ByteArray = new ByteArray();
 				// Export report to ByteArray

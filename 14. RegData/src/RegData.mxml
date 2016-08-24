@@ -13,8 +13,6 @@
 			import stimulsoft.flex.serialize.StiTypeConverter;
 			import stimulsoft.report.StiReport;
 			import stimulsoft.report.design.StiDesignerFx;
-			import stimulsoft.report.dictionary.databases.StiMySqlDatabase;
-			import stimulsoft.report.dictionary.databases.StiXmlDatabase;
 			import stimulsoft.viewer.StiViewerFx;
 			
 //--------------------------------------

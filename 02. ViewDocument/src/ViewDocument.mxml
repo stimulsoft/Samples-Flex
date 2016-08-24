@@ -9,7 +9,6 @@
 			import mx.events.FlexEvent;
 			import stimulsoft.report.StiReport;
 			import stimulsoft.viewer.StiViewerFx;
-			import stimulsoft.report.events.StiReportEvent;
 			
 //--------------------------------------
 //  Constants

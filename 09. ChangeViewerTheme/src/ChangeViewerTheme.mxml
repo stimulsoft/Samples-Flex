@@ -10,7 +10,6 @@
 			import stimulsoft.controls.theme.StiThemeManager;
 			import stimulsoft.viewer.StiViewerFx;
 			import stimulsoft.report.StiReport;
-			import stimulsoft.report.events.StiReportEvent;
 			
 //--------------------------------------
 //  Constants
@@ -73,6 +72,12 @@
 				textAreaReport.htmlText = htmlText;
 			}
 			
+			private function addTextSetOffice2013Theme(): void
+			{
+				htmlText += "<i><font color='#009900'>// Set Office 2013 theme</font></i>\nStiThemeManager.theme = StiTheme.office2013;\n\n";
+				textAreaReport.htmlText = htmlText;
+			}
+			
 			private function addTextShowViewer(): void
 			{
 				htmlText += "<i><font color='#009900'>// Create new report object</font></i>\n<b><font color='#6699cc'>var</font>" +
@@ -110,6 +115,14 @@
 				StiThemeManager.theme = StiTheme.black;
 			}
 			
+			private function onSetOffice2013ThemeClick(): void
+			{
+				addTextSetOffice2013Theme();
+				
+				// Set Office 2013 theme
+				StiThemeManager.theme = StiTheme.office2013;
+			}
+			
 			private function onShowViewerClick(): void
 			{
 				addTextShowViewer();
@@ -127,7 +140,8 @@
 	<mx:Button id="buttonSetBlueTheme" x="30" y="30" width="170" label="Set Blue Theme" click="onSetBlueThemeClick()" />
 	<mx:Button id="buttonSetSilverTheme" x="30" y="60" width="170" label="Set Silver Theme" click="onSetSilverThemeClick()" />
 	<mx:Button id="buttonSetBlackTheme" x="30" y="90" width="170" label="Set Black Theme" click="onSetBlackThemeClick()" />
-	<mx:Button id="buttonShowViewer" x="30" y="140" width="170" label="Show Viewer" click="onShowViewerClick()" />
+	<mx:Button id="buttonSetOffice2013Theme" x="30" y="120" width="170" label="Set Office 2013 Theme" click="onSetOffice2013ThemeClick()" />
+	<mx:Button id="buttonShowViewer" x="30" y="170" width="170" label="Show Viewer" click="onShowViewerClick()" />
 	<mx:TextArea id="textAreaReport" left="230" right="30" top="30" bottom="30" borderColor="#808080" borderStyle="solid"
 				 editable="false" fontFamily="Courier New" fontSize="14" wordWrap="false" />
 	

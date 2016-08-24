@@ -74,8 +74,6 @@
 				report = new StiReport();
 				// Assign report to Viewer
 				viewerFx.report = report;
-				
-				var a: * = viewerFx.styleManager;
 			}
 			
 //--------------------------------------

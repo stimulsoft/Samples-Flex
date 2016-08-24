@@ -7,7 +7,6 @@
 	<mx:Script>
 		<![CDATA[
 			import mx.events.FlexEvent;
-			import stimulsoft.report.dictionary.databases.StiXmlDatabase;
 			import stimulsoft.viewer.StiViewerFx;
 			import stimulsoft.report.StiReport;
 			
