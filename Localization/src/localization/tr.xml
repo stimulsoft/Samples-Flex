@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Localization language="Turkish" description="Türkçe" cultureName="en">
+<Localization language="Turkish" description="Türkçe" cultureName="tr">
   <A_WebViewer>
     <DayFriday>Cuma</DayFriday>
     <DayMonday>Pazertesi</DayMonday>
@@ -48,13 +48,13 @@
     <AdapterFirebirdConnection>Firebird Bağlantısından Veri</AdapterFirebirdConnection>
     <AdapterInformixConnection>Informix Bağlantısında Veri</AdapterInformixConnection>
     <AdapterMySQLConnection>MySQL Bağlantısından Veri</AdapterMySQLConnection>
-    <AdapterOdbcConnection>Odbc Bağlantısından Veri</AdapterOdbcConnection>
-    <AdapterOleDbConnection>OleDb Bağlantısından Veri</AdapterOleDbConnection>
+    <AdapterOdbcConnection>ODBC Bağlantısından Veri</AdapterOdbcConnection>
+    <AdapterOleDbConnection>OLE DB Bağlantısından Veri</AdapterOleDbConnection>
     <AdapterOracleConnection>Oracle Bağlantısından Veri</AdapterOracleConnection>
     <AdapterOracleODPConnection>Oracle ODP.NET bağlantısından veri.</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>PostgreSQL Bağlantısından Veri</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection>SqlCe Bağlantısından Veri</AdapterSqlCeConnection>
-    <AdapterSqlConnection>Sql Bağlantısından Veri</AdapterSqlConnection>
+    <AdapterSqlCeConnection>SQL CE Bağlantısından Veri</AdapterSqlCeConnection>
+    <AdapterSqlConnection>SQL Bağlantısından Veri</AdapterSqlConnection>
     <AdapterSQLiteConnection>SQLite Bağlantısından Veri</AdapterSQLiteConnection>
     <AdapterUniDirectConnection>Uni Direct Bağlantısından Veri</AdapterUniDirectConnection>
     <AdapterUserSources>Kullanıcı Kaynaklarından Veri</AdapterUserSources>
@@ -81,9 +81,14 @@
     <Print>Yazdır</Print>
     <QuickPrint>Hızlı Yazdır</QuickPrint>
     <Remove>Kaldır</Remove>
+    <RemoveAll>Hepsini Kaldir</RemoveAll>
     <Rename>Yeni Ad Ver</Rename>
     <RestoreDefaults>Standartları Yükle</RestoreDefaults>
+    <Reverse>Geri Cevir</Reverse>
     <Save>Kaydet</Save>
+    <SaveCopy>Bir Kopyasini Kaydet</SaveCopy>
+    <SetAll>Hepsine Yerlestir</SetAll>
+    <Submit>Gönder</Submit>
     <Test>Dene</Test>
     <Up>Yukarı</Up>
     <Yes>&amp;Evet</Yes>
@@ -99,6 +104,7 @@
     <AxisReverse>Ters Çevir</AxisReverse>
     <AxisX>X Ekseni</AxisX>
     <AxisY>Y Ekseni</AxisY>
+    <Bubble>Balon</Bubble>
     <ChartConditionsCollectionForm>Koşullar</ChartConditionsCollectionForm>
     <ChartFiltersCollectionForm>Filtreler</ChartFiltersCollectionForm>
     <ChartType>Grafik Tipi</ChartType>
@@ -158,6 +164,10 @@
     <NoConditions>Koşullar Yok</NoConditions>
     <NoFilters>Filtreler Yok</NoFilters>
     <Pie>Pasta</Pie>
+    <Radar>Radar</Radar>
+    <RadarArea>Radar Alani</RadarArea>
+    <RadarLine>Radar Cizgi</RadarLine>
+    <RadarPoint>Radar Nokta</RadarPoint>
     <RemoveCondition>&amp;Remove Condition</RemoveCondition>
     <RemoveConstantLine>Remove Constant Line</RemoveConstantLine>
     <RemoveFilter>&amp;Remove Filter</RemoveFilter>
@@ -252,6 +262,40 @@
     <VerticalMinor>&amp;lt;b&amp;gt; Minor &amp;lt;/ b&amp;gt; &amp;lt;br&amp;gt; Ekran Dikey Kılavuz Çizgileri Küçük birimler &amp;lt;/ br için&amp;gt;</VerticalMinor>
     <VerticalNone>&amp;lt;b&amp;gt; Yok &amp;lt;/ b&amp;gt; &amp;lt;br&amp;gt; Dikey Kılavuz Çizgileri &amp;lt;/ br görüntüleme&amp;gt;</VerticalNone>
   </ChartRibbon>
+  <Cloud>
+    <AccountSettings>Hesap Ayarlari</AccountSettings>
+    <Cancel>Iptal Et</Cancel>
+    <Collection>Kolleksiyon</Collection>
+    <Create>Oluştur</Create>
+    <CreateNewCollection>Yeni Bir Kolleksiyon Oluştur</CreateNewCollection>
+    <DeleteFile>Dosyayi Sil</DeleteFile>
+    <labelCollectionName>Kolleksiyon Ismi:</labelCollectionName>
+    <labelFileName>Dosya Ismi:</labelFileName>
+    <labelPassword>Sifre:</labelPassword>
+    <labelUserName>Kullanıcı Ismi:</labelUserName>
+    <Login>Giriş</Login>
+    <Open>Ac</Open>
+    <OpenFile>Dosyayi Ac</OpenFile>
+    <OperationCreate>'{0}' Oluştur</OperationCreate>
+    <OperationDelete>'{0}' Sunucudan Sil</OperationDelete>
+    <OperationDownload>Sunucudan Indir</OperationDownload>
+    <OperationGetList>Sunucudaki Dosyasi Listesini Getir</OperationGetList>
+    <OperationLogin>Sunucuya Giriş Yap</OperationLogin>
+    <OperationRename>'{0}' dan '{1}'a Yeniden Isimlendir</OperationRename>
+    <OperationUpload>'{0}' Sunucuya Yükle</OperationUpload>
+    <page>Sayfa</page>
+    <questionOpenThisFile>'{0}' nesnesini acmak istediginizdne eminmisiniz?</questionOpenThisFile>
+    <questionOverrideItem>'{0}' nesnesini üzerine yazmak istediginizden eminmisiniz?</questionOverrideItem>
+    <questionRemoveItem>'{0}' nesnesini kaldirmak istediginizden eminmisiniz?</questionRemoveItem>
+    <RefreshList>Listeyi Güncelle</RefreshList>
+    <ReportDocumentFormatNotRecognized>Format of '{0}' item is not recognized as rendered report format!</ReportDocumentFormatNotRecognized>
+    <ReportTemplateFormatNotRecognized>Format of '{0}' item is not recognized as report template format!</ReportTemplateFormatNotRecognized>
+    <Root>Root</Root>
+    <Save>Kaydet</Save>
+    <SaveAccountSettings>Hesap Ayarlarini Kaydet</SaveAccountSettings>
+    <SaveFile>Dosyayi Kaydet</SaveFile>
+    <ShowAllFiles>Tüm Dosyalari Kaydet</ShowAllFiles>
+  </Cloud>
   <Components>
     <StiBarCode>Barkod</StiBarCode>
     <StiChart>Grafik</StiChart>
@@ -278,6 +322,7 @@
     <StiDataBand>Veri</StiDataBand>
     <StiEmptyBand>Boş veri</StiEmptyBand>
     <StiFooterBand>Footer</StiFooterBand>
+    <StiGauge>Gauge</StiGauge>
     <StiGroupFooterBand>Grup Footer</StiGroupFooterBand>
     <StiGroupHeaderBand>Grup Başlık</StiGroupHeaderBand>
     <StiHeaderBand>Header</StiHeaderBand>
@@ -313,29 +358,40 @@
     <DatabaseInformix>Informix Bağlantı</DatabaseInformix>
     <DatabaseMySQL>MySQL Bağlantısı</DatabaseMySQL>
     <DatabaseOdbc>ODBC bağlantısı</DatabaseOdbc>
-    <DatabaseOleDb>OLEDB Bağlantısı</DatabaseOleDb>
+    <DatabaseOleDb>OLE DB Bağlantısı</DatabaseOleDb>
     <DatabaseOracle>Oracle Bağlantısı</DatabaseOracle>
     <DatabaseOracleODP>Oracle ODP.NET  Bağlantısı</DatabaseOracleODP>
     <DatabasePostgreSQL>PostgreSQL Bağlantısı</DatabasePostgreSQL>
-    <DatabaseSql>Sql Bağlantısı</DatabaseSql>
+    <DatabaseSql>SQL Bağlantısı</DatabaseSql>
     <DatabaseSqlCe>SQLServerCE Bağlantısı</DatabaseSqlCe>
     <DatabaseSQLite>SQLite Bağlantısı</DatabaseSQLite>
     <DatabaseUniDirect>Uni Doğrudan Bağlantısı</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB Bağlantısı</DatabaseVistaDB>
-    <DatabaseXml>Xml Verisi</DatabaseXml>
+    <DatabaseXml>XML Verisi</DatabaseXml>
   </Database>
   <DesignerFx>
     <CompilingReport>Raporu Derliyor</CompilingReport>
     <Connecting>Sunucuya Bağlaniyor</Connecting>
+    <ConnectionError>Bağlantı Hatasi</ConnectionError>
+    <ConnectionSuccessfull>Bağlantı Basariliydi</ConnectionSuccessfull>
     <Continue>Devam</Continue>
     <DecryptionError>şifre çözme hatası: Yanlış şifre veya dosya bozuk.</DecryptionError>
     <ErrorCode>Kaydederken hata olustu. Hata kodu: {0}.</ErrorCode>
     <ErrorServer>Kaydederken hata olustu. Sunucu yanıt vermiyor.</ErrorServer>
+    <ExportingReport>Raporu Disari Aktariyor</ExportingReport>
+    <LoadingCode>Kodu Yüklüyor</LoadingCode>
     <LoadingConfiguration>Yükleme Yapılandırmasi</LoadingConfiguration>
+    <LoadingData>Veriyi Yüklüyor</LoadingData>
     <LoadingDocument>Belgeyi Yüklüyor</LoadingDocument>
     <LoadingImages>Resimler Yükleniyor</LoadingImages>
+    <LoadingLanguage>Dili Yüklüyor</LoadingLanguage>
     <LoadingReport>Raporu Yüklüyor</LoadingReport>
     <PreviewAs>{0} olarak önizle</PreviewAs>
+    <RetrieveError>Kolon Hatalarini Getiriyor</RetrieveError>
+    <RetrievingColumns>Kolonlari Geiriyor</RetrievingColumns>
+    <SavingConfiguration>Konfigürasyonu Kaydediyor</SavingConfiguration>
+    <SavingReport>Raporu Kaydediyor</SavingReport>
+    <TestConnection>Bağlantıyı Dene</TestConnection>
   </DesignerFx>
   <Dialogs>
     <StiButtonControl>Düğme</StiButtonControl>
@@ -384,6 +440,7 @@
     <SearchHiddenText>Gizli Metin</SearchHiddenText>
     <SearchUp>&amp;Araması</SearchUp>
     <SelectionOnly>&amp;Sadece Seçim</SelectionOnly>
+    <ShowAutoGeneratedCode>Otamatik Oluşturulan Kodu Göster</ShowAutoGeneratedCode>
     <ShowLineNumbers>Satır Numaralarıni GÖster</ShowLineNumbers>
     <StopOutlining>&amp;Anahat Durdur</StopOutlining>
     <titleFind>Bul</titleFind>
@@ -398,6 +455,7 @@
     <ContainerIsNotValidForComponent>Container {0} bileşeni için geçerli değil {1}.</ContainerIsNotValidForComponent>
     <DataNotFound>Veri bulunamadı.</DataNotFound>
     <Error>Hata!</Error>
+    <ErrorsList>Hata Listesi</ErrorsList>
     <FieldRequire>"{0}" alanın doldurulması gereklidir.</FieldRequire>
     <FileNotFound>"{0}" dosyasi bulunamadı.</FileNotFound>
     <IdentifierIsNotValid>Tanımlayıcı '{0}' geçerli değil.</IdentifierIsNotValid>
@@ -407,6 +465,7 @@
     <NotAssign>Veri Kaynağı Belirtilmez.</NotAssign>
     <NotCorrectFormat>Girilen String(Metin) doğru formatta degil.</NotCorrectFormat>
     <RelationsNotFound>İlişkiler Bulunamadı.</RelationsNotFound>
+    <ReportCannotBeSaveDueToErrors>Report cannot be saved due to errors!</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}' Servisi Bulunamadı.</ServiceNotFound>
   </Errors>
   <Export>
@@ -422,6 +481,7 @@
     <DotMatrixMode>Dot-Matrix Modu</DotMatrixMode>
     <EmbeddedFonts>Gömülü Fontlar</EmbeddedFonts>
     <Encoding>Kodlama:</Encoding>
+    <EscapeCodes>Kodlari Cikar</EscapeCodes>
     <ExportDataOnly>Yalnizca verileri dışarı aktar</ExportDataOnly>
     <ExportEachPageToSheet>Her sayfa için dışarı aktarım</ExportEachPageToSheet>
     <ExportingCalculatingCoordinates>Koordinatları Hesaplama</ExportingCalculatingCoordinates>
@@ -450,14 +510,14 @@
     <ExportTypePcxFile>PCX Resim...</ExportTypePcxFile>
     <ExportTypePdfFile>Adobe PDF dosyası...</ExportTypePdfFile>
     <ExportTypePngFile>PNG Resim ...</ExportTypePngFile>
-    <ExportTypePpt2007File>Microsoft PowerPoint 2007 Dosyası...</ExportTypePpt2007File>
+    <ExportTypePpt2007File>Microsoft PowerPoint Dosyası...</ExportTypePpt2007File>
     <ExportTypeRtfFile>Zengin Metin Dosyası...</ExportTypeRtfFile>
     <ExportTypeSvgFile>Scalable Vector Graphics (SVG) Dosyası...</ExportTypeSvgFile>
     <ExportTypeSvgzFile>Sıkıştırılmış SVG (SVGZ) Dosyası...</ExportTypeSvgzFile>
     <ExportTypeSylkFile>Sembolik link (SYLK) Dosyası...</ExportTypeSylkFile>
     <ExportTypeTiffFile>TIFF Resim ...</ExportTypeTiffFile>
     <ExportTypeTxtFile>Metin Dosyası...</ExportTypeTxtFile>
-    <ExportTypeWord2007File>Microsoft Word 2007 Dosyası...</ExportTypeWord2007File>
+    <ExportTypeWord2007File>Microsoft Word Dosyası...</ExportTypeWord2007File>
     <ExportTypeWriterFile>OpenDocument Writer Dosyası...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML Dosyası...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS Dosyası...</ExportTypeXpsFile>
@@ -497,6 +557,7 @@
     <TxtPutFeedPageCode>Feed Sayfa kodu koyun</TxtPutFeedPageCode>
     <UseDefaultSystemEncoding>Standart Kodlama Sistemi</UseDefaultSystemEncoding>
     <UseDigitalSignature>Kullanım Dijital İmza</UseDigitalSignature>
+    <UseEscapeCodes>Cikarimis Kodlari Kullan</UseEscapeCodes>
     <UseOnePageHeaderAndFooter>Bir Sayfa Üstbilgi ve Altbilgi Kullan</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>Sayfa Başlıkları ve Altlıkları Kullan</UsePageHeadersAndFooters>
     <UseUnicode>Unicode</UseUnicode>
@@ -520,7 +581,7 @@
     <EmfFiles>Metafile (*.emf)|*.emf</EmfFiles>
     <EncryptedDocumentFiles>Şifreli Belge Dosyaları(*.mdx)|*.mdx</EncryptedDocumentFiles>
     <EncryptedReportFiles>Şifrelenmiş Rapor Dosyaları (*.mrx)|*.mrx</EncryptedReportFiles>
-    <Excel2007Files>Microsoft Excel 2007 dosyalarını (*.xlsx)|*.xlsx</Excel2007Files>
+    <Excel2007Files>Microsoft Excel 2007/2013 dosyalarını (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelFiles>Microsoft Excel dosyaları (*.xls)| *.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML dosyaları (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>EXE dosyaları (*.exe)|*.exe</ExeFiles>
@@ -529,6 +590,7 @@
     <InheritedLanguageFiles>{0} kalıtsal raporlar için (* dosyaları. {1}) | *. {2}</InheritedLanguageFiles>
     <JpegFiles>JPEG Dosyaları (*.jpeg)|*.jpeg</JpegFiles>
     <LanguageFiles>{0} Dosyalar (*. {1})|*.{2}</LanguageFiles>
+    <LanguageForSilverlightFiles>Silverlight raporlari icin {0} dosyalar (*.{1})|*.{2}</LanguageForSilverlightFiles>
     <MetaFiles>Meta Dosyalar</MetaFiles>
     <MhtFiles>MHT Web Arşivi Dosyaları (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Paketlenmis Belge Dosyaları (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -537,7 +599,7 @@
     <PcxFiles>PCX Dosyaları (*.pcx)|*.pcx</PcxFiles>
     <PdfFiles>Adobe PDF Dosyaları (*.pdf) |*.pdf</PdfFiles>
     <PngFiles>PNG Dosyaları (*.png)|*.png</PngFiles>
-    <Ppt2007Files>Microsoft PowerPoint 2007 Dosyaları (*. pptx)|*.pptx</Ppt2007Files>
+    <Ppt2007Files>Microsoft PowerPoint 2007/2013 Dosyaları (*. pptx)|*.pptx</Ppt2007Files>
     <ReportFiles>Rapor Dosyaları (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>RTF Dosyaları(*.rtf)|*.rtf</RtfFiles>
     <StandaloneReportFiles>Bağımsız Rapor Dosyaları (*.exe) |*.exe</StandaloneReportFiles>
@@ -547,7 +609,7 @@
     <SylkFiles>SYLK Dosyaları (*.slk)|*.slk</SylkFiles>
     <TiffFiles>TIFF Dosyaları (*.tiff)|*.tiff</TiffFiles>
     <TxtFiles>Metin (*.txt)|*.txt.</TxtFiles>
-    <Word2007Files>Microsoft Word 2007 Dosyaları (*.docx)|*.docx</Word2007Files>
+    <Word2007Files>Microsoft Word 2007/2013 Dosyaları (*.docx)|*.docx</Word2007Files>
     <WriterFiles>OpenDocument Writer Dosyaları(*.odt)|*.ODT</WriterFiles>
     <XmlFiles>XML Dosyaları (*.xml) | * xml</XmlFiles>
     <XpsFiles>Microsoft XPS Dosyaları (*.xps)|*.xps</XpsFiles>
@@ -650,8 +712,8 @@
     <NewConnection>{0} yeni bağlantısı</NewConnection>
     <OdbcEdit>ODBC bağlantısını Değiştir</OdbcEdit>
     <OdbcNew>ODBC bağlantısını Değiştir</OdbcNew>
-    <OleDbEdit>OLEDB Bağlantını Değiştir</OleDbEdit>
-    <OleDbNew>Yeni OLEDB Bağlantısı</OleDbNew>
+    <OleDbEdit>OLE DB Bağlantını Değiştir</OleDbEdit>
+    <OleDbNew>Yeni OLE DB Bağlantısı</OleDbNew>
     <OracleEdit>Oracle Bağlantısını Değiştir</OracleEdit>
     <OracleNew>Yeni Oracle Bağlantısı</OracleNew>
     <OracleODPEdit>Oracle bağlantısıni düzenle</OracleODPEdit>
@@ -675,6 +737,7 @@
     <XmlNew>Yeni XML Verisi</XmlNew>
   </FormDatabaseEdit>
   <FormDesigner>
+    <Others>Diğerleri</Others>
     <Code>Kod</Code>
     <ColumnsOne>Bir</ColumnsOne>
     <ColumnsThree>Üç</ColumnsThree>
@@ -725,6 +788,7 @@
     <DictionarySaveAs>Sözlüğü Farklı Kaydet...</DictionarySaveAs>
     <EditQuery>Sorguyu Değiştir</EditQuery>
     <ExecutedSQLStatementSuccessfully>SQL deyimi başarıyla  çalıstırıldı</ExecutedSQLStatementSuccessfully>
+    <ExpressionNew>Yeni Ifade</ExpressionNew>
     <GetColumnsFromAssembly>Sütunlari Assembly'den Al</GetColumnsFromAssembly>
     <ImportRelations>İlişkileri İçeri Aktar</ImportRelations>
     <MarkUsedItems>Kullanılmış Öğeleri İşaretle</MarkUsedItems>
@@ -745,6 +809,7 @@
     <Synchronize>Senkronize</Synchronize>
     <SynchronizeHint>Veri Deposu ve Sözlük içeriği ile senkronize içeriği</SynchronizeHint>
     <title>Sözlük Tasarımcısı</title>
+    <ValueNew>Yeni Deger</ValueNew>
     <VariableEdit>Değişkeni Değiştir</VariableEdit>
     <VariableNew>Yeni Değişken</VariableNew>
     <ViewData>Veri</ViewData>
@@ -790,12 +855,16 @@
   <FormGlobalizationEditor>
     <AddCulture>&amp;Kültür Ekle</AddCulture>
     <AutoLocalizeReportOnRun>Otamatik Localize Raporu Run</AutoLocalizeReportOnRun>
+    <GetCulture>Rapordan Kültür Ayarlarini Al</GetCulture>
+    <qnGetCulture>Gercekten rapordan kültür ayarlarini alarak ve su anki kültür ayarlarinin yerine kullanmak istermisiniz?</qnGetCulture>
+    <qnSetCulture>Rapor bilesenerine kültür ayarlarini ayarlamak istermisiniz?</qnSetCulture>
     <RemoveCulture>&amp;Kültür Kaldır</RemoveCulture>
+    <SetCulture>Kültür ayarlarini rapora ayarla.</SetCulture>
     <title>Küreselleştirme Editörü</title>
   </FormGlobalizationEditor>
   <FormOptions>
     <AutoSave>Otomatik Kaydet</AutoSave>
-    <AutoSaveReportToReportClass>Raporu C # veya Vb. Net dosyasi olarak otomatik kaydet.</AutoSaveReportToReportClass>
+    <AutoSaveReportToReportClass>Raporu C# veya VB.NET dosyasi olarak otomatik kaydet.</AutoSaveReportToReportClass>
     <Default>Standart</Default>
     <Drawing>Çizim</Drawing>
     <DrawMarkersWhenMoving>İşaretleyiciler taşırken ciz</DrawMarkersWhenMoving>
@@ -908,13 +977,19 @@
   </FormRichTextEditor>
   <FormStyleDesigner>
     <Add>Stil Ekle</Add>
+    <ApplyStyleCollectionToReportComponents>Apply Style Collection to Report Components</ApplyStyleCollectionToReportComponents>
+    <ApplyStyles>Stilleri Uygula</ApplyStyles>
+    <CreateStyleCollection>Stil Kolleksiyonu Oluştur</CreateStyleCollection>
     <CreateStylesFromColor>Seçilen Renkden Bir Stil Oluştur</CreateStylesFromColor>
     <Duplicate>Yinelenen Stil</Duplicate>
     <GetStyle>Stili Seçilen Bileşenlerden Olustur</GetStyle>
     <Open>Açık Stil</Open>
+    <qnApplyStyleCollection>Rapor bilesenerine stil kolleksiyonunu uygulamak istermisiniz?</qnApplyStyleCollection>
     <Remove>Kaldır Stil</Remove>
+    <RemoveExistingStyles>Var olan stilleri kaldir</RemoveExistingStyles>
     <Save>Kaydetmek Stil</Save>
     <Style>Stil</Style>
+    <StyleCollectionsNotFound>Stil Kolleksiyonllari Bulunamadi!</StyleCollectionsNotFound>
     <title>Stil Tasarımcısı</title>
   </FormStyleDesigner>
   <FormSystemTextEditor>
@@ -933,6 +1008,7 @@
     <SummaryRunningByReport>Rapor</SummaryRunningByReport>
   </FormSystemTextEditor>
   <FormTitles>
+    <ChartWizardForm>Grafik Büyücüsü</ChartWizardForm>
     <ConditionEditorForm>Durum</ConditionEditorForm>
     <ConnectionSelectForm>Bağlantı Tipi Seçin</ConnectionSelectForm>
     <ContainerSelectForm>Konteyner Seçin</ContainerSelectForm>
@@ -986,6 +1062,7 @@
     <PageViewModeContinuous>Sürekli</PageViewModeContinuous>
     <PageViewModeMultiplePages>Birden Fazla Sayfa</PageViewModeMultiplePages>
     <PageViewModeSinglePage>Tek Sayfa</PageViewModeSinglePage>
+    <Parameters>Parametreler</Parameters>
     <PrevPage>Önceki Sayfa</PrevPage>
     <Print>Yazdır...</Print>
     <qnPageDelete>Sayfayı silmek istiyormusunuz?</qnPageDelete>
@@ -1090,6 +1167,8 @@
     <mdisystt_close>Kapat</mdisystt_close>
     <mdisystt_minimize>Küçült</mdisystt_minimize>
     <mdisystt_restore>Geri</mdisystt_restore>
+    <monthcalendar_clearbutton>Temizle</monthcalendar_clearbutton>
+    <monthcalendar_todaybutton>Bugün</monthcalendar_todaybutton>
     <navbar_navpaneoptions>&amp;Gezinti Bölmesi Seçenekler...</navbar_navpaneoptions>
     <navbar_showfewerbuttons>&amp;Daha az Düğmeler</navbar_showfewerbuttons>
     <navbar_showmorebuttons>&amp;Daha cok Dügmeler</navbar_showmorebuttons>
@@ -1314,6 +1393,7 @@
     <PageNext>Bir raporun bir sonraki sayfaya gidin.</PageNext>
     <PagePrevious>Bir raporun önceki sayfaya gidin.</PagePrevious>
     <PageSize>Bir raporda sayfa parametreleri değiştirin.</PageSize>
+    <Parameters>Rapor islernirken kullanilan paramtreler panelini gösteriyor.</Parameters>
     <Print>Bir raporu yazdırın.</Print>
     <Save>Daha fazla kullanim için raporu kaydedin.</Save>
     <SendEMail>E-posta aracılığıyla raporu gönderin.</SendEMail>
@@ -1378,11 +1458,15 @@
     <menuFilePageSaveAs>Kaydet Sayfası Olarak...</menuFilePageSaveAs>
     <menuFilePageSetup>Sayfa Yapısı...</menuFilePageSetup>
     <menuFileRecentDocuments>Son Belgeler</menuFileRecentDocuments>
+    <menuFileRecentLocations>En son lokasyonlar</menuFileRecentLocations>
     <menuFileReportNew>&amp;Yeni Rapor...</menuFileReportNew>
     <menuFileReportOpen>&amp;Rapor Aç...</menuFileReportOpen>
+    <menuFileReportOpenFromGoogleDocs>Raporu  Google Dökümanlardan Ac...</menuFileReportOpenFromGoogleDocs>
     <menuFileReportPreview>&amp;Önizleme</menuFileReportPreview>
     <menuFileReportSave>&amp;Raporu Kaydet</menuFileReportSave>
+    <menuFileSave>&amp;Kaydet...</menuFileSave>
     <menuFileReportSaveAs>&amp;Raporu Farkli Kaydet...</menuFileReportSaveAs>
+    <menuFileReportSaveAsToGoogleDocs>Raporu Google Dökümanlara Kayset...</menuFileReportSaveAsToGoogleDocs>
     <menuFileReportSetup>&amp;Rapor Kur...</menuFileReportSetup>
     <menuFileReportWizardNew>&amp;Yeni Rapor Sihirbazı ile...</menuFileReportWizardNew>
     <menuFileSaveAs>Farklı kaydet...</menuFileSaveAs>
@@ -1442,6 +1526,10 @@
     <StiLoadPasswordForm>Belgeyi şifrele</StiLoadPasswordForm>
     <StiSavePasswordForm>Şifre</StiSavePasswordForm>
   </Password>
+  <PlacementComponent>
+    <MoveLeftFreeSpace>Moves a component to the left side of a free space, increasing the height of the component to the height of free space.</MoveLeftFreeSpace>
+    <MoveRightFreeSpace>Moves a component to the right side of a free space, increasing the height of the component to the height of free space.</MoveRightFreeSpace>
+  </PlacementComponent>
   <PropertyCategory>
     <AppearanceCategory>Görünüm</AppearanceCategory>
     <ArgumentCategory>Argüman</ArgumentCategory>
@@ -1488,6 +1576,7 @@
     <ValueCategory>Değer</ValueCategory>
     <ValueEndCategory>Değer Bitiş</ValueEndCategory>
     <ValueEventsCategory>Etkinlik Değerleri</ValueEventsCategory>
+    <WeightCategory>Ağırlık</WeightCategory>
     <WinControlCategory>Win Control</WinControlCategory>
     <ZipCodeCategory>Posta Kodu</ZipCodeCategory>
   </PropertyCategory>
@@ -1708,6 +1797,9 @@
     <StiAngleAngle270>270 Derece</StiAngleAngle270>
     <StiAngleAngle45>45 Derece</StiAngleAngle45>
     <StiAngleAngle90>90 Derece</StiAngleAngle90>
+    <StiArrowStyleArc>Kavis</StiArrowStyleArc>
+    <StiArrowStyleArcAndCircle>Kavis ve Çember</StiArrowStyleArcAndCircle>
+    <StiArrowStyleCircle>Çember</StiArrowStyleCircle>
     <StiArrowStyleLines>Lines</StiArrowStyleLines>
     <StiArrowStyleNone>Hiçbiri</StiArrowStyleNone>
     <StiArrowStyleTriangle>Üçgen</StiArrowStyleTriangle>
@@ -1756,12 +1848,17 @@
     <StiCode11CheckSumNone>Hiçbiri</StiCode11CheckSumNone>
     <StiCode11CheckSumOneDigit>Bir Rakam</StiCode11CheckSumOneDigit>
     <StiCode11CheckSumTwoDigits>İki Rakam</StiCode11CheckSumTwoDigits>
+    <StiColorScaleTypeColor2>2-Renk Ölçek</StiColorScaleTypeColor2>
+    <StiColorScaleTypeColor3>3-Renk Ölçek</StiColorScaleTypeColor3>
     <StiColumnDirectionAcrossThenDown>Çapraz Sonra Aşağı</StiColumnDirectionAcrossThenDown>
     <StiColumnDirectionDownThenAcross>Aşağı Sonra Çapraz</StiColumnDirectionDownThenAcross>
     <StiCrossHorAlignmentCenter>Merkezi</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Sol</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>Hiçbiri</StiCrossHorAlignmentNone>
     <StiCrossHorAlignmentRight>Sağ</StiCrossHorAlignmentRight>
+    <StiDateTimeTypeDate>Tarih</StiDateTimeTypeDate>
+    <StiDateTimeTypeDateAndTime>Tarih ve Zaman</StiDateTimeTypeDateAndTime>
+    <StiDateTimeTypeTime>Zaman</StiDateTimeTypeTime>
     <StiDockStyleBottom>Alt</StiDockStyleBottom>
     <StiDockStyleFill>Doldur</StiDockStyleFill>
     <StiDockStyleLeft>Sol</StiDockStyleLeft>
@@ -1793,6 +1890,8 @@
     <StiFilterDataTypeExpression>Ifade</StiFilterDataTypeExpression>
     <StiFilterDataTypeNumeric>Sayısal</StiFilterDataTypeNumeric>
     <StiFilterDataTypeString>String</StiFilterDataTypeString>
+    <StiFilterEngineReportEngine>Rapor Makinasi</StiFilterEngineReportEngine>
+    <StiFilterEngineSQLQuery>SQL Sorgusu</StiFilterEngineSQLQuery>
     <StiFilterItemArgument>Argüman</StiFilterItemArgument>
     <StiFilterItemExpression>Ifade</StiFilterItemExpression>
     <StiFilterItemValue>Değer</StiFilterItemValue>
@@ -1846,6 +1945,9 @@
     <StiMarkerTypeStar6>Star 6</StiMarkerTypeStar6>
     <StiMarkerTypeStar7>Star 7</StiMarkerTypeStar7>
     <StiMarkerTypeTriangle>Üçgen</StiMarkerTypeTriangle>
+    <StiNestedFactorHigh>Yüksek</StiNestedFactorHigh>
+    <StiNestedFactorLow>Düşük</StiNestedFactorLow>
+    <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>Çift Pass</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Tek Pass</StiNumberOfPassSinglePass>
     <StiOrientationHorizontal>Yatay</StiOrientationHorizontal>
@@ -1886,6 +1988,8 @@
     <StiProcessingDuplicatesTypeMerge>Birleştir</StiProcessingDuplicatesTypeMerge>
     <StiProcessingDuplicatesTypeNone>Hiçbiri</StiProcessingDuplicatesTypeNone>
     <StiProcessingDuplicatesTypeRemoveText>Metini Kaldır</StiProcessingDuplicatesTypeRemoveText>
+    <StiRadarStyleXFCircle>Çember</StiRadarStyleXFCircle>
+    <StiRadarStyleXFPolygon>Poligon</StiRadarStyleXFPolygon>
     <StiReportCacheModeAuto>Otamatik</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Kapalı</StiReportCacheModeOff>
     <StiReportCacheModeOn>Üzerinde</StiReportCacheModeOn>
@@ -1906,6 +2010,7 @@
     <StiSeriesLabelsValueTypeSeriesTitle>Serisi Adı</StiSeriesLabelsValueTypeSeriesTitle>
     <StiSeriesLabelsValueTypeSeriesTitleArgument>Seri Başliği - Argüman</StiSeriesLabelsValueTypeSeriesTitleArgument>
     <StiSeriesLabelsValueTypeSeriesTitleValue>Seri Başliği - Değer</StiSeriesLabelsValueTypeSeriesTitleValue>
+    <StiSeriesLabelsValueTypeTag>Etiket</StiSeriesLabelsValueTypeTag>
     <StiSeriesLabelsValueTypeValue>Değer</StiSeriesLabelsValueTypeValue>
     <StiSeriesLabelsValueTypeValueArgument>Değer - Argüman</StiSeriesLabelsValueTypeValueArgument>
     <StiSeriesSortDirectionAscending>Yukarıdan Aşağıya</StiSeriesSortDirectionAscending>
@@ -1936,6 +2041,15 @@
     <StiSortTypeByValue>Değeri</StiSortTypeByValue>
     <StiSqlSourceTypeStoredProcedure>Sakli Prosedür</StiSqlSourceTypeStoredProcedure>
     <StiSqlSourceTypeTable>Tablo</StiSqlSourceTypeTable>
+    <StiStyleComponentTypeChart>Grafik</StiStyleComponentTypeChart>
+    <StiStyleComponentTypeCrossTab>Çapraz</StiStyleComponentTypeCrossTab>
+    <StiStyleComponentTypeImage>Resim</StiStyleComponentTypeImage>
+    <StiStyleComponentTypePrimitive>Ilkel</StiStyleComponentTypePrimitive>
+    <StiStyleComponentTypeText>Metin</StiStyleComponentTypeText>
+    <StiStyleConditionTypeComponentName>Bilesen Ismi</StiStyleConditionTypeComponentName>
+    <StiStyleConditionTypeComponentType>Bilesen Tipi</StiStyleConditionTypeComponentType>
+    <StiStyleConditionTypeLocation>Lokasyon</StiStyleConditionTypeLocation>
+    <StiStyleConditionTypePlacement>Yerleske</StiStyleConditionTypePlacement>
     <StiSummaryValuesAllValues>Tüm Değerler</StiSummaryValuesAllValues>
     <StiSummaryValuesSkipNulls>Boş Değerleri Atla</StiSummaryValuesSkipNulls>
     <StiSummaryValuesSkipZerosAndNulls>Sıfırları ve Boş Değerleri Atla</StiSummaryValuesSkipZerosAndNulls>
@@ -1952,6 +2066,10 @@
     <StiTextQualityStandard>Standart</StiTextQualityStandard>
     <StiTextQualityTypographic>Tipografik</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg</StiTextQualityWysiwyg>
+    <StiTypeModeList>Liste</StiTypeModeList>
+    <StiTypeModeNullableValue>Sifir(Boş) Olabilen Deger</StiTypeModeNullableValue>
+    <StiTypeModeRange>Menzil</StiTypeModeRange>
+    <StiTypeModeValue>Deger</StiTypeModeValue>
     <StiVertAlignmentBottom>Alt</StiVertAlignmentBottom>
     <StiVertAlignmentCenter>Merkez</StiVertAlignmentCenter>
     <StiVertAlignmentTop>Üst</StiVertAlignmentTop>
@@ -1992,7 +2110,7 @@
     <GetArgumentEvent>Argüman Alma</GetArgumentEvent>
     <GetBookmarkEvent>Imi Alma</GetBookmarkEvent>
     <GetCrossValueEvent>Çapraz Değeri Alma</GetCrossValueEvent>
-    <GetCuttedPieListEvent>Kesik Pasta Listesi</GetCuttedPieListEvent>
+    <GetCutPieListEvent>Kesik Pasta Listesi</GetCutPieListEvent>
     <GetDisplayCrossValueEvent>Ekran Çapraz Değer Alma</GetDisplayCrossValueEvent>
     <GetDrillDownReportEvent>Olsun DrillDown Raporu</GetDrillDownReportEvent>
     <GetExcelSheetEvent>Excel Sheet Alma</GetExcelSheetEvent>
@@ -2001,11 +2119,20 @@
     <GetImageDataEvent>Veri Görüntü Alma</GetImageDataEvent>
     <GetImageURLEvent>Resim URL'den Alma</GetImageURLEvent>
     <GetListOfArgumentsEvent>Argüman listesi Alma</GetListOfArgumentsEvent>
+    <GetListOfHyperlinksEvent>Hyperlinklerin Listesini Getir</GetListOfHyperlinksEvent>
+    <GetListOfTagsEvent>Etiketlerin Listesini Getir</GetListOfTagsEvent>
+    <GetListOfToolTipsEvent>Önbilgi Listesini Getir</GetListOfToolTipsEvent>
+    <GetListOfValuesEndEvent>Get List of Values End</GetListOfValuesEndEvent>
     <GetListOfValuesEvent>Değerler Listesi al</GetListOfValuesEvent>
+    <GetListOfWeights>Ağırlıklarin Listesini Getir</GetListOfWeights>
+    <GetListOfWeightsEvent>Ağırlıklarin Listesini Getir</GetListOfWeightsEvent>
+    <GetSummaryExpressionEvent>Özet Ifadeyi Getir</GetSummaryExpressionEvent>
     <GetTagEvent>Tag Alma</GetTagEvent>
     <GetTitleEvent>Başlığı Alma</GetTitleEvent>
     <GetToolTipEvent>Aracı İpucu Alma</GetToolTipEvent>
+    <GetValueEndEvent>Deger Sonunu Getir</GetValueEndEvent>
     <GetValueEvent>Değer Alma</GetValueEvent>
+    <GetWeightEvent>Agirligi Getir</GetWeightEvent>
     <LeaveEvent>Ayrılma</LeaveEvent>
     <LoadFormEvent>Formdan Yükle</LoadFormEvent>
     <MouseDownEvent>Fare Aşaği</MouseDownEvent>
@@ -2095,10 +2222,14 @@
     <AllowHtmlTags>Html Etiketler kullanmasina izin ver</AllowHtmlTags>
     <AllowSorting>Sıralamaya izin ver</AllowSorting>
     <AllowUseBorder>Sınır kullanmasina izin ver</AllowUseBorder>
+    <AllowUseBorderFormatting>Kenar Formatlamasi Kullanimina Izin Ver</AllowUseBorderFormatting>
+    <AllowUseBorderSides>Kenarlarin Cevresini Kullanimina Izin Ver</AllowUseBorderSides>
+    <AllowUseBorderSidesFromLocation>Lokasyondan Kenarlarin Cevresini Kullanimina Izin Ver</AllowUseBorderSidesFromLocation>
     <AllowUseBrush>Fırça  kullanmasina izin ver</AllowUseBrush>
     <AllowUseFont>Font kullanmasina izin ver</AllowUseFont>
     <AllowUseHorAlignment>Izin kullanın Hor Hizalama</AllowUseHorAlignment>
     <AllowUseImage>Resim  kullanmasina izin ver</AllowUseImage>
+    <AllowUserValues> Kullanici Degerlerine Izin Ver</AllowUserValues>
     <AllowUseTextBrush>Metin Fırçası  kullanmasina izin ver</AllowUseTextBrush>
     <AllowUseTextOptions>Metin Seçenekler  kullanmasina izin ver</AllowUseTextOptions>
     <AllowUseVertAlignment>Vert Hizalamaya  kullanmasina izin ver</AllowUseVertAlignment>
@@ -2144,6 +2275,7 @@
     <CacheAllData>Tüm Verileri Önbellekle</CacheAllData>
     <CalcInvisible>Calc Görünmüyor</CalcInvisible>
     <CalculatedDataColumn>Hesaplanmış Veri Sütunu</CalculatedDataColumn>
+    <CalculationMode>Hesaplama Modu</CalculationMode>
     <CanBreak>Kırılabilir</CanBreak>
     <Cancel>İptal Et</Cancel>
     <CanGrow>Büyüyebilir</CanGrow>
@@ -2172,8 +2304,11 @@
     <CollapseGroupFooter>Grup Alt Kismini Daralt</CollapseGroupFooter>
     <CollapsingEnabled>Daraltmayi Etkinlestir</CollapsingEnabled>
     <Collate>Collate</Collate>
+    <CollectionName>Kolleksiyon Ismi</CollectionName>
     <Color>Renk</Color>
     <ColorEach>Her renk</ColorEach>
+    <ColorScaleCondition>Renk Ölçek Kondisyonu</ColorScaleCondition>
+    <ColorScaleType>Renk Ölçek Tipi</ColorScaleType>
     <Column>Sütun</Column>
     <ColumnCount>Sütun Sayısı</ColumnCount>
     <ColumnDirection>Sütun Yönü</ColumnDirection>
@@ -2200,10 +2335,11 @@
     <CreateFieldOnDoubleClick>Çift Tıklamada Alan Oluştur</CreateFieldOnDoubleClick>
     <CreateLabel>Etiket Oluştur</CreateLabel>
     <CustomFormat>Özel Format</CustomFormat>
-    <CuttedPieList>Kesilmiş Pasta(Pie) Listesi</CuttedPieList>
+    <CutPieList>Kesilmiş Pasta(Pie) Listesi</CutPieList>
     <Data>Veri</Data>
     <DataAdapter>Veri Adaptörü</DataAdapter>
     <DataAdapters>Veri Adaptörleri</DataAdapters>
+    <DataBarCondition>Veri Cubuğu şarti</DataBarCondition>
     <DataBindings>Veri Bağlama</DataBindings>
     <DataColumn>Veri Sütunu</DataColumn>
     <DataField>Veri Alanı</DataField>
@@ -2224,6 +2360,7 @@
     <DisplayValue>Ekran Değeri</DisplayValue>
     <Distance>Mesafe</Distance>
     <DistanceBetweenTabs>Mesafe Sekmeler Arasında</DistanceBetweenTabs>
+    <Dock>Yapistir(Doc)</Dock>
     <DockableTable>Kenetlenelebilinir Tablo</DockableTable>
     <DockStyle>Dock Stili</DockStyle>
     <DrawBorder>Kenar Çiz</DrawBorder>
@@ -2246,6 +2383,7 @@
     <Enabled>Etkin</Enabled>
     <EnableLog>Etkin değiştir</EnableLog>
     <EncodingType>Kodlama Tipi</EncodingType>
+    <EndCap>Başlık Sonu</EndCap>
     <EndColor>Renk Sonu</EndColor>
     <EngineVersion>Engine Sürümü</EngineVersion>
     <EnumeratorSeparator>Sayım memuru Ayırıcı</EnumeratorSeparator>
@@ -2259,6 +2397,7 @@
     <FieldIs>Alandır</FieldIs>
     <File>Dosya</File>
     <Filter>Filtre</Filter>
+    <FilterEngine>Filtre Makinasi</FilterEngine>
     <FilterOn>Filtre</FilterOn>
     <Filters>Filtreler</Filters>
     <FirstTabOffset>İlk Sekme Bitimi</FirstTabOffset>
@@ -2287,6 +2426,7 @@
     <Footers>Altbilgiler</Footers>
     <ForeColor>Ön Renk</ForeColor>
     <Format>Format</Format>
+    <From>den</From>
     <FullConvertExpression>Tam dönüştürme İfade</FullConvertExpression>
     <Function>Fonksiyon</Function>
     <Functions>Fonksiyonları</Functions>
@@ -2313,6 +2453,7 @@
     <Headers>Headers</Headers>
     <HeaderText>Header Metin</HeaderText>
     <Height>Yükseklik</Height>
+    <HideSeriesWithEmptyTitle>Bos Baslikli Serileri Sakla</HideSeriesWithEmptyTitle>
     <HideZeros>Sakla Sıfırlar</HideZeros>
     <High>Yüksek</High>
     <HighlightCondition>Highlight Durumu</HighlightCondition>
@@ -2321,6 +2462,10 @@
     <HotkeyPrefix>Hotkey Öneki</HotkeyPrefix>
     <HtmlTags>Html Etiketleri</HtmlTags>
     <Hyperlink>Hyperlink</Hyperlink>
+    <HyperlinkDataColumn>Hyperlink Veri Kolonu</HyperlinkDataColumn>
+    <Icon>Simge</Icon>
+    <IconSet>Simge Seti</IconSet>
+    <IconSetCondition>Simge Seti Kondisyonu</IconSetCondition>
     <Idents>Girintiler</Idents>
     <Image>Resim</Image>
     <ImageAlign>Resim Hızası</ImageAlign>
@@ -2337,6 +2482,7 @@
     <ImportRelations>İlişkileri İçeri Aktar</ImportRelations>
     <Increment>Artan</Increment>
     <Indent>Indent</Indent>
+    <InitBy>ile baslat</InitBy>
     <Insert>Ekle</Insert>
     <Interaction>Etkileşim</Interaction>
     <InterlacedBrush>Interlaced Fırçası</InterlacedBrush>
@@ -2356,7 +2502,9 @@
     <KeepHeaderTogether>Başlıği Birlikte Tut</KeepHeaderTogether>
     <KeepReportSummaryTogether>Rapor Özetini Birlikte Tut</KeepReportSummaryTogether>
     <KeepSubReportTogether>Alt Raporu Birlikte Tut</KeepSubReportTogether>
+    <Key>Anahtar</Key>
     <KeyDataColumn>Anahtar Veri Sütunu</KeyDataColumn>
+    <Keys>Anahtarlar</Keys>
     <LabelColor>Etiket Rengi</LabelColor>
     <Labels>Etiketler</Labels>
     <LabelsColor>Etiketler Renk</LabelsColor>
@@ -2378,7 +2526,12 @@
     <LineWidth>Line Genişlik</LineWidth>
     <Linked>Bağlantılı</Linked>
     <ListOfArguments>Argümanlar listesi</ListOfArguments>
+    <ListOfHyperlinks>Hyperlinklerin Listesi</ListOfHyperlinks>
+    <ListOfTags>Etiketlerin Listesi</ListOfTags>
+    <ListOfToolTips>Önbilgilerin Listesi</ListOfToolTips>
     <ListOfValues>Değerler Listesi</ListOfValues>
+    <ListOfValuesEnd>Deger Listesinin Sonu</ListOfValuesEnd>
+    <ListOfWeights>Ağırlıklarin Listesi</ListOfWeights>
     <Localizable>Tercüme Edilebilir</Localizable>
     <Location>Yer</Location>
     <Locked>Kilitli</Locked>
@@ -2404,6 +2557,7 @@
     <MaxWidth>Maksimum Genişlik</MaxWidth>
     <MergeDuplicates>Yinelemeler Birleştir</MergeDuplicates>
     <MergeHeaders>Başlıkları Birleştir</MergeHeaders>
+    <Mid>Mid</Mid>
     <MinDate>Minimum Tarih</MinDate>
     <MinHeight>Minimum Yükseklik</MinHeight>
     <Minimum>Minimum</Minimum>
@@ -2425,17 +2579,21 @@
     <NameInSource>Kaynak Adı</NameInSource>
     <NameParent>Parent(Ana) Adı</NameParent>
     <Namespaces>Namespace'ler</Namespaces>
+    <Negative>Eksi</Negative>
+    <NestedLevel>Ic Seviye</NestedLevel>
     <NewColumnAfter>Yeni Sütun sonra</NewColumnAfter>
     <NewColumnBefore>Yeni Sütun önce</NewColumnBefore>
     <NewPageAfter>Yeni Sayfa sonra</NewPageAfter>
     <NewPageBefore>Yeni Sayfa önce</NewPageBefore>
     <NextPage>Sonraki Sayfa</NextPage>
+    <NoIcon>Simge Yok</NoIcon>
     <NullText>Null(Boş) Metin</NullText>
     <NumberOfColumns>Sütun Sayısı</NumberOfColumns>
     <NumberOfCopies>Kopya sayısı</NumberOfCopies>
     <NumberOfPass>Number of Pass</NumberOfPass>
     <OddStyle>Tek Stil</OddStyle>
     <OnlyText>Sadece Metin</OnlyText>
+    <Operation>Operasyon</Operation>
     <Options>Seçenekler</Options>
     <Orientation>Oryantasyon</Orientation>
     <PageHeight>Sayfa Yükseklik</PageHeight>
@@ -2447,6 +2605,7 @@
     <PaperSourceOfOtherPages>Diğer Sayfaları Kağıt Kaynağı</PaperSourceOfOtherPages>
     <Parameter>Parametre</Parameter>
     <Parameters>Parametreler</Parameters>
+    <ParametersOrientation>Parametreler Yönelimi</ParametersOrientation>
     <ParentColumns>Ana Sütunlar</ParentColumns>
     <ParentSource>Parent Veri Kaynağı</ParentSource>
     <ParentValue>Parent Değer</ParentValue>
@@ -2455,6 +2614,7 @@
     <PlaceOnToolbox>Toolbox'a yerleştirin</PlaceOnToolbox>
     <PointAtCenter>Noktası Merkezi'nde</PointAtCenter>
     <Position>Pozisyon</Position>
+    <Positive>Arti</Positive>
     <PreferredColumnWidth>Tercih Sütun Genişliği</PreferredColumnWidth>
     <PreferredRowHeight>Tercih Satır Yüksekliği</PreferredRowHeight>
     <PreventIntersection>Kavşak önle</PreventIntersection>
@@ -2467,6 +2627,7 @@
     <PrintHeadersFootersFromPreviousPage>Önceki Sayfadaki Başlıkları ve Altbilgileri yazdir</PrintHeadersFootersFromPreviousPage>
     <PrintIfDetailEmpty>Çıkaracağız Boş Detay</PrintIfDetailEmpty>
     <PrintIfEmpty>Eğer boş ise yazdır</PrintIfEmpty>
+    <PrintIfParentDisabled>Ana Nesne Kapali Ise Yazdir</PrintIfParentDisabled>
     <PrintOn>Damgala</PrintOn>
     <PrintOnAllPages>Print Tüm Sayfalarında</PrintOnAllPages>
     <PrintOnEvenOddPages>Tek baskı bile Sayfalar</PrintOnEvenOddPages>
@@ -2474,7 +2635,10 @@
     <ProcessAtEnd>Sürecin Sonunda</ProcessAtEnd>
     <ProcessingDuplicates>Işleme Yinelemeler</ProcessingDuplicates>
     <ProductHomePage>Ürün Ana Sayfası</ProductHomePage>
+    <RadarStyle>Radar Stili</RadarStyle>
     <Range>Aralık</Range>
+    <RangeFrom>den</RangeFrom>
+    <RangeTo>ye</RangeTo>
     <Ratio>Oranı</Ratio>
     <ReadOnly>Read Only</ReadOnly>
     <ReconnectOnEachRow>Her satırda yeiden baglan</ReconnectOnEachRow>
@@ -2492,6 +2656,7 @@
     <ReportName>Rapor Adı</ReportName>
     <ReportUnit>Rapor Ünitesi</ReportUnit>
     <RequestFromUser>Kullanıcıdan Iste</RequestFromUser>
+    <RequestParameters>Istenilen Parametreler</RequestParameters>
     <ResetDataSource>Veri Kaynağı Sıfırla</ResetDataSource>
     <ResetPageNumber>Sayfa Numarasini Sıfırla</ResetPageNumber>
     <Resize>Resize</Resize>
@@ -2502,6 +2667,7 @@
     <Right>Sağ</Right>
     <RightSide>Sağ Taraf</RightSide>
     <RightToLeft>Sağdan Sola</RightToLeft>
+    <Rotation>Rotasyon</Rotation>
     <Round>Yuvarla</Round>
     <RowCount>Satır Sayısı</RowCount>
     <RowHeadersVisible>Satır başlıklarını görebilir</RowHeadersVisible>
@@ -2513,8 +2679,10 @@
     <SegmentPerWidth>Segment başına genişlik</SegmentPerWidth>
     <SelectedIndex>Seçilen İçindekiler</SelectedIndex>
     <SelectedItem>Seçilen Ürün</SelectedItem>
+    <SelectedKey>Secilmis Anahtar</SelectedKey>
     <SelectedValue>Seçilen Değer</SelectedValue>
     <SelectionBackColor>Geri Renk seçimi</SelectionBackColor>
+    <SelectionEnabled>Secim Olanakli</SelectionEnabled>
     <SelectionForeColor>Renk seçimi Fore</SelectionForeColor>
     <SelectionMode>Seçim Modu</SelectionMode>
     <Series>Seriler</Series>
@@ -2535,9 +2703,11 @@
     <ShowLabels>Etiketleri Göster</ShowLabels>
     <ShowLabelText>Label Metini Göster</ShowLabelText>
     <ShowMarker>Markeri Göster</ShowMarker>
+    <ShowNulls>Null Degerleri Göster</ShowNulls>
     <ShowOnZeroValues>Show sıfır değerlerini Doğum</ShowOnZeroValues>
     <ShowPercents>Yüzdeleri Göster</ShowPercents>
     <ShowQuietZoneIndicator>Show Sessiz Bölge Göstergesi</ShowQuietZoneIndicator>
+    <ShowScrollBar>Kaydirma çubugunu göster</ShowScrollBar>
     <ShowSeriesLabels>Etiket Serinsini Göster</ShowSeriesLabels>
     <ShowShadow>Gölgeyi Göster</ShowShadow>
     <ShowTotal>Toplami Göster</ShowTotal>
@@ -2565,6 +2735,7 @@
     <Spacing>Aralığı</Spacing>
     <SqlCommand>SQL komutunu</SqlCommand>
     <StartAngle>Başlangıc Açısı</StartAngle>
+    <StartCap>Etiket Baslat</StartCap>
     <StartColor>Renkli Başlat</StartColor>
     <StartFromZero>Sıfırdan başla</StartFromZero>
     <StartMode>Başlangıç Modu</StartMode>
@@ -2585,12 +2756,16 @@
     <Styles>Stiller</Styles>
     <SubReportPage>Alt Rapor SAyfasi</SubReportPage>
     <Summary>Özet</Summary>
+    <SummaryExpression>Özet Ifadesi</SummaryExpression>
+    <SummarySortDirection>Özet Rapor Yönü</SummarySortDirection>
+    <SummaryType>Özet Tipi</SummaryType>
     <SummaryValues>Özet Değerler</SummaryValues>
     <SupplementCode>Ek Kodu</SupplementCode>
     <SupplementType>Ek Tipi</SupplementType>
     <SystemVariable>Sistem Değişkeni</SystemVariable>
     <SystemVariables>Sistem Değişkenleri</SystemVariables>
     <Tag>Tag</Tag>
+    <TagDataColumn>Etiket Veri  Kolonu</TagDataColumn>
     <TagValue>Değer etiketi</TagValue>
     <Tension>Gerginlik</Tension>
     <Text>Metin</Text>
@@ -2607,11 +2782,15 @@
     <Title>Title</Title>
     <TitleBeforeHeader>Başlık(Header) Önce Başlık</TitleBeforeHeader>
     <TitleColor>Başlık Rengi</TitleColor>
+    <TitleDirection>Baslik Yönü</TitleDirection>
     <TitleFont>Başlık Yazısi</TitleFont>
     <TitleVisible>Görünür</TitleVisible>
+    <To>ye</To>
     <Today>Bugün</Today>
     <ToolTip>Araç ipucu</ToolTip>
+    <ToolTipDataColumn>Araç ipucu Veri Kolonu</ToolTipDataColumn>
     <Top>Üst</Top>
+    <Topmost>Her Zaman En Üst</Topmost>
     <TopSide>Yan top</TopSide>
     <Total>Toplam</Total>
     <Totals>Toplamları</Totals>
@@ -2635,6 +2814,9 @@
     <UseStyleOfSummaryInRowTotal>Satır Toplam Özeti Stili Kullan</UseStyleOfSummaryInRowTotal>
     <Value>Değer</Value>
     <ValueDataColumn>Değer Verisi Sütun</ValueDataColumn>
+    <ValueDataColumnEnd>Deger Veri Kolonu Sonu</ValueDataColumnEnd>
+    <ValueEnd>Deger Sonu</ValueEnd>
+    <Values>Degerler</Values>
     <ValueType>Değer Türü</ValueType>
     <ValueTypeSeparator>Değer Türü Ayırıcı</ValueTypeSeparator>
     <Variable>Değişken</Variable>
@@ -2645,6 +2827,8 @@
     <ViewMode>View Modu</ViewMode>
     <Visible>Görünür</Visible>
     <Watermark>Filigran</Watermark>
+    <Weight>Ağırlık</Weight>
+    <WeightDataColumn>Ağırlık Veri Kolonu</WeightDataColumn>
     <Width>Genislik</Width>
     <WindowState>Pencere Durumu</WindowState>
     <WordWrap>Sözcük Kaydır</WordWrap>
@@ -2753,6 +2937,10 @@
     <Views>Views</Views>
   </QueryBuilder>
   <Questions>
+    <qnConfiguration>Özellikler paneli icin konfigürasyon tipini secin.
+	Secilen konfigürasyon tipi gelistirici raporlari icin görülen özellikler ve onlarin kompleks olmasina dayanir.
+	Konfigürasyon tipi özellikleri panelinin içerik menüsünden her zaman degistirilebilinir.
+	</qnConfiguration>
     <qnDictionaryNew>Yeni bir sözlük oluşturmak ister misiniz?</qnDictionaryNew>
     <qnLanguageNew>Bu raporun dili değişti. Bu yeni bir rapor kod üretimine yol açacaktır. Yeni dil kaydetmek istediğinizden emin misiniz?.</qnLanguageNew>
     <qnPageDelete>Sayfayı silmek istiyor musunuz?</qnPageDelete>
@@ -2769,18 +2957,25 @@
   <Report>
     <Alphabetical>Alfabetik</Alphabetical>
     <Bands>Band'lar</Bands>
+    <Basic>Temel</Basic>
+    <BasicConfiguration>Basit(Temel) rapor tiplerni islemek icin kullanilan nesne özellikleri.</BasicConfiguration>
     <BusinessObjects>İş Nesneleri</BusinessObjects>
     <Categorized>Kategorize</Categorized>
     <Charts>Grafikler</Charts>
+    <ClickForMoreDetails>Daha fazla detay icin tiklayin</ClickForMoreDetails>
     <CollapseAll>Tümünü Daralt</CollapseAll>
+    <Collection>Kolleksiyon</Collection>
     <CompilingReport>Derleme Raporu</CompilingReport>
+    <Complete>Hepsi</Complete>
     <Components>Bileşenler</Components>
     <ConnectingToData>Veriye bağlaniyor</ConnectingToData>
+    <CopyOf>Copyala</CopyOf>
     <CreateNewReportPageForm>Yeni bir rapor olustur, bir sayfa ekle, bir form ekle.</CreateNewReportPageForm>
     <CreatingReport>Rapor Oluşturuluyor</CreatingReport>
     <CrossBands>Çapraz Band'lar</CrossBands>
     <Dialogs>Diyaloglar</Dialogs>
     <EditStyles>[Stili Düzenle]</EditStyles>
+    <Errors>Hatalar</Errors>
     <EventsTab>Etkinlikler Sekmesi</EventsTab>
     <ExpandAll>Tümünü Genişlet</ExpandAll>
     <FilterAnd>Ve</FilterAnd>
@@ -2788,11 +2983,14 @@
     <FinishingReport>Raporu Bitiriyor</FinishingReport>
     <FirstPass>İlk Pass</FirstPass>
     <GenerateNewCode>Yeni Kod Oluştur</GenerateNewCode>
+    <InfoMessage>{0} - {1} bulundu.</InfoMessage>
+    <InformationMessages>Bilgi Mesajlari</InformationMessages>
     <LabelAlias>Alias:</LabelAlias>
     <LabelAuthor>Olusturan:</LabelAuthor>
     <LabelBackground>Amaç:</LabelBackground>
     <LabelCategory>Kategori:</LabelCategory>
     <LabelCentimeters>Santimetre:</LabelCentimeters>
+    <LabelCollectionName>Kolleksiyon Ismi:</LabelCollectionName>
     <LabelColor>Renk:</LabelColor>
     <LabelCountData>Veri Sayısı:</LabelCountData>
     <LabelDataBand>Veri Bandı:</LabelDataBand>
@@ -2806,6 +3004,7 @@
     <LabelMillimeters>Milimetre:</LabelMillimeters>
     <LabelName>İsim:</LabelName>
     <LabelNameInSource>Kaynak Adı:</LabelNameInSource>
+    <LabelNestedLevel>Ic Seviye:</LabelNestedLevel>
     <LabelPassword>Şifre:</LabelPassword>
     <LabelPixels>Piksel:</LabelPixels>
     <LabelSystemVariable>Sistem Değişkeni:</LabelSystemVariable>
@@ -2821,6 +3020,8 @@
     <Office2010Back>Geri</Office2010Back>
     <PageNofM>Sayfa {0}/{1}</PageNofM>
     <PreparingReport>Rapor hazırlanniyor</PreparingReport>
+    <Professional>Profesyonel</Professional>
+    <ProfessionalConfiguration>Tüm nesne özellikleri.</ProfessionalConfiguration>
     <PropertiesTab>Sekme Özellikleri</PropertiesTab>
     <RangeAll>Hepsi</RangeAll>
     <RangeCurrentPage>Geçerli Sayfa</RangeCurrentPage>
@@ -2828,10 +3029,13 @@
     <RangePage>Sayfa Aralığı</RangePage>
     <RangePages>Sayfalar:</RangePages>
     <ReportChecker>Report Kontrolcüsü</ReportChecker>
+    <ReportRenderingMessages>Rapor İşleme Mesajlari</ReportRenderingMessages>
     <RestartDesigner>Rapor tasarımcısını yeniden bastlatmanız gerekiyor.</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>Raporu, sayfaları veya formları kaydet.</SaveReportPagesOrFormsFromReport>
     <SavingReport>Raporu Kaydet</SavingReport>
     <SecondPass>İkinci Geçiş</SecondPass>
+    <Standard>Standard</Standard>
+    <StandardConfiguration>Ana nesen özelikleri, az kullanilanlar haric.</StandardConfiguration>
     <StiEmptyBrush>Boş</StiEmptyBrush>
     <StiGlareBrush>Glare</StiGlareBrush>
     <StiGlassBrush>Cam</StiGlassBrush>
@@ -2844,6 +3048,10 @@
     <StyleNormal>Normal</StyleNormal>
     <StyleNote>Not</StyleNote>
     <StyleWarning>Uyarı</StyleWarning>
+    <Warnings>Uyarilar</Warnings>
+    <When>when {0} {1}</When>
+    <WhenAnd>when {0} {1} ve</WhenAnd>
+    <WhenValueIs>eger deger</WhenValueIs>
   </Report>
   <Services>
     <categoryContextTools>Context Araçları</categoryContextTools>
@@ -2860,13 +3068,16 @@
   </Services>
   <Shapes>
     <Arrow>Ok</Arrow>
+    <BasicShapes>Temel Şekiller</BasicShapes>
     <BentArrow>Eğri Ok</BentArrow>
+    <BlockArrows>Oklari Blokla</BlockArrows>
     <Chevron>Zikzak</Chevron>
     <ComplexArrow>Cok Parçalı Ok</ComplexArrow>
     <DiagonalDownLine>Köşegen Aşağı</DiagonalDownLine>
     <DiagonalUpLine>Köşegen Çizgi Yukarı</DiagonalUpLine>
     <Division>Bölme</Division>
     <Equal>Esit</Equal>
+    <EquationShapes>Şekiller Esitleyin</EquationShapes>
     <FlowchartCard>İş Akışı: Kart</FlowchartCard>
     <FlowchartCollate>İş Akışı: Collate</FlowchartCollate>
     <FlowchartDecision>İş Akışı: Karar</FlowchartDecision>
@@ -2876,16 +3087,20 @@
     <FlowchartSort>İş Akışı: Sırala</FlowchartSort>
     <Frame>Pencere</Frame>
     <HorizontalLine>Yatay Çizgi</HorizontalLine>
+    <InsertShapes>Şekil Ekleyin</InsertShapes>
     <LeftAndRightLine>Sol ve Sağ Çizgi</LeftAndRightLine>
+    <Lines>Cizgiler</Lines>
     <Minus>Eksi</Minus>
     <Multiply>Carpma</Multiply>
     <Oval>Oval</Oval>
     <Parallelogram>Paralel Kenar</Parallelogram>
     <Plus>Artı</Plus>
     <Rectangle>Dikdörtgen</Rectangle>
+    <Rectangles>Dikdörtgenler</Rectangles>
     <RegularPentagon>Düzenli: Pentagon</RegularPentagon>
     <RoundedRectangle>Yuvarlak Dikdörtgen</RoundedRectangle>
     <ServiceCategory>Şekiller</ServiceCategory>
+    <ShapeStyles>Şekil Stilleri</ShapeStyles>
     <SnipDiagonalSideCornerRectangle>Snip Diagonal Side Corner Rectangle</SnipDiagonalSideCornerRectangle>
     <SnipSameSideCornerRectangle>Snip Same Side Corner Rectangle</SnipSameSideCornerRectangle>
     <TopAndBottomLine>Üst ve Alt Çizgi</TopAndBottomLine>
@@ -3031,6 +3246,7 @@
     <OpenExistingReport>Mevcut Raporu Açın</OpenExistingReport>
     <Preview>Önizleme</Preview>
     <Reset>&amp;Sıfırla</Reset>
+    <Results>Sonuclar</Results>
     <SelectColumns>Sütunlar Seçin</SelectColumns>
     <Sort>Sırala</Sort>
     <StandardReport>Standart Rapor</StandardReport>

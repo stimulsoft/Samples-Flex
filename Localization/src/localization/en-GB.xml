@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Localization language="English" description="English" cultureName="en">
+<Localization language="English (UK)" description="English (UK)" cultureName="en-GB">
   <A_WebViewer>
     <AbbreviatedDayFriday>Fr</AbbreviatedDayFriday>
     <AbbreviatedDayMonday>Mo</AbbreviatedDayMonday>
@@ -9,6 +9,9 @@
     <AbbreviatedDayTuesday>Tu</AbbreviatedDayTuesday>
     <AbbreviatedDayWednesday>We</AbbreviatedDayWednesday>
     <Attachment>Attachment:</Attachment>
+    <ButtonNext>Next</ButtonNext>
+    <ButtonPrev>Previous</ButtonPrev>
+    <ButtonSend>Send</ButtonSend>
     <CategoryAlreadyExists>The category with that name already exists!</CategoryAlreadyExists>
     <DayFriday>Friday</DayFriday>
     <DayMonday>Monday</DayMonday>
@@ -21,6 +24,9 @@
     <EmailOptions>Email Options</EmailOptions>
     <FirstPage>First Page</FirstPage>
     <Hours>Hours</Hours>
+    <LabelFrom>From:</LabelFrom>
+    <LabelSelectExportFormat>Select the format to which you want to save the report:</LabelSelectExportFormat>
+    <LabelTo>To:</LabelTo>
     <LastPage>Last Page</LastPage>
     <Loading>Loading...</Loading>
     <Message>Message:</Message>
@@ -50,17 +56,11 @@
     <PrintWithPreview>Print with Preview</PrintWithPreview>
     <SaveReport>Save</SaveReport>
     <Subject>Subject:</Subject>
-    <TodayDate>Today</TodayDate>
-    <WholeReport>Whole Report</WholeReport>
-    <ButtonSend>Send</ButtonSend>
-    <LabelSelectExportFormat>Select the format to which you want to save the report:</LabelSelectExportFormat>
     <TabItemContacts>Contacts</TabItemContacts>
     <TextComputer>Computer</TextComputer>
-    <LabelTo>To:</LabelTo>
-    <LabelFrom>From:</LabelFrom>
-    <ButtonPrev>Previous</ButtonPrev>
-    <ButtonNext>Next</ButtonNext>
     <TextItemsRoot>Root</TextItemsRoot>
+    <TodayDate>Today</TodayDate>
+    <WholeReport>Whole Report</WholeReport>
   </A_WebViewer>
   <Adapters>
     <AdapterBusinessObjects>Data from Business Objects</AdapterBusinessObjects>
@@ -100,9 +100,7 @@
     <Down>Down</Down>
     <Duplicate>Duplicate</Duplicate>
     <Export>Export</Export>
-    <ShowMore>Show More</ShowMore>
     <Help>Help</Help>
-    <Home>Home</Home>
     <LoadDataSet>Load DataSet (*.data)</LoadDataSet>
     <MoveLeft>Move Left</MoveLeft>
     <MoveRight>Move Right</MoveRight>
@@ -119,6 +117,7 @@
     <Save>Save</Save>
     <SaveCopy>Save a Copy</SaveCopy>
     <SetAll>Set All</SetAll>
+    <ShowMore>Show More</ShowMore>
     <Submit>Submit</Submit>
     <Test>Test</Test>
     <Up>Up</Up>
@@ -137,15 +136,15 @@
     <AxisY>Axis Y</AxisY>
     <Bubble>Bubble</Bubble>
     <Candlestick>Candlestick</Candlestick>
-    <Common>Common</Common>
     <ChartConditionsCollectionForm>Conditions</ChartConditionsCollectionForm>
+    <ChartEditorForm>Chart Editor</ChartEditorForm>
     <ChartFiltersCollectionForm>Filters</ChartFiltersCollectionForm>
     <ChartType>Chart Type</ChartType>
     <CheckBoxAutoRotation>Auto Rotation</CheckBoxAutoRotation>
     <ClusteredBar>Clustered Bar</ClusteredBar>
     <ClusteredColumn>Clustered Column</ClusteredColumn>
+    <Common>Common</Common>
     <ConstantLine>Constant Line</ConstantLine>
-    <ChartEditorForm>Chart Editor</ChartEditorForm>
     <ConstantLinesEditorForm>Constant Lines Editor</ConstantLinesEditorForm>
     <DataColumns>Data Columns</DataColumns>
     <Doughnut>Doughnut</Doughnut>
@@ -175,7 +174,7 @@
     <LabelMinorCount>Minor Count:</LabelMinorCount>
     <LabelOpenValueDataColumn>Open Value Data Column:</LabelOpenValueDataColumn>
     <Labels>Labels</Labels>
-    <LabelsCenter>Center</LabelsCenter>
+    <LabelsCenter>Centre</LabelsCenter>
     <LabelSeriesName>Series Name:</LabelSeriesName>
     <LabelsInside>Inside</LabelsInside>
     <LabelsInsideBase>Inside Base</LabelsInsideBase>
@@ -223,7 +222,7 @@
     <ScatterLine>Scatter Line</ScatterLine>
     <ScatterSpline>Scatter Spline</ScatterSpline>
     <Series>Series</Series>
-    <SeriesColorsCollectionForm>Series Colors</SeriesColorsCollectionForm>
+    <SeriesColorsCollectionForm>Series Colours</SeriesColorsCollectionForm>
     <SeriesEditorForm>Series Editor</SeriesEditorForm>
     <Serieses>Series</Serieses>
     <Spline>Spline</Spline>
@@ -243,13 +242,6 @@
     <StripsEditorForm>Strips Editor Form</StripsEditorForm>
     <Style>Style</Style>
   </Chart>
-  <Gauge>
-    <GaugeEditorForm>Gauge Editor</GaugeEditorForm>
-    <Kind>Kind</Kind>
-    <AddNewItem>Add New Item</AddNewItem>
-    <RadialScale>Radial Scale</RadialScale>
-    <LinearScale>Linear Scale</LinearScale>
-  </Gauge>
   <ChartRibbon>
     <Axes>Axes</Axes>
     <AxesArrowStyle>Arrow Style</AxesArrowStyle>
@@ -271,12 +263,12 @@
     <AxesXTopAxis>X Top Axis</AxesXTopAxis>
     <AxesYAxis>Y Axis</AxesYAxis>
     <AxesYRightAxis>Y Right Axis</AxesYRightAxis>
-    <CenterLabels>Center</CenterLabels>
+    <CenterLabels>Centre</CenterLabels>
     <ChangeType>Change Type</ChangeType>
     <GridLines>Grid Lines</GridLines>
     <GridLinesHorizontal>Grid Lines Horizontal</GridLinesHorizontal>
     <GridLinesVertical>Grid Lines Vertical</GridLinesVertical>
-    <HorAlCenter>&lt;b&gt;Overlay Legend at Center&lt;/b&gt;&lt;br&gt;Show Legend at center of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</HorAlCenter>
+    <HorAlCenter>&lt;b&gt;Overlay Legend at Centre&lt;/b&gt;&lt;br&gt;Show Legend at centre of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</HorAlCenter>
     <HorAlLeft>&lt;b&gt;Overlay Legend at Left&lt;/b&gt;&lt;br&gt;Show Legend at left of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</HorAlLeft>
     <HorAlLeftOutside>&lt;b&gt;Show Legend at Left&lt;/b&gt;&lt;br&gt;Show Legend and align left&lt;/br&gt;</HorAlLeftOutside>
     <HorAlRight>&lt;b&gt;Overlay Legend at Right&lt;/b&gt;&lt;br&gt;Show Legend at right of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</HorAlRight>
@@ -309,7 +301,7 @@
     <TwoColumnsPieLabels>Two Columns</TwoColumnsPieLabels>
     <VertAlBottom>&lt;b&gt;Overlay Legend at Bottom&lt;/b&gt;&lt;br&gt;Show Legend at bottom of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</VertAlBottom>
     <VertAlBottomOutside>&lt;b&gt;Show Legend at Bottom&lt;/b&gt;&lt;br&gt;Show Legend and align bottom&lt;/br&gt;</VertAlBottomOutside>
-    <VertAlCenter>&lt;b&gt;Overlay Legend at Center&lt;/b&gt;&lt;br&gt;Show Legend at center of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</VertAlCenter>
+    <VertAlCenter>&lt;b&gt;Overlay Legend at Centre&lt;/b&gt;&lt;br&gt;Show Legend at centre of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</VertAlCenter>
     <VertAlTop>&lt;b&gt;Overlay Legend at Top&lt;/b&gt;&lt;br&gt;Show Legend at top of the chart&lt;/br&gt;&lt;br&gt;without resizing&lt;/br&gt;</VertAlTop>
     <VertAlTopOutside>&lt;b&gt;Show Legend at Top&lt;/b&gt;&lt;br&gt;Show Legend and align top&lt;/br&gt;</VertAlTopOutside>
     <VerticalMajor>&lt;b&gt;Major&lt;/b&gt;&lt;br&gt;Display Vertical Gridlines for Major units&lt;/br&gt;</VerticalMajor>
@@ -319,73 +311,23 @@
   </ChartRibbon>
   <Cloud>
     <AccountSettings>Account Settings</AccountSettings>
-    <ButtonChangePassword>Change Password</ButtonChangePassword>
-    <ButtonDeleteAll>Delete All</ButtonDeleteAll>
-    <ButtonDesign>Design Report</ButtonDesign>
-    <ButtonLogout>Logout</ButtonLogout>
-    <ButtonPublish>Publish</ButtonPublish>
-    <ButtonRecover>Recover</ButtonRecover>
-	<ButtonRenew>Renew</ButtonRenew>
-    <ButtonResendEmail>Resend Email</ButtonResendEmail>
-    <ButtonResetPassword>Reset Password</ButtonResetPassword>
-    <ButtonRun>Run</ButtonRun>
-    <ButtonShare>Share</ButtonShare>
-    <ButtonSignUp>Sign Up</ButtonSignUp>
-    <ButtonSkip>Skip</ButtonSkip>
-    <ButtonView>View</ButtonView>
-    <ButtonWhereUsed>Where it is used?</ButtonWhereUsed>
     <Cancel>Cancel</Cancel>
-    <CheckBoxMoveToRecycleBin>Move to Recycle Bin</CheckBoxMoveToRecycleBin>
-    <CheckBoxRememberMe>Remember Me</CheckBoxRememberMe>
     <Collection>Collection</Collection>
     <Create>Create</Create>
-    <CreateError>Error while creating report!</CreateError>
     <CreateNewCollection>Create New Collection</CreateNewCollection>
-    <CreatingReport>Creating report...</CreatingReport>
     <DeleteFile>Delete File</DeleteFile>
-    <ExecutionError>Execution error</ExecutionError>
-    <FolderWindowTitleEdit>Edit Folder</FolderWindowTitleEdit>
-    <FolderWindowTitleNew>New Folder</FolderWindowTitleNew>
-	<ForExample>For example</ForExample>
-	<FileStorageWindowTitleEdit>Edit File Storage</FileStorageWindowTitleEdit>
-    <FileStorageWindowTitleNew>New File Storage</FileStorageWindowTitleNew>
-    <GroupBoxAttachedItems>Attached Items</GroupBoxAttachedItems>
-    <HyperlinkAgreeToTerms>By registering you agree to Terms.</HyperlinkAgreeToTerms>
-    <HyperlinkAlreadyHaveAccount>Already have account</HyperlinkAlreadyHaveAccount>
-    <HyperlinkForgotPassword>Forgot password</HyperlinkForgotPassword>
-    <HyperlinkHavePassword>Have password</HyperlinkHavePassword>
-    <HyperlinkRegisterAccount>Register new account</HyperlinkRegisterAccount>
     <labelCollectionName>Collection Name:</labelCollectionName>
-    <LabelCreated>Created:</LabelCreated>
-    <LabelCreateFolder>Creating a new category in which you can place other items.</LabelCreateFolder>
-    <LabelCreateReportTemplate>Create report template.</LabelCreateReportTemplate>
-    <LabelCurrentPassword>Current Password:</LabelCurrentPassword>
-    <LabelDataFile>Data File:</LabelDataFile>
-    <LabelDataUrl>Data URL:</LabelDataUrl>
     <labelFileName>File Name:</labelFileName>
-    <LabelForeground>Foreground:</LabelForeground>
-    <LabelFromReport>From Report</LabelFromReport>
-    <LabelFromReportCode>From Report (define in code)</LabelFromReportCode>
-    <LabelLastLogin>Last Login:</LabelLastLogin>
-    <LabelLastTime>Last Time:</LabelLastTime>
-    <LabelModified>Modified:</LabelModified>
-    <LabelNewPassword>New Password:</LabelNewPassword>
-    <LabelNextTime>Next Time:</LabelNextTime>
     <labelPassword>Password:</labelPassword>
-    <LabelPermission>Permission:</LabelPermission>
-    <LabelRenderedReport>Rendered report</LabelRenderedReport>
-    <LabelResponseAsFile>Response as File</LabelResponseAsFile>
-    <LabelSeparateReport>Separate report (and scripts) file</LabelSeparateReport>
-    <LabelShowReport>Show report:</LabelShowReport>
     <labelUserName>User Name:</labelUserName>
-    <Login>Login</Login>
+    <Login>Log In</Login>
     <Open>Open</Open>
     <OpenFile>Open File</OpenFile>
     <OperationCreate>Create '{0}'</OperationCreate>
     <OperationDelete>Delete '{0}' from Server</OperationDelete>
     <OperationDownload>Download from Server</OperationDownload>
     <OperationGetList>Get List of Files from Server</OperationGetList>
-    <OperationLogin>Login to Server</OperationLogin>
+    <OperationLogin>Log in to Server</OperationLogin>
     <OperationRename>Rename '{0}' to '{1}'</OperationRename>
     <OperationUpload>Upload '{0}' to Server</OperationUpload>
     <page>page</page>
@@ -395,249 +337,13 @@
     <RefreshList>Refresh List</RefreshList>
     <ReportDocumentFormatNotRecognized>Format of '{0}' item is not recognized as rendered report format!</ReportDocumentFormatNotRecognized>
     <ReportTemplateFormatNotRecognized>Format of '{0}' item is not recognized as report template format!</ReportTemplateFormatNotRecognized>
-    <RibbonButtonAddRole>Add Role</RibbonButtonAddRole>
-    <RibbonButtonAddUser>Add User</RibbonButtonAddUser>
-    <RibbonButtonAddWorkspace>Add Workspace</RibbonButtonAddWorkspace>
-    <RibbonButtonFolder>Folder</RibbonButtonFolder>
-    <RibbonTabUsers>Users</RibbonTabUsers>
     <Root>Root</Root>
-    <RootFolder>Root Folder</RootFolder>
     <Save>Save</Save>
     <SaveAccountSettings>Save Account Settings</SaveAccountSettings>
     <SaveFile>Save File</SaveFile>
-    <ShareWindowTitleNew>Share</ShareWindowTitleNew>
     <ShowAllFiles>Show All Files</ShowAllFiles>
-    <TabItemEmbedCode>Embed Code</TabItemEmbedCode>
-    <TabItemQRCode>QR Code</TabItemQRCode>    
-    <TabItemShare>Link to Share</TabItemShare>
-    <TextActivated>Activated</TextActivated>
-    <TextDelete>Delete</TextDelete>
-    <TextDeletingItems>Deleting items...</TextDeletingItems>
-    <TextFirstName>First Name</TextFirstName>
-    <TextFromTo>From {0} to {1} (Total - {2})</TextFromTo>
-    <TextItemsWorkspace>Workspace</TextItemsWorkspace>
-    <TextLastName>Last Name</TextLastName>
-    <TextModify>Modify</TextModify>
-    <TextNoNotifications>No Notifications</TextNoNotifications>
-    <TextProfile>Profile</TextProfile>
-    <TextReports>Reports</TextReports>
-    <TextRestoringItems>Restoring items...</TextRestoringItems>
-    <TextRole>Role</TextRole>
-    <TextRun>Run</TextRun>
-    <TextUser>User</TextUser>
-    <TextUserName>User Name (Email)</TextUserName>
-    <TimeHoursAgoFive>Five hours ago, {0:t}</TimeHoursAgoFive>
-    <TimeHoursAgoFour>Four hours ago, {0:t}</TimeHoursAgoFour>
-    <TimeHoursAgoOne>One hour ago, {0:t}</TimeHoursAgoOne>
-    <TimeHoursAgoThree>Three hours ago, {0:t}</TimeHoursAgoThree>
-    <TimeHoursAgoTwo>Two hours ago, {0:t}</TimeHoursAgoTwo>
-    <TimeMinutesAgoFive>Five minutes ago, {0:t}</TimeMinutesAgoFive>
-    <TimeMinutesAgoFour>Four minutes ago, {0:t}</TimeMinutesAgoFour>
-    <TimeMinutesAgoLessOne>Less than a minute ago</TimeMinutesAgoLessOne>
-    <TimeMinutesAgoN>{0} minutes ago, {1:t}</TimeMinutesAgoN>
-    <TimeMinutesAgoOne>One minute ago, {0:t}</TimeMinutesAgoOne>
-    <TimeMinutesAgoThree>Three minutes ago, {0:t}</TimeMinutesAgoThree>
-    <TimeMinutesAgoTwo>Two minutes ago, {0:t}</TimeMinutesAgoTwo>
-    <TimeToday>Today, {0:t}</TimeToday>
-    <TimeYesterday>Yesterday, {0:t}</TimeYesterday>
-    <ToolTipAddRole>Creating a new role in the workspace.</ToolTipAddRole>
-    <ToolTipAddUser>Creating a new user in the selected role.</ToolTipAddUser>
-    <ToolTipAspNet>Publish the selected report to the ASP.NET application.</ToolTipAspNet>
-    <ToolTipAspNetMvc>Publish the selected report to the ASP.NET MVC application.</ToolTipAspNetMvc>
-    <ToolTipCreate>Create a new item.</ToolTipCreate>
-    <ToolTipDelete>Delete the selected items.</ToolTipDelete>
-    <ToolTipDeleted>Show deleted items</ToolTipDeleted>
-    <ToolTipEdit>Edit the selected item.</ToolTipEdit>
-    <ToolTipGridMode>List view</ToolTipGridMode>
-    <ToolTipInfo>View details</ToolTipInfo>
-    <ToolTipJs>Publish the selected report as the HTML page</ToolTipJs>    
-    <ToolTipPublish>Prepare the selected report to be deployed in your application.</ToolTipPublish>
-    <ToolTipRecover>Recover the selected items.</ToolTipRecover>
-    <ToolTipRunWithoutPreview>Render the selected report without preview</ToolTipRunWithoutPreview>
-    <ToolTipShare>Share the selected file.</ToolTipShare>
-    <ToolTipSort>Sort options</ToolTipSort>
-    <ToolTipThumbnailMode>Grid View</ToolTipThumbnailMode>
-    <ToolTipViewFile>Show the selected file.</ToolTipViewFile>
-    <ToolTipViewReport>Show the selected report in the viewer.</ToolTipViewReport>
-    <WindowDescriptionDelete>Are you sure you want to delete the selected items?</WindowDescriptionDelete>
-    <WindowDescriptionRecover>Selected items will be recovered from the Recycle Bin.</WindowDescriptionRecover>
-    <WindowTitleDelete>Delete Items</WindowTitleDelete>
-    <WindowTitleForgotPassword>Forgot Password</WindowTitleForgotPassword>
-    <WindowTitleLogin>Login</WindowTitleLogin>
-    <WindowTitleRecover>Recover Items</WindowTitleRecover>
-    <WindowTitleRoleEdit>Edit Role</WindowTitleRoleEdit>
-    <WindowTitleRoleNew>New Role</WindowTitleRoleNew>
-    <WindowTitleSignUp>Sign Up</WindowTitleSignUp>
-    <WindowTitleUserEdit>Edit User</WindowTitleUserEdit>
-    <WindowTitleUserNew>New User</WindowTitleUserNew>
-    <WindowTitleWorkspaceEdit>Edit Workspace</WindowTitleWorkspaceEdit>
-    <WindowTitleWorkspaceNew>New Workspace</WindowTitleWorkspaceNew>
-    <WizardBlankReportDescription>Create Blank Report</WizardBlankReportDescription>
-    <WizardExcelDescription>Create report with Excel data.</WizardExcelDescription>
-    <WizardJsonDescription>Create report with Json data.</WizardJsonDescription>
-    <WizardPrivateShare>No Access</WizardPrivateShare>
-    <WizardPrivateShareDescription>External access to the item is restricted.</WizardPrivateShareDescription>
-    <WizardPublicShare>Public Access</WizardPublicShare>
-    <WizardPublicShareDescription>External access for any unauthorized user.</WizardPublicShareDescription>
-    <WizardRegisteredShare>Authorized Access</WizardRegisteredShare>
-    <WizardRegisteredShareDescription>External access only for registered users from any workspace.</WizardRegisteredShareDescription>
-    <WizardXmlDescription>Create report with Xml data.</WizardXmlDescription>
+    <WindowTitleLogin>Log In</WindowTitleLogin>
   </Cloud>
-  <Permissions>
-    <AdminAPI>API</AdminAPI>
-    <AdminBackgroundTasks>Background Tasks</AdminBackgroundTasks>
-    <AdminPermissions>Permissions</AdminPermissions>
-    <AdminRecycleBin>Recycle Bin</AdminRecycleBin>
-    <AdminShare>Share</AdminShare>
-    <AdminTransfers>Transfers</AdminTransfers>
-    <ItemCalendars>Calendars</ItemCalendars>
-    <ItemCloudStorages>Cloud Storages</ItemCloudStorages>
-    <ItemContactLists>Contact Lists</ItemContactLists>
-    <ItemDashboards>Dashboards</ItemDashboards>
-    <ItemDataSources>Data Sources</ItemDataSources>
-    <ItemFiles>Files</ItemFiles>
-    <ItemFolders>Folders</ItemFolders>
-    <ItemReportSnapshots>Report Snapshots</ItemReportSnapshots>
-    <ItemReportTemplates>Report Templates</ItemReportTemplates>
-    <ItemSchedulers>Schedulers</ItemSchedulers>
-    <ReportDesignerBusinessObjects>Business Objects</ReportDesignerBusinessObjects>
-    <ReportDesignerDataConnections>Data Connections</ReportDesignerDataConnections>
-    <ReportDesignerDataColumns>Data Columns</ReportDesignerDataColumns>
-    <ReportDesignerDataRelations>Data Relations</ReportDesignerDataRelations>
-    <ReportDesignerDataSources>Data Sources</ReportDesignerDataSources>
-    <ReportDesignerDictionaryActions>Dictionary Actions</ReportDesignerDictionaryActions>
-    <ReportDesignerRestrictions>Restrictions</ReportDesignerRestrictions>
-    <ReportDesignerVariables>Variables</ReportDesignerVariables>
-    <SystemBackupRestore>Backup &amp; Restore</SystemBackupRestore>
-    <SystemEmailTemplates>Email Templates</SystemEmailTemplates>
-    <SystemLicensing>Licensing</SystemLicensing>
-    <SystemMonitoring>Monitoring</SystemMonitoring>
-    <SystemUpdate>Update</SystemUpdate>
-    <SystemWorkspaces>Workspaces</SystemWorkspaces>
-    <TextAdministration>Administration</TextAdministration>
-    <TextReportDesigner>Report Designer</TextReportDesigner>
-    <TextItems>Items</TextItems>
-    <TextSystem>System</TextSystem>
-    <TextUsers>Users</TextUsers>
-    <Users>Users</Users>
-    <UserHimself>Himself</UserHimself>
-    <UserRoles>Roles</UserRoles>
-    <UserWorkspace>Workspace</UserWorkspace>
-  </Permissions>
-  <Messages>
-    <MessageTimeOutExpired>Command timeout has expired!</MessageTimeOutExpired>
-    <TextRegistrationSuccessfully>Registration successfully!
-
-The Email was sent to "{0}".
-It contains a link to confirm your registration. To complete the registration please follow the link from the email you received.</TextRegistrationSuccessfully>
-    <ThisFieldIsNotSpecified>This Field is Not Specified!</ThisFieldIsNotSpecified>
-  </Messages>
-  <Notices>
-    <ActivationMaxActivationsReached>You reached the maximum number of activations. Please contact our sales department at sales@stimulsoft.com!</ActivationMaxActivationsReached>
-    <ActivationExpiriedBeforeFirstRelease>Your Subscription of Stimulsoft Reports.Ultimate expired earlier than the first version of our Stimulsoft Reports.Server was released!</ActivationExpiriedBeforeFirstRelease>
-    <ActivationLicenseIsNotCorrect>License file is not correct! Please contact our sales department at sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
-    <ActivationLockedAccount>Your account is locked. Please contact our sales department at sales@stimulsoft.com!</ActivationLockedAccount>
-    <ActivationServerIsNotAvailableNow>Stimulsoft Activation Server is not available now! Please try again later.</ActivationServerIsNotAvailableNow>
-    <ActivationSomeTroublesOccurred>An error occurred during activation. Please try again later.</ActivationSomeTroublesOccurred>
-    <ActivationServerVersionNotAllowed>You cannot activate this version of Stimulsoft Reports.Server because your Subscription Program expired! Please log in to your account and check which version of the Stimulsoft Reports.Server you can install and activate.</ActivationServerVersionNotAllowed>
-    <ActivationUserNameOrPasswordIsWrong>Your user name (Email) or password is wrong!</ActivationUserNameOrPasswordIsWrong>
-    <ActivationWrongAccountType>Your account type does not allow to activate Stimulsoft Reports.Server!</ActivationWrongAccountType>
-    <AuthAccountCantBeUsedNow>The account cannot be used now!</AuthAccountCantBeUsedNow>
-    <AuthAccountIsNotActivated>The account is not activated yet! Please follow the instructions sent to the Email during registration.</AuthAccountIsNotActivated>
-    <AuthCantChangeRoleBecauseLastAdministratorUser>The user role cannot be changed because this is the last administrator user in this workspace!</AuthCantChangeRoleBecauseLastAdministratorUser>
-    <AuthCantChangeRoleBecauseLastSupervisorUser>The user role cannot be changed because this is the last supervisor user at this server!</AuthCantChangeRoleBecauseLastSupervisorUser>
-    <AuthCantChangeSystemRole>The system role cannot be changed!</AuthCantChangeSystemRole>
-    <AuthCantDeleteHimselfUser>The user cannot delete himself!</AuthCantDeleteHimselfUser>
-    <AuthCantDeleteLastAdministratorUser>The user cannot be deleted because this is the last administrator user in this workspace!</AuthCantDeleteLastAdministratorUser>
-    <AuthCantDeleteLastSupervisorUser>The user cannot be deleted because this is the last supervisor user at this server!</AuthCantDeleteLastSupervisorUser>
-    <AuthCantDeleteSystemRole>Cannot delete this role, because it is a system role!</AuthCantDeleteSystemRole>
-    <AuthCantDisableUserBecauseLastAdministratorUser>The user cannot be disabled because this is the last administrator user in this workspace!</AuthCantDisableUserBecauseLastAdministratorUser>
-    <AuthCantDisableUserBecauseLastSupervisorUser>The user cannot be disabled because this is the last supervisor user at this server!</AuthCantDisableUserBecauseLastSupervisorUser>
-    <AuthOAuthIdNotSpecified>The OAuth identificator is not specified!</AuthOAuthIdNotSpecified>
-    <AuthPasswordIsTooShort>The password is too short (a minimum length is 6 chars)!</AuthPasswordIsTooShort>
-    <AuthPasswordIsNotCorrect>The password is not correct!</AuthPasswordIsNotCorrect>
-    <AuthPasswordIsNotSpecified>The password is not specified!</AuthPasswordIsNotSpecified>
-    <AuthFirstNameIsNotSpecified>The first name is not specified!</AuthFirstNameIsNotSpecified>
-    <AuthLastNameIsNotSpecified>The last name is not specified!</AuthLastNameIsNotSpecified>
-    <AuthRoleCantBeDeletedBecauseUsedByUsers>You cannot delete the role because it is used by other users.</AuthRoleCantBeDeletedBecauseUsedByUsers>
-    <AuthRoleNameAlreadyExists>The role with the specified name "{0}" already exists!</AuthRoleNameAlreadyExists>
-    <AuthRoleNameIsSystemRole>The role with the specified name "{0}" is a system role!</AuthRoleNameIsSystemRole>
-    <AuthSendMessageWithInstructions>A message with further instructions is sent to "{0}"!</AuthSendMessageWithInstructions>
-    <AuthUserHasLoggedOut>You have logged out!</AuthUserHasLoggedOut>
-    <AuthUserNameAlreadyExists>The username (Email) is already in use!</AuthUserNameAlreadyExists>
-    <AuthUserNameIsNotSpecified>The username (Email) is not specified!</AuthUserNameIsNotSpecified>
-    <AuthUserNameOrPasswordIsNotCorrect>The username (Email) or password is incorrect!</AuthUserNameOrPasswordIsNotCorrect>
-    <AuthUserNameShouldLookLikeAnEmailAddress>The username should be similar to the Email address!</AuthUserNameShouldLookLikeAnEmailAddress>
-    <AuthWorkspaceNameAlreadyInUse>The workspace name is already in use!</AuthWorkspaceNameAlreadyInUse>
-    <CommandTimeOut>Waiting time of processing the command is elapsed!</CommandTimeOut>
-    <ExecutionError>Execution error</ExecutionError>
-    <EndDateShouldBeGreaterThanStartDate>The end date should be greater than start date!</EndDateShouldBeGreaterThanStartDate>
-    <EndDateShouldBeGreaterThanCurrentDate>The end date should be greater than the current date!</EndDateShouldBeGreaterThanCurrentDate>
-    <IsNotAuthorized>No access to "{0}"!</IsNotAuthorized>
-    <IsNotDeleted>"{0}" is not deleted!</IsNotDeleted>
-    <IsNotCorrect>"{0}" is incorrect!</IsNotCorrect>
-    <IsNotEqual>"{0}" is not equal!</IsNotEqual>
-    <IsNotFound>"{0}" is not found!</IsNotFound>
-    <IsNotRecognized>"{0}" is not recognized!</IsNotRecognized>
-    <IsNotSpecified>"{0}" is not specified!</IsNotSpecified>
-    <IsRequiredFile>You should add at least one file!</IsRequiredFile>
-    <ItemCantBeAttachedToItself>The item cannot be attached to itself!</ItemCantBeAttachedToItself>
-    <ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>The elements "{0}" cannot be deleted because they are attached to other elements!</ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>
-    <ItemCantBeMovedToSpecifiedPlace>The item cannot be moved to a specified place!</ItemCantBeMovedToSpecifiedPlace>
-    <ItemDoesNotSupport>The item does not support "{0}"!</ItemDoesNotSupport>
-    <KeyAndToKeyAreEqual>A Key and ToKey are equal!</KeyAndToKeyAreEqual>
-    <NotificationFailed>Failed result!</NotificationFailed>
-    <NotificationItemDelete>The items are deleting.</NotificationItemDelete>
-    <NotificationItemDeleteComplete>The items are deleted successfully.</NotificationItemDeleteComplete>
-    <NotificationItemRestore>The items are restoring.</NotificationItemRestore>
-    <NotificationItemRestoreComplete>The items are restored successfully.</NotificationItemRestoreComplete>
-    <NotificationItemTransfer>The items are transferring.</NotificationItemTransfer>
-    <NotificationItemTransferComplete>The items are transferred successfully.</NotificationItemTransferComplete>
-    <NotificationItemWaitingProcessing>The items are waiting processing.</NotificationItemWaitingProcessing>
-    <NotificationOperationAborted>Operation aborted!</NotificationOperationAborted>
-    <NotificationRecycleBinCleaning>The Recycle Bin is cleaning.</NotificationRecycleBinCleaning>
-    <NotificationRecycleBinCleaningComplete>The Recycle Bin is cleaned successfully.</NotificationRecycleBinCleaningComplete>
-    <NotificationRecycleBinWaitingProcessing>The Recycle Bin cleaning is waiting processing.</NotificationRecycleBinWaitingProcessing>
-    <NotificationFileUploading>The file "{0}" is uploading.</NotificationFileUploading>
-    <NotificationFilesUploadingComplete>The files uploaded successfully.</NotificationFilesUploadingComplete>
-    <NotificationReportExporting>The report "{0}" is exporting</NotificationReportExporting>
-    <NotificationReportExportingComplete>The report "{0}" is exported successfully.</NotificationReportExportingComplete>
-    <NotificationReportRendering>The report "{0}" is rendering</NotificationReportRendering>
-    <NotificationReportRenderingComplete>The report "{0}" is rendered.</NotificationReportRenderingComplete>
-    <NotificationReportWaitingProcessing>The report "{0}" is waiting processing.</NotificationReportWaitingProcessing>
-    <NotificationTransferring>The "{0}" is tranferring to "{1}".</NotificationTransferring>
-    <NotificationTransferringComplete>The "{0}" is succesfully transffered to "{1}".</NotificationTransferringComplete>
-    <NotificationSchedulerRunning>The scheduler "{0}" is running.</NotificationSchedulerRunning>
-    <NotificationSchedulerRunningComplete>The scheduler "{0}" running complete.</NotificationSchedulerRunningComplete>
-    <NotificationSchedulerWaitingProcessing>The scheduler "{0}" is waiting processing.</NotificationSchedulerWaitingProcessing>
-    <NotificationTitleFilesUploading>Uploading files</NotificationTitleFilesUploading>
-    <NotificationTitleItemRefreshing>Refreshing item "{0}"</NotificationTitleItemRefreshing>
-    <NotificationTitleItemTransferring>Transferring item "{0}"</NotificationTitleItemTransferring>
-    <NotificationTitleReportExporting>Exporting report "{0}"</NotificationTitleReportExporting>
-    <NotificationTitleReportRendering>Rendering report "{0}"</NotificationTitleReportRendering>
-    <NotificationTitleSchedulerRunning>Running scheduler "{0}"</NotificationTitleSchedulerRunning>
-    <NotificationValueIsNotCorrect>This value is not correct for the type {0}</NotificationValueIsNotCorrect>
-    <OutOfRange>Out of range ("{0}")!</OutOfRange>
-    <QuotaMaximumComputingCyclesCountExceeded>Maximum computing cycles count exceeded.</QuotaMaximumComputingCyclesCountExceeded>
-    <QuotaMaximumFileSizeExceeded>Maximum file size exceeded.</QuotaMaximumFileSizeExceeded>
-    <QuotaMaximumReportPagesCountExceeded>Maximum report pages count exceeded.</QuotaMaximumReportPagesCountExceeded>
-    <QuotaMaximumUsersCountExceeded>Maximum users count exceeded.</QuotaMaximumUsersCountExceeded>
-    <QuotaMaximumWorkspacesCountExceeded>Maximum workspaces count exceeded.</QuotaMaximumWorkspacesCountExceeded>
-    <AccessDenied>Access Denied!</AccessDenied>
-    <ParsingCommandException>An exception of processing the command in the specified xml: {0}</ParsingCommandException>
-    <SchedulerCantRunItSelf>The scheduler cannot run itself!</SchedulerCantRunItSelf>
-    <SessionTimeOut>Session timeout</SessionTimeOut>
-    <SnapshotAlreadyProcessed>The report snapshot is already processed!</SnapshotAlreadyProcessed>
-    <SpecifiedItemIsNot>The specified item is not "{0}"!</SpecifiedItemIsNot>
-    <WithSpecifiedKeyIsNotFound>"{0}" with the specified key is not found!</WithSpecifiedKeyIsNotFound>
-    <VersionCopyFromItem>Copy from item "{0}".</VersionCopyFromItem>
-    <VersionCreatedFromFile>Created from file "{0}".</VersionCreatedFromFile>
-    <VersionCreatedFromItem>Created from item "{0}".</VersionCreatedFromItem>
-    <VersionLoadedFromFile>Loaded from file "{0}".</VersionLoadedFromFile>
-    <VersionNewItemCreation>New item creation.</VersionNewItemCreation>
-    <WindowClosePreventWhileUploading>Some files are uploading now, if you close page they will lost. Are you sure you want to close page?</WindowClosePreventWhileUploading>
-    <YourTimeSessionHasExpired>Your time session has expired!</YourTimeSessionHasExpired>
-  </Notices>
   <Components>
     <StiBarCode>Bar Code</StiBarCode>
     <StiChart>Chart</StiChart>
@@ -666,13 +372,13 @@ It contains a link to confirm your registration. To complete the registration pl
     <StiEmptyBand>Empty Data</StiEmptyBand>
     <StiFooterBand>Footer</StiFooterBand>
     <StiGauge>Gauge</StiGauge>
-    <StiMap>Map</StiMap>
     <StiGroupFooterBand>Group Footer</StiGroupFooterBand>
     <StiGroupHeaderBand>Group Header</StiGroupHeaderBand>
     <StiHeaderBand>Header</StiHeaderBand>
     <StiHierarchicalBand>Hierarchical Data</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>Horizontal Line</StiHorizontalLinePrimitive>
     <StiImage>Image</StiImage>
+    <StiMap>Map</StiMap>
     <StiOverlayBand>Overlay</StiOverlayBand>
     <StiPage>Page</StiPage>
     <StiPageFooterBand>Page Footer</StiPageFooterBand>
@@ -700,6 +406,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <DatabaseDB2>IBM DB2 Connection</DatabaseDB2>
     <DatabaseFirebird>Firebird Connection</DatabaseFirebird>
     <DatabaseInformix>Informix Connection</DatabaseInformix>
+    <DatabaseJson>JSON Data</DatabaseJson>
     <DatabaseMySQL>MySQL Connection</DatabaseMySQL>
     <DatabaseOdbc>ODBC Connection</DatabaseOdbc>
     <DatabaseOleDb>OLE DB Connection</DatabaseOleDb>
@@ -712,8 +419,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <DatabaseTeradata>Teradata Connection</DatabaseTeradata>
     <DatabaseUniDirect>Uni Direct Connection</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB Connection</DatabaseVistaDB>
-    <DatabaseXml>XML Data</DatabaseXml>
-    <DatabaseJson>JSON Data</DatabaseJson>
+    <DatabaseXml>XML Connection</DatabaseXml>
   </Database>
   <DesignerFx>
     <AlreadyExists>'{0}' already exists.</AlreadyExists>
@@ -824,9 +530,6 @@ It contains a link to confirm your registration. To complete the registration pl
     <ServiceNotFound>'{0}' Service not found.</ServiceNotFound>
   </Errors>
   <Export>
-    <Exactly>Exactly</Exactly>
-    <NoMoreThan>No More Than</NoMoreThan>
-    <Auto>Auto</Auto>
     <AddPageBreaks>Add Page Breaks</AddPageBreaks>
     <AllBands>All bands</AllBands>
     <AllowAddOrModifyTextAnnotations>Allow Add or Modify Text Annotations</AllowAddOrModifyTextAnnotations>
@@ -834,8 +537,9 @@ It contains a link to confirm your registration. To complete the registration pl
     <AllowEditable>Allow Editable:</AllowEditable>
     <AllowModifyContents>Allow Modify Contents</AllowModifyContents>
     <AllowPrintDocument>Allow Print Document</AllowPrintDocument>
+    <Auto>Auto</Auto>
     <BandsFilter>Bands Filter:</BandsFilter>
-    <Color>Color</Color>
+    <Color>Colour</Color>
     <Compressed>Compressed</Compressed>
     <CompressToArchive>Compress to Archive</CompressToArchive>
     <ContinuousPages>Continuous Pages</ContinuousPages>
@@ -851,6 +555,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <Encoding>Encoding:</Encoding>
     <EncryptionError>Encryption error at step</EncryptionError>
     <EscapeCodes>Escape Codes</EscapeCodes>
+    <Exactly>Exactly</Exactly>
     <ExceptEditableFields>Except Editable Fields</ExceptEditableFields>
     <ExportDataOnly>Export Data Only</ExportDataOnly>
     <ExportEachPageToSheet>Export Each Page to Sheet</ExportEachPageToSheet>
@@ -911,6 +616,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <MonochromeDitheringType>Monochrome Dithering Type:</MonochromeDitheringType>
     <MoreSettings>More Settings</MoreSettings>
     <MultipleFiles>Multiple Files</MultipleFiles>
+    <NoMoreThan>No More Than</NoMoreThan>
     <OpenAfterExport>Open After Export</OpenAfterExport>
     <PdfACompliance>PDF/A Compliance</PdfACompliance>
     <RemoveEmptySpaceAtBottom>Remove Empty Space at Bottom of Page</RemoveEmptySpaceAtBottom>
@@ -955,12 +661,10 @@ It contains a link to confirm your registration. To complete the registration pl
     <DifFiles>DIF Files (*.dif)|*.dif</DifFiles>
     <DllFiles>DLL Files (*.dll)|*.dll</DllFiles>
     <DocumentFiles>Report Documents (*.mdc)|*.mdc</DocumentFiles>
-    <JsonDocumentFiles>JSON Report Documents (*.mdc)|*.mdc</JsonDocumentFiles>
     <EmfFiles>Metafiles (*.emf)|*.emf</EmfFiles>
     <EncryptedDocumentFiles>Encrypted Report Documents (*.mdx)|*.mdx</EncryptedDocumentFiles>
     <EncryptedReportFiles>Encrypted Report Templates (*.mrx)|*.mrx</EncryptedReportFiles>
     <Excel2007Files>Microsoft Excel files (*.xlsx)|*.xlsx</Excel2007Files>
-	<ExcelAllFiles>Microsoft Excel files (*.xlsx;*.xls)|*.xlsx;*.xls</ExcelAllFiles>
     <ExcelFiles>Microsoft Excel 97-2003 files (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML files (*.xml)|*.xml</ExcelXmlFiles>
     <ExeFiles>EXE Files (*.exe)|*.exe</ExeFiles>
@@ -968,14 +672,15 @@ It contains a link to confirm your registration. To complete the registration pl
     <HtmlFiles>HTML Files (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} Classes for Inherited Reports (*.{1})|*.{2}</InheritedLanguageFiles>
     <JpegFiles>JPEG image (*.jpeg)|*.jpeg</JpegFiles>
+    <JsonDocumentFiles>JSON Report Documents (*.mdc)|*.mdc</JsonDocumentFiles>
+    <JsonFiles>JSON Files (*.json)|*.json</JsonFiles>
+    <JsonReportFiles>JSON Report Templates (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} Classes (*.{1})|*.{2}</LanguageFiles>
     <LanguageForSilverlightFiles>{0} Classes for Silverlight Reports (*.{1})|*.{2}</LanguageForSilverlightFiles>
     <MetaFiles>Metafiles</MetaFiles>
     <MhtFiles>MHT Web Archives (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>Packed Report Documents (*.mdz)|*.mdz</PackedDocumentFiles>
     <PackedReportFiles>Packed Report Templates (*.mrz)|*.mrz</PackedReportFiles>
-    <JsonReportFiles>JSON Report Templates (*.mrt)|*.mrt</JsonReportFiles>
-    <JsonFiles>JSON Files (*.json)|*.json</JsonFiles>
     <PageFiles>Report Pages (*.pg)|*.pg</PageFiles>
     <PcxFiles>PCX Images (*.pcx)|*.pcx</PcxFiles>
     <PdfFiles>Adobe PDF Files (*.pdf)|*.pdf</PdfFiles>
@@ -1052,9 +757,9 @@ It contains a link to confirm your registration. To complete the registration pl
     <title>Data Setup</title>
   </FormBand>
   <FormColorBoxPopup>
-    <Color>Color</Color>
+    <Color>Colour</Color>
     <Custom>Custom</Custom>
-    <NoColor>No Color</NoColor>
+    <NoColor>No Colour</NoColor>
     <Others>Others...</Others>
     <System>System</System>
     <Web>Web</Web>
@@ -1083,25 +788,23 @@ It contains a link to confirm your registration. To complete the registration pl
     <title>Cross-Tab Designer</title>
   </FormCrossTabDesigner>
   <FormDatabaseEdit>
-    <Pin>Pin</Pin>
-    <Unpin>Unpin</Unpin>
     <ConnectionString>Connection String:</ConnectionString>
-    <RecentConnections>Recent</RecentConnections>
-    <ReportConnections>Report Connections</ReportConnections>
     <DB2Edit>Edit IBM DB2 Connection</DB2Edit>
     <DB2New>New IBM DB2 Connection</DB2New>
     <EditConnection>Edit {0} Connection</EditConnection>
     <FirebirdEdit>Edit Firebird Connection</FirebirdEdit>
     <FirebirdNew>New Firebird Connection</FirebirdNew>
+    <FirstRowIsHeader>First Row is Header</FirstRowIsHeader>
     <ImportData>Import Data</ImportData>
     <InformixEdit>Edit Informix Connection</InformixEdit>
     <InformixNew>New Informix Connection</InformixNew>
-    <InitialCatalog>Initial Catalog:</InitialCatalog>
+    <InitialCatalog>Initial Catalogue:</InitialCatalog>
+    <JsonEdit>Edit JSON Data</JsonEdit>
+    <JsonNew>New JSON Data</JsonNew>
     <MySQLEdit>Edit MySQL Connection</MySQLEdit>
     <MySQLNew>New MySQL Connection</MySQLNew>
     <NewConnection>New {0} Connection</NewConnection>
     <OdbcEdit>Edit ODBC Connection</OdbcEdit>
-    <FirstRowIsHeader>First Row is Header</FirstRowIsHeader>
     <OdbcNew>New ODBC Connection</OdbcNew>
     <OleDbEdit>Edit OLE DB Connection</OleDbEdit>
     <OleDbNew>New OLE DB Connection</OleDbNew>
@@ -1109,13 +812,16 @@ It contains a link to confirm your registration. To complete the registration pl
     <OracleNew>New Oracle Connection</OracleNew>
     <OracleODPEdit>Edit Oracle ODP.NET Connection</OracleODPEdit>
     <OracleODPNew>New Oracle ODP.NET Connection</OracleODPNew>
-    <PathToData>Path to Data:</PathToData>
-    <PathJsonData>Path to JSON Data:</PathJsonData>
     <PathData>Path to XML Data:</PathData>
+    <PathJsonData>Path to JSON Data:</PathJsonData>
     <PathSchema>Path to XSD Schema:</PathSchema>
+    <PathToData>Path to Data:</PathToData>
+    <Pin>Pin</Pin>
     <PostgreSQLEdit>Edit PostgreSQL Connection</PostgreSQLEdit>
     <PostgreSQLNew>New PostgreSQL Connection</PostgreSQLNew>
     <PromptUserNameAndPassword>Prompt User Name and Password</PromptUserNameAndPassword>
+    <RecentConnections>Recent</RecentConnections>
+    <ReportConnections>Report Connections</ReportConnections>
     <SqlCeEdit>Edit SQLServerCE Connection</SqlCeEdit>
     <SqlCeNew>New SQLServerCE Connection</SqlCeNew>
     <SqlEdit>Edit SQL Connection</SqlEdit>
@@ -1126,16 +832,14 @@ It contains a link to confirm your registration. To complete the registration pl
     <TeradataNew>New Teradata Connection</TeradataNew>
     <UniDirectEdit>Edit Uni Direct Connection</UniDirectEdit>
     <UniDirectNew>New Uni Direct Connection</UniDirectNew>
+    <Unpin>Unpin</Unpin>
     <VistaDBEdit>Edit VistaDB Connection</VistaDBEdit>
     <VistaDBNew>New VistaDB Connection</VistaDBNew>
-    <XmlEdit>Edit XML Data</XmlEdit>
-    <XmlNew>New XML Data</XmlNew>
+    <XmlEdit>Edit XML Connection</XmlEdit>
+    <XmlNew>New XML Connection</XmlNew>
     <XmlType>XML Type:</XmlType>
-    <JsonEdit>Edit JSON Data</JsonEdit>
-    <JsonNew>New JSON Data</JsonNew>
-</FormDatabaseEdit>
+  </FormDatabaseEdit>
   <FormDesigner>
-    <Others>Others</Others>
     <Code>Code</Code>
     <ColumnsOne>One</ColumnsOne>
     <ColumnsThree>Three</ColumnsThree>
@@ -1150,6 +854,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <MarginsNormal>Normal</MarginsNormal>
     <MarginsWide>Wide</MarginsWide>
     <OrderToolbars>Order Toolbars</OrderToolbars>
+    <Others>Others</Others>
     <Pages>Pages</Pages>
     <Preview>Preview</Preview>
     <PropertyChange>Change of property '{0}'</PropertyChange>
@@ -1172,12 +877,12 @@ It contains a link to confirm your registration. To complete the registration pl
     <ChildSource>Child Data Source:</ChildSource>
     <ColumnEdit>Edit Column</ColumnEdit>
     <ColumnNew>New Column</ColumnNew>
+    <CsvSeparatorComma>Comma</CsvSeparatorComma>
+    <CsvSeparatorOther>Other</CsvSeparatorOther>
+    <CsvSeparatorSemicolon>Semicolon</CsvSeparatorSemicolon>
+    <CsvSeparatorSpace>Space</CsvSeparatorSpace>
     <CsvSeparatorSystem>System</CsvSeparatorSystem>
     <CsvSeparatorTab>Tab</CsvSeparatorTab>
-    <CsvSeparatorSemicolon>Semicolon</CsvSeparatorSemicolon>
-    <CsvSeparatorComma>Comma</CsvSeparatorComma>
-    <CsvSeparatorSpace>Space</CsvSeparatorSpace>
-    <CsvSeparatorOther>Other</CsvSeparatorOther>
     <DatabaseEdit>Edit Database</DatabaseEdit>
     <DatabaseNew>New Database</DatabaseNew>
     <DataParameterEdit>Edit Parameter</DataParameterEdit>
@@ -1206,17 +911,16 @@ It contains a link to confirm your registration. To complete the registration pl
     <Queries>Queries</Queries>
     <QueryNew>New Query</QueryNew>
     <QueryText>Query Text</QueryText>
-    <QueryTimeout>Query Timeout</QueryTimeout>
     <RelationEdit>Edit Relation</RelationEdit>
     <RelationNew>New Relation</RelationNew>
     <RetrieveColumns>Retrieve Columns</RetrieveColumns>
-    <RetrieveParameters>Retrieve Parameters</RetrieveParameters>
-    <RetrieveColumnsAndParameters>Retrieve Columns and Parameters</RetrieveColumnsAndParameters>
     <RetrieveColumnsAllowRun>Allow Run StoredProc</RetrieveColumnsAllowRun>
+    <RetrieveColumnsAndParameters>Retrieve Columns and Parameters</RetrieveColumnsAndParameters>
+    <RetrieveParameters>Retrieve Parameters</RetrieveParameters>
     <RetrievingDatabaseInformation>Retrieving database information...</RetrievingDatabaseInformation>
     <Run>Run</Run>
-    <SkipSchemaWizard>Skip Schema Wizard</SkipSchemaWizard>
     <SelectTypeOfBusinessObject>Select Type of Business Object</SelectTypeOfBusinessObject>
+    <SkipSchemaWizard>Skip Schema Wizard</SkipSchemaWizard>
     <SortItems>Sort Items</SortItems>
     <Synchronize>Synchronize</Synchronize>
     <SynchronizeHint>Synchronizes contents of the Data Store and contents of the Dictionary</SynchronizeHint>
@@ -1263,11 +967,6 @@ It contains a link to confirm your registration. To complete the registration pl
     <UseGroupSeparator>Use Group Separator</UseGroupSeparator>
     <UseLocalSetting>Use Local Setting</UseLocalSetting>
   </FormFormatEditor>
-  <FormInteraction>
-    <HyperlinkUsingInteractionBookmark>Hyperlink using Bookmark</HyperlinkUsingInteractionBookmark>
-    <HyperlinkUsingInteractionTag>Hyperlink using Tag</HyperlinkUsingInteractionTag>
-    <HyperlinkExternalDocuments>Hyperlink to External Document</HyperlinkExternalDocuments>
-  </FormInteraction>
   <FormGlobalizationEditor>
     <AddCulture>&amp;Add Culture</AddCulture>
     <AutoLocalizeReportOnRun>Auto Localize Report on Run</AutoLocalizeReportOnRun>
@@ -1278,6 +977,11 @@ It contains a link to confirm your registration. To complete the registration pl
     <SetCulture>Set Culture Settings to Report</SetCulture>
     <title>Globalization Editor</title>
   </FormGlobalizationEditor>
+  <FormInteraction>
+    <HyperlinkExternalDocuments>Hyperlink to External Document</HyperlinkExternalDocuments>
+    <HyperlinkUsingInteractionBookmark>Hyperlink using Bookmark</HyperlinkUsingInteractionBookmark>
+    <HyperlinkUsingInteractionTag>Hyperlink using Tag</HyperlinkUsingInteractionTag>
+  </FormInteraction>
   <FormOptions>
     <AutoSave>Auto Save</AutoSave>
     <AutoSaveReportToReportClass>Auto Save Report to C# or VB.NET File</AutoSaveReportToReportClass>
@@ -1290,6 +994,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <FillComponents>Fill Components</FillComponents>
     <FillContainers>Fill Containers</FillContainers>
     <FillCrossBands>Fill Cross Bands</FillCrossBands>
+    <FillPrimitives>Fill Primitives</FillPrimitives>
     <GenerateLocalizedName>Generate Localized Name</GenerateLocalizedName>
     <Grid>Grid</Grid>
     <GridDots>Dots</GridDots>
@@ -1297,7 +1002,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <GridMode>Grid Mode</GridMode>
     <GridSize>Grid Size</GridSize>
     <groupAutoSaveOptions>Auto save options</groupAutoSaveOptions>
-    <groupColorScheme>Please select color scheme of GUI</groupColorScheme>
+    <groupColorScheme>Please select colour scheme of GUI</groupColorScheme>
     <groupGridDrawingOptions>Grid drawing options</groupGridDrawingOptions>
     <groupGridOptions>Grid options</groupGridOptions>
     <groupGridSize>Grid size</groupGridSize>
@@ -1306,7 +1011,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <groupOptionsOfQuickInfo>Options of Quick Info</groupOptionsOfQuickInfo>
     <groupPleaseSelectTypeOfGui>Please, select the type of GUI</groupPleaseSelectTypeOfGui>
     <groupReportDisplayOptions>Report display options</groupReportDisplayOptions>
-    <labelColorScheme>Color Scheme:</labelColorScheme>
+    <labelColorScheme>Colour Scheme:</labelColorScheme>
     <labelInfoAutoSave>Change parameters of reports autosaving</labelInfoAutoSave>
     <labelInfoDrawing>Setting parameters of report drawing</labelInfoDrawing>
     <labelInfoGrid>How Grid is shown and used in a report</labelInfoGrid>
@@ -1325,7 +1030,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <SelectUILanguage>Select UI Language</SelectUILanguage>
     <ShowDimensionLines>Show Dimension Lines</ShowDimensionLines>
     <title>Options</title>
-    <UseComponentColor>Use Component Color for Filling</UseComponentColor>
+    <UseComponentColor>Use Component Colour for Filling</UseComponentColor>
     <UseLastFormat>Use Last Format</UseLastFormat>
   </FormOptions>
   <FormPageSetup>
@@ -1353,7 +1058,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <labelPaperSourceOfFirstPage>Paper Source of First Page:</labelPaperSourceOfFirstPage>
     <labelPaperSourceOfOtherPages>Paper Source of Other Pages:</labelPaperSourceOfOtherPages>
     <labelSelectBrush>Select Brush:</labelSelectBrush>
-    <labelSelectColor>Select Color:</labelSelectColor>
+    <labelSelectColor>Select Colour:</labelSelectColor>
     <labelSelectFont>Select Font:</labelSelectFont>
     <labelSelectImage>Select Image:</labelSelectImage>
     <labelText>Text:</labelText>
@@ -1398,8 +1103,8 @@ It contains a link to confirm your registration. To complete the registration pl
     <Add>Add Style</Add>
     <ApplyStyleCollectionToReportComponents>Apply Style Collection to Report Components</ApplyStyleCollectionToReportComponents>
     <ApplyStyles>Apply Styles</ApplyStyles>
-    <CreateStyleCollection>Create Style Collection</CreateStyleCollection>
     <ColorCollectionEditor>Color Collection Editor</ColorCollectionEditor>
+    <CreateStyleCollection>Create Style Collection</CreateStyleCollection>
     <Duplicate>Duplicate Style</Duplicate>
     <GetStyle>Get Style from Selected Components</GetStyle>
     <MoreStyles>More Styles</MoreStyles>
@@ -1428,7 +1133,6 @@ It contains a link to confirm your registration. To complete the registration pl
     <SummaryRunningByReport>Report</SummaryRunningByReport>
   </FormSystemTextEditor>
   <FormTitles>
-    <ReportWizard>Report Wizard</ReportWizard>
     <ChartWizardForm>Chart Wizard</ChartWizardForm>
     <ConditionEditorForm>Condition</ConditionEditorForm>
     <ConnectionSelectForm>Select Type of Connection</ConnectionSelectForm>
@@ -1439,22 +1143,23 @@ It contains a link to confirm your registration. To complete the registration pl
     <DataSourceSelectForm>Select Data Source</DataSourceSelectForm>
     <DataSourcesNewForm>New Data Sources</DataSourcesNewForm>
     <DataStoreViewerForm>Data Store Viewer</DataStoreViewerForm>
+    <DesignerApplication>Report Designer</DesignerApplication>
     <EventEditorForm>Event Editor</EventEditorForm>
     <ExpressionEditorForm>Expression Editor</ExpressionEditorForm>
-    <GroupConditionForm>Group</GroupConditionForm>
+    <GroupConditionForm>Group Condition</GroupConditionForm>
     <InteractionDrillDownPageSelectForm>Select Drill-Down Page</InteractionDrillDownPageSelectForm>
     <MasterComponentSelectForm>Select Master Component</MasterComponentSelectForm>
     <PageAddForm>Add Page</PageAddForm>
     <PageSizeForm>Page Size</PageSizeForm>
     <PagesManagerForm>Pages Manager</PagesManagerForm>
     <PromptForm>Enter information to logon on to the database</PromptForm>
+    <ReportWizard>Report Wizard</ReportWizard>
     <ServiceSelectForm>Select Service</ServiceSelectForm>
     <SqlExpressionsForm>SQL Expressions</SqlExpressionsForm>
     <SubReportPageSelectForm>Select Sub-Report Page</SubReportPageSelectForm>
     <TextEditorForm>Text Editor</TextEditorForm>
     <ViewDataForm>View Data</ViewDataForm>
     <ViewerApplication>Report Viewer</ViewerApplication>
-    <DesignerApplication>Report Designer</DesignerApplication>
   </FormTitles>
   <FormViewer>
     <Bookmarks>Bookmarks</Bookmarks>
@@ -1513,6 +1218,13 @@ It contains a link to confirm your registration. To complete the registration pl
     <FindPrevious>Find Previous</FindPrevious>
     <FindWhat>Find What:</FindWhat>
   </FormViewerFind>
+  <Gauge>
+    <AddNewItem>Add New Item</AddNewItem>
+    <GaugeEditorForm>Gauge Editor</GaugeEditorForm>
+    <Kind>Kind</Kind>
+    <LinearScale>Linear Scale</LinearScale>
+    <RadialScale>Radial Scale</RadialScale>
+  </Gauge>
   <Gui>
     <barname_cancel>Cancel</barname_cancel>
     <barname_caption>New Toolbar</barname_caption>
@@ -1523,22 +1235,22 @@ It contains a link to confirm your registration. To complete the registration pl
     <barsys_autohide_tooltip>Auto-Hide</barsys_autohide_tooltip>
     <barsys_close_tooltip>Close</barsys_close_tooltip>
     <barsys_customize_tooltip>Customize</barsys_customize_tooltip>
-    <colorpicker_morecolors>&amp;More Colors...</colorpicker_morecolors>
+    <colorpicker_morecolors>&amp;More Colours...</colorpicker_morecolors>
     <colorpicker_nofill>&amp;No Fill</colorpicker_nofill>
-    <colorpicker_standardcolorslabel>Standard Colors</colorpicker_standardcolorslabel>
-    <colorpicker_themecolorslabel>Theme Colors</colorpicker_themecolorslabel>
+    <colorpicker_standardcolorslabel>Standard Colours</colorpicker_standardcolorslabel>
+    <colorpicker_themecolorslabel>Theme Colours</colorpicker_themecolorslabel>
     <colorpickerdialog_bluelabel>&amp;Blue:</colorpickerdialog_bluelabel>
     <colorpickerdialog_cancelbutton>Cancel</colorpickerdialog_cancelbutton>
-    <colorpickerdialog_caption>Colors</colorpickerdialog_caption>
-    <colorpickerdialog_colormodellabel>Color Model:</colorpickerdialog_colormodellabel>
+    <colorpickerdialog_caption>Colours</colorpickerdialog_caption>
+    <colorpickerdialog_colormodellabel>Colour Model:</colorpickerdialog_colormodellabel>
     <colorpickerdialog_currentcolorlabel>Current</colorpickerdialog_currentcolorlabel>
-    <colorpickerdialog_customcolorslabel>Colors:</colorpickerdialog_customcolorslabel>
+    <colorpickerdialog_customcolorslabel>Colours:</colorpickerdialog_customcolorslabel>
     <colorpickerdialog_greenlabel>&amp;Green:</colorpickerdialog_greenlabel>
     <colorpickerdialog_newcolorlabel>New</colorpickerdialog_newcolorlabel>
     <colorpickerdialog_okbutton>OK</colorpickerdialog_okbutton>
     <colorpickerdialog_redlabel>&amp;Red:</colorpickerdialog_redlabel>
     <colorpickerdialog_rgblabel>RGB</colorpickerdialog_rgblabel>
-    <colorpickerdialog_standardcolorslabel>Colors:</colorpickerdialog_standardcolorslabel>
+    <colorpickerdialog_standardcolorslabel>Colours:</colorpickerdialog_standardcolorslabel>
     <colorpickerdialog_tabcustom>Custom</colorpickerdialog_tabcustom>
     <colorpickerdialog_tabstandard>Standard</colorpickerdialog_tabstandard>
     <cust_btn_close>Close</cust_btn_close>
@@ -1604,7 +1316,6 @@ It contains a link to confirm your registration. To complete the registration pl
   <HelpComponents>
     <StiBarCode>This component allows showing bar codes in a report. Bar code data are sent to an object as a string. The string may contain any symbols but only allowed symbols for the selected chart can be displayed.</StiBarCode>
     <StiChart>This component allows showing charts in a report. Different types of charts are available. Among them are bar, line, pie, doughnut, lines, areas, Gantt, scatter charts etc. </StiChart>
-    <StiGauge>The component allows you to display a value within a predefined range. It can have different graphical representation.</StiGauge>
     <StiCheckBox>This component allows showing a checkbox in a report. It can display two modes: "enable" or "disable".</StiCheckBox>
     <StiChildBand>The Child band can be used to output two bands on one data row.</StiChildBand>
     <StiClone>This component is used to clone parts of a report into a required part of a report. Cloning can be applied only to the panel contents.</StiClone>
@@ -1620,6 +1331,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <StiDataBand>The Data band is connected to the data source and is output as many times as there are rows in the data source.</StiDataBand>
     <StiEmptyBand>This band is used to fill free space on the bottom of a page. This band fills free space on each page of a report.</StiEmptyBand>
     <StiFooterBand>This band is used to output summary by the Data band. It is placed under the Data band and is output once after all data rows which Data band outputs.</StiFooterBand>
+    <StiGauge>The component allows you to display a value within a predefined range. It can have different graphical representation.</StiGauge>
     <StiGroupFooterBand>The Group Footer band is used to output the group footer. This band is placed after the Data band. And this is the Data band with what the Group Header band is bound. Each Group Footer band belongs to the specified Group Header band. The Group Footer band will not be output without the Group Header band.</StiGroupFooterBand>
     <StiGroupHeaderBand>This band is the basic band for rendering reports with grouping. The components for showing information by this group are placed on the group header. It can be group name, date, condition of grouping etc. This band is output once in the beginning of each group.</StiGroupHeaderBand>
     <StiHeaderBand>This band is used to output headers. It is used together with the data band.</StiHeaderBand>
@@ -1647,15 +1359,15 @@ It contains a link to confirm your registration. To complete the registration pl
   <HelpDesigner>
     <Align>Change the location of selected components.</Align>
     <AlignBottom>Align the contents of a component to bottom.</AlignBottom>
-    <AlignCenter>Align the contents of a component to center.</AlignCenter>
+    <AlignCenter>Align the contents of a component to centre.</AlignCenter>
     <AlignComponentBottom>Allows you to align objects horizontally along the bottom edge of selected components.</AlignComponentBottom>
-    <AlignComponentCenter>Allows you to align objects horizontally along the center edge of selected components.</AlignComponentCenter>
+    <AlignComponentCenter>Allows you to align objects horizontally along the centre edge of selected components.</AlignComponentCenter>
     <AlignComponentLeft>Allows you to align objects vertically along the left edge of selected components.</AlignComponentLeft>
-    <AlignComponentMiddle>Allows you to align objects vertically along the center edge of selected components.</AlignComponentMiddle>
+    <AlignComponentMiddle>Allows you to align objects vertically along the centre edge of selected components.</AlignComponentMiddle>
     <AlignComponentRight>Allows you to align objects vertically along the right edge of selected components.</AlignComponentRight>
     <AlignComponentTop>Allows you to align objects horizontally along the top edge of selected components.</AlignComponentTop>
     <AlignLeft>Align the contents of a component to left.</AlignLeft>
-    <AlignMiddle>Center the contents by the top and bottom borders of a component.</AlignMiddle>
+    <AlignMiddle>Centre the contents by the top and bottom borders of a component.</AlignMiddle>
     <AlignRight>Align contents of a component to right.</AlignRight>
     <AlignToGrid>Align the selected components to grid nodes.</AlignToGrid>
     <AlignTop>Align the contents of a component to top.</AlignTop>
@@ -1664,7 +1376,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <AngleWatermark>The watermark text rotation angle.</AngleWatermark>
     <Background>Change the background of the selected components.</Background>
     <biConditions>Control list of conditions of the selected components.</biConditions>
-    <BorderColor>Select the border color of the selected component.</BorderColor>
+    <BorderColor>Select the border colour of the selected component.</BorderColor>
     <BorderSidesAll>Switch on all borders sides of the selected components.</BorderSidesAll>
     <BorderSidesBottom>Switch on bottom border side of the selected components.</BorderSidesBottom>
     <BorderSidesLeft>Switch on left border side of the selected components.</BorderSidesLeft>
@@ -1678,8 +1390,8 @@ It contains a link to confirm your registration. To complete the registration pl
     <Close>Close the Report Designer.</Close>
     <Columns>Split a page into columns.</Columns>
     <ComponentSize>Change the size of the selected components.</ComponentSize>
-    <CopyToClipboard>Copy to Clipboard</CopyToClipboard>
     <CopyStyle>Copy Style</CopyStyle>
+    <CopyToClipboard>Copy to Clipboard</CopyToClipboard>
     <CurrencySymbol>Select the currency symbol.</CurrencySymbol>
     <DataStore>Show data, registered in a report.</DataStore>
     <DateTimeFormat>Select the date and time format for the selected components.</DateTimeFormat>
@@ -1710,7 +1422,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <FormatNumber>It is used for general display of numbers.</FormatNumber>
     <FormatPercentage>Display a value as percentage. Numbers are multiplied by 100 to convert them to percentages.</FormatPercentage>
     <FormatTime>Display a value as time. The time format is based on the regional time settings.</FormatTime>
-    <FormNew>Create a new dialog form.</FormNew>
+    <FormNew>Create a new dialogue form.</FormNew>
     <GridMode>Show grid in lines or dots.</GridMode>
     <ImageAlignment>Put a watermark image on a page.</ImageAlignment>
     <ImageTransparency>Change the transparency of the watermark image.</ImageTransparency>
@@ -1737,7 +1449,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <menuPreviewSettings>Call the Preview Settings editor of the current report. Settings will be applied only when viewing the current report.</menuPreviewSettings>
     <menuPrint>Select a printer, number of copies, and other printing options before printing.</menuPrint>
     <menuPrintPreview>Preview a report before printing.</menuPrintPreview>
-    <menuPrintQuick>Print a report directly to the default printer. The printing dialog is not displayed.</menuPrintQuick>
+    <menuPrintQuick>Print a report directly to the default printer. The printing dialogue is not displayed.</menuPrintQuick>
     <menuReportOptions>Setup the basic report options. All options can be changed using the Property panel.</menuReportOptions>
     <menuStyleDesigner>Call the Style Designer of the current report.</menuStyleDesigner>
     <menuSupport>Go to the support page to ask a question.</menuSupport>
@@ -1754,7 +1466,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <Orientation>Switch the pages between portrait and landscape layouts.</Orientation>
     <PageDelete>Delete current page from a report.</PageDelete>
     <PageNew>Create a new page.</PageNew>
-    <PageSetup>Show the Page Setup dialog box.</PageSetup>
+    <PageSetup>Show the Page Setup dialogue box.</PageSetup>
     <PageSize>Choose the paper size for the current page of a report.</PageSize>
     <PagesManager>Run the Pages Manager.</PagesManager>
     <PressF1>Press F1 for More Details</PressF1>
@@ -1775,9 +1487,9 @@ It contains a link to confirm your registration. To complete the registration pl
     <StyleDesigner>Run Style Designer.</StyleDesigner>
     <TellMeMore>Tell me more</TellMeMore>
     <Text>Watermark text.</Text>
-    <TextBrush>Change the text color.</TextBrush>
-    <TextBrushWatermark>Change the text color of the watermark.</TextBrushWatermark>
-    <TextColor>Change the text color.</TextColor>
+    <TextBrush>Change the text colour.</TextBrush>
+    <TextBrushWatermark>Change the text colour of the watermark.</TextBrushWatermark>
+    <TextColor>Change the text colour.</TextColor>
     <TextFormat>Select the format of values.</TextFormat>
     <ToolbarStyle>Set selected style to all selected components.</ToolbarStyle>
     <Undo>Undo the latest change in a report.</Undo>
@@ -1847,7 +1559,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <ImageQuality>Allows you to choose the ratio of the image quality/size of the file. The higher the quality is, the larger is the size of the finished file.</ImageQuality>
     <ImageQualityPdf>The option is available only in JPEG compression, and allows you to select the ratio of the image quality/size of the file. The higher the quality is, the larger is the size of the finished file.</ImageQualityPdf>
     <ImageResolution>The number of pixels per inch. The higher the number of pixels is, the better is the quality of the image. The size of the finished file is much larger.</ImageResolution>
-    <ImageType>The color scheme of the image: color - image after exporting will fully match the image in the viewer; gray – an image after exporting will be of the gray shade; monochrome - the images will be strictly black and white. At the same time, it should be considered that the monochrome has three modes None, Ordered, FloydSt.</ImageType>
+    <ImageType>The colour scheme of the image: colour - image after exporting will fully match the image in the viewer; gray – an image after exporting will be of the gray shade; monochrome - the images will be strictly black and white. At the same time, it should be considered that the monochrome has three modes None, Ordered, FloydSt.</ImageType>
     <KillSpaceLines>Remove blank lines (rows) in the document.</KillSpaceLines>
     <MultipleFiles>Each report page can be a separate file.</MultipleFiles>
     <Open>Open the previously saved report in the window of preview.</Open>
@@ -1896,16 +1608,6 @@ It contains a link to confirm your registration. To complete the registration pl
     <ZoomTwoPages>Zoom the report so that two pages fit in the window.</ZoomTwoPages>
     <ZoomTxt>The report size (scale): X - change the horizontal scale, Y - to change the vertical scale.</ZoomTxt>
   </HelpViewer>
-  <Map>
-    <MapEditorForm>Map Editor</MapEditorForm>
-    <LinkDataForm>Link Data</LinkDataForm>
-    <GroupWorld>World</GroupWorld>
-    <GroupNorthAmerica>North America</GroupNorthAmerica>
-    <GroupSouthAmerica>South America</GroupSouthAmerica>
-    <GroupEurope>Europe</GroupEurope>
-    <GroupOceania>Oceania</GroupOceania>
-    <GroupAsia>Asia</GroupAsia>
-  </Map>
   <MainMenu>
     <menuCheckIssues>Check for Issues</menuCheckIssues>
     <menuContextClone>Clone...</menuContextClone>
@@ -1948,6 +1650,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <menuEditViewData>View Data...</menuEditViewData>
     <menuFile>&amp;File</menuFile>
     <menuFileClose>&amp;Close</menuFileClose>
+    <menuFileDashboardNew>New Dashboard</menuFileDashboardNew>
     <menuFileExit>E&amp;xit</menuFileExit>
     <menuFileExportXMLSchema>Export XML Schema...</menuFileExportXMLSchema>
     <menuFileFormNew>New Form</menuFileFormNew>
@@ -1965,8 +1668,8 @@ It contains a link to confirm your registration. To complete the registration pl
     <menuFileRecentLocations>Recent Locations</menuFileRecentLocations>
     <menuFileReportNew>&amp;New Report...</menuFileReportNew>
     <menuFileReportOpen>&amp;Open Report...</menuFileReportOpen>
-    <menuFileReportOpenFromGoogleDocs>Open Report from Google Docs...</menuFileReportOpenFromGoogleDocs>    
-	<menuFileReportPreview>&amp;Preview</menuFileReportPreview>
+    <menuFileReportOpenFromGoogleDocs>Open Report from Google Docs...</menuFileReportOpenFromGoogleDocs>
+    <menuFileReportPreview>&amp;Preview</menuFileReportPreview>
     <menuFileReportSave>&amp;Save Report</menuFileReportSave>
     <menuFileReportSaveAs>Save Report &amp;As...</menuFileReportSaveAs>
     <menuFileReportSaveAsToGoogleDocs>Save Report As to Google Docs...</menuFileReportSaveAsToGoogleDocs>
@@ -2016,27 +1719,37 @@ It contains a link to confirm your registration. To complete the registration pl
     <menuViewShowRulers>Show Rulers</menuViewShowRulers>
     <menuViewToolbars>Toolbars</menuViewToolbars>
   </MainMenu>
+  <Map>
+    <GroupAsia>Asia</GroupAsia>
+    <GroupEurope>Europe</GroupEurope>
+    <GroupNorthAmerica>North America</GroupNorthAmerica>
+    <GroupOceania>Oceania</GroupOceania>
+    <GroupSouthAmerica>South America</GroupSouthAmerica>
+    <GroupWorld>World</GroupWorld>
+    <LinkDataForm>Link Data</LinkDataForm>
+    <MapEditorForm>Map Editor</MapEditorForm>
+  </Map>
   <NuGet>
-    <Title>Download Data Adapter</Title>
-    <AssemblyLoadedSuccessfully>The assembly is loaded successfully.</AssemblyLoadedSuccessfully>
     <AlreadyDownloaded>Already Downloaded</AlreadyDownloaded>
+    <AssemblyLoadedSuccessfully>The assembly is loaded successfully.</AssemblyLoadedSuccessfully>
     <AssemblyNotFound>It is impossible to find {0} assembly to use the {1} connection!</AssemblyNotFound>
     <Author>Author</Author>
-    <IAccept>I Accept</IAccept>
-    <IDecline>I Decline</IDecline>
-    <License>License:</License>
-    <LicenceFormTitle>Licence Acceptance</LicenceFormTitle>
-    <LicenceFormDesc>The following package require that you accept their license terms before installing.</LicenceFormDesc>
-    <LicenceFormDesc1>By clicking "I Accept" you agree to the license terms for the package listed above. If you do not agree to the license terms, click "I Decline".</LicenceFormDesc1>
-    <RetrievingInformation>Retrieving information...</RetrievingInformation>
+    <Dependencies>Dependencies:</Dependencies>
     <Download>Download</Download>
     <DownloadAll>Download All</DownloadAll>
     <Downloads>Downloads:</Downloads>
-    <ViewLicense>View License</ViewLicense>
-    <ProjectUrl>Project Url:</ProjectUrl>
+    <IAccept>I Accept</IAccept>
+    <IDecline>I Decline</IDecline>
+    <LicenceFormDesc>The following package require that you accept their license terms before installing.</LicenceFormDesc>
+    <LicenceFormDesc1>By clicking "I Accept" you agree to the license terms for the package listed above. If you do not agree to the license terms, click "I Decline".</LicenceFormDesc1>
+    <LicenceFormTitle>Licence Acceptance</LicenceFormTitle>
+    <License>License:</License>
+    <ProjectUrl>Project URL:</ProjectUrl>
     <ReportAbuse>Report Abuse:</ReportAbuse>
+    <RetrievingInformation>Retrieving information...</RetrievingInformation>
     <Tags>Tags:</Tags>
-    <Dependencies>Dependencies:</Dependencies>
+    <Title>Download Data Adapter</Title>
+    <ViewLicense>View License</ViewLicense>
   </NuGet>
   <Panels>
     <Dictionary>Dictionary</Dictionary>
@@ -2057,24 +1770,20 @@ It contains a link to confirm your registration. To complete the registration pl
     <MoveRightFreeSpace>Moves a component to the right side of a free space, increasing the height of the component to the height of free space.</MoveRightFreeSpace>
   </PlacementComponent>
   <PropertyCategory>
-    <TrendLineCategory>Trend Line</TrendLineCategory>
-    <AreaCategory>Area</AreaCategory>    
-    <SeriesLabelsCategory>Series Labels</SeriesLabelsCategory>
-    <LegendCategory>Legend</LegendCategory>
-    <AxisCategory>Axis</AxisCategory>
-    <GridLinesCategory>Grid Lines</GridLinesCategory>
-    <InterlacingCategory>Interlacing</InterlacingCategory>
     <AppearanceCategory>Appearance</AppearanceCategory>
+    <AreaCategory>Area</AreaCategory>
     <ArgumentCategory>Argument</ArgumentCategory>
+    <AxisCategory>Axis</AxisCategory>
     <BarCodeAdditionalCategory>Bar Code Additional</BarCodeAdditionalCategory>
     <BarCodeCategory>Bar Code</BarCodeCategory>
     <BehaviorCategory>Behavior</BehaviorCategory>
+    <CapNeedle>Cap Needle</CapNeedle>
     <CellCategory>Cell</CellCategory>
     <ChartAdditionalCategory>Chart Additional</ChartAdditionalCategory>
     <ChartCategory>Chart</ChartCategory>
     <ChartMap>Map</ChartMap>
     <CheckCategory>Check</CheckCategory>
-    <ColorsCategory>Colors</ColorsCategory>
+    <ColorsCategory>Colours</ColorsCategory>
     <ColumnsCategory>Columns</ColumnsCategory>
     <ControlCategory>Control</ControlCategory>
     <ControlsEventsCategory>Controls Events</ControlsEventsCategory>
@@ -2085,17 +1794,21 @@ It contains a link to confirm your registration. To complete the registration pl
     <DisplayCategory>Display</DisplayCategory>
     <ExportCategory>Export</ExportCategory>
     <ExportEventsCategory>Export Events</ExportEventsCategory>
+    <FooterTableCategory>Table Footer</FooterTableCategory>
+    <GridLinesCategory>Grid Lines</GridLinesCategory>
+    <HeaderTableCategory>Table Header</HeaderTableCategory>
     <HierarchicalCategory>Hierarchical</HierarchicalCategory>
-    <HeaderTableCategory>Header Table</HeaderTableCategory>
-    <FooterTableCategory>Footer Table</FooterTableCategory>
     <ImageAdditionalCategory>Image Additional</ImageAdditionalCategory>
     <ImageCategory>Image</ImageCategory>
+    <InterlacingCategory>Interlacing</InterlacingCategory>
+    <LegendCategory>Legend</LegendCategory>
     <MainCategory>Main</MainCategory>
     <MarkerCategory>Marker</MarkerCategory>
     <MiscCategory>Misc</MiscCategory>
     <MouseEventsCategory>Mouse Events</MouseEventsCategory>
     <NavigationCategory>Navigation</NavigationCategory>
     <NavigationEventsCategory>Navigation Events</NavigationEventsCategory>
+    <Needle>Needle</Needle>
     <OptionsCategory>Options</OptionsCategory>
     <PageAdditionalCategory>Page Additional</PageAdditionalCategory>
     <PageCategory>Page</PageCategory>
@@ -2105,15 +1818,15 @@ It contains a link to confirm your registration. To complete the registration pl
     <PrimitiveCategory>Primitive</PrimitiveCategory>
     <PrintEventsCategory>Print Events</PrintEventsCategory>
     <RenderEventsCategory>Render Events</RenderEventsCategory>
+    <SeriesLabelsCategory>Series Labels</SeriesLabelsCategory>
     <ShapeCategory>Shape</ShapeCategory>
+    <Size>Size</Size>
     <SubReportCategory>Sub-Report</SubReportCategory>
     <TableCategory>Table</TableCategory>
     <TextAdditionalCategory>Text Additional</TextAdditionalCategory>
-    <Size>Size</Size>
-    <Needle>Needle</Needle>
-    <CapNeedle>Cap Needle</CapNeedle>
     <TextCategory>Text</TextCategory>
     <TitleCategory>Title</TitleCategory>
+    <TrendLineCategory>Trend Line</TrendLineCategory>
     <ValueCategory>Value</ValueCategory>
     <ValueCloseCategory>Value Close</ValueCloseCategory>
     <ValueEndCategory>Value End</ValueEndCategory>
@@ -2283,13 +1996,13 @@ It contains a link to confirm your registration. To complete the registration pl
     <ComboBoxStyleDropDown>Drop Down</ComboBoxStyleDropDown>
     <ComboBoxStyleDropDownList>Drop Down List</ComboBoxStyleDropDownList>
     <ComboBoxStyleSimple>Simple</ComboBoxStyleSimple>
-    <ContentAlignmentBottomCenter>Bottom Center</ContentAlignmentBottomCenter>
+    <ContentAlignmentBottomCenter>Bottom Centre</ContentAlignmentBottomCenter>
     <ContentAlignmentBottomLeft>Bottom Left</ContentAlignmentBottomLeft>
     <ContentAlignmentBottomRight>Bottom Right</ContentAlignmentBottomRight>
-    <ContentAlignmentMiddleCenter>Middle Center</ContentAlignmentMiddleCenter>
+    <ContentAlignmentMiddleCenter>Middle Centre</ContentAlignmentMiddleCenter>
     <ContentAlignmentMiddleLeft>Middle Left</ContentAlignmentMiddleLeft>
     <ContentAlignmentMiddleRight>Middle Right</ContentAlignmentMiddleRight>
-    <ContentAlignmentTopCenter>Top Center</ContentAlignmentTopCenter>
+    <ContentAlignmentTopCenter>Top Centre</ContentAlignmentTopCenter>
     <ContentAlignmentTopLeft>Top Left</ContentAlignmentTopLeft>
     <ContentAlignmentTopRight>Top Right</ContentAlignmentTopRight>
     <DataGridLineStyleNone>None</DataGridLineStyleNone>
@@ -2310,15 +2023,15 @@ It contains a link to confirm your registration. To complete the registration pl
     <DuplexHorizontal>Horizontal</DuplexHorizontal>
     <DuplexSimplex>Simplex</DuplexSimplex>
     <DuplexVertical>Vertical</DuplexVertical>
-    <FormStartPositionCenterParent>Center Parent</FormStartPositionCenterParent>
-    <FormStartPositionCenterScreen>Center Screen</FormStartPositionCenterScreen>
+    <FormStartPositionCenterParent>Centre Parent</FormStartPositionCenterParent>
+    <FormStartPositionCenterScreen>Centre Screen</FormStartPositionCenterScreen>
     <FormStartPositionManual>Manual</FormStartPositionManual>
     <FormStartPositionWindowsDefaultBounds>Windows Default Bounds</FormStartPositionWindowsDefaultBounds>
     <FormStartPositionWindowsDefaultLocation>Windows Default Location</FormStartPositionWindowsDefaultLocation>
     <FormWindowStateMaximized>Maximized</FormWindowStateMaximized>
     <FormWindowStateMinimized>Minimized</FormWindowStateMinimized>
     <FormWindowStateNormal>Normal</FormWindowStateNormal>
-    <HorizontalAlignmentCenter>Center</HorizontalAlignmentCenter>
+    <HorizontalAlignmentCenter>Centre</HorizontalAlignmentCenter>
     <HorizontalAlignmentLeft>Left</HorizontalAlignmentLeft>
     <HorizontalAlignmentRight>Right</HorizontalAlignmentRight>
     <HotkeyPrefixHide>Hide</HotkeyPrefixHide>
@@ -2327,7 +2040,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <LeftRightAlignmentLeft>Left</LeftRightAlignmentLeft>
     <LeftRightAlignmentRight>Right</LeftRightAlignmentRight>
     <PictureBoxSizeModeAutoSize>Auto Size</PictureBoxSizeModeAutoSize>
-    <PictureBoxSizeModeCenterImage>Center Image</PictureBoxSizeModeCenterImage>
+    <PictureBoxSizeModeCenterImage>Centre Image</PictureBoxSizeModeCenterImage>
     <PictureBoxSizeModeNormal>Normal</PictureBoxSizeModeNormal>
     <PictureBoxSizeModeStretchImage>Stretch Image</PictureBoxSizeModeStretchImage>
     <RightToLeftInherit>Inherit</RightToLeftInherit>
@@ -2373,11 +2086,6 @@ It contains a link to confirm your registration. To complete the registration pl
     <StiBrushTypeSolid>Solid Brush</StiBrushTypeSolid>
     <StiCalculationModeCompilation>Compilation</StiCalculationModeCompilation>
     <StiCalculationModeInterpretation>Interpretation</StiCalculationModeInterpretation>
-    <StiMapTypeNone>None</StiMapTypeNone>
-    <StiMapTypeGroup>Group</StiMapTypeGroup>
-    <StiMapTypeHeatmap>Heatmap</StiMapTypeHeatmap>
-    <StiMapTypeHeatmapWithGroup>Heatmap With Group</StiMapTypeHeatmapWithGroup>
-    <StiMapTypePoints>Points</StiMapTypePoints>
     <StiCapStyleArrow>Arrow</StiCapStyleArrow>
     <StiCapStyleDiamond>Diamond</StiCapStyleDiamond>
     <StiCapStyleNone>None</StiCapStyleNone>
@@ -2405,11 +2113,11 @@ It contains a link to confirm your registration. To complete the registration pl
     <StiCode11CheckSumNone>None</StiCode11CheckSumNone>
     <StiCode11CheckSumOneDigit>One Digit</StiCode11CheckSumOneDigit>
     <StiCode11CheckSumTwoDigits>Two Digits</StiCode11CheckSumTwoDigits>
-    <StiColorScaleTypeColor2>2-Color Scale</StiColorScaleTypeColor2>
-    <StiColorScaleTypeColor3>3-Color Scale</StiColorScaleTypeColor3>
+    <StiColorScaleTypeColor2>2-Colour Scale</StiColorScaleTypeColor2>
+    <StiColorScaleTypeColor3>3-Colour Scale</StiColorScaleTypeColor3>
     <StiColumnDirectionAcrossThenDown>Across Then Down</StiColumnDirectionAcrossThenDown>
     <StiColumnDirectionDownThenAcross>Down Then Across</StiColumnDirectionDownThenAcross>
-    <StiCrossHorAlignmentCenter>Center</StiCrossHorAlignmentCenter>
+    <StiCrossHorAlignmentCenter>Centre</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>Left</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>None</StiCrossHorAlignmentNone>
     <StiCrossHorAlignmentRight>Right</StiCrossHorAlignmentRight>
@@ -2472,7 +2180,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <StiGroupSortDirectionAscending>Ascending</StiGroupSortDirectionAscending>
     <StiGroupSortDirectionDescending>Descending</StiGroupSortDirectionDescending>
     <StiGroupSortDirectionNone>None</StiGroupSortDirectionNone>
-    <StiHorAlignmentCenter>Center</StiHorAlignmentCenter>
+    <StiHorAlignmentCenter>Centre</StiHorAlignmentCenter>
     <StiHorAlignmentLeft>Left</StiHorAlignmentLeft>
     <StiHorAlignmentRight>Right</StiHorAlignmentRight>
     <StiImageProcessingDuplicatesTypeGlobalHide>Global Hide</StiImageProcessingDuplicatesTypeGlobalHide>
@@ -2499,27 +2207,16 @@ It contains a link to confirm your registration. To complete the registration pl
     <StiLegendDirectionLeftToRight>Left to Right</StiLegendDirectionLeftToRight>
     <StiLegendDirectionRightToLeft>Right to Left</StiLegendDirectionRightToLeft>
     <StiLegendDirectionTopToBottom>Top to Bottom</StiLegendDirectionTopToBottom>
-    <StiLegendHorAlignmentCenter>Center</StiLegendHorAlignmentCenter>
+    <StiLegendHorAlignmentCenter>Centre</StiLegendHorAlignmentCenter>
     <StiLegendHorAlignmentLeft>Left</StiLegendHorAlignmentLeft>
     <StiLegendHorAlignmentLeftOutside>Left Outside</StiLegendHorAlignmentLeftOutside>
     <StiLegendHorAlignmentRight>Right</StiLegendHorAlignmentRight>
     <StiLegendHorAlignmentRightOutside>Right Outside</StiLegendHorAlignmentRightOutside>
     <StiLegendVertAlignmentBottom>Bottom</StiLegendVertAlignmentBottom>
     <StiLegendVertAlignmentBottomOutside>Bottom Outside</StiLegendVertAlignmentBottomOutside>
-    <StiLegendVertAlignmentCenter>Center</StiLegendVertAlignmentCenter>
+    <StiLegendVertAlignmentCenter>Centre</StiLegendVertAlignmentCenter>
     <StiLegendVertAlignmentTop>Top</StiLegendVertAlignmentTop>
     <StiLegendVertAlignmentTopOutside>Top Outside</StiLegendVertAlignmentTopOutside>
-    <StiMarkerAlignmentLeft>Left</StiMarkerAlignmentLeft>
-    <StiMarkerAlignmentRight>Right</StiMarkerAlignmentRight>
-    <StiMarkerTypeCircle>Circle</StiMarkerTypeCircle>
-    <StiMarkerTypeHexagon>Hexagon</StiMarkerTypeHexagon>
-    <StiMarkerTypeRectangle>Rectangle</StiMarkerTypeRectangle>
-    <StiMarkerTypeStar5>Star 5</StiMarkerTypeStar5>
-    <StiMarkerTypeStar6>Star 6</StiMarkerTypeStar6>
-    <StiMarkerTypeStar7>Star 7</StiMarkerTypeStar7>
-    <StiMarkerTypeStar8>Star 8</StiMarkerTypeStar8>
-    <StiMarkerTypeTriangle>Triangle</StiMarkerTypeTriangle>
-    <StiMapIDWorld>World</StiMapIDWorld>
     <StiMapIDAustralia>Australia</StiMapIDAustralia>
     <StiMapIDAustria>Austria</StiMapIDAustria>
     <StiMapIDBrazil>Brazil</StiMapIDBrazil>
@@ -2534,6 +2231,22 @@ It contains a link to confirm your registration. To complete the registration pl
     <StiMapIDRussia>Russia</StiMapIDRussia>
     <StiMapIDUK>UK</StiMapIDUK>
     <StiMapIDUSA>USA</StiMapIDUSA>
+    <StiMapIDWorld>World</StiMapIDWorld>
+    <StiMapTypeGroup>Group</StiMapTypeGroup>
+    <StiMapTypeHeatmap>Heatmap</StiMapTypeHeatmap>
+    <StiMapTypeHeatmapWithGroup>Heatmap With Group</StiMapTypeHeatmapWithGroup>
+    <StiMapTypeNone>None</StiMapTypeNone>
+    <StiMapTypePoints>Points</StiMapTypePoints>
+    <StiMarkerAlignmentLeft>Left</StiMarkerAlignmentLeft>
+    <StiMarkerAlignmentRight>Right</StiMarkerAlignmentRight>
+    <StiMarkerTypeCircle>Circle</StiMarkerTypeCircle>
+    <StiMarkerTypeHexagon>Hexagon</StiMarkerTypeHexagon>
+    <StiMarkerTypeRectangle>Rectangle</StiMarkerTypeRectangle>
+    <StiMarkerTypeStar5>Star 5</StiMarkerTypeStar5>
+    <StiMarkerTypeStar6>Star 6</StiMarkerTypeStar6>
+    <StiMarkerTypeStar7>Star 7</StiMarkerTypeStar7>
+    <StiMarkerTypeStar8>Star 8</StiMarkerTypeStar8>
+    <StiMarkerTypeTriangle>Triangle</StiMarkerTypeTriangle>
     <StiNestedFactorHigh>High</StiNestedFactorHigh>
     <StiNestedFactorLow>Low</StiNestedFactorLow>
     <StiNestedFactorNormal>Normal</StiNestedFactorNormal>
@@ -2567,8 +2280,8 @@ It contains a link to confirm your registration. To complete the registration pl
     <StiPrintOnTypeOnlyFirstAndLastPage>Only First and Last Page</StiPrintOnTypeOnlyFirstAndLastPage>
     <StiPrintOnTypeOnlyFirstPage>Only First Page</StiPrintOnTypeOnlyFirstPage>
     <StiPrintOnTypeOnlyLastPage>Only Last Page</StiPrintOnTypeOnlyLastPage>
-    <StiProcessAtEndOfPage>End of Page</StiProcessAtEndOfPage>
-    <StiProcessAtEndOfReport>End of Report</StiProcessAtEndOfReport>
+    <StiProcessAtEndOfPage>EndOfPage</StiProcessAtEndOfPage>
+    <StiProcessAtEndOfReport>EndOfReport</StiProcessAtEndOfReport>
     <StiProcessAtNone>None</StiProcessAtNone>
     <StiProcessingDuplicatesTypeBasedOnTagHide>Hide based on Tag</StiProcessingDuplicatesTypeBasedOnTagHide>
     <StiProcessingDuplicatesTypeBasedOnTagMerge>Merge based on Tag</StiProcessingDuplicatesTypeBasedOnTagMerge>
@@ -2591,10 +2304,10 @@ It contains a link to confirm your registration. To complete the registration pl
     <StiReportCacheModeAuto>Auto</StiReportCacheModeAuto>
     <StiReportCacheModeOff>Off</StiReportCacheModeOff>
     <StiReportCacheModeOn>On</StiReportCacheModeOn>
-    <StiReportUnitTypeCentimeters>Centimeters</StiReportUnitTypeCentimeters>
+    <StiReportUnitTypeCentimeters>Centimetres</StiReportUnitTypeCentimeters>
     <StiReportUnitTypeHundredthsOfInch>Hundredths of Inch</StiReportUnitTypeHundredthsOfInch>
     <StiReportUnitTypeInches>Inches</StiReportUnitTypeInches>
-    <StiReportUnitTypeMillimeters>Millimeters</StiReportUnitTypeMillimeters>
+    <StiReportUnitTypeMillimeters>Millimetres</StiReportUnitTypeMillimeters>
     <StiReportUnitTypePixels>Pixels</StiReportUnitTypePixels>
     <StiRestrictionsAll>All</StiRestrictionsAll>
     <StiRestrictionsAllowChange>Allow Change</StiRestrictionsAllowChange>
@@ -2619,9 +2332,6 @@ It contains a link to confirm your registration. To complete the registration pl
     <StiSeriesSortTypeValue>Value</StiSeriesSortTypeValue>
     <StiSeriesYAxisLeftYAxis>Left Y Axis</StiSeriesYAxisLeftYAxis>
     <StiSeriesYAxisRightYAxis>Right Y Axis</StiSeriesYAxisRightYAxis>
-    <StiSelectionModeNothing>Nothing</StiSelectionModeNothing>
-    <StiSelectionModeFirst>First</StiSelectionModeFirst>
-    <StiSelectionModeFromVariable>From Variable</StiSelectionModeFromVariable>
     <StiShapeDirectionDown>Down</StiShapeDirectionDown>
     <StiShapeDirectionLeft>Left</StiShapeDirectionLeft>
     <StiShapeDirectionRight>Right</StiShapeDirectionRight>
@@ -2635,9 +2345,9 @@ It contains a link to confirm your registration. To complete the registration pl
     <StiShowSeriesLabelsNone>None</StiShowSeriesLabelsNone>
     <StiShowXAxisBoth>Both</StiShowXAxisBoth>
     <StiShowXAxisBottom>Bottom</StiShowXAxisBottom>
-    <StiShowXAxisCenter>Center</StiShowXAxisCenter>
+    <StiShowXAxisCenter>Centre</StiShowXAxisCenter>
     <StiShowYAxisBoth>Both</StiShowYAxisBoth>
-    <StiShowYAxisCenter>Center</StiShowYAxisCenter>
+    <StiShowYAxisCenter>Centre</StiShowYAxisCenter>
     <StiShowYAxisLeft>Left</StiShowYAxisLeft>
     <StiSortDirectionAsc>Ascending</StiSortDirectionAsc>
     <StiSortDirectionDesc>Descending</StiSortDirectionDesc>
@@ -2669,12 +2379,12 @@ It contains a link to confirm your registration. To complete the registration pl
     <StiTableAutoWidthTypeFullTable>Full Table</StiTableAutoWidthTypeFullTable>
     <StiTableAutoWidthTypeLastColumns>Last Columns</StiTableAutoWidthTypeLastColumns>
     <StiTableAutoWidthTypeNone>None</StiTableAutoWidthTypeNone>
-    <StiTextHorAlignmentCenter>Center</StiTextHorAlignmentCenter>
+    <StiTextHorAlignmentCenter>Centre</StiTextHorAlignmentCenter>
     <StiTextHorAlignmentLeft>Left</StiTextHorAlignmentLeft>
     <StiTextHorAlignmentRight>Right</StiTextHorAlignmentRight>
     <StiTextHorAlignmentWidth>Width</StiTextHorAlignmentWidth>
-    <StiTextPositionCenterBottom>Center Bottom</StiTextPositionCenterBottom>
-    <StiTextPositionCenterTop>Center Top</StiTextPositionCenterTop>
+    <StiTextPositionCenterBottom>Centre Bottom</StiTextPositionCenterBottom>
+    <StiTextPositionCenterTop>Centre Top</StiTextPositionCenterTop>
     <StiTextPositionLeftBottom>Left Bottom</StiTextPositionLeftBottom>
     <StiTextPositionLeftTop>Left Top</StiTextPositionLeftTop>
     <StiTextPositionRightBottom>Right Bottom</StiTextPositionRightBottom>
@@ -2689,13 +2399,13 @@ It contains a link to confirm your registration. To complete the registration pl
     <StiTypeModeRange>Range</StiTypeModeRange>
     <StiTypeModeValue>Value</StiTypeModeValue>
     <StiVertAlignmentBottom>Bottom</StiVertAlignmentBottom>
-    <StiVertAlignmentCenter>Center</StiVertAlignmentCenter>
+    <StiVertAlignmentCenter>Centre</StiVertAlignmentCenter>
     <StiVertAlignmentTop>Top</StiVertAlignmentTop>
     <StiViewModeNormal>Normal</StiViewModeNormal>
     <StiViewModePageBreakPreview>Page Break Preview</StiViewModePageBreakPreview>
     <StiXmlTypeAdoNetXml>ADO.NET XML</StiXmlTypeAdoNetXml>
     <StiXmlTypeXml>XML</StiXmlTypeXml>
-    <StringAlignmentCenter>Center</StringAlignmentCenter>
+    <StringAlignmentCenter>Centre</StringAlignmentCenter>
     <StringAlignmentFar>Far</StringAlignmentFar>
     <StringAlignmentNear>Near</StringAlignmentNear>
     <StringTrimmingCharacter>Character</StringTrimmingCharacter>
@@ -2828,65 +2538,6 @@ It contains a link to confirm your registration. To complete the registration pl
     <ZigZag>Zig Zag</ZigZag>
   </PropertyHatchStyle>
   <PropertyMain>
-    <ChartAreaShowShadow>Show Shadow</ChartAreaShowShadow>
-    <TrendLineColor>Color</TrendLineColor>
-    <TrendLineShowShadow>Show Shadow</TrendLineShowShadow>
-    <EndValue>End Value</EndValue>
-    <StartValue>Start Value</StartValue>
-    <MajorInterval>Major Interval</MajorInterval>
-    <MinorInterval>Minor Interval</MinorInterval>
-    <StartWidth>Start Width</StartWidth>
-    <EndWidth>End Width</EndWidth>
-    <AllowUsingAsSqlParameter>Allow using as SQL parameter</AllowUsingAsSqlParameter>
-    <IsReversed>Is Reversed</IsReversed>
-    <SweepAngle>Sweep Angle</SweepAngle>
-    <Radius>Radius</Radius>
-    <RadiusMode>Radius Mode</RadiusMode>
-    <Skin>Skin</Skin>
-    <Center>Center</Center>
-    <BorderBrush>Border Brush</BorderBrush>
-    <MaximumValue>Maximum Value</MaximumValue>
-    <MinimumValue>Minimum Value</MinimumValue>
-    <MapID>Map ID</MapID>
-    <ShowLegend>Show Legend</ShowLegend>
-    <BorderSize>Border Size</BorderSize>
-    <Offset>Offset</Offset>
-    <SkipValues>Skip Values</SkipValues>
-    <SkipValuesObj>Skip Values</SkipValuesObj>
-    <SkipIndices>Skip Indices</SkipIndices>
-    <SkipIndicesObj>Skip Indices</SkipIndicesObj>
-    <OffsetAngle>Offset Angle</OffsetAngle>
-    <RelativeWidth>Relative Width</RelativeWidth>
-    <RelativeHeight>Relative Height</RelativeHeight>
-    <BorderWidth>Border Width</BorderWidth>
-    <AutoCalculateCenterPoint>Auto Calculate Center Point</AutoCalculateCenterPoint>
-    <CenterPoint>Center Point</CenterPoint>
-    <LabelRotationMode>Label Rotation Mode</LabelRotationMode>
-    <RangeColorMode>Range Color Mode</RangeColorMode>
-    <RefreshTime>Refresh Time</RefreshTime>
-    <UseRangeColor>Use Range Color</UseRangeColor>
-    <EmptyBrush>Empty Brush</EmptyBrush>
-    <EmptyBorderBrush>Empty Border Brush</EmptyBorderBrush>
-    <EmptyBorderWidth>Empty Border Width</EmptyBorderWidth>
-    <UseValuesFromTheSpecifiedRange>Use Values From The Specified Range</UseValuesFromTheSpecifiedRange>
-    <SkipMajorValues>Skip Major Values</SkipMajorValues>
-    <ChartAreaBrush>Area Brush</ChartAreaBrush>
-    <ChartAreaBorderColor>Border Color</ChartAreaBorderColor>
-    <SeriesLabelsBrush>Labels Brush</SeriesLabelsBrush>
-    <SeriesLabelsColor>Labels Color</SeriesLabelsColor>
-    <SeriesLabelsBorderColor>Border Color</SeriesLabelsBorderColor>
-    <LegendBrush>Legend Brush</LegendBrush>
-    <LegendLabelsColor>Labels Color</LegendLabelsColor>
-    <LegendBorderColor>Border Color</LegendBorderColor>
-    <LegendTitleColor>Title Color</LegendTitleColor>
-    <AxisTitleColor>Title Color</AxisTitleColor>
-    <AxisLineColor>Line Color</AxisLineColor>
-    <AxisLabelsColor>Labels Color</AxisLabelsColor>
-    <InterlacingHorBrush>Interlacing Horizontal Brush</InterlacingHorBrush>
-    <InterlacingVertBrush>Interlacing Vertical Brush</InterlacingVertBrush>
-    <GridLinesHorColor>Grid Lines Horizontal Color</GridLinesHorColor>
-    <GridLinesVertColor>Grid Lines Vertical Color</GridLinesVertColor>
-    <Culture>Culture</Culture>
     <AcceptsReturn>Accepts Return</AcceptsReturn>
     <AcceptsTab>Accepts Tab</AcceptsTab>
     <AddClearZone>Add Clear Zone</AddClearZone>
@@ -2895,31 +2546,32 @@ It contains a link to confirm your registration. To complete the registration pl
     <AggregateFunctions>Aggregate Functions</AggregateFunctions>
     <Alias>Alias</Alias>
     <Alignment>Alignment</Alignment>
-    <AllowApplyBorderColor>Allow Apply Border Color</AllowApplyBorderColor>
+    <AllowApplyBorderColor>Allow Apply Border Colour</AllowApplyBorderColor>
     <AllowApplyBrush>Allow Apply Brush</AllowApplyBrush>
     <AllowApplyBrushNegative>Allow Apply Brush Negative</AllowApplyBrushNegative>
-    <AllowApplyColorNegative>Allow Apply Color Negative</AllowApplyColorNegative>
+    <AllowApplyColorNegative>Allow Apply Colour Negative</AllowApplyColorNegative>
     <AllowApplyStyle>Allow Apply Style</AllowApplyStyle>
     <AllowExpressions>Allow Expressions</AllowExpressions>
     <AllowHtmlTags>Allow HTML Tags</AllowHtmlTags>
     <AllowSeries>Allow Series</AllowSeries>
     <AllowSeriesElements>Allow Series Elements</AllowSeriesElements>
     <AllowSorting>Allow Sorting</AllowSorting>
-    <AllowUseBackColor>Allow Use Back Color</AllowUseBackColor>
+    <AllowUseBackColor>Allow Use Back Colour</AllowUseBackColor>
     <AllowUseBorder>Allow Use Border</AllowUseBorder>
     <AllowUseBorderFormatting>Allow Use Border Formatting</AllowUseBorderFormatting>
     <AllowUseBorderSides>Allow Use Border Sides</AllowUseBorderSides>
     <AllowUseBorderSidesFromLocation>Allow Use Border Sides from Location</AllowUseBorderSidesFromLocation>
     <AllowUseBrush>Allow Use Brush</AllowUseBrush>
     <AllowUseFont>Allow Use Font</AllowUseFont>
-    <AllowUseForeColor>Allow Use Fore Color</AllowUseForeColor>
+    <AllowUseForeColor>Allow Use Fore Colour</AllowUseForeColor>
     <AllowUseHorAlignment>Allow Use Hor Alignment</AllowUseHorAlignment>
     <AllowUseImage>Allow Use Image</AllowUseImage>
     <AllowUserValues>Allow User Values</AllowUserValues>
     <AllowUseTextBrush>Allow Use Text Brush</AllowUseTextBrush>
     <AllowUseTextOptions>Allow Use Text Options</AllowUseTextOptions>
     <AllowUseVertAlignment>Allow Use Vert Alignment</AllowUseVertAlignment>
-    <AlternatingBackColor>Alternating Back Color</AlternatingBackColor>
+    <AllowUsingAsSqlParameter>Allow using as SQL parameter</AllowUsingAsSqlParameter>
+    <AlternatingBackColor>Alternating Back Colour</AlternatingBackColor>
     <Angle>Angle</Angle>
     <Antialiasing>Antialiasing</Antialiasing>
     <Area>Area</Area>
@@ -2931,31 +2583,37 @@ It contains a link to confirm your registration. To complete the registration pl
     <AspectRatio>Aspect Ratio</AspectRatio>
     <Author>Author</Author>
     <Auto>Auto</Auto>
+    <AutoCalculateCenterPoint>Auto Calculate Center Point</AutoCalculateCenterPoint>
     <AutoDataColumns>Auto Data Columns</AutoDataColumns>
     <AutoDataRows>Auto Data Rows</AutoDataRows>
     <AutoLocalizeReportOnRun>Auto Localize Report on Run</AutoLocalizeReportOnRun>
     <AutoRefresh>Auto Refresh</AutoRefresh>
     <AutoRotate>Auto Rotate</AutoRotate>
     <AutoScale>Auto Scale</AutoScale>
-    <AutoSeriesColorDataColumn>Auto Series Color Data Column</AutoSeriesColorDataColumn>
+    <AutoSeriesColorDataColumn>Auto Series Colour Data Column</AutoSeriesColorDataColumn>
     <AutoSeriesKeyDataColumn>Auto Series Key Data Column</AutoSeriesKeyDataColumn>
     <AutoSeriesTitleDataColumn>Auto Series Title Data Column</AutoSeriesTitleDataColumn>
     <AutoWidth>Auto Width</AutoWidth>
     <AutoWidthType>Auto Width Type</AutoWidthType>
+    <AxisLabelsColor>Labels Colour</AxisLabelsColor>
+    <AxisLineColor>Line Colour</AxisLineColor>
+    <AxisTitleColor>Title Colour</AxisTitleColor>
     <AxisValue>Axis Value</AxisValue>
-    <BackColor>Back Color</BackColor>
+    <BackColor>Back Colour</BackColor>
     <Background>Background</Background>
-    <BackgroundColor>Background Color</BackgroundColor>
+    <BackgroundColor>Background Colour</BackgroundColor>
     <BarCodeType>Bar Code Type</BarCodeType>
-    <BasicStyleColor>Basic Style Color</BasicStyleColor>
+    <BasicStyleColor>Basic Style Colour</BasicStyleColor>
     <Blend>Blend</Blend>
     <Bold>Bold</Bold>
     <Bookmark>Bookmark</Bookmark>
-    <FillColor>Fill Color</FillColor>
     <Border>Border</Border>
-    <BorderColor>Border Color</BorderColor>
+    <BorderBrush>Border Brush</BorderBrush>
+    <BorderColor>Border Colour</BorderColor>
     <Borders>Borders</Borders>
+    <BorderSize>Border Size</BorderSize>
     <BorderStyle>Border Style</BorderStyle>
+    <BorderWidth>Border Width</BorderWidth>
     <Bottom>Bottom</Bottom>
     <BottomSide>Bottom Side</BottomSide>
     <BreakIfLessThan>Break if Less Than</BreakIfLessThan>
@@ -2979,6 +2637,11 @@ It contains a link to confirm your registration. To complete the registration pl
     <CellHeight>Cell Height</CellHeight>
     <CellType>Cell Type</CellType>
     <CellWidth>Cell Width</CellWidth>
+    <Center>Centre</Center>
+    <CenterPoint>Centre Point</CenterPoint>
+    <ChartAreaBorderColor>Border Colour</ChartAreaBorderColor>
+    <ChartAreaBrush>Area Brush</ChartAreaBrush>
+    <ChartAreaShowShadow>Show Shadow</ChartAreaShowShadow>
     <ChartType>Chart Type</ChartType>
     <Checked>Checked</Checked>
     <CheckOnClick>Check on Click</CheckOnClick>
@@ -3001,10 +2664,10 @@ It contains a link to confirm your registration. To complete the registration pl
     <CollapsingEnabled>Collapsing Enabled</CollapsingEnabled>
     <Collate>Collate</Collate>
     <CollectionName>Collection Name</CollectionName>
-    <Color>Color</Color>
-    <ColorEach>Color Each</ColorEach>
-    <ColorScaleCondition>Color Scale Condition</ColorScaleCondition>
-    <ColorScaleType>Color Scale Type</ColorScaleType>
+    <Color>Colour</Color>
+    <ColorEach>Colour Each</ColorEach>
+    <ColorScaleCondition>Colour Scale Condition</ColorScaleCondition>
+    <ColorScaleType>Colour Scale Type</ColorScaleType>
     <Column>Column</Column>
     <ColumnCount>Column Count</ColumnCount>
     <ColumnDirection>Column Direction</ColumnDirection>
@@ -3022,7 +2685,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <ConstantLines>Constant Lines</ConstantLines>
     <Container>Container</Container>
     <ContinuousText>Continuous Text</ContinuousText>
-    <ContourColor>Contour Color</ContourColor>
+    <ContourColor>Contour Colour</ContourColor>
     <Converting>Converting</Converting>
     <ConvertNulls>Convert Nulls</ConvertNulls>
     <Copies>Copies</Copies>
@@ -3031,10 +2694,10 @@ It contains a link to confirm your registration. To complete the registration pl
     <Create>Create</Create>
     <CreateFieldOnDoubleClick>Create Field on Double Click</CreateFieldOnDoubleClick>
     <CreateLabel>Create Label</CreateLabel>
+    <Culture>Culture</Culture>
     <CustomFormat>Custom Format</CustomFormat>
     <CutPieList>Cut Pie List</CutPieList>
     <Data>Data</Data>
-    <MapStyle>Style</MapStyle>
     <DataAdapter>Data Adapter</DataAdapter>
     <DataAdapters>Data Adapters</DataAdapters>
     <DataBarCondition>Data Bar Condition</DataBarCondition>
@@ -3057,7 +2720,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <DependentValue>Dependent Value</DependentValue>
     <Description>Description</Description>
     <DetectUrls>Detect URLs</DetectUrls>
-    <DialogResult>Dialog Result</DialogResult>
+    <DialogResult>Dialogue Result</DialogResult>
     <Diameter>Diameter</Diameter>
     <Direction>Direction</Direction>
     <DisplayValue>Display Value</DisplayValue>
@@ -3073,12 +2736,12 @@ It contains a link to confirm your registration. To complete the registration pl
     <DrillDownEnabled>Drill-Down Enabled</DrillDownEnabled>
     <DrillDownMode>Drill-Down Mode</DrillDownMode>
     <DrillDownPage>Drill-Down Page</DrillDownPage>
-    <DrillDownParameters>Drill-Down Parameters</DrillDownParameters>
     <DrillDownParameter1>Drill-Down Parameter 1</DrillDownParameter1>
     <DrillDownParameter2>Drill-Down Parameter 2</DrillDownParameter2>
     <DrillDownParameter3>Drill-Down Parameter 3</DrillDownParameter3>
     <DrillDownParameter4>Drill-Down Parameter 4</DrillDownParameter4>
     <DrillDownParameter5>Drill-Down Parameter 5</DrillDownParameter5>
+    <DrillDownParameters>Drill-Down Parameters</DrillDownParameters>
     <DrillDownReport>Drill-Down Report</DrillDownReport>
     <DropDownAlign>Drop Down Align</DropDownAlign>
     <DropDownStyle>Drop Down Style</DropDownStyle>
@@ -3086,14 +2749,18 @@ It contains a link to confirm your registration. To complete the registration pl
     <DropShadow>Drop Shadow</DropShadow>
     <Duplex>Duplex</Duplex>
     <Editable>Editable</Editable>
+    <EmptyBorderBrush>Empty Border Brush</EmptyBorderBrush>
+    <EmptyBorderWidth>Empty Border Width</EmptyBorderWidth>
+    <EmptyBrush>Empty Brush</EmptyBrush>
     <EmptyValue>Empty Value</EmptyValue>
     <Enabled>Enabled</Enabled>
-    <Disabled>Disabled</Disabled>
     <EnableLog>Enabled Log</EnableLog>
     <EncodingMode>Encoding Mode</EncodingMode>
     <EncodingType>Encoding Type</EncodingType>
     <EndCap>End Cap</EndCap>
-    <EndColor>End Color</EndColor>
+    <EndColor>End Colour</EndColor>
+    <EndValue>End Value</EndValue>
+    <EndWidth>End Width</EndWidth>
     <EngineVersion>Engine Version</EngineVersion>
     <EnumeratorSeparator>Enumerator Separator</EnumeratorSeparator>
     <EnumeratorType>Enumerator Type</EnumeratorType>
@@ -3109,9 +2776,10 @@ It contains a link to confirm your registration. To complete the registration pl
     <FieldIs>Field Is</FieldIs>
     <File>File</File>
     <Fill>Fill</Fill>
+    <FillColor>Fill Colour</FillColor>
     <Filter>Filter</Filter>
+    <FilterEngine>FilterEngine</FilterEngine>
     <FilterMode>Filter Mode</FilterMode>
-    <FilterEngine>Filter Engine</FilterEngine>
     <FilterOn>Filter On</FilterOn>
     <Filters>Filters</Filters>
     <FirstTabOffset>First Tab Offset</FirstTabOffset>
@@ -3139,7 +2807,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <FooterPrintOnEvenOddPages>Footer Print On Even Odd Pages</FooterPrintOnEvenOddPages>
     <FooterRowsCount>Footer Rows Count</FooterRowsCount>
     <Footers>Footers</Footers>
-    <ForeColor>Fore Color</ForeColor>
+    <ForeColor>Fore Colour</ForeColor>
     <Format>Format</Format>
     <From>From</From>
     <FullConvertExpression>Full Convert Expression</FullConvertExpression>
@@ -3147,19 +2815,21 @@ It contains a link to confirm your registration. To complete the registration pl
     <Functions>Functions</Functions>
     <GlobalizationStrings>Globalization Strings</GlobalizationStrings>
     <GlobalizedName>Globalized Name</GlobalizedName>
-    <GridLineColor>Grid Line Color</GridLineColor>
+    <GridLineColor>Grid Line Colour</GridLineColor>
     <GridLinesHor>Grid Lines Horizontal</GridLinesHor>
+    <GridLinesHorColor>Grid Lines Horizontal Colour</GridLinesHorColor>
     <GridLinesHorRight>Grid Lines Horizontal Right</GridLinesHorRight>
     <GridLineStyle>Grid Line Style</GridLineStyle>
     <GridLinesVert>Grid Lines Vertical</GridLinesVert>
+    <GridLinesVertColor>Grid Lines Vertical Colour</GridLinesVertColor>
     <GridOutline>Grid Outline</GridOutline>
     <GrowToHeight>Grow to Height</GrowToHeight>
-    <HeaderBackColor>Header Back Color</HeaderBackColor>
+    <HeaderBackColor>Header Back Colour</HeaderBackColor>
     <HeaderCanBreak>Header Can Break</HeaderCanBreak>
     <HeaderCanGrow>Header Can Grow</HeaderCanGrow>
     <HeaderCanShrink>Header Can Shrink</HeaderCanShrink>
     <HeaderFont>Header Font</HeaderFont>
-    <HeaderForeColor>Header Fore Color</HeaderForeColor>
+    <HeaderForeColor>Header Fore Colour</HeaderForeColor>
     <HeaderPrintAtBottom>Header Print At Bottom</HeaderPrintAtBottom>
     <HeaderPrintIfEmpty>Header Print If Empty</HeaderPrintIfEmpty>
     <HeaderPrintOn>Header Print On</HeaderPrintOn>
@@ -3203,8 +2873,11 @@ It contains a link to confirm your registration. To complete the registration pl
     <Interaction>Interaction</Interaction>
     <InterlacedBrush>Interlaced Brush</InterlacedBrush>
     <InterlacingHor>Interlacing Horizontal</InterlacingHor>
+    <InterlacingHorBrush>Interlacing Horizontal Brush</InterlacingHorBrush>
     <InterlacingVert>Interlacing Vertical</InterlacingVert>
+    <InterlacingVertBrush>Interlacing Vertical Brush</InterlacingVertBrush>
     <Interpolation>Interpolation</Interpolation>
+    <IsReversed>Is Reversed</IsReversed>
     <Italic>Italic</Italic>
     <Item>Item</Item>
     <ItemHeight>Item Height</ItemHeight>
@@ -3223,9 +2896,10 @@ It contains a link to confirm your registration. To complete the registration pl
     <Key>Key</Key>
     <KeyDataColumn>Key Data Column</KeyDataColumn>
     <Keys>Keys</Keys>
-    <LabelColor>Label Color</LabelColor>
+    <LabelColor>Label Colour</LabelColor>
+    <LabelRotationMode>Label Rotation Mode</LabelRotationMode>
     <Labels>Labels</Labels>
-    <LabelsColor>Labels Color</LabelsColor>
+    <LabelsColor>Labels Colour</LabelsColor>
     <LabelsOffset>Labels Offset</LabelsOffset>
     <Language>Language</Language>
     <LargeHeight>Large Height</LargeHeight>
@@ -3233,13 +2907,17 @@ It contains a link to confirm your registration. To complete the registration pl
     <Left>Left</Left>
     <LeftSide>Left Side</LeftSide>
     <Legend>Legend</Legend>
+    <LegendBorderColor>Border Colour</LegendBorderColor>
+    <LegendBrush>Legend Brush</LegendBrush>
+    <LegendLabelsColor>Labels Colour</LegendLabelsColor>
+    <LegendTitleColor>Title Colour</LegendTitleColor>
     <LegendValueType>Legend Value Type</LegendValueType>
     <Length>Length</Length>
     <LengthUnderLabels>Length under Labels</LengthUnderLabels>
     <Lighting>Lighting</Lighting>
     <Linear>Linear</Linear>
-    <LineColor>Line Color</LineColor>
-    <LineColorNegative>Line Color Negative</LineColorNegative>
+    <LineColor>Line Colour</LineColor>
+    <LineColorNegative>Line Colour Negative</LineColorNegative>
     <LineLimit>Line Limit</LineLimit>
     <LineMarker>Line Marker</LineMarker>
     <LinesOfUnderline>Lines of Underline</LinesOfUnderline>
@@ -3263,12 +2941,15 @@ It contains a link to confirm your registration. To complete the registration pl
     <Logarithmic>Logarithmic</Logarithmic>
     <LogarithmicScale>Logarithmic Scale</LogarithmicScale>
     <Low>Low</Low>
+    <MajorInterval>Major Interval</MajorInterval>
+    <MapID>Map ID</MapID>
+    <MapStyle>Style</MapStyle>
     <MapType>Map Type</MapType>
     <Margins>Margins</Margins>
     <Marker>Marker</Marker>
     <MarkerAlignment>Marker Alignment</MarkerAlignment>
     <MarkerBorder>Marker Border</MarkerBorder>
-    <MarkerColor>Marker Color</MarkerColor>
+    <MarkerColor>Marker Colour</MarkerColor>
     <MarkerSize>Marker Size</MarkerSize>
     <MarkerType>Marker Type</MarkerType>
     <MarkerVisible>Marker Visible</MarkerVisible>
@@ -3279,6 +2960,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <MaxDropDownItems>Max Drop Down Items</MaxDropDownItems>
     <MaxHeight>Max Height</MaxHeight>
     <Maximum>Maximum</Maximum>
+    <MaximumValue>Maximum Value</MaximumValue>
     <MaxLength>Max Length</MaxLength>
     <MaxNumberOfLines>Max Number of Lines</MaxNumberOfLines>
     <MaxSize>Max Size</MaxSize>
@@ -3291,8 +2973,10 @@ It contains a link to confirm your registration. To complete the registration pl
     <MinHeight>Min Height</MinHeight>
     <Minimum>Minimum</Minimum>
     <MinimumFontSize>Minimum Font Size</MinimumFontSize>
-    <MinorColor>Minor Color</MinorColor>
+    <MinimumValue>Minimum Value</MinimumValue>
+    <MinorColor>Minor Colour</MinorColor>
     <MinorCount>Minor Count</MinorCount>
+    <MinorInterval>Minor Interval</MinorInterval>
     <MinorLength>Minor Length</MinorLength>
     <MinorStyle>Minor Style</MinorStyle>
     <MinorVisible>Minor Visible</MinorVisible>
@@ -3324,6 +3008,8 @@ It contains a link to confirm your registration. To complete the registration pl
     <NumberOfPass>Number of Pass</NumberOfPass>
     <NumberOfValues>Number of Values</NumberOfValues>
     <OddStyle>Odd Style</OddStyle>
+    <Offset>Offset</Offset>
+    <OffsetAngle>Offset Angle</OffsetAngle>
     <OnlyText>Only Text</OnlyText>
     <Operation>Operation</Operation>
     <Options>Options</Options>
@@ -3348,7 +3034,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <PathSchema>Path Schema</PathSchema>
     <Placement>Placement</Placement>
     <PlaceOnToolbox>Place on Toolbox</PlaceOnToolbox>
-    <PointAtCenter>Point at Center</PointAtCenter>
+    <PointAtCenter>Point at Centre</PointAtCenter>
     <Position>Position</Position>
     <Positive>Positive</Positive>
     <PreferredColumnWidth>Preferred Column Width</PreferredColumnWidth>
@@ -3375,7 +3061,10 @@ It contains a link to confirm your registration. To complete the registration pl
     <ProcessingDuplicates>Processing Duplicates</ProcessingDuplicates>
     <ProductHomePage>Product Home Page</ProductHomePage>
     <RadarStyle>Radar Style</RadarStyle>
+    <Radius>Radius</Radius>
+    <RadiusMode>Radius Mode</RadiusMode>
     <Range>Range</Range>
+    <RangeColorMode>Range Colour Mode</RangeColorMode>
     <RangeFrom>From</RangeFrom>
     <RangeScrollEnabled>Range Scroll Enabled</RangeScrollEnabled>
     <RangeTo>To</RangeTo>
@@ -3385,9 +3074,12 @@ It contains a link to confirm your registration. To complete the registration pl
     <ReconnectOnEachRow>Reconnect on Each Row</ReconnectOnEachRow>
     <ReferencedAssemblies>Referenced Assemblies</ReferencedAssemblies>
     <Refresh>Refresh</Refresh>
+    <RefreshTime>Refresh Time</RefreshTime>
     <Relation>Relation</Relation>
     <RelationName>Relation Name</RelationName>
     <Relations>Relations</Relations>
+    <RelativeHeight>Relative Height</RelativeHeight>
+    <RelativeWidth>Relative Width</RelativeWidth>
     <RemoveUnusedDataBeforeStart>Remove Unused Data Before Start</RemoveUnusedDataBeforeStart>
     <RenderTo>Render to</RenderTo>
     <ReportAlias>Report Alias</ReportAlias>
@@ -3395,7 +3087,6 @@ It contains a link to confirm your registration. To complete the registration pl
     <ReportCacheMode>Report Cache Mode</ReportCacheMode>
     <ReportDescription>Report Description</ReportDescription>
     <ReportName>Report Name</ReportName>
-    <ReportImage>Report Image</ReportImage>
     <ReportUnit>Report Unit</ReportUnit>
     <RequestFromUser>Request from User</RequestFromUser>
     <RequestParameters>Request Parameters</RequestParameters>
@@ -3425,27 +3116,31 @@ It contains a link to confirm your registration. To complete the registration pl
     <SelectedKey>Selected Key</SelectedKey>
     <SelectedValue>Selected Value</SelectedValue>
     <Selection>Selection</Selection>
-    <SelectionBackColor>Selection Back Color</SelectionBackColor>
+    <SelectionBackColor>Selection Back Colour</SelectionBackColor>
     <SelectionEnabled>Selection Enabled</SelectionEnabled>
-    <SelectionForeColor>Selection Fore Color</SelectionForeColor>
+    <SelectionForeColor>Selection Fore Colour</SelectionForeColor>
     <SelectionMode>Selection Mode</SelectionMode>
     <Series>Series</Series>
     <SeriesLabels>Series Labels</SeriesLabels>
+    <SeriesLabelsBorderColor>Border Colour</SeriesLabelsBorderColor>
+    <SeriesLabelsBrush>Labels Brush</SeriesLabelsBrush>
+    <SeriesLabelsColor>Labels Colour</SeriesLabelsColor>
     <Shadow>Shadow</Shadow>
     <ShadowBrush>Shadow Brush</ShadowBrush>
-    <ShadowColor>Shadow Color</ShadowColor>
+    <ShadowColor>Shadow Colour</ShadowColor>
     <ShadowSize>Shadow Size</ShadowSize>
     <ShapeType>Shape Type</ShapeType>
     <Shift>Shift</Shift>
     <ShiftMode>Shift Mode</ShiftMode>
     <ShowBehind>Show Behind</ShowBehind>
-    <ShowDialog>Show Dialog</ShowDialog>
+    <ShowDialog>Show Dialogue</ShowDialog>
     <ShowEdgeValues>Show Edge Values</ShowEdgeValues>
     <ShowImageBehind>Show Image Behind</ShowImageBehind>
     <ShowInLegend>Show in Legend</ShowInLegend>
     <ShowInPercent>Show in Percent</ShowInPercent>
     <ShowLabels>Show Labels</ShowLabels>
     <ShowLabelText>Show Label Text</ShowLabelText>
+    <ShowLegend>Show Legend</ShowLegend>
     <ShowMarker>Show Marker</ShowMarker>
     <ShowNulls>Show Nulls</ShowNulls>
     <ShowOthers>Show Others</ShowOthers>
@@ -3468,7 +3163,13 @@ It contains a link to confirm your registration. To complete the registration pl
     <Simple>Simple</Simple>
     <Size>Size</Size>
     <SizeMode>Size Mode</SizeMode>
+    <Skin>Skin</Skin>
     <SkipFirst>Skip First</SkipFirst>
+    <SkipIndices>Skip Indices</SkipIndices>
+    <SkipIndicesObj>Skip Indices</SkipIndicesObj>
+    <SkipMajorValues>Skip Major Values</SkipMajorValues>
+    <SkipValues>Skip Values</SkipValues>
+    <SkipValuesObj>Skip Values</SkipValuesObj>
     <Smoothing>Smoothing</Smoothing>
     <Sort>Sort</Sort>
     <SortBy>Sort by</SortBy>
@@ -3482,12 +3183,14 @@ It contains a link to confirm your registration. To complete the registration pl
     <SqlCommand>Sql Command</SqlCommand>
     <StartAngle>Start Angle</StartAngle>
     <StartCap>Start Cap</StartCap>
-    <StartColor>Start Color</StartColor>
+    <StartColor>Start Colour</StartColor>
     <StartFromZero>Start From Zero</StartFromZero>
     <StartMode>Start Mode</StartMode>
     <StartNewPage>Start New Page</StartNewPage>
     <StartNewPageIfLessThan>Start New Page if Less Than</StartNewPageIfLessThan>
     <StartPosition>Start Position</StartPosition>
+    <StartValue>Start Value</StartValue>
+    <StartWidth>Start Width</StartWidth>
     <Step>Step</Step>
     <Stop>Stop</Stop>
     <StopBeforePage>Stop Before Page</StopBeforePage>
@@ -3498,9 +3201,9 @@ It contains a link to confirm your registration. To complete the registration pl
     <StripBrush>Strip Brush</StripBrush>
     <Strips>Strips</Strips>
     <Style>Style</Style>
-    <StyleColors>Style Colors</StyleColors>
+    <StyleColors>Style Colours</StyleColors>
     <Styles>Styles</Styles>
-    <SubReportPage>Sub Report</SubReportPage>
+    <SubReportPage>Sub Report Page</SubReportPage>
     <Summary>Summary</Summary>
     <SummaryExpression>Summary Expression</SummaryExpression>
     <SummarySortDirection>Summary Sort Direction</SummarySortDirection>
@@ -3508,6 +3211,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <SummaryValues>Summary Values</SummaryValues>
     <SupplementCode>Supplement Code</SupplementCode>
     <SupplementType>Supplement Type</SupplementType>
+    <SweepAngle>Sweep Angle</SweepAngle>
     <SystemVariable>System Variable</SystemVariable>
     <SystemVariables>System Variables</SystemVariables>
     <Table>Table</Table>
@@ -3521,7 +3225,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <TextAlignment>Text Alignment</TextAlignment>
     <TextBefore>Text Before</TextBefore>
     <TextBrush>Text Brush</TextBrush>
-    <TextColor>Text Color</TextColor>
+    <TextColor>Text Colour</TextColor>
     <TextFormat>Text Format</TextFormat>
     <TextOnly>Text Only</TextOnly>
     <TextOptions>Text Options</TextOptions>
@@ -3529,10 +3233,10 @@ It contains a link to confirm your registration. To complete the registration pl
     <Ticks>Ticks</Ticks>
     <Title>Title</Title>
     <TitleBeforeHeader>Title before Header</TitleBeforeHeader>
-    <TitleColor>Title Color</TitleColor>
+    <TitleColor>Title Colour</TitleColor>
     <TitleDirection>TitleDirection</TitleDirection>
     <TitleFont>Title Font</TitleFont>
-    <TitleVisible>Title Visible</TitleVisible>
+    <TitleVisible>Visible</TitleVisible>
     <To>To</To>
     <Today>Today</Today>
     <ToolTip>Tool Tip</ToolTip>
@@ -3544,8 +3248,10 @@ It contains a link to confirm your registration. To complete the registration pl
     <TopSide>Top Side</TopSide>
     <Total>Total</Total>
     <Totals>Totals</Totals>
-    <TransparentColor>Transparent Color</TransparentColor>
+    <TransparentColor>Transparent Colour</TransparentColor>
     <TrendLine>Trend Line</TrendLine>
+    <TrendLineColor>Colour</TrendLineColor>
+    <TrendLineShowShadow>Show Shadow</TrendLineShowShadow>
     <Trimming>Trimming</Trimming>
     <Type>Type</Type>
     <TypeName>Type Name</TypeName>
@@ -3559,10 +3265,12 @@ It contains a link to confirm your registration. To complete the registration pl
     <UseAliases>Use Aliases</UseAliases>
     <UseExternalReport>Use External Report</UseExternalReport>
     <UseParentStyles>Use Parent Styles</UseParentStyles>
+    <UseRangeColor>Use Range Color</UseRangeColor>
     <UseRectangularSymbols>Use Rectangular Symbols</UseRectangularSymbols>
-    <UseSeriesColor>Use Series Color</UseSeriesColor>
+    <UseSeriesColor>Use Series Colour</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>Use Style of Summary in Column Total</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Use Style of Summary in Row Total</UseStyleOfSummaryInRowTotal>
+    <UseValuesFromTheSpecifiedRange>Use Values From The Specified Range</UseValuesFromTheSpecifiedRange>
     <Value>Value</Value>
     <ValueClose>Value Close</ValueClose>
     <ValueDataColumn>Value Data Column</ValueDataColumn>
@@ -3598,7 +3306,6 @@ It contains a link to confirm your registration. To complete the registration pl
     <YAxis>Y Axis</YAxis>
     <YRightAxis>Y Right Axis</YRightAxis>
     <Zoom>Zoom</Zoom>
-    <RetrieveOnlyUsedData>Retrieve Only Used Data</RetrieveOnlyUsedData>
   </PropertyMain>
   <PropertySystemColors>
     <ActiveBorder>Active Border</ActiveBorder>
@@ -3628,19 +3335,6 @@ It contains a link to confirm your registration. To complete the registration pl
     <WindowFrame>Window Frame</WindowFrame>
     <WindowText>Window Text</WindowText>
   </PropertySystemColors>
-  <ReportInfo>
-	<CheckIssuesAdditionalDescription>Check the report for errors and find inaccuracies in it.</CheckIssuesAdditionalDescription>
-	<Info>Info</Info>
-	<EncryptWithPassword>Encrypt with Password</EncryptWithPassword>
-	<EncryptWithPasswordDescription>Protect Document</EncryptWithPasswordDescription>
-	<EncryptWithPasswordAdditionalDescription>Set the password to prevent unauthorized working with the document.</EncryptWithPasswordAdditionalDescription>
-	<ReportOptions>Report Options</ReportOptions>
-	<ReportOptionsAdditionalDescription>Setup the basic information and parameters in the report.</ReportOptionsAdditionalDescription>
-  </ReportInfo>
-  <ReportOpen>
-	<Import>Import</Import>
-	<Browse>Browse</Browse>
-  </ReportOpen>
   <QueryBuilder>
     <AddObject>Add Object</AddObject>
     <AddSubQuery>Add Derived Table</AddSubQuery>
@@ -3648,6 +3342,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <BadFromObjectExpression>Invalid FROM object expression!</BadFromObjectExpression>
     <BadObjectName>Invalid object name!</BadObjectName>
     <BadSelectStatement>Invalid SELECT statement!</BadSelectStatement>
+    <Collections>Collections</Collections>
     <CreateLinksFromForeignKeys>Create Links from Foreign Keys</CreateLinksFromForeignKeys>
     <CriteriaAlias>Alias</CriteriaAlias>
     <CriteriaCriteria>Criteria</CriteriaCriteria>
@@ -3702,7 +3397,6 @@ It contains a link to confirm your registration. To complete the registration pl
     <SelectAllFromRight>Select All from Right</SelectAllFromRight>
     <SwitchToDerivedTable>Switch to Derived Table</SwitchToDerivedTable>
     <Tables>Tables</Tables>
-    <Collections>Collections</Collections>
     <UnexpectedTokenAt>Unexpected token \"{0}\" at line {1}, pos {2}!</UnexpectedTokenAt>
     <Unions>Unions</Unions>
     <UnionSubMenu>Union</UnionSubMenu>
@@ -3726,14 +3420,12 @@ It contains a link to confirm your registration. To complete the registration pl
   </Questions>
   <Report>
     <Alphabetical>Alphabetical</Alphabetical>
-    <Infographics>Infographics</Infographics>
     <Bands>Bands</Bands>
     <Basic>Basic</Basic>
     <BasicConfiguration>Minimal number of object properties, which are necessary for rendering the basic report types.</BasicConfiguration>
     <BusinessObjects>Business Objects</BusinessObjects>
     <Categorized>Categorized</Categorized>
     <Charts>Charts</Charts>
-    <Shapes>Shapes</Shapes>
     <ClickForMoreDetails>Click for More Details</ClickForMoreDetails>
     <CollapseAll>Collapse All</CollapseAll>
     <Collection>Collection</Collection>
@@ -3745,7 +3437,8 @@ It contains a link to confirm your registration. To complete the registration pl
     <CreateNewReportPageForm>Create a new report, add a page, add a form</CreateNewReportPageForm>
     <CreatingReport>Creating Report</CreatingReport>
     <CrossBands>Cross</CrossBands>
-    <Dialogs>Dialogs</Dialogs>
+    <Dashboard>Dashboard</Dashboard>
+    <Dialogs>Dialogues</Dialogs>
     <EditStyles>[Edit Styles]</EditStyles>
     <Errors>Errors</Errors>
     <EventsTab>Events Tab</EventsTab>
@@ -3755,16 +3448,16 @@ It contains a link to confirm your registration. To complete the registration pl
     <FinishingReport>Finishing Report</FinishingReport>
     <FirstPass>First Pass</FirstPass>
     <GenerateNewCode>Generate New Code</GenerateNewCode>
+    <Infographics>Infographics</Infographics>
     <InfoMessage>{0} - {1} found.</InfoMessage>
     <InformationMessages>Information Messages</InformationMessages>
     <LabelAlias>Alias:</LabelAlias>
     <LabelAuthor>Author:</LabelAuthor>
     <LabelBackground>Background:</LabelBackground>
     <LabelCategory>Category:</LabelCategory>
-    <LabelCentimeters>Centimeters:</LabelCentimeters>
+    <LabelCentimeters>Centimetres:</LabelCentimeters>
     <LabelCollectionName>Collection Name:</LabelCollectionName>
-    <LabelColor>Color:</LabelColor>
-    <LabelQueryTimeout>Query Timeout:</LabelQueryTimeout>
+    <LabelColor>Colour:</LabelColor>
     <LabelCountData>Count Data:</LabelCountData>
     <LabelDataBand>DataBand:</LabelDataBand>
     <LabelDataColumn>Data Column:</LabelDataColumn>
@@ -3775,7 +3468,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <LabelFunction>Function:</LabelFunction>
     <LabelHundredthsOfInch>Hundredths of Inch:</LabelHundredthsOfInch>
     <LabelInches>Inches:</LabelInches>
-    <LabelMillimeters>Millimeters:</LabelMillimeters>
+    <LabelMillimeters>Millimetres:</LabelMillimeters>
     <LabelName>Name:</LabelName>
     <LabelNameInSource>Name in Source:</LabelNameInSource>
     <LabelNestedLevel>Nested Level:</LabelNestedLevel>
@@ -3808,6 +3501,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <SaveReportPagesOrFormsFromReport>Save the report, pages or forms</SaveReportPagesOrFormsFromReport>
     <SavingReport>Saving Report</SavingReport>
     <SecondPass>Second Pass</SecondPass>
+    <Shapes>Shapes</Shapes>
     <Standard>Standard</Standard>
     <StandardConfiguration>Main object properties except rarely used ones.</StandardConfiguration>
     <StiEmptyBrush>Empty</StiEmptyBrush>
@@ -3934,7 +3628,7 @@ It contains a link to confirm your registration. To complete the registration pl
   <Toolbars>
     <Align>Align</Align>
     <AlignBottom>Align Bottom</AlignBottom>
-    <AlignCenter>Align Center</AlignCenter>
+    <AlignCenter>Align Centre</AlignCenter>
     <AlignLeft>Align Left</AlignLeft>
     <AlignMiddle>Align Middle</AlignMiddle>
     <AlignRight>Align Right</AlignRight>
@@ -3942,8 +3636,8 @@ It contains a link to confirm your registration. To complete the registration pl
     <AlignTop>Align Top</AlignTop>
     <AlignWidth>Justify</AlignWidth>
     <BringToFront>Bring to Front</BringToFront>
-    <CenterHorizontally>Center Horizontally</CenterHorizontally>
-    <CenterVertically>Center Vertically</CenterVertically>
+    <CenterHorizontally>Centre Horizontally</CenterHorizontally>
+    <CenterVertically>Centre Vertically</CenterVertically>
     <Conditions>Conditions</Conditions>
     <FontGrow>Grow Font</FontGrow>
     <FontName>Font Name</FontName>
@@ -4017,7 +3711,7 @@ It contains a link to confirm your registration. To complete the registration pl
     <groupWizards>Wizards</groupWizards>
     <infoColumnsOrder>Arrange columns in the necessary order.</infoColumnsOrder>
     <infoDataSource>Select one Data Source from available.</infoDataSource>
-    <infoDataSources>Select Data Sources from available. The first selected one will be the Master data source.</infoDataSources>
+    <infoDataSources>Select Data Sources from available. The first selected one will be the Master datasource.</infoDataSources>
     <infoFilters>Filter Data for your report</infoFilters>
     <infoGroups>Select columns on which necessary to group.</infoGroups>
     <infoLabelSettings>Set the settings of labels.</infoLabelSettings>

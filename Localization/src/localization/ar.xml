@@ -1,6 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Localization language="Arabic" description="Arabic" cultureName="ar">
   <A_WebViewer>
+    <AbbreviatedDayFriday>جمعة</AbbreviatedDayFriday>
+    <AbbreviatedDayMonday>إثنين</AbbreviatedDayMonday>
+    <AbbreviatedDaySaturday>سبت</AbbreviatedDaySaturday>
+    <AbbreviatedDaySunday>أحد</AbbreviatedDaySunday>
+    <AbbreviatedDayThursday>خميس</AbbreviatedDayThursday>
+    <AbbreviatedDayTuesday>ثلاثاء</AbbreviatedDayTuesday>
+    <AbbreviatedDayWednesday>أربعاء</AbbreviatedDayWednesday>
+    <Attachment>مرفق:</Attachment>
+    <ButtonNext>التالي</ButtonNext>
+    <ButtonPrev>السابق</ButtonPrev>
+    <ButtonSend>إرسال</ButtonSend>
+    <CategoryAlreadyExists>يوجد تصنيف مسبق بهذا الاسم!</CategoryAlreadyExists>
     <DayFriday>الجمعة</DayFriday>
     <DayMonday>الإثنين</DayMonday>
     <DaySaturday>السبت</DaySaturday>
@@ -8,9 +20,17 @@
     <DayThursday>الخميس</DayThursday>
     <DayTuesday>الثلاثاء</DayTuesday>
     <DayWednesday>الأربعاء</DayWednesday>
+    <Email>بريد الكتروني:</Email>
+    <EmailOptions>خيارات البريد الالكتروني</EmailOptions>
     <FirstPage>الصفحة الأولى</FirstPage>
+    <Hours>ساعات</Hours>
+    <LabelFrom>من:</LabelFrom>
+    <LabelSelectExportFormat>اختر النسق الذي تود حفظ التقرير به:</LabelSelectExportFormat>
+    <LabelTo>إلى:</LabelTo>
     <LastPage>الصفحة الأخيرة</LastPage>
     <Loading>تحميل...</Loading>
+    <Message>الرسالة:</Message>
+    <Minutes>دقائق</Minutes>
     <MonthApril>إبريل</MonthApril>
     <MonthAugust>أغسطس</MonthAugust>
     <MonthDecember>ديسيمبر</MonthDecember>
@@ -28,11 +48,17 @@
     <Page>الصفحة</Page>
     <PageOf>من</PageOf>
     <PreviousPage>الصفحة السابقة</PreviousPage>
+    <PrintContinue>اضغط طباعة للمواصلة</PrintContinue>
     <PrintReport>طباعة</PrintReport>
-    <PrintToPdf>طباعة لـ Pdf</PrintToPdf>
+    <PrintToPdf>طباعة لـ PDF</PrintToPdf>
+    <PrintToXps>طباعة لـ XPS</PrintToXps>
     <PrintWithoutPreview>طباعة بدون معاينة</PrintWithoutPreview>
     <PrintWithPreview>طباعة مع معاينة</PrintWithPreview>
     <SaveReport>حفظ</SaveReport>
+    <Subject>الموضوع:</Subject>
+    <TabItemContacts>جهات الاتصال</TabItemContacts>
+    <TextComputer>الجهاز</TextComputer>
+    <TextItemsRoot>الرئيسي</TextItemsRoot>
     <TodayDate>اليوم</TodayDate>
     <WholeReport>كامل التقرير</WholeReport>
   </A_WebViewer>
@@ -40,7 +66,7 @@
     <AdapterBusinessObjects>بيانات من Business Objects</AdapterBusinessObjects>
     <AdapterConnection>بيانات من {0}</AdapterConnection>
     <AdapterCrossTabDataSource>بيانات من جدول متقاطع</AdapterCrossTabDataSource>
-    <AdapterCsvFiles>بيانات من ملفات Csv</AdapterCsvFiles>
+    <AdapterCsvFiles>بيانات من ملفات CSV</AdapterCsvFiles>
     <AdapterDataTables>بيانات من  DataSet, DataTables</AdapterDataTables>
     <AdapterDataViews>بيانات من DataViews</AdapterDataViews>
     <AdapterDB2Connection>بيانات من IBM DB2 Connection</AdapterDB2Connection>
@@ -48,14 +74,15 @@
     <AdapterFirebirdConnection>بيانات من اتصال Firebird</AdapterFirebirdConnection>
     <AdapterInformixConnection>بيانات من Informix اتصال</AdapterInformixConnection>
     <AdapterMySQLConnection>بيانات من اتصال MySQL</AdapterMySQLConnection>
-    <AdapterOdbcConnection>بيانات من اتصال Odbc</AdapterOdbcConnection>
-    <AdapterOleDbConnection>بيانات من اتصال OleDb</AdapterOleDbConnection>
+    <AdapterOdbcConnection>بيانات من اتصال ODBC</AdapterOdbcConnection>
+    <AdapterOleDbConnection>بيانات من اتصال OLEDB</AdapterOleDbConnection>
     <AdapterOracleConnection>بيانات من اتصال Oracle</AdapterOracleConnection>
     <AdapterOracleODPConnection>بيانات من اتصال Oracle ODP.NET</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>بيانات من اتصال PostgreSQL</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection>بيانات من اتصال SqlCe</AdapterSqlCeConnection>
-    <AdapterSqlConnection>بيانات من اتصال Sql</AdapterSqlConnection>
+    <AdapterSqlCeConnection>بيانات من اتصال SQL Server CE</AdapterSqlCeConnection>
+    <AdapterSqlConnection>بيانات من اتصال SQL</AdapterSqlConnection>
     <AdapterSQLiteConnection>بيانات من اتصال SQLite</AdapterSQLiteConnection>
+    <AdapterTeradataConnection>بيانات من اتصال تيراداتا</AdapterTeradataConnection>
     <AdapterUniDirectConnection>بيانات من اتصال Uni Direct</AdapterUniDirectConnection>
     <AdapterUserSources>بيانات من مصادر المستخدم</AdapterUserSources>
     <AdapterVirtualSource>بيانات من مصادر أخرى</AdapterVirtualSource>
@@ -66,6 +93,7 @@
     <AddAllColumns>إضافة كل الأعمدة</AddAllColumns>
     <Build>بناء...</Build>
     <Cancel>&amp;إلغاء</Cancel>
+    <Check>تحقق</Check>
     <Close>غلق</Close>
     <Delete>حذف</Delete>
     <Design>تصميم</Design>
@@ -73,6 +101,7 @@
     <Duplicate>عمل نسخة</Duplicate>
     <Export>تصدير</Export>
     <Help>مساعدة</Help>
+    <LoadDataSet>تحميل حزمة بيانات (*.data)</LoadDataSet>
     <MoveLeft>تحريك لليسار</MoveLeft>
     <MoveRight>تحريك لليمين</MoveRight>
     <No>لا</No>
@@ -81,9 +110,15 @@
     <Print>طباعة</Print>
     <QuickPrint>طباعة سريعة</QuickPrint>
     <Remove>إزالة</Remove>
+    <RemoveAll>إزالة الكل</RemoveAll>
     <Rename>إعادة تسمية</Rename>
     <RestoreDefaults>استعادة الإفتراضيات</RestoreDefaults>
+    <Reverse>عكس</Reverse>
     <Save>حفظ</Save>
+    <SaveCopy>حفظ نسخة</SaveCopy>
+    <SetAll>الكل</SetAll>
+    <ShowMore>عرض المزيد</ShowMore>
+    <Submit>تحميل</Submit>
     <Test>تجربة</Test>
     <Up>أعلى</Up>
     <Yes>نعم</Yes>
@@ -99,22 +134,29 @@
     <AxisReverse>عكس</AxisReverse>
     <AxisX>محور X</AxisX>
     <AxisY>محور Y</AxisY>
+    <Bubble>فقاقيع</Bubble>
+    <Candlestick>شمعة</Candlestick>
     <ChartConditionsCollectionForm>شروط</ChartConditionsCollectionForm>
+    <ChartEditorForm>محرر الرسوم البيانية</ChartEditorForm>
     <ChartFiltersCollectionForm>تصفية</ChartFiltersCollectionForm>
     <ChartType>نوع الرسم البياني</ChartType>
     <CheckBoxAutoRotation>تدوير تلقائي</CheckBoxAutoRotation>
     <ClusteredBar>شريط مجمع</ClusteredBar>
     <ClusteredColumn>عمود مجمع</ClusteredColumn>
+    <Common>شائع</Common>
     <ConstantLine>خط ثابت</ConstantLine>
     <ConstantLinesEditorForm>محرر الخطوط الثابتة</ConstantLinesEditorForm>
     <DataColumns>أعمدة بيانات</DataColumns>
     <Doughnut>دونات</Doughnut>
+    <Financial>مالي</Financial>
     <FullStackedArea>نطاقات مكدسة كاملة</FullStackedArea>
     <FullStackedBar>أشرطة مكدسة كاملة</FullStackedBar>
     <FullStackedColumn>أعمدة مكدسة كاملة</FullStackedColumn>
     <FullStackedLine>خطوط مكدسة كاملة</FullStackedLine>
     <FullStackedSpline>رسم مكدس كاملة</FullStackedSpline>
     <FullStackedSplineArea>نطاق رسم مكدس كاملة</FullStackedSplineArea>
+    <Funnel>قمع</Funnel>
+    <FunnelWeightedSlices>قمع الشرائح الموزونة</FunnelWeightedSlices>
     <Gantt>جانت</Gantt>
     <GridInterlaced>مشابك</GridInterlaced>
     <GridLines>خطوط الشبكة</GridLines>
@@ -124,8 +166,13 @@
     <LabelAngle>الزاوية:</LabelAngle>
     <LabelArgumentDataColumn>عمود بيانات متغير:</LabelArgumentDataColumn>
     <LabelAutoRotation>تدوير تلقائي:</LabelAutoRotation>
+    <LabelCloseValueDataColumn>عمود بيانات قيمة الإغلاق:</LabelCloseValueDataColumn>
+    <LabelEndValueDataColumn>عمود بيانات قيمة النهاية:</LabelEndValueDataColumn>
+    <LabelHighValueDataColumn>عمود بيانات أعلى قيمة:</LabelHighValueDataColumn>
     <LabelHorizontal>أفقي:</LabelHorizontal>
+    <LabelLowValueDataColumn>عمود بيانات أدنى قيمة:</LabelLowValueDataColumn>
     <LabelMinorCount>عداد الثانوي:</LabelMinorCount>
+    <LabelOpenValueDataColumn>عمود بيانات القيمة الافتتاحية:</LabelOpenValueDataColumn>
     <Labels>ملصقات</Labels>
     <LabelsCenter>وسط</LabelsCenter>
     <LabelSeriesName>اسم المجموعة:</LabelSeriesName>
@@ -158,6 +205,13 @@
     <NoConditions>بدون شروط</NoConditions>
     <NoFilters>بدون تصفية</NoFilters>
     <Pie>دائري</Pie>
+    <Radar>رادار</Radar>
+    <RadarArea>مساحة رادارية</RadarArea>
+    <RadarColumn>عمود رادار</RadarColumn>
+    <RadarLine>خط راداري</RadarLine>
+    <RadarPoint>نقطة رادارية</RadarPoint>
+    <Range>نطاق</Range>
+    <RangeBar>شريط نطاق</RangeBar>
     <RemoveCondition>&amp;إزالة شرط</RemoveCondition>
     <RemoveConstantLine>إزالة خط ثابت</RemoveConstantLine>
     <RemoveFilter>&amp;إزالة تصفية</RemoveFilter>
@@ -173,6 +227,7 @@
     <Serieses>مجموعات</Serieses>
     <Spline>شكل</Spline>
     <SplineArea>نطاق شكل</SplineArea>
+    <SplineRange>نطاق تدرج</SplineRange>
     <StackedArea>نطاق مكدس</StackedArea>
     <StackedBar>شريط مكدس</StackedBar>
     <StackedColumn>عمود مكدس</StackedColumn>
@@ -181,6 +236,8 @@
     <StackedSplineArea>نطاق شكل مكدس</StackedSplineArea>
     <SteppedArea>نطاق متجاوز</SteppedArea>
     <SteppedLine>خط متجاوز</SteppedLine>
+    <SteppedRange>نطاق متدرج</SteppedRange>
+    <Stock>أسهم البورصة</Stock>
     <Strip>شريط</Strip>
     <StripsEditorForm>نموذج تحرير شريط</StripsEditorForm>
     <Style>نمط</Style>
@@ -252,6 +309,171 @@
     <VerticalMinor>&lt;b&gt;فرعي&lt;/b&gt;&lt;br&gt;عرض خطوط شبكة عمودية للوحدات الفرعية فقط&lt;/br&gt;</VerticalMinor>
     <VerticalNone>&lt;b&gt;بدون&lt;/b&gt;&lt;br&gt;عدم عرض خطوط شبكة عمودية&lt;/br&gt;</VerticalNone>
   </ChartRibbon>
+  <Cloud>
+    <AccountSettings>إعدادات الحساب</AccountSettings>
+    <ButtonChangePassword>تغيير كلمة المرور</ButtonChangePassword>
+    <ButtonDeleteAll>حذف الكل</ButtonDeleteAll>
+    <ButtonDesign>تصميم التقرير</ButtonDesign>
+    <ButtonLogout>تسجيل خروج</ButtonLogout>
+    <ButtonPublish>نشر</ButtonPublish>
+    <ButtonRecover>استعادة</ButtonRecover>
+    <ButtonResendEmail>إعادة إرسال الإيميل</ButtonResendEmail>
+    <ButtonResetPassword>إعادة ضبط كلمة المرور</ButtonResetPassword>
+    <ButtonRun>تشغيل</ButtonRun>
+    <ButtonShare>مشاركة</ButtonShare>
+    <ButtonSignUp>تسجيل</ButtonSignUp>
+    <ButtonSkip>تخطي</ButtonSkip>
+    <ButtonView>عرض</ButtonView>
+    <ButtonWhereUsed>المكان المستخدم فيه؟</ButtonWhereUsed>
+    <Cancel>إلغاء الأمر</Cancel>
+    <CheckBoxMoveToRecycleBin>نقل لسلة المهملات</CheckBoxMoveToRecycleBin>
+    <CheckBoxRememberMe>تذكرني</CheckBoxRememberMe>
+    <Collection>مجموعة</Collection>
+    <Create>إنشاء</Create>
+    <CreateError>خطأ أثناء إنشاء التقرير!</CreateError>
+    <CreateNewCollection>إنشاء مجموعة جديدة</CreateNewCollection>
+    <CreatingReport>إنشاء التقرير...</CreatingReport>
+    <DeleteFile>حذف ملف</DeleteFile>
+    <ExecutionError>خطأ في التنفيذ</ExecutionError>
+    <FileStorageWindowTitleEdit>تعديل تخزين الملف</FileStorageWindowTitleEdit>
+    <FileStorageWindowTitleNew>تخزين ملف جديد</FileStorageWindowTitleNew>
+    <FolderWindowTitleEdit>تعديل مجلد</FolderWindowTitleEdit>
+    <FolderWindowTitleNew>مجلد جديد</FolderWindowTitleNew>
+    <ForExample>مثال</ForExample>
+    <GroupBoxAttachedItems>عناصر مرفقة</GroupBoxAttachedItems>
+    <HyperlinkAgreeToTerms>بتسجيلك فأنت توافق على الشروط</HyperlinkAgreeToTerms>
+    <HyperlinkAlreadyHaveAccount>لديك حساب</HyperlinkAlreadyHaveAccount>
+    <HyperlinkForgotPassword>نسيت كلمة المرور</HyperlinkForgotPassword>
+    <HyperlinkHavePassword>لديك كلمة مرور</HyperlinkHavePassword>
+    <HyperlinkRegisterAccount>تسجيل حساب جديد</HyperlinkRegisterAccount>
+    <labelCollectionName>اسم المجموعة:</labelCollectionName>
+    <LabelCreated>منشأ:</LabelCreated>
+    <LabelCreateFolder>إنشاء تصنيف جديد يمكنك من احتواء عناصر أخرى.</LabelCreateFolder>
+    <LabelCreateReportTemplate>إنشاء نموذج تقرير.</LabelCreateReportTemplate>
+    <LabelCurrentPassword>كلمة المرور الحالية:</LabelCurrentPassword>
+    <LabelDataFile>ملف البيانات:</LabelDataFile>
+    <LabelDataUrl>URL عنوان البيانات:</LabelDataUrl>
+    <labelFileName>اسم الملف:</labelFileName>
+    <LabelForeground>المقدمة:</LabelForeground>
+    <LabelFromReport>من تقرير</LabelFromReport>
+    <LabelFromReportCode>من تقرير (معرف برمجيا)</LabelFromReportCode>
+    <LabelLastLogin>آخر تسجيل دخول:</LabelLastLogin>
+    <LabelLastTime>آخر وقت:</LabelLastTime>
+    <LabelModified>تعديل:</LabelModified>
+    <LabelNewPassword>كلمة المرور الجديدة:</LabelNewPassword>
+    <LabelNextTime>الوقت التالي:</LabelNextTime>
+    <labelPassword>كلمة المرور:</labelPassword>
+    <LabelPermission>الأذونات:</LabelPermission>
+    <LabelRenderedReport>تقرير معروض</LabelRenderedReport>
+    <LabelResponseAsFile>الاستجابة كملف</LabelResponseAsFile>
+    <LabelSeparateReport>تقرير منفصل (مع نصوص برمجية) ملف</LabelSeparateReport>
+    <LabelShowReport>عرض التقرير:</LabelShowReport>
+    <labelUserName>اسم المستخدم:</labelUserName>
+    <Login>تسجيل دخول</Login>
+    <Open>فتح</Open>
+    <OpenFile>فتح ملف</OpenFile>
+    <OperationCreate>إنشاء '{0}'</OperationCreate>
+    <OperationDelete>حذف '{0}' من الخادم</OperationDelete>
+    <OperationDownload>تحميل من الخادم</OperationDownload>
+    <OperationGetList>تجهيز قائمة الملفات من الخادم</OperationGetList>
+    <OperationLogin>تسجيل الدخول للخادم</OperationLogin>
+    <OperationRename>إعادة تسمية '{0}' من '{1}'</OperationRename>
+    <OperationUpload>رفع '{0}' إلى الخادم</OperationUpload>
+    <page>صفحة</page>
+    <questionOpenThisFile>هل أنت متأكد من أنك تود فتح الملف '{0}' ?</questionOpenThisFile>
+    <questionOverrideItem>هل أنت متأكد من أنك تود استبدال الملف '{0}' ?</questionOverrideItem>
+    <questionRemoveItem>هل أنت متأكد من أنك تود حذف الملف '{0}' ?</questionRemoveItem>
+    <RefreshList>إعادة تحميل القائمة</RefreshList>
+    <ReportDocumentFormatNotRecognized>تنسيق '{0}' لم يتم التعرف عليه كتنسيق معتمد لعرض تقرير!</ReportDocumentFormatNotRecognized>
+    <ReportTemplateFormatNotRecognized>تنسيق '{0}' لم يتم التعرف عليه كتنسيق معتمد لقالب تقرير!</ReportTemplateFormatNotRecognized>
+    <RibbonButtonAddRole>إضافة دور</RibbonButtonAddRole>
+    <RibbonButtonAddUser>إضافة مستخدم</RibbonButtonAddUser>
+    <RibbonButtonAddWorkspace>إضافة مساحة عمل</RibbonButtonAddWorkspace>
+    <RibbonButtonFolder>مجلد</RibbonButtonFolder>
+    <RibbonTabUsers>مستخدمون</RibbonTabUsers>
+    <Root>الجذر</Root>
+    <RootFolder>المجلد الرئيسي</RootFolder>
+    <Save>حساب</Save>
+    <SaveAccountSettings>حفظ إعدادات الحساب</SaveAccountSettings>
+    <SaveFile>حفظ الملف</SaveFile>
+    <ShareWindowTitleNew>مشاركة</ShareWindowTitleNew>
+    <ShowAllFiles>عرض كافة الملفات</ShowAllFiles>
+    <TabItemEmbedCode>تضمين الرمز</TabItemEmbedCode>
+    <TabItemQRCode>رمز QR</TabItemQRCode>
+    <TabItemShare>رابط للمشاركة</TabItemShare>
+    <TextActivated>مفعل</TextActivated>
+    <TextDelete>حذف</TextDelete>
+    <TextDeletingItems>حذف العناصر...</TextDeletingItems>
+    <TextFirstName>الاسم الأول</TextFirstName>
+    <TextFromTo>من {0} إلى {1} (المجموع - {2})</TextFromTo>
+    <TextItemsWorkspace>مساحة عمل</TextItemsWorkspace>
+    <TextLastName>الاسم الأخير</TextLastName>
+    <TextModify>تعديل</TextModify>
+    <TextNoNotifications>بدون تنبيهات</TextNoNotifications>
+    <TextProfile>الملف الشخصي</TextProfile>
+    <TextReports>تقارير</TextReports>
+    <TextRestoringItems>استعادة العناصر...</TextRestoringItems>
+    <TextRole>الدور</TextRole>
+    <TextRun>تشغيل</TextRun>
+    <TextUser>مستخدم</TextUser>
+    <TextUserName>اسم المستخدم (بريد الكتروني)</TextUserName>
+    <TimeHoursAgoFive>منذ خمس ساعات, {0:t}</TimeHoursAgoFive>
+    <TimeHoursAgoFour>منذ أربع ساعات, {0:t}</TimeHoursAgoFour>
+    <TimeHoursAgoOne>منذ ساعة, {0:t}</TimeHoursAgoOne>
+    <TimeHoursAgoThree>منذ ثلاث ساعات, {0:t}</TimeHoursAgoThree>
+    <TimeHoursAgoTwo>منذ ساعتين, {0:t}</TimeHoursAgoTwo>
+    <TimeMinutesAgoFive>منذ خمس دقائق, {0:t}</TimeMinutesAgoFive>
+    <TimeMinutesAgoFour>منذ أربع دقائق, {0:t}</TimeMinutesAgoFour>
+    <TimeMinutesAgoLessOne>منذ أقل من دقيقة</TimeMinutesAgoLessOne>
+    <TimeMinutesAgoN>{0} دقائق مضت, {1:t}</TimeMinutesAgoN>
+    <TimeMinutesAgoOne>منذ دقيقة, {0:t}</TimeMinutesAgoOne>
+    <TimeMinutesAgoThree>منذ ثلاث دقائق, {0:t}</TimeMinutesAgoThree>
+    <TimeMinutesAgoTwo>منذ دقيقتين, {0:t}</TimeMinutesAgoTwo>
+    <TimeToday>اليوم, {0:t}</TimeToday>
+    <TimeYesterday>الأمس, {0:t}</TimeYesterday>
+    <ToolTipAddRole>انشاء دور جديد في مساحة العمل</ToolTipAddRole>
+    <ToolTipAddUser>انشاء مستخدم جديد في الدور المحدد</ToolTipAddUser>
+    <ToolTipAspNet>ASP.NET نشر التقرير المحدد في تطبيق </ToolTipAspNet>
+    <ToolTipAspNetMvc>ASP.NET MVC نشر التقرير المحدد في تطبيق</ToolTipAspNetMvc>
+    <ToolTipCreate>انشاء عنصر جديد</ToolTipCreate>
+    <ToolTipDelete>حذف العناصر المحددة</ToolTipDelete>
+    <ToolTipDeleted>عرض العناصر المحذوفة</ToolTipDeleted>
+    <ToolTipEdit>تحرير العناصر المحددة</ToolTipEdit>
+    <ToolTipGridMode>عرض قائمة</ToolTipGridMode>
+    <ToolTipInfo>عرض التفاصيل</ToolTipInfo>
+    <ToolTipJs>نشر التقرير المحدد كصفحة HTML</ToolTipJs>
+    <ToolTipPublish>تجهيز التقرير المحدد للنشر في تطبيقك.</ToolTipPublish>
+    <ToolTipRecover>استعادة العناصر المحددة</ToolTipRecover>
+    <ToolTipRunWithoutPreview>عرض التقرير المحدد بدون معاينة</ToolTipRunWithoutPreview>
+    <ToolTipShare>مشاركة الملف المحدد</ToolTipShare>
+    <ToolTipSort>خيارات الترتيب</ToolTipSort>
+    <ToolTipThumbnailMode>عرض شبكي</ToolTipThumbnailMode>
+    <ToolTipViewFile>عرض الملف المحدد</ToolTipViewFile>
+    <ToolTipViewReport>عرض التقرير المحدد في المستعرض</ToolTipViewReport>
+    <WindowDescriptionDelete>هل أنت متأكد من حذف العناصر المحددة؟</WindowDescriptionDelete>
+    <WindowDescriptionRecover>سيتم استعادة العناصر المحددة من سلة المحذوفات</WindowDescriptionRecover>
+    <WindowTitleDelete>حذف العناصر</WindowTitleDelete>
+    <WindowTitleForgotPassword>نسيت كلمة المرور</WindowTitleForgotPassword>
+    <WindowTitleLogin>تسجيل دخول</WindowTitleLogin>
+    <WindowTitleRecover>استعادة العناصر</WindowTitleRecover>
+    <WindowTitleRoleEdit>تحرير الدور</WindowTitleRoleEdit>
+    <WindowTitleRoleNew>دور جديد</WindowTitleRoleNew>
+    <WindowTitleSignUp>تسجيل جديد</WindowTitleSignUp>
+    <WindowTitleUserEdit>تحرير مستخدم</WindowTitleUserEdit>
+    <WindowTitleUserNew>مستخدم جديد</WindowTitleUserNew>
+    <WindowTitleWorkspaceEdit>تحرير مساحة عمل</WindowTitleWorkspaceEdit>
+    <WindowTitleWorkspaceNew>مساحة عمل جديدة</WindowTitleWorkspaceNew>
+    <WizardBlankReportDescription>انشاء تقرير فارغ</WizardBlankReportDescription>
+    <WizardExcelDescription>انشاء تقرير مع بيانات Excel</WizardExcelDescription>
+    <WizardJsonDescription>انشاء تقرير مع بيانات Json</WizardJsonDescription>
+    <WizardPrivateShare>غير مسموح</WizardPrivateShare>
+    <WizardPrivateShareDescription>الدخول الخارجي للعنصر محظور</WizardPrivateShareDescription>
+    <WizardPublicShare>دخول عام</WizardPublicShare>
+    <WizardPublicShareDescription>دخول خارجي لأي مستخدم غير مصرح له</WizardPublicShareDescription>
+    <WizardRegisteredShare>دخول خاص</WizardRegisteredShare>
+    <WizardRegisteredShareDescription>دخول خارجي للمستخدمين المسجلين فقط من أي مجال عمل</WizardRegisteredShareDescription>
+    <WizardXmlDescription>انشاء تقرير مع بيانات Xml</WizardXmlDescription>
+  </Cloud>
   <Components>
     <StiBarCode>باركود</StiBarCode>
     <StiChart>رسم بياني</StiChart>
@@ -275,15 +497,18 @@
     <StiCrossSummary>خلاصة متعاكسة</StiCrossSummary>
     <StiCrossSummaryHeader>عنوان خلاصة متعاكسة</StiCrossSummaryHeader>
     <StiCrossTab>جدول متعاكس</StiCrossTab>
+    <StiCrossTitle>عنوان-تقاطع</StiCrossTitle>
     <StiDataBand>بيانات</StiDataBand>
     <StiEmptyBand>بيانات فارغة</StiEmptyBand>
     <StiFooterBand>تذييل</StiFooterBand>
+    <StiGauge>عداد</StiGauge>
     <StiGroupFooterBand>تذييل مجموعة</StiGroupFooterBand>
     <StiGroupHeaderBand>عنوان مجموعة</StiGroupHeaderBand>
     <StiHeaderBand>عنوان</StiHeaderBand>
     <StiHierarchicalBand>بيانات هرمية</StiHierarchicalBand>
     <StiHorizontalLinePrimitive>خط أفقي</StiHorizontalLinePrimitive>
     <StiImage>صورة</StiImage>
+    <StiMap>خريطة</StiMap>
     <StiOverlayBand>تغطية</StiOverlayBand>
     <StiPage>صفحة</StiPage>
     <StiPageFooterBand>تذييل صفحة</StiPageFooterBand>
@@ -311,31 +536,53 @@
     <DatabaseDB2>IBM DB2 اتصال</DatabaseDB2>
     <DatabaseFirebird>Firebird اتصال</DatabaseFirebird>
     <DatabaseInformix>Informix اتصال</DatabaseInformix>
+    <DatabaseJson>JSON بيانات</DatabaseJson>
     <DatabaseMySQL>MySQL اتصال</DatabaseMySQL>
-    <DatabaseOdbc>Odbc اتصال</DatabaseOdbc>
-    <DatabaseOleDb>OleDB اتصال</DatabaseOleDb>
+    <DatabaseOdbc>ODBC اتصال</DatabaseOdbc>
+    <DatabaseOleDb>OLEDB اتصال</DatabaseOleDb>
     <DatabaseOracle>Oracle اتصال</DatabaseOracle>
     <DatabaseOracleODP>Oracle ODP.NET اتصال</DatabaseOracleODP>
     <DatabasePostgreSQL>PostgreSQL اتصال</DatabasePostgreSQL>
     <DatabaseSql>Sql اتصال</DatabaseSql>
-    <DatabaseSqlCe>SQLServerCE اتصال</DatabaseSqlCe>
+    <DatabaseSqlCe>SQL Server CE اتصال</DatabaseSqlCe>
     <DatabaseSQLite>SQLite اتصال</DatabaseSQLite>
+    <DatabaseTeradata>اتصال تيراداتا</DatabaseTeradata>
     <DatabaseUniDirect>Uni Direct اتصال</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB اتصال</DatabaseVistaDB>
-    <DatabaseXml>Xml بيانات</DatabaseXml>
+    <DatabaseXml>XML بيانات</DatabaseXml>
   </Database>
   <DesignerFx>
+    <AlreadyExists>'{0}' موجودة بالفعل.</AlreadyExists>
+    <CanNotLoadThisReportTemplate>ليس بالإمكان تحميل قالب التقرير المحدد.</CanNotLoadThisReportTemplate>
+    <CloseDataSourceEditor>هل تريد إغلاق محرر الأوامر?</CloseDataSourceEditor>
+    <CloseEditor>هل تريد إغلاق المحرر?</CloseEditor>
     <CompilingReport>إعداد تقرير</CompilingReport>
     <Connecting>ربط لخادم</Connecting>
+    <ConnectionError>خطأ في الإتصال</ConnectionError>
+    <ConnectionSuccessfull>تم الاتصال بنجاح</ConnectionSuccessfull>
     <Continue>التالي</Continue>
     <DecryptionError>فك التشفير خطأ : كلمة السر خاطئة أو ملف معطوب.</DecryptionError>
+    <EmailSuccessfullySent>تم إرسال البريد الالكتروني بنجاح.</EmailSuccessfullySent>
+    <ErrorAtSaving>خطأ أثناء الحفظ</ErrorAtSaving>
     <ErrorCode>خطأ أثناء الحفظ. رقم الخطأ: {0}</ErrorCode>
     <ErrorServer>خطأ في الحفظ. الملقم لا يستجيب.</ErrorServer>
+    <ExportingReport>تصدير التقرير</ExportingReport>
+    <LoadingCode>تحميل الأوامر</LoadingCode>
     <LoadingConfiguration>تحميل الإعدادت</LoadingConfiguration>
+    <LoadingData>تحميل البيانات</LoadingData>
     <LoadingDocument>تحميل المستند</LoadingDocument>
     <LoadingImages>تحميل الصور</LoadingImages>
+    <LoadingLanguage>تحميل اللغة</LoadingLanguage>
     <LoadingReport>تحميل تقرير</LoadingReport>
     <PreviewAs>عرض كـ {0}</PreviewAs>
+    <RenderingReport>إنشاء التقرير</RenderingReport>
+    <ReportSuccessfullySaved>تم حفظ التقرير بنجاح.</ReportSuccessfullySaved>
+    <RetrieveError>خطأ في جلب الحقول</RetrieveError>
+    <RetrievingColumns>جلب الحقول</RetrievingColumns>
+    <SavingConfiguration>حفظ الإعدادات</SavingConfiguration>
+    <SavingReport>حفظ التقرير</SavingReport>
+    <TestConnection>تجربة الاتصال</TestConnection>
+    <TextNotFound>لم يتم العثور على النص المحدد : {0}</TextNotFound>
   </DesignerFx>
   <Dialogs>
     <StiButtonControl>زر</StiButtonControl>
@@ -384,6 +631,7 @@
     <SearchHiddenText>نص مخفي</SearchHiddenText>
     <SearchUp>بحث لأعلى</SearchUp>
     <SelectionOnly>المحدد فقط</SelectionOnly>
+    <ShowAutoGeneratedCode>إظهار الكود المنشئ تلقائياً</ShowAutoGeneratedCode>
     <ShowLineNumbers>إظهار أرقام الأسطر</ShowLineNumbers>
     <StopOutlining>إيقاف التحديد</StopOutlining>
     <titleFind>بحث</titleFind>
@@ -398,6 +646,7 @@
     <ContainerIsNotValidForComponent>المحتوى {0} غير صالح للعنصر {1}.</ContainerIsNotValidForComponent>
     <DataNotFound>لم يتم العثور على البيانات</DataNotFound>
     <Error>خطأ!</Error>
+    <ErrorsList>قائمة الأخطاء</ErrorsList>
     <FieldRequire>الحقل "{0}" إلزامي.</FieldRequire>
     <FileNotFound>لم يتم العثور على الملف "{0}"</FileNotFound>
     <IdentifierIsNotValid>المحدد '{0}' غير صالح.</IdentifierIsNotValid>
@@ -407,21 +656,37 @@
     <NotAssign>مصدر البيانات غير محدد.</NotAssign>
     <NotCorrectFormat>النص المدخل ليس بالتنسيق المطلوب</NotCorrectFormat>
     <RelationsNotFound>العلاقات غير موجودة.</RelationsNotFound>
+    <ReportCannotBeSaveDueToErrors>لا يمكن حفظ هذا التقرير لوجود أخطاء</ReportCannotBeSaveDueToErrors>
     <ServiceNotFound>'{0}' الخدمة غير موجودة.</ServiceNotFound>
   </Errors>
   <Export>
     <AddPageBreaks>إضافة فواصل صفحات</AddPageBreaks>
+    <AllBands>جميع المجموعات</AllBands>
     <AllowAddOrModifyTextAnnotations>تمكين إضافة أو تعديل التهميشات</AllowAddOrModifyTextAnnotations>
     <AllowCopyTextAndGraphics>تمكين نسخ النصوص والصور</AllowCopyTextAndGraphics>
+    <AllowEditable>السماح بالتعديلات:</AllowEditable>
     <AllowModifyContents>تمكين تعديل المحتوى</AllowModifyContents>
     <AllowPrintDocument>تمكين طباعة الوثيقة</AllowPrintDocument>
+    <Auto>تلقائي</Auto>
+    <BandsFilter>تصفية المجموعات:</BandsFilter>
     <Color>اللون</Color>
     <Compressed>مضغوط</Compressed>
+    <CompressToArchive>الضغط كأرشيف</CompressToArchive>
+    <ContinuousPages>صفحات متواصلة</ContinuousPages>
+    <DataAndHeadersFooters>البيانات مع الترويسة/التذييل</DataAndHeadersFooters>
+    <DataOnly>البيانات فقط</DataOnly>
     <DigitalSignature>توقيع إلكتروني</DigitalSignature>
+    <DigitalSignatureCertificateNotSelected>لم يتم تحديد الشهادة</DigitalSignatureCertificateNotSelected>
+    <DigitalSignatureError>خطأ الشهادة الرقمية في الخطوة</DigitalSignatureError>
     <DocumentSecurity>حماية الوثيقة</DocumentSecurity>
     <DotMatrixMode>نمط الطباعة النقطية</DotMatrixMode>
     <EmbeddedFonts>خطوط مضمنة</EmbeddedFonts>
+    <EmbeddedImageData>تضمين بيانات رسومية</EmbeddedImageData>
     <Encoding>الترميز:</Encoding>
+    <EncryptionError>خطأ تشفير في الخطوة</EncryptionError>
+    <EscapeCodes>أوامر التخطي</EscapeCodes>
+    <Exactly>محدد</Exactly>
+    <ExceptEditableFields>استثناء الحقول القابلة للتعديل</ExceptEditableFields>
     <ExportDataOnly>تصدير البيانات فقط</ExportDataOnly>
     <ExportEachPageToSheet>تصدير كل صفحة إلى ورقة عمل</ExportEachPageToSheet>
     <ExportingCalculatingCoordinates>حساب الإحداثيات</ExportingCalculatingCoordinates>
@@ -437,27 +702,30 @@
     <ExportTypeBmpFile>BMP صورة...</ExportTypeBmpFile>
     <ExportTypeCalcFile>OpenDocument Calc ملف...</ExportTypeCalcFile>
     <ExportTypeCsvFile>CSV ملف...</ExportTypeCsvFile>
+    <ExportTypeDataFile>ملف بيانات...</ExportTypeDataFile>
     <ExportTypeDbfFile>dBase DBF ملف...</ExportTypeDbfFile>
     <ExportTypeDifFile>Data Interchange Format (DIF) ملف...</ExportTypeDifFile>
     <ExportTypeExcel2007File>Microsoft Excel 2007 ملف...</ExportTypeExcel2007File>
     <ExportTypeExcelFile>Microsoft Excel ملف...</ExportTypeExcelFile>
     <ExportTypeExcelXmlFile>Microsoft Excel Xml ملف...</ExportTypeExcelXmlFile>
     <ExportTypeGifFile>GIF صورة...</ExportTypeGifFile>
+    <ExportTypeHtml5File>HTML5 ملف...</ExportTypeHtml5File>
     <ExportTypeHtmlFile>HTML ملف...</ExportTypeHtmlFile>
+    <ExportTypeImageFile>ملف رسوم...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG ملف...</ExportTypeJpegFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web Archive...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX صورة...</ExportTypePcxFile>
     <ExportTypePdfFile>Adobe PDF ملف...</ExportTypePdfFile>
     <ExportTypePngFile>PNG صورة...</ExportTypePngFile>
-    <ExportTypePpt2007File>Microsoft PowerPoint 2007 ملف...</ExportTypePpt2007File>
+    <ExportTypePpt2007File>Microsoft PowerPoint ملف...</ExportTypePpt2007File>
     <ExportTypeRtfFile>Rich Text ملف...</ExportTypeRtfFile>
     <ExportTypeSvgFile>Scalable Vector Graphics (SVG) ملف...</ExportTypeSvgFile>
     <ExportTypeSvgzFile>Compressed SVG (SVGZ) ملف...</ExportTypeSvgzFile>
     <ExportTypeSylkFile>Symbolic Link (SYLK) ملف...</ExportTypeSylkFile>
     <ExportTypeTiffFile>TIFF صورة...</ExportTypeTiffFile>
     <ExportTypeTxtFile>Text ملف...</ExportTypeTxtFile>
-    <ExportTypeWord2007File>Microsoft Word 2007 ملف...</ExportTypeWord2007File>
+    <ExportTypeWord2007File>Microsoft Word ملف...</ExportTypeWord2007File>
     <ExportTypeWriterFile>OpenDocument Writer ملف...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML ملف...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS ملف...</ExportTypeXpsFile>
@@ -469,6 +737,7 @@
     <ImageMonochrome>أبيض وأسود</ImageMonochrome>
     <ImageQuality>نقاوة الصورة</ImageQuality>
     <ImageResolution>أبعاد الصورة:</ImageResolution>
+    <ImageResolutionMode>نمط وضوح الصورة:</ImageResolutionMode>
     <ImageType>نوع الصورة</ImageType>
     <labelEncryptionKeyLength>طول مفتاح التشفير:</labelEncryptionKeyLength>
     <labelOwnerPassword>كلمة مرور المالك:</labelOwnerPassword>
@@ -477,9 +746,12 @@
     <MonochromeDitheringType>نوع نمط الأبيض وأسود:</MonochromeDitheringType>
     <MoreSettings>إعدادات أخرى</MoreSettings>
     <MultipleFiles>ملفات متعددة</MultipleFiles>
+    <NoMoreThan>ليس أكثر من</NoMoreThan>
     <OpenAfterExport>فتح بعد التصدير</OpenAfterExport>
     <PdfACompliance>PDF/A متوافق</PdfACompliance>
     <RemoveEmptySpaceAtBottom>إزالة المسافة الفارغة من أسفل الصفحة</RemoveEmptySpaceAtBottom>
+    <RestrictEditing>حظر التعديل:</RestrictEditing>
+    <Scale>الوزن:</Scale>
     <Separator>فاصل:</Separator>
     <Settings>إعدادات</Settings>
     <SkipColumnHeaders>تخطي عناوين الأعمدة</SkipColumnHeaders>
@@ -495,8 +767,10 @@
     <TxtKillSpaceGraphLines>تخطي مسافات خطوط الرسم البياني</TxtKillSpaceGraphLines>
     <TxtKillSpaceLines>تخطي خطوط المسافات</TxtKillSpaceLines>
     <TxtPutFeedPageCode>إدراج أوامر صفحة التغذية</TxtPutFeedPageCode>
+    <Type>النوع:</Type>
     <UseDefaultSystemEncoding>استخدام ترميز النظام الافتراضي</UseDefaultSystemEncoding>
     <UseDigitalSignature>استخدام التوقيع الإلكتروني</UseDigitalSignature>
+    <UseEscapeCodes>استخدام أوامر التخطي</UseEscapeCodes>
     <UseOnePageHeaderAndFooter>استخدام رأس وتذييل صفحة واحد</UseOnePageHeaderAndFooter>
     <UsePageHeadersAndFooters>استخدام رؤوس وتذييلات الصفحة</UsePageHeadersAndFooters>
     <UseUnicode>استخدام Unicode</UseUnicode>
@@ -520,7 +794,7 @@
     <EmfFiles>ملف Metafile (*.emf)|*.emf</EmfFiles>
     <EncryptedDocumentFiles>Files encrypted document (*.mdx)|*.mdx</EncryptedDocumentFiles>
     <EncryptedReportFiles>Files encrypted report (*.mrx)|*.mrx</EncryptedReportFiles>
-    <Excel2007Files>ملف Microsoft Excel 2007 (*.xlsx)|*.xlsx</Excel2007Files>
+    <Excel2007Files>ملف Microsoft Excel 2007/2013 (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelFiles>ملف Microsoft Excel (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>ملف Microsoft Excel XML (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>ملف EXE (*.exe)|*.exe</ExeFiles>
@@ -528,7 +802,11 @@
     <HtmlFiles>ملف HTML (*.html)|*.html</HtmlFiles>
     <InheritedLanguageFiles>{0} ملفات لـ inherited reports (*.{1})|*.{2}</InheritedLanguageFiles>
     <JpegFiles>صورة JPEG (*.jpeg)|*.jpeg</JpegFiles>
+    <JsonDocumentFiles>JSON مستندات تقرير (*.mdc)|*.mdc</JsonDocumentFiles>
+    <JsonFiles>JSON ملفات (*.json)|*.json</JsonFiles>
+    <JsonReportFiles>JSON نماذج تقرير (*.mrt)|*.mrt</JsonReportFiles>
     <LanguageFiles>{0} ملفات (*.{1})|*.{2}</LanguageFiles>
+    <LanguageForSilverlightFiles>{0} ملفات تقارير  Silverlight(*.{1})|*.{2}</LanguageForSilverlightFiles>
     <MetaFiles>ملفات Meta</MetaFiles>
     <MhtFiles>MHT Web Archive صفحة ويب مدمجة (*.mht)|*.mht</MhtFiles>
     <PackedDocumentFiles>ملف packed document (*.mdz)|*.mdz</PackedDocumentFiles>
@@ -537,7 +815,7 @@
     <PcxFiles>صورة PCX (*.pcx)|*.pcx</PcxFiles>
     <PdfFiles>ملف Adobe PDF (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>ملف PNG (*.png)|*.png</PngFiles>
-    <Ppt2007Files>ملف Microsoft PowerPoint 2007 (*.pptx)|*.pptx</Ppt2007Files>
+    <Ppt2007Files>ملف Microsoft PowerPoint 2007/2013 (*.pptx)|*.pptx</Ppt2007Files>
     <ReportFiles>ملف  report (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>ملف Rich Text (*.rtf)|*.rtf</RtfFiles>
     <StandaloneReportFiles>Standalone report (*.exe)|*.exe</StandaloneReportFiles>
@@ -547,10 +825,11 @@
     <SylkFiles>ملف SYLK (*.slk)|*.slk</SylkFiles>
     <TiffFiles>صورة TIFF (*.tiff)|*.tiff</TiffFiles>
     <TxtFiles>ملف نصي Text (*.txt)|*.txt</TxtFiles>
-    <Word2007Files>ملف Microsoft Word 2007 (*.docx)|*.docx</Word2007Files>
+    <Word2007Files>ملف Microsoft Word 2007/2013 (*.docx)|*.docx</Word2007Files>
     <WriterFiles>ملف OpenDocument Writer (*.odt)|*.odt</WriterFiles>
     <XmlFiles>ملف XML (*.xml)|*.xml</XmlFiles>
     <XpsFiles>ملف Microsoft XPS (*.xps)|*.xps</XpsFiles>
+    <ZipArchives>ZIP أرشيف (*.zip)|*.zip</ZipArchives>
   </FileFilters>
   <Formats>
     <custom01>d</custom01>
@@ -610,6 +889,7 @@
   <FormColorBoxPopup>
     <Color>اللون</Color>
     <Custom>تخصيص</Custom>
+    <NoColor>بلا لون</NoColor>
     <Others>أخرى...</Others>
     <System>نظام</System>
     <Web>ويب</Web>
@@ -619,6 +899,8 @@
     <AddCondition>&amp;اضافة شرط</AddCondition>
     <AddLevel>اضافة مستوى</AddLevel>
     <AssignExpression>تخصيص تعبير</AssignExpression>
+    <BreakIfTrue>إيقاف في حالة الصحة</BreakIfTrue>
+    <BreakIfTrueToolTip>إيقاف معالجة الشرط في حالة تحقق الشرط الحالي</BreakIfTrueToolTip>
     <ChangeFont>تغير خط...</ChangeFont>
     <ComponentIsEnabled> الـComponent مفعل</ComponentIsEnabled>
     <NoConditions>بدون شروط</NoConditions>
@@ -642,37 +924,50 @@
     <EditConnection>تحرير {0} اتصال</EditConnection>
     <FirebirdEdit>تعديل اتصال Firebird</FirebirdEdit>
     <FirebirdNew>اتصال Firebird</FirebirdNew>
+    <FirstRowIsHeader>الصف الأول هو الترويسة</FirstRowIsHeader>
+    <ImportData>استيراد بيانات</ImportData>
     <InformixEdit>عدل Informix اتصال</InformixEdit>
     <InformixNew>Informix اتصال جديدة</InformixNew>
     <InitialCatalog>Initial Catalog:</InitialCatalog>
+    <JsonEdit>تحرير بيانات JSON</JsonEdit>
+    <JsonNew>بيانات JSON جديدة</JsonNew>
     <MySQLEdit>تعديل اتصال MySQL</MySQLEdit>
     <MySQLNew>تصال MySQL جديد</MySQLNew>
     <NewConnection>اتصال {0} جديد</NewConnection>
-    <OdbcEdit>تعديل اتصال Odbc</OdbcEdit>
+    <OdbcEdit>تعديل اتصال ODBC</OdbcEdit>
     <OdbcNew>اتصال Odbc جديد</OdbcNew>
-    <OleDbEdit>تعديل اتصال OleDb</OleDbEdit>
+    <OleDbEdit>تعديل اتصال OLEDB</OleDbEdit>
     <OleDbNew>اتصال جديد OleDb</OleDbNew>
     <OracleEdit>تعديل اتصال Oracle</OracleEdit>
     <OracleNew>اتصال Oracle جديد</OracleNew>
     <OracleODPEdit>تحرير Oracle ODP.NET اتصال</OracleODPEdit>
     <OracleODPNew>اتصال Oracle ODP.NET جديد</OracleODPNew>
     <PathData>مسار بيانات الـ XML :</PathData>
+    <PathJsonData>المسار لبيانات JSON :</PathJsonData>
     <PathSchema>مسار الـ XSD Schema:</PathSchema>
+    <PathToData>المسار للبيانات:</PathToData>
+    <Pin>تثبيت</Pin>
     <PostgreSQLEdit>تعديل اتصال PostgreSQL</PostgreSQLEdit>
     <PostgreSQLNew>اتصال PostgreSQL جديد</PostgreSQLNew>
     <PromptUserNameAndPassword>طلب اسم المستخدم وكلمة المرور</PromptUserNameAndPassword>
+    <RecentConnections>أخيرة</RecentConnections>
+    <ReportConnections>اتصالات التقرير</ReportConnections>
     <SqlCeEdit>تعديل اتصال SQLServerCE</SqlCeEdit>
     <SqlCeNew>اتصال  SQLServerCE جديد</SqlCeNew>
-    <SqlEdit>تعديل اتصال Sql</SqlEdit>
+    <SqlEdit>تعديل اتصال SQL</SqlEdit>
     <SQLiteEdit>تعديل اتصال SQLite</SQLiteEdit>
     <SQLiteNew>اتصال SQLite جديد</SQLiteNew>
     <SqlNew>اتصال Sql جديد</SqlNew>
+    <TeradataEdit>تعديل اتصال تيراداتا</TeradataEdit>
+    <TeradataNew>اتصال تيراداتا جديد</TeradataNew>
     <UniDirectEdit>تعديل اتصال Uni Direct</UniDirectEdit>
     <UniDirectNew>اتصال Uni Direct جديد</UniDirectNew>
+    <Unpin>فك تثبيت</Unpin>
     <VistaDBEdit>تعديل اتصال VistaDB</VistaDBEdit>
     <VistaDBNew>اتصال  VistaDB جديد</VistaDBNew>
-    <XmlEdit>تعديل بيانات Xml</XmlEdit>
-    <XmlNew>بيانات Xml جديدة</XmlNew>
+    <XmlEdit>تعديل بيانات XML</XmlEdit>
+    <XmlNew>بيانات XML جديدة</XmlNew>
+    <XmlType>XML نوع:</XmlType>
   </FormDatabaseEdit>
   <FormDesigner>
     <Code>شفرة</Code>
@@ -689,9 +984,11 @@
     <MarginsNormal>عادي</MarginsNormal>
     <MarginsWide>عريض</MarginsWide>
     <OrderToolbars>ترتيب شريط الخصائص</OrderToolbars>
+    <Others>أخرى</Others>
     <Pages>صفحات</Pages>
     <Preview>معاينة</Preview>
     <PropertyChange>تغير لخصاية '{0}'</PropertyChange>
+    <RTPreview>WinRT استعراض</RTPreview>
     <SetupToolbox>اعداد مربع الأداوت</SetupToolbox>
     <ShowDescription>اظهار الوصف</ShowDescription>
     <SLPreview>Silverlight عرض</SLPreview>
@@ -710,10 +1007,17 @@
     <ChildSource>مصدر بيانات تابع (Child) :</ChildSource>
     <ColumnEdit>تعديل عمود</ColumnEdit>
     <ColumnNew>عمود جديد</ColumnNew>
+    <CsvSeparatorComma>فاصلة</CsvSeparatorComma>
+    <CsvSeparatorOther>أخرى</CsvSeparatorOther>
+    <CsvSeparatorSemicolon>فاصلة منقوطة</CsvSeparatorSemicolon>
+    <CsvSeparatorSpace>مسافة</CsvSeparatorSpace>
+    <CsvSeparatorSystem>حسب النظام</CsvSeparatorSystem>
+    <CsvSeparatorTab>مسافة بادئة</CsvSeparatorTab>
     <DatabaseEdit>تعديل قاعدة البيانات</DatabaseEdit>
     <DatabaseNew>قاعدة بيانات جديدة</DatabaseNew>
     <DataParameterEdit>تعديل معامل</DataParameterEdit>
     <DataParameterNew>معامل جديد</DataParameterNew>
+    <DataSetToBusinessObjects>حزم بيانات إلى كائنات عمل</DataSetToBusinessObjects>
     <DataSourceEdit>تعديل مصدر البيانات</DataSourceEdit>
     <DataSourceNew>مصدر بيانات جديد</DataSourceNew>
     <DataSourcesNew>مصادر بيانات جديدة</DataSourcesNew>
@@ -725,8 +1029,10 @@
     <DictionarySaveAs>حفظ Dictionary As...</DictionarySaveAs>
     <EditQuery>تعديل استعلام</EditQuery>
     <ExecutedSQLStatementSuccessfully>تم تنفيذ عبارة SQL بنجاح</ExecutedSQLStatementSuccessfully>
+    <ExpressionNew>تعبير جديد</ExpressionNew>
     <GetColumnsFromAssembly>عرض الأعمدة من Assembly</GetColumnsFromAssembly>
     <ImportRelations>استيراد علاقات</ImportRelations>
+    <LabelSeparator>الفاصل:</LabelSeparator>
     <MarkUsedItems>Mark Used Items</MarkUsedItems>
     <NewBusinessObject>كائن عمل جديد</NewBusinessObject>
     <NewItem>Item جديد</NewItem>
@@ -735,16 +1041,22 @@
     <Queries>استعلامات</Queries>
     <QueryNew>استعلام جديد</QueryNew>
     <QueryText>نص الاستعلام</QueryText>
+    <QueryTimeout>مهلة الاستعلام</QueryTimeout>
     <RelationEdit>تعديل العلاقة</RelationEdit>
     <RelationNew>علاقة جديدة</RelationNew>
     <RetrieveColumns>الحصول على الأعمدة</RetrieveColumns>
+    <RetrieveColumnsAllowRun>السماح بتشغيل StoredProc</RetrieveColumnsAllowRun>
+    <RetrieveColumnsAndParameters>جلب الأعمدة والمحددات</RetrieveColumnsAndParameters>
+    <RetrieveParameters>جلب المحددات</RetrieveParameters>
     <RetrievingDatabaseInformation>الحصول على معلومات قاعدة البيانات...</RetrievingDatabaseInformation>
     <Run>تشغيل</Run>
     <SelectTypeOfBusinessObject>نوع كائن عمل</SelectTypeOfBusinessObject>
+    <SkipSchemaWizard>تجاوز معالج المخطط</SkipSchemaWizard>
     <SortItems>فرز Items</SortItems>
     <Synchronize>التزامن Synchronize</Synchronize>
     <SynchronizeHint>تزامن محتويات مخزن البيانات ومحتويات الـ Dictionary</SynchronizeHint>
     <title>مصمم Dictionary</title>
+    <ValueNew>قيمة جديدة</ValueNew>
     <VariableEdit>تعديل متغير</VariableEdit>
     <VariableNew>متغير جديد</VariableNew>
     <ViewData>عرض البيانات</ViewData>
@@ -789,9 +1101,18 @@
   <FormGlobalizationEditor>
     <AddCulture>&amp;اضافة Culture</AddCulture>
     <AutoLocalizeReportOnRun>Auto Localize Report on Run</AutoLocalizeReportOnRun>
+    <GetCulture>ضبط الإعدادات الإقليمية من التقرير</GetCulture>
+    <qnGetCulture>هل تريد بالفعل أن تضبط الإعدادات الإقليمية من التقرير وأن تتجاهل الإعدادات الإقليمية الحالية؟</qnGetCulture>
+    <qnSetCulture>هل تريد بالفعل أن تضبط الإعدادات الإقليمية لأدوات التقرير؟</qnSetCulture>
     <RemoveCulture>&amp;حذف Culture</RemoveCulture>
+    <SetCulture>ضبط الإعدادات الإقليمية للتقرير</SetCulture>
     <title>محرر Globalization</title>
   </FormGlobalizationEditor>
+  <FormInteraction>
+    <HyperlinkExternalDocuments>رابط لمستند خارجي</HyperlinkExternalDocuments>
+    <HyperlinkUsingInteractionBookmark>رابط باستخدام المراجع</HyperlinkUsingInteractionBookmark>
+    <HyperlinkUsingInteractionTag>رابط باستخدام المعلمات</HyperlinkUsingInteractionTag>
+  </FormInteraction>
   <FormOptions>
     <AutoSave>حفظ تلقائي</AutoSave>
     <AutoSaveReportToReportClass>حفظ التقرير لملف C# او Vb.Net</AutoSaveReportToReportClass>
@@ -832,6 +1153,8 @@
     <MarkersStyleCorners>الأركان</MarkersStyleCorners>
     <MarkersStyleDashedRectangle>مربع مخطط</MarkersStyleDashedRectangle>
     <MarkersStyleNone>بدون</MarkersStyleNone>
+    <MessageLeftRightNotValid>قيمة اليمين واليسار غير صالحة.</MessageLeftRightNotValid>
+    <MessageTopBottomNotValid>قيمة الأعلى والأسفل غير صالحة.</MessageTopBottomNotValid>
     <Minutes>{0} دقائق</Minutes>
     <SaveReportEvery>حفظ التقرير كل :</SaveReportEvery>
     <SelectUILanguage>اختر لغة الواجهة</SelectUILanguage>
@@ -864,6 +1187,7 @@
     <labelMultipleFactor>متعدد المعاملات :</labelMultipleFactor>
     <labelPaperSourceOfFirstPage>مصدر الورق للصفحة الاولى:</labelPaperSourceOfFirstPage>
     <labelPaperSourceOfOtherPages>مصدر الورق لباقي الصفحات:</labelPaperSourceOfOtherPages>
+    <labelSelectBrush>اختيار الفرشة:</labelSelectBrush>
     <labelSelectColor>حدد اللون:</labelSelectColor>
     <labelSelectFont>حدد الخط:</labelSelectFont>
     <labelSelectImage>حدد الصورة:</labelSelectImage>
@@ -907,13 +1231,21 @@
   </FormRichTextEditor>
   <FormStyleDesigner>
     <Add>إضافة نمط</Add>
+    <ApplyStyleCollectionToReportComponents>تطبيق مجموعة سمات للتقرير</ApplyStyleCollectionToReportComponents>
+    <ApplyStyles>تطبيق السمات</ApplyStyles>
+    <ColorCollectionEditor>محرر مجموعة الألوان</ColorCollectionEditor>
+    <CreateStyleCollection>إنشاء مجموعة سمات جديدة</CreateStyleCollection>
     <CreateStylesFromColor>إنشاء نمط من اللون المحدد</CreateStylesFromColor>
     <Duplicate>تكرير النمط</Duplicate>
     <GetStyle>سحب نمط من العناصر المحدد</GetStyle>
+    <MoreStyles>أنماط أكثر</MoreStyles>
     <Open>فتح النمط</Open>
+    <qnApplyStyleCollection>هل تريد أن تطبق مجموعة السمات للتقرير؟</qnApplyStyleCollection>
     <Remove>إزالة النمط</Remove>
+    <RemoveExistingStyles>إزالة السمات الحالية</RemoveExistingStyles>
     <Save>حفظ نمط</Save>
     <Style>النمط</Style>
+    <StyleCollectionsNotFound>لم يتم العثور على مجموعة السمات!</StyleCollectionsNotFound>
     <title>أسلوب المصمم</title>
   </FormStyleDesigner>
   <FormSystemTextEditor>
@@ -932,6 +1264,7 @@
     <SummaryRunningByReport>تقرير</SummaryRunningByReport>
   </FormSystemTextEditor>
   <FormTitles>
+    <ChartWizardForm>معالج الرسوم البيانية</ChartWizardForm>
     <ConditionEditorForm>الشرط</ConditionEditorForm>
     <ConnectionSelectForm>اختر نوع الاتصال</ConnectionSelectForm>
     <ContainerSelectForm>اختيار الحاويات</ContainerSelectForm>
@@ -941,6 +1274,7 @@
     <DataSourceSelectForm>حدد مصدر البيانات</DataSourceSelectForm>
     <DataSourcesNewForm>مصادر بيانات جديدة</DataSourcesNewForm>
     <DataStoreViewerForm>عارض مصادر البيانات</DataStoreViewerForm>
+    <DesignerApplication>مصمم التقرير</DesignerApplication>
     <EventEditorForm>محرر الحدث</EventEditorForm>
     <ExpressionEditorForm>محرر التعبير</ExpressionEditorForm>
     <GroupConditionForm>شرط مجموعة</GroupConditionForm>
@@ -950,6 +1284,7 @@
     <PageSizeForm>حجم الصفحة</PageSizeForm>
     <PagesManagerForm>مدير الصفحات</PagesManagerForm>
     <PromptForm>إدخال معلومات الدخول الى قاعدة البيانات</PromptForm>
+    <ReportWizard>معالج التقرير</ReportWizard>
     <ServiceSelectForm>اختر خدمة</ServiceSelectForm>
     <SqlExpressionsForm>تعبير SQL</SqlExpressionsForm>
     <SubReportPageSelectForm>اختر صفحة التقرير الفرعي</SubReportPageSelectForm>
@@ -961,9 +1296,11 @@
     <Bookmarks>العناوين</Bookmarks>
     <Close>إغلاق</Close>
     <CollapseAll>طي الكل</CollapseAll>
+    <CompressedDocumentFile>ملف وثيقة مضغوط</CompressedDocumentFile>
     <ContextMenu>قائمة فرعية</ContextMenu>
     <DocumentFile>وثيقة من وثائق الملف...</DocumentFile>
     <Editor>المحرر</Editor>
+    <EncryptedDocumentFile>ملف وثيقة مشفرة</EncryptedDocumentFile>
     <ExpandAll>توسيع الكل</ExpandAll>
     <Export>تصدير...</Export>
     <Find>بحث</Find>
@@ -985,6 +1322,7 @@
     <PageViewModeContinuous>المستمر</PageViewModeContinuous>
     <PageViewModeMultiplePages>تعدد الصفحات</PageViewModeMultiplePages>
     <PageViewModeSinglePage>صفحة واحدة</PageViewModeSinglePage>
+    <Parameters>متغيرات</Parameters>
     <PrevPage>الصفحة السابقة</PrevPage>
     <Print>طباعة...</Print>
     <qnPageDelete>هل تريد حذف الصفحة؟</qnPageDelete>
@@ -1011,6 +1349,13 @@
     <FindPrevious>العثور السابقة</FindPrevious>
     <FindWhat>العثور على ما يلي :</FindWhat>
   </FormViewerFind>
+  <Gauge>
+    <AddNewItem>إضافة عنصر جديد</AddNewItem>
+    <GaugeEditorForm>محرر المقاييس</GaugeEditorForm>
+    <Kind>نوع</Kind>
+    <LinearScale>مقياس خطي</LinearScale>
+    <RadialScale>مقياس نصف قطري</RadialScale>
+  </Gauge>
   <Gui>
     <barname_cancel>الغاء</barname_cancel>
     <barname_caption>شريط أدوات جديد</barname_caption>
@@ -1089,6 +1434,8 @@
     <mdisystt_close>إغلاق</mdisystt_close>
     <mdisystt_minimize>الحد الأدنى</mdisystt_minimize>
     <mdisystt_restore>استعادة</mdisystt_restore>
+    <monthcalendar_clearbutton>مسح</monthcalendar_clearbutton>
+    <monthcalendar_todaybutton>اليوم</monthcalendar_todaybutton>
     <navbar_navpaneoptions>لوح الزجاج خيارات التصفح...</navbar_navpaneoptions>
     <navbar_showfewerbuttons>عرض عدد أقل من أزرار</navbar_showfewerbuttons>
     <navbar_showmorebuttons>وتظهر المزيد من أزرار</navbar_showmorebuttons>
@@ -1115,6 +1462,7 @@
     <StiDataBand>الفرقة في توصيل البيانات إلى مصدر البيانات ويتم إخراج العديد من المرات كما أن هناك الصفوف في مصدر البيانات.</StiDataBand>
     <StiEmptyBand>هذه الفرقة هي المستخدمة لملء المساحة الحرة على الجزء السفلي من الصفحة. هذه الفرقة يملأ المساحة الحرة على كل صفحة من التقرير.</StiEmptyBand>
     <StiFooterBand>هذه الفرقة هي تستخدم لانتاج موجز الفرقة من خلال البيانات. فإنه يتم وضع إطار الفرقة البيانات ويتم إخراج كافة الصفوف مرة واحدة بعد البيانات التي بيانات النواتج الفرقة.</StiFooterBand>
+    <StiGauge>هذا المكون يسمح لك بعرض قيمة ضمن نطاق محدد. بإمكانك أيضا تغيير العرض الرسومي.</StiGauge>
     <StiGroupFooterBand>الفرقة GroupFooter يستخدم لانتاج تذييل المجموعة. هذه الفرقة هي الفرقة بعد أن وضعت البيانات. وهذه هي الفرقة البيانات مع ما الفرقة GroupHeader منضما. كل من ينتمي الى الفرقة GroupFooter المحدد GroupHeader الفرقة. الفرقة GroupFooter لن يكون الانتاج دون الفرقة GroupHeader.</StiGroupFooterBand>
     <StiGroupHeaderBand>هذه الفرقة هي الفرقة الأساسية لتقديم التقارير مع التجمع. مكونات لعرض المعلومات من قبل هذه المجموعة وضعت على رأس المجموعة. يمكن أن يكون اسم المجموعة ، حتى الآن ، حالة التجمع الخ هذه الفرقة هي الانتاج مرة واحدة في بداية كل مجموعة.</StiGroupHeaderBand>
     <StiHeaderBand>هذه الفرقة هي تستخدم لانتاج رؤوس. فهو يستخدم جنبا إلى جنب مع الفرقة البيانات.</StiHeaderBand>
@@ -1173,6 +1521,8 @@
     <Close>إغلاق مصمم التقرير.</Close>
     <Columns>تقسيم الصفحة إلى أعمدة.</Columns>
     <ComponentSize>تغيير حجم المكونات المحددة.</ComponentSize>
+    <CopyStyle>نسخ التنسيق</CopyStyle>
+    <CopyToClipboard>نسخ إلى الحافظة</CopyToClipboard>
     <CurrencySymbol>حدد رمز العملة.</CurrencySymbol>
     <DataStore>وتظهر البيانات ، والمسجلة في التقرير.</DataStore>
     <DateTimeFormat>حدد تنسيق التاريخ والوقت لعناصر مختارة.</DateTimeFormat>
@@ -1250,6 +1600,7 @@
     <PageSetup>وتظهر في مربع الحوار إعداد الصفحة.</PageSetup>
     <PageSize>اختيار حجم الورق للصفحة الحالية للتقرير.</PageSize>
     <PagesManager>تشغيل وإدارة صفحات.</PagesManager>
+    <PressF1>اضغط F1 للمزيد من التفاصيل</PressF1>
     <Redo>يعيد تغيير الغى في وقت سابق تقريرا  (CTRL+Y).</Redo>
     <ReportNew>إنشاء تقرير جديد.</ReportNew>
     <ReportOpen>تقرير المفتوحة في المصمم.</ReportOpen>
@@ -1263,7 +1614,9 @@
     <ShowBehind>وتظهر علامة مائية وراء النص المكونات.</ShowBehind>
     <ShowImageBehind>وضع صورة مائية وراء كل المكونات على صفحة.</ShowImageBehind>
     <ShowToolbox>وتظهر الأدوات.</ShowToolbox>
+    <StimulsoftHelp>مساعدة Stimulsoft</StimulsoftHelp>
     <StyleDesigner>تشغيل نمط مصمم.</StyleDesigner>
+    <TellMeMore>أخبرني المزيد</TellMeMore>
     <Text>نص العلامة المائية.</Text>
     <TextBrush>تغيير لون النص.</TextBrush>
     <TextBrushWatermark>تغيير لون النص من العلامة المائية.</TextBrushWatermark>
@@ -1295,14 +1648,62 @@
     <StiTreeViewControl>ويمثل التحكم الذي يستخدم لعرض البيانات الهرمية كما شجرة.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
+    <AddPageBreaks>فاصل مرئي لصفحات التقرير.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>محدودية الوصول للعمل مع الشروح في الوثيقة.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>محدودية الوصول لنسخ المعلومات.</AllowCopyTextAndGraphics>
+    <AllowEditable>السماح فقط بتعديل العناصر ذات خاصية التعديل مفعلة.</AllowEditable>
+    <AllowModifyContents>محدودية الوصول لتعديل النصوص.</AllowModifyContents>
+    <AllowPrintDocument>محدودية الوصول لعمليات الطباعة.</AllowPrintDocument>
     <Bookmarks>وتظهر العلامة الفريق الذي يستخدم للملاحة البحرية سريعة للقفز مباشرة إلى موقع مرجعية.</Bookmarks>
+    <BorderType>نوع حدود المكون: بسيط - رسم حدود المكونات باستخدام الرموز +, -, |; يونيكود مفرد - رسم الحدود باستخدام رمز صندوق منفرد, يونيكود ثنائي - رسم الحدود باستخدام رمز صندوق ثنائي.</BorderType>
     <Close>استعراض وثيقة والعودة إلى تحرير هذا التقرير.</Close>
     <CloseDotMatrix>مصفوفة نقطة قريبة عارض والعودة إلى تحرير هذا التقرير.</CloseDotMatrix>
+    <Compressed>ضغط الوثيقة الجاهزة. من المستحسن دائما ضغط الملف.</Compressed>
+    <CompressToArchive>ضم كافة الملفات والمجلدات في أرشيف مضغوط.</CompressToArchive>
+    <ContinuousPages>طريقة وضع صفحات التقرير كشريط عمودي.</ContinuousPages>
+    <CurrentPage>معالجة الصفحة الحالية. إذا تم تحديد هذا الخيار، سيتم تجهيز صفحة التقرير المحددة.</CurrentPage>
+    <CutEdges>تقليم حدود صفحات التقرير.</CutEdges>
+    <CutLongLines>تقليم الأسطر طويلة (أسطرالنص) من قبل حدود المكونات.</CutLongLines>
+    <DigitalSignature>التوقيع الرقمي للملف.</DigitalSignature>
+    <DitheringType>نمط التردد: بدون - بلا تردد, مرتب, FloydSt - مع تردد.</DitheringType>
     <DotMatrixMode>هذا الوضع يسمح لكم لنرى كيف ستكون نظرة التقرير مثل إذا طباعته على طابعة نقطية نقطة.</DotMatrixMode>
+    <DrawBorder>رسم حدود المكونات باستخدام رموز رسومية.</DrawBorder>
     <Edit>عدل المكونات.</Edit>
+    <EmbeddedFonts>تضمين ملفات الخط في ملف PDF.</EmbeddedFonts>
+    <EmbeddedImageData>تضمين الصور مباشرة إلى ملف HTML.</EmbeddedImageData>
+    <Encoding>ترميز نص التقرير بعد التصدير.</Encoding>
+    <EncodingData>ترميز ملف البيانات.</EncodingData>
+    <EncryptionKeyLength>طول مفتاح التشفير. وكلما زاد طوله، كلما زادت صعوبة فك تشفير الوثيقة،
+
+وتبعا لذلك، زيادة أمن الوثيقة.</EncryptionKeyLength>
+    <ExportDataOnly>تصدير نطاقات البيانات فقط (جدول مكون، ونطاق الهرمي).</ExportDataOnly>
+    <ExportEachPageToSheet>تصدير كل صفحة التقرير في ورقة اكسل منفصلة.</ExportEachPageToSheet>
+    <ExportMode>تطبيق حالة التصفية عند التصدير. البيانات فقط - نطاقات البيانات فقط (مكونات الجدول، النطاقات الهرمية) سيتم
+
+تصديرها. وسيتم تصدير نطاقات البيانات (مكون جدول، نطاق هرمي) مع الترويسات والتذييلات. كل
+
+سيتم تصدير جميع نطاقات تقرير - النطاقات.</ExportMode>
+    <ExportModeHtml>معالجة وضع علامات على صفحة HTML.</ExportModeHtml>
+    <ExportModeRtf>طريقة عرض بيانات التقرير بعد التصدير. جدول - التقرير يظهر كجدول، حيث كل مكون في التقرير هو خلية جدول. الإطار - سيبدو كل مكون كأنه إطار منفصل، ولكن من دون أي علاقة بينهما.
+</ExportModeRtf>
+    <ExportObjectFormatting>تطبيق التنسيق لتصدير البيانات من نطاقات البيانات (مكون جدول، ونطاق هرمية).</ExportObjectFormatting>
+    <ExportPageBreaks>كيفية حدود صفحات التقرير على ورقة اكسل.</ExportPageBreaks>
+    <ExportRtfTextAsImage>تحويل النص RTF إلى صورة. إذا تم تمكين الخيار، فإنه عند التصدير، RichText يتحلل إلى أبسط المكونات المعتمدة من قبل تنسيق PDF. لا يمكن دائما تحويل RichText معقد النسق  (الصور المضمنة والجداول) بشكل صحيح. في هذه الحالة فمن المستحسن تمكين هذا الخيار.</ExportRtfTextAsImage>
     <Find>البحث في النص من خلال التقرير.</Find>
     <FullScreen>قراءة كامل الشاشة.</FullScreen>
+    <GetCertificateFromCryptoUI>استخدام واجهة مكتبة التشفير الخاصة بنظام التشغيل.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>طريقة الضغط: JPEG - قد تسبب فقدان للجودة، Flate - عدم فقدان للجودة، Simple, Ordered, FloydSt - صور أحادية اللون.</ImageCompressionMethod>
+    <ImageFormat>صيغة صورة في الملف النهائي.</ImageFormat>
+    <ImageQuality>يتيح لك اختيار نسبة  جودة الصورة / حجم الملف. وكلما ارتفعت الجودة كلما كان حجم الملف النهائي.</ImageQuality>
+    <ImageQualityPdf>هذا الخيار متاح فقط في ضغط JPEG، ويسمح لك بتحديد نسبة جودة الصورة / حجم الملف. وكلما ارتفعت الجودة كلما كان حجم الملف النهائي أكبر.</ImageQualityPdf>
+    <ImageResolution>عدد البكسلات لكل بوصة. وكلما ارتفع عدد البكسلات ، كلما كانت جودة الصورة أفضل. وحجم الملف النهائي سيكون أكبر.</ImageResolution>
+    <ImageType>تدرج الألوان في الصورة: ملون - الصورة بعد التصدير ستطابق المستعرض مطابقة كاملة; الرمادي – الصورة بعد التصدير ستكون بتدرج الرمادي; أحادي - الصور ستكون باللونين الأبيض والأسود فقط. في نفس الوقت, يجب الأخذ في الحسبان أن اللون الأحادي له ثلاثة أنماط None, Ordered, FloydSt.</ImageType>
+    <KillSpaceLines>إزالة الأسطر الفارغة (الصفوف) من الوثيقة.</KillSpaceLines>
+    <MultipleFiles>كل صفحة في التقرير يمكن أن تكون في ملف منفصل.</MultipleFiles>
     <Open>فتح التقرير المحفوظة مسبقا في نافذة المعاينة.</Open>
+    <OpenAfterExport>الفتح التلقائي للوثيقة بعد إنشائها (بعد التصدير) بواسطة البرنامج المخصص لهذا النوع من الملفات.</OpenAfterExport>
+    <OwnerPassword>كلمة المرور للوصول إلى العمليات للملفات.</OwnerPassword>
+    <PageAll>معالجة كافة صفحات التقرير.</PageAll>
     <PageDelete>حذف صفحة مختارة من التقرير.</PageDelete>
     <PageDesign>تحرير الصفحة المحدد في مصمم التقرير.</PageDesign>
     <PageFirst>انتقل إلى الصفحة الأولى من التقرير.</PageFirst>
@@ -1312,11 +1713,30 @@
     <PageNext>الذهاب إلى الصفحة التالية من التقرير.</PageNext>
     <PagePrevious>الذهاب إلى الصفحة السابقة من التقرير.</PagePrevious>
     <PageSize>تغيير المعلمات صفحة في التقرير.</PageSize>
+    <Parameters>إظهار لوحة المتغيرات المستخدمة عند عرض التقرير</Parameters>
+    <PdfACompliance>دعم المواصفات القياسية للأرشفة طويلة المدى لتخزين الوثائق الرقمية.</PdfACompliance>
     <Print>طباعة التقرير.</Print>
+    <PutFeedPageCode>تغذية الصفحات في نهاية الوثيقة بحرف مميز.</PutFeedPageCode>
+    <RangePages>عدد الصفحات للمعالجة.يمكنك تحديد صفحة واحدة فقط,قائمة بالصفحات (استخدم علامة الفاصلة),بالإضافة لتحديد نطاق بتحديد صفحة البداية ومن ثم وضع علامة "-" ثم تحديد صفحة النهاية للنطاق.مثال: 1,3,5-12.</RangePages>
+    <RemoveEmptySpaceAtBottom>تصغير المساحة الفارغة في أسفل الصفحة.</RemoveEmptySpaceAtBottom>
+    <RestrictEditing>حظر التعديلات في ملف ورد.</RestrictEditing>
     <Save>حفظ تقرير لمزيد من استخدام.</Save>
+    <ScaleHtml>الحجم (الوزن) لصفحات التقرير والعناصر بعد التصدير.</ScaleHtml>
+    <ScaleImage>حجم (وزن) التقرير بعد التصدير. الوزن الأقل, يتيح عددا أكبر من البكسلات في الانش الواحد والعكس صحيح, and vice versa.</ScaleImage>
     <SendEMail>إرسال التقرير عبر البريد الإلكتروني.</SendEMail>
+    <Separator>الفاصل بين البيانات في ملف CSV.</Separator>
+    <SkipColumnHeaders>تفعيل/تعطيل عنوان العمود.</SkipColumnHeaders>
+    <StandardPdfFonts>14 خط أدوبي قياسي. إذا تم تحديد هذا الخيار, فإنه سيتم استخدام 14 خط قياسي فقط في ملفات PDF. جميع الخطوط المستخدمة في التقرير سيتم تحويلها إلى هذه الخطوط القياسية.</StandardPdfFonts>
+    <SubjectNameString>معرف الشهادة. المعرف هو اسم مالك الشهادة (سطر كامل) أو جزء منه (جزء مقطوع).</SubjectNameString>
     <Thumbnails>وتظهر الصور المصغرة التي يمكن استخدامها للملاحة سريعة للعثور على القسم من التقرير الذي تريد الانتقال إليها.</Thumbnails>
+    <TiffCompressionScheme>مخطط الضغك لملفات TIFF.</TiffCompressionScheme>
     <ToolEditor>هذه الأداة تسمح بتحرير محتوى النصوص مباشرة في التقرير</ToolEditor>
+    <TypeExport>الملف الذي سيتم تحويل التقرير إليه.</TypeExport>
+    <UseDefaultSystemEncoding>استخدام الترميز الافتراضي للنظام أو تحديد ترميز خاص</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>تعريف قيود ترويس وتذييل الصفحة كترويسة وتذييل الصفحة  في MS Word.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>تعريف قيود ترويس وتذييل الصفحة كترويسة وتذييل الصفحة  في MS Word.</UsePageHeadersAndFooters>
+    <UserPassword>طلب كلمة مرور لفتح الملف</UserPassword>
+    <UseUnicode>دعم إضافي لحروف الترميز. تؤثر في الترميز الداخلي للحروف في ملفات PDF, وتحسن نسخ النصوص من ملفات PDF.</UseUnicode>
     <ViewModeContinuous>عرض كل صفحات التقرير في الشريط العمودي.</ViewModeContinuous>
     <ViewModeMultiplePages>تكبير التقرير بحيث العديد من الصفحات كما يمكن أن يكون لائقا في نافذة يتم عرضها.</ViewModeMultiplePages>
     <ViewModeSinglePage>وتظهر في صفحة واحدة في نافذة المعاينة.</ViewModeSinglePage>
@@ -1324,15 +1744,21 @@
     <ZoomOnePage>تكبير التقرير بحيث يناسب صفحة كاملة في الإطار.</ZoomOnePage>
     <ZoomPageWidth>التكبير في التقرير بحيث عرض الصفحة يطابق عرض النافذة.</ZoomPageWidth>
     <ZoomTwoPages>تكبير التقرير بحيث صفحتين احتوائها في الإطار.</ZoomTwoPages>
+    <ZoomTxt>حجم التقرير  - الوزن (scale): X - تغيير المحور الأفقي, Y - تغيير المحور العمودي.</ZoomTxt>
   </HelpViewer>
   <MainMenu>
     <menuCheckIssues>التحقق من الأخطاء</menuCheckIssues>
     <menuContextClone>استنساخ...</menuContextClone>
     <menuContextDesign>تصميم...</menuContextDesign>
     <menuContextTextFormat>نص الصيغة...</menuContextTextFormat>
+    <menuConvertToCheckBox>تحويل إلى خانة اختيار</menuConvertToCheckBox>
+    <menuConvertToImage>تحويل إلى صورة</menuConvertToImage>
+    <MenuConvertToRichText>تحويل إلى خانة نص غني</MenuConvertToRichText>
+    <menuConvertToText>تحويل إلى خانة نص</menuConvertToText>
     <menuDeleteColumn>حذف عمود</menuDeleteColumn>
     <menuDeleteRow>حذف صف</menuDeleteRow>
     <menuEdit>تحرير</menuEdit>
+    <menuEditBusinessObjectFromDataSetNew>كائن جديد من مجموعة بيانات...</menuEditBusinessObjectFromDataSetNew>
     <menuEditBusinessObjectNew>كائن عمل جديد...</menuEditBusinessObjectNew>
     <menuEditCalcColumnNew>العمود الجديدة المحسوبة...</menuEditCalcColumnNew>
     <menuEditCantRedo>لا يمكن إعادة</menuEditCantRedo>
@@ -1362,6 +1788,7 @@
     <menuEditViewData>وبالنظر إلى بيانات...</menuEditViewData>
     <menuFile>ملف</menuFile>
     <menuFileClose>إغلاق</menuFileClose>
+    <menuFileDashboardNew>لوحة قيادة جديدة</menuFileDashboardNew>
     <menuFileExit>خروج</menuFileExit>
     <menuFileExportXMLSchema>تصدير مخطط XML...</menuFileExportXMLSchema>
     <menuFileFormNew>شكل جديد</menuFileFormNew>
@@ -1376,13 +1803,17 @@
     <menuFilePageSaveAs>إنقاذ الصفحة...</menuFilePageSaveAs>
     <menuFilePageSetup>صفحة الإعداد...</menuFilePageSetup>
     <menuFileRecentDocuments>الوثائق الأخيرة</menuFileRecentDocuments>
+    <menuFileRecentLocations>ملفات مستخدمة مؤخرا</menuFileRecentLocations>
     <menuFileReportNew>تقرير جديد...</menuFileReportNew>
     <menuFileReportOpen>تقرير مفتوحة...</menuFileReportOpen>
+    <menuFileReportOpenFromGoogleDocs>فتح التقرير من وثائق قوقل...</menuFileReportOpenFromGoogleDocs>
     <menuFileReportPreview>معاينة</menuFileReportPreview>
     <menuFileReportSave>تقرير لإنقاذ</menuFileReportSave>
     <menuFileReportSaveAs>أما تقرير لإنقاذ...</menuFileReportSaveAs>
+    <menuFileReportSaveAsToGoogleDocs>حفظ التقرير كنسخة في وثائق قوقل...</menuFileReportSaveAsToGoogleDocs>
     <menuFileReportSetup>إعداد التقرير...</menuFileReportSetup>
     <menuFileReportWizardNew>تقرير جديد مع معالج...</menuFileReportWizardNew>
+    <menuFileSave>&amp;حفظ</menuFileSave>
     <menuFileSaveAs>حفظ باسم...</menuFileSaveAs>
     <menuHelp>مساعدة</menuHelp>
     <menuHelpAboutProgramm>حول...</menuHelpAboutProgramm>
@@ -1426,6 +1857,152 @@
     <menuViewShowRulers>وتبين من الحكام</menuViewShowRulers>
     <menuViewToolbars>أشرطة الأدوات</menuViewToolbars>
   </MainMenu>
+  <Map>
+    <GroupAsia>آسيا</GroupAsia>
+    <GroupEurope>أوروبا</GroupEurope>
+    <GroupNorthAmerica>أمريكا الشمالية</GroupNorthAmerica>
+    <GroupOceania>أوقيانوسيا</GroupOceania>
+    <GroupSouthAmerica>أمريكا الجنوبية</GroupSouthAmerica>
+    <GroupWorld>العالم</GroupWorld>
+    <LinkDataForm>ربط البيانات</LinkDataForm>
+    <MapEditorForm>محرر الخرائط</MapEditorForm>
+  </Map>
+  <Messages>
+    <MessageTimeOutExpired>وقت النتظار لتنفيذ الأمر قد انتهت!</MessageTimeOutExpired>
+    <TextRegistrationSuccessfully>تم التسجيل بنجاح
+
+تم إرسال بريد إلكتروني إلى "{0}".
+يحتوي البريد على رابط تأكيد تسجيلك. لإكمال التسجيل يرجى الضغط على الرابط في الرسالة المرسلة لبريدكم الإلكترونيplease follow the link from the email you received.</TextRegistrationSuccessfully>
+    <ThisFieldIsNotSpecified>هذا الحقل غير محدد</ThisFieldIsNotSpecified>
+  </Messages>
+  <Notices>
+    <AccessDenied>ممنوع الدخول!</AccessDenied>
+    <ActivationExpiriedBeforeFirstRelease>اشتراكك في Stimulsoft Reports.Ultimate قد انتهت فترته قبل اصدار اول نسخة من Stimulsoft Reports.Server</ActivationExpiriedBeforeFirstRelease>
+    <ActivationLicenseIsNotCorrect>ملف الترخيص غير صحيح! يرجى التواصل مع إدارة المبيعات sales@stimulsoft.com!</ActivationLicenseIsNotCorrect>
+    <ActivationLockedAccount>حسابك مقفل. يرجى التواصل مع إدارة المبيعات على sales@stimulsoft.com!</ActivationLockedAccount>
+    <ActivationMaxActivationsReached>لقد وصلت إلى الحد الأقصى من التنشيطات. يرجى التواصل مع إدارة المبيعات على sales@stimulsoft.com!</ActivationMaxActivationsReached>
+    <ActivationServerIsNotAvailableNow>خادم التنشيط لـ Stimulsoft غير متوفر الآن ! يرجى المحاولة لاحقاً.</ActivationServerIsNotAvailableNow>
+    <ActivationServerVersionNotAllowed>لا يمكن تنشيط هذه النسخة من  Stimulsoft Reports.Server حيث أن برنامج اشتراكك قد انتهى! يرجى الدخول لحسابك والتحقق من نسخة  Stimulsoft Reports.Server التي تستطيع تنصيبها وتنشيطها.</ActivationServerVersionNotAllowed>
+    <ActivationSomeTroublesOccurred>حدث خطأ أثناء التنشيط. يرجى المحاولة لاحقاً.</ActivationSomeTroublesOccurred>
+    <ActivationUserNameOrPasswordIsWrong>اسم المستخدم (البريد الإلكتروني) أو كلمة المرور خاطئة!</ActivationUserNameOrPasswordIsWrong>
+    <ActivationWrongAccountType>نوع حسابك لا يسمح بتنشيط Stimulsoft Reports.Server!</ActivationWrongAccountType>
+    <AuthAccountCantBeUsedNow>لا يمكن استخدام الحساب الآن!</AuthAccountCantBeUsedNow>
+    <AuthAccountIsNotActivated>.الحساب غير منشط بعد! يرجى اتباع التعليمات المرسلة إلى البريد الاكتروني أثناء التسجيل</AuthAccountIsNotActivated>
+    <AuthCantChangeRoleBecauseLastAdministratorUser>لا يمكن تغيير دور المستخدم لكونه المسؤول الأخير في مساحة العمل!</AuthCantChangeRoleBecauseLastAdministratorUser>
+    <AuthCantChangeRoleBecauseLastSupervisorUser>لا يمكن تغيير دور المستخدم لكونه المشرف الأخير في الخادم!</AuthCantChangeRoleBecauseLastSupervisorUser>
+    <AuthCantChangeSystemRole>!لا يمكن تغيير دور النظام</AuthCantChangeSystemRole>
+    <AuthCantDeleteHimselfUser>!لا يمكن للمستخدم حذف نفسه</AuthCantDeleteHimselfUser>
+    <AuthCantDeleteLastAdministratorUser>لا يمكن حذف المستخدم لكونه المسؤول الأخير في مساحة العمل!</AuthCantDeleteLastAdministratorUser>
+    <AuthCantDeleteLastSupervisorUser>لا حذف المستخدم لكونه المشرف الأخير في الخادم!</AuthCantDeleteLastSupervisorUser>
+    <AuthCantDeleteSystemRole>لا يمكن حذف هذا الدور, لأنه دور خاص بالنظام!</AuthCantDeleteSystemRole>
+    <AuthCantDisableUserBecauseLastAdministratorUser>لا يمكن تعطيل المستخدم لكونه المسؤول الأخير في مساحة العمل!</AuthCantDisableUserBecauseLastAdministratorUser>
+    <AuthCantDisableUserBecauseLastSupervisorUser>لا يمكن تعطيل المستخدم لكونه المشرف الأخير في الخادم!</AuthCantDisableUserBecauseLastSupervisorUser>
+    <AuthFirstNameIsNotSpecified>!الاسم الأول غير محدد</AuthFirstNameIsNotSpecified>
+    <AuthLastNameIsNotSpecified>!الاسم الأخير غير محدد</AuthLastNameIsNotSpecified>
+    <AuthOAuthIdNotSpecified>معرف OAuth غير محدد!</AuthOAuthIdNotSpecified>
+    <AuthPasswordIsNotCorrect>!كلمة المرور ليست صحيحة</AuthPasswordIsNotCorrect>
+    <AuthPasswordIsNotSpecified>!كلمة المرور غير محددة</AuthPasswordIsNotSpecified>
+    <AuthPasswordIsTooShort>!كلمة المرور قصيرة (أقل كلمة تتكون من ستة أحرف)</AuthPasswordIsTooShort>
+    <AuthRoleCantBeDeletedBecauseUsedByUsers>لا يمكن حذف الدور لأنه مستخدم من قبل مستخدمين آخرين</AuthRoleCantBeDeletedBecauseUsedByUsers>
+    <AuthRoleNameAlreadyExists>هذا الدور "{0}" موجود مسبقا!</AuthRoleNameAlreadyExists>
+    <AuthRoleNameIsSystemRole>هذا الدور "{0}" هو دور خاص بالنظام!</AuthRoleNameIsSystemRole>
+    <AuthSendMessageWithInstructions>تم إرسال رسالة بتعليمات إضافية إلى "{0}"!</AuthSendMessageWithInstructions>
+    <AuthUserHasLoggedOut>!تم تسجيل خروجك</AuthUserHasLoggedOut>
+    <AuthUserNameAlreadyExists>!اسم المستخدم (البريد الالكتروني) موجود مسيقاً</AuthUserNameAlreadyExists>
+    <AuthUserNameIsNotSpecified>!اسم المستخدم (البريد الالكتروني) غير محدد</AuthUserNameIsNotSpecified>
+    <AuthUserNameOrPasswordIsNotCorrect>!اسم المستخدم (البريد الالكتروني) أو كلمة المرور غير صحيحة</AuthUserNameOrPasswordIsNotCorrect>
+    <AuthUserNameShouldLookLikeAnEmailAddress>!يجب أن يكون اسم المستخدم وعنوان البريد الالكتروني متماثلين</AuthUserNameShouldLookLikeAnEmailAddress>
+    <AuthWorkspaceNameAlreadyInUse>!اسم مساحة العمل هذا مأخوذ</AuthWorkspaceNameAlreadyInUse>
+    <CommandTimeOut>!انتهى وقت الانتظار لمعالجة الأمر</CommandTimeOut>
+    <EndDateShouldBeGreaterThanCurrentDate>!تاريخ النهاية يجب أن يكون أكبر من التاريخ الحالي </EndDateShouldBeGreaterThanCurrentDate>
+    <EndDateShouldBeGreaterThanStartDate>!تاريخ النهاية يجب أن يكون أكبر من تاريخ البداية</EndDateShouldBeGreaterThanStartDate>
+    <ExecutionError>خطأ في التنفيذ</ExecutionError>
+    <IsNotAuthorized>لا توجد صلاحية لـ "{0}"!</IsNotAuthorized>
+    <IsNotCorrect>"{0}" غير صحيح!</IsNotCorrect>
+    <IsNotDeleted>"{0}" لم يتم حذفه!</IsNotDeleted>
+    <IsNotEqual>"{0}" غير متساوي!</IsNotEqual>
+    <IsNotFound>"{0}" لم يتم العثور عليه!</IsNotFound>
+    <IsNotRecognized>"{0}" لم يتم التعرف عليه!</IsNotRecognized>
+    <IsNotSpecified>"{0}" غير محدد!</IsNotSpecified>
+    <IsRequiredFile>!يجب إضافة ملف واحد على الأقل</IsRequiredFile>
+    <ItemCantBeAttachedToItself>!لا يمكن إلحاق العنصر بنفسه</ItemCantBeAttachedToItself>
+    <ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>العناصر "{0}" لأنها ملحقة بعناصر أخرى!</ItemCantBeDeletedBecauseItemIsAttachedToOtherItems>
+    <ItemCantBeMovedToSpecifiedPlace>!لا يمكن نقل العنصر إلى مكان محدد</ItemCantBeMovedToSpecifiedPlace>
+    <ItemDoesNotSupport>العنصر لا يدعم "{0}"!</ItemDoesNotSupport>
+    <KeyAndToKeyAreEqual>المفتاح وإلى المفتاح غير متماثلين!</KeyAndToKeyAreEqual>
+    <NotificationFailed>!نتيجة فاشلة</NotificationFailed>
+    <NotificationFilesUploadingComplete>.تم رفع الملفات بنجاح</NotificationFilesUploadingComplete>
+    <NotificationFileUploading>يتم رفع الملف "{0}"</NotificationFileUploading>
+    <NotificationItemDelete>.يتم الآن حذف العناصر</NotificationItemDelete>
+    <NotificationItemDeleteComplete>.تم حذف العناصر بنجاح</NotificationItemDeleteComplete>
+    <NotificationItemRestore>.يتم الآن استعادة العناصر</NotificationItemRestore>
+    <NotificationItemRestoreComplete>.تمت استعادة العناصر بنجاح</NotificationItemRestoreComplete>
+    <NotificationItemTransfer>.يتم الآن نقل العناصر</NotificationItemTransfer>
+    <NotificationItemTransferComplete>.تم نقل العناصر بنجاح</NotificationItemTransferComplete>
+    <NotificationItemWaitingProcessing>.تنتظر العناصر المعالجة</NotificationItemWaitingProcessing>
+    <NotificationOperationAborted>!تم إيقاف العملية</NotificationOperationAborted>
+    <NotificationRecycleBinCleaning>يتم الآن تنظيف سلة المحذوفات</NotificationRecycleBinCleaning>
+    <NotificationRecycleBinCleaningComplete>تم تنظيف سلة المحذوفات بنجاح</NotificationRecycleBinCleaningComplete>
+    <NotificationRecycleBinWaitingProcessing>تنظيف سلة المحذوفات ينتظر المعالجة</NotificationRecycleBinWaitingProcessing>
+    <NotificationReportExporting>جاري تصدير "{0}"</NotificationReportExporting>
+    <NotificationReportExportingComplete>تم تصدير "{0}" بنجاح.</NotificationReportExportingComplete>
+    <NotificationReportRendering>جاري عرض التقرير "{0}"</NotificationReportRendering>
+    <NotificationReportRenderingComplete>تم عرض التقرير "{0}".</NotificationReportRenderingComplete>
+    <NotificationReportWaitingProcessing>التقرير "{0}" ينتظر المعالجة.</NotificationReportWaitingProcessing>
+    <NotificationSchedulerRunning>الجدولة "{0}"  قيد التنفيذ.</NotificationSchedulerRunning>
+    <NotificationSchedulerRunningComplete>الجدولة "{0}" تم تنفيذها.</NotificationSchedulerRunningComplete>
+    <NotificationSchedulerWaitingProcessing>الجدولة "{0}" بانتظار المعالجة.</NotificationSchedulerWaitingProcessing>
+    <NotificationTitleFilesUploading>رفع الملفات</NotificationTitleFilesUploading>
+    <NotificationTitleItemRefreshing>إعادة عرض "{0}"</NotificationTitleItemRefreshing>
+    <NotificationTitleItemTransferring>نقل العنصر "{0}"</NotificationTitleItemTransferring>
+    <NotificationTitleReportExporting>تصدير التقرير "{0}"</NotificationTitleReportExporting>
+    <NotificationTitleReportRendering>عرض التقرير "{0}"</NotificationTitleReportRendering>
+    <NotificationTitleSchedulerRunning>تنفيذ الجدولة "{0}"</NotificationTitleSchedulerRunning>
+    <NotificationTransferring>جاري نقل "{0}" إلى "{1}".</NotificationTransferring>
+    <NotificationTransferringComplete>تم نقل "{0}" إلى "{1}" بنجاح.</NotificationTransferringComplete>
+    <NotificationValueIsNotCorrect>القيمة غير صحيحة للنوع {0}</NotificationValueIsNotCorrect>
+    <OutOfRange>خارج النطاق ("{0}")!</OutOfRange>
+    <ParsingCommandException>حصل استثناء أثناء تنفيذ الأمر في xml: {0}</ParsingCommandException>
+    <QuotaMaximumComputingCyclesCountExceeded>.تجاوز الحد الأعلى لدورات الحوسبة</QuotaMaximumComputingCyclesCountExceeded>
+    <QuotaMaximumFileSizeExceeded>.تجاوز الحد الأعلى لحجم الملف</QuotaMaximumFileSizeExceeded>
+    <QuotaMaximumReportPagesCountExceeded>.تجاوز الحد الأعلى لعدد صفحات التقرير</QuotaMaximumReportPagesCountExceeded>
+    <QuotaMaximumUsersCountExceeded>.تجاوز الحد الأعلى لعدد المستخدمين</QuotaMaximumUsersCountExceeded>
+    <QuotaMaximumWorkspacesCountExceeded>.تجاوز الحد الأعلى لعدد مساحات العمل</QuotaMaximumWorkspacesCountExceeded>
+    <SchedulerCantRunItSelf>!لا يمكن للمجدول تشغيل نفسه</SchedulerCantRunItSelf>
+    <SessionTimeOut>انتهى وقت الجلسة</SessionTimeOut>
+    <SnapshotAlreadyProcessed>لقطة التقرير تم تنفيذها!</SnapshotAlreadyProcessed>
+    <SpecifiedItemIsNot>العنصر المحدد ليس "{0}"!</SpecifiedItemIsNot>
+    <VersionCopyFromItem>نسخ من العنصر "{0}".</VersionCopyFromItem>
+    <VersionCreatedFromFile>انشاء من ملف "{0}".</VersionCreatedFromFile>
+    <VersionCreatedFromItem>انشاء من عنصر "{0}".</VersionCreatedFromItem>
+    <VersionLoadedFromFile>تحميل من ملف "{0}".</VersionLoadedFromFile>
+    <VersionNewItemCreation>انشاء عنصر جديد.</VersionNewItemCreation>
+    <WindowClosePreventWhileUploading>جاري رفع بعض الملفات, إذا أغلقت الصفحة فسيتم فقدانها. هل أنت متأكد من أنك تود إغلاق الصفحة?</WindowClosePreventWhileUploading>
+    <WithSpecifiedKeyIsNotFound>لم يتم العثور على "{0}" بالمفتاح المحدد!</WithSpecifiedKeyIsNotFound>
+    <YourTimeSessionHasExpired>!انتهى وقت جلستك</YourTimeSessionHasExpired>
+  </Notices>
+  <NuGet>
+    <AlreadyDownloaded>محملة مسبقا</AlreadyDownloaded>
+    <AssemblyLoadedSuccessfully>تم تحميل المكتبة بنجاح</AssemblyLoadedSuccessfully>
+    <AssemblyNotFound>تعذر العثور على المكتبة {0} لاستخدامها في الاتصال {1}!</AssemblyNotFound>
+    <Author>المحرر</Author>
+    <Dependencies>التبعيات:</Dependencies>
+    <Download>تحميل</Download>
+    <DownloadAll>تحميل الكل</DownloadAll>
+    <Downloads>التحميلات:</Downloads>
+    <IAccept>موافق</IAccept>
+    <IDecline>أرفض</IDecline>
+    <LicenceFormDesc>الحزمة تتطلب موافقتك للشروط والأحكام قبل التنصيب.</LicenceFormDesc>
+    <LicenceFormDesc1>بالضغط على "موافق" فإنك توافق على الشروط والأحكام الموضحة أعلاه. في حالة عدم موافقتك اضغط على "أرفض".</LicenceFormDesc1>
+    <LicenceFormTitle>موافقة الترخيص</LicenceFormTitle>
+    <License>الترخيص:</License>
+    <ProjectUrl>عنوان المشروع:</ProjectUrl>
+    <ReportAbuse>التبليغ عن الاساءة:</ReportAbuse>
+    <RetrievingInformation>جلب المعلومات...</RetrievingInformation>
+    <Tags>المعلمات:</Tags>
+    <Title>تحميل محول البيانات</Title>
+    <ViewLicense>عرض الترخيص</ViewLicense>
+  </NuGet>
   <Panels>
     <Dictionary>القاموس</Dictionary>
     <Messages>رسائل</Messages>
@@ -1440,14 +2017,64 @@
     <StiLoadPasswordForm>الوثيقة تشفير</StiLoadPasswordForm>
     <StiSavePasswordForm>كلمة السر</StiSavePasswordForm>
   </Password>
+  <Permissions>
+    <AdminAPI>API</AdminAPI>
+    <AdminBackgroundTasks>مهام الخلفية</AdminBackgroundTasks>
+    <AdminPermissions>أذونات</AdminPermissions>
+    <AdminRecycleBin>سلة المحذوفات</AdminRecycleBin>
+    <AdminShare>مشاركة</AdminShare>
+    <AdminTransfers>نقل</AdminTransfers>
+    <ItemCalendars>تقاويم</ItemCalendars>
+    <ItemCloudStorages>مخازن سحابية</ItemCloudStorages>
+    <ItemContactLists>قوائم الاتصال</ItemContactLists>
+    <ItemDashboards>لوحات</ItemDashboards>
+    <ItemDataSources>مصادر بيانات</ItemDataSources>
+    <ItemFiles>ملفات</ItemFiles>
+    <ItemFolders>مجلدات</ItemFolders>
+    <ItemReportSnapshots>لقطات التقرير</ItemReportSnapshots>
+    <ItemReportTemplates>قوالب التقرير</ItemReportTemplates>
+    <ItemSchedulers>جدولة</ItemSchedulers>
+    <ReportDesignerBusinessObjects>كائنات أعمال</ReportDesignerBusinessObjects>
+    <ReportDesignerDataColumns>أعمدة بيانات</ReportDesignerDataColumns>
+    <ReportDesignerDataConnections>اتصالات البيانات</ReportDesignerDataConnections>
+    <ReportDesignerDataRelations>علاقات بيانات</ReportDesignerDataRelations>
+    <ReportDesignerDataSources>مصادر بيانات</ReportDesignerDataSources>
+    <ReportDesignerDictionaryActions>تصرفات المعجم</ReportDesignerDictionaryActions>
+    <ReportDesignerRestrictions>قيود</ReportDesignerRestrictions>
+    <ReportDesignerVariables>متغيرات</ReportDesignerVariables>
+    <SystemBackupRestore>نسخ احتياطي واستعادة</SystemBackupRestore>
+    <SystemEmailTemplates>قوالب البريد الالكتروني</SystemEmailTemplates>
+    <SystemLicensing>ترخيص</SystemLicensing>
+    <SystemMonitoring>مراقبة</SystemMonitoring>
+    <SystemUpdate>تحديث</SystemUpdate>
+    <SystemWorkspaces>مساحات عمل</SystemWorkspaces>
+    <TextAdministration>إدارة</TextAdministration>
+    <TextItems>عناصر</TextItems>
+    <TextReportDesigner>مصمم التقرير</TextReportDesigner>
+    <TextSystem>نظام</TextSystem>
+    <TextUsers>مستخدمين</TextUsers>
+    <UserHimself>نفسه</UserHimself>
+    <UserRoles>أدوار</UserRoles>
+    <Users>مستخدمين</Users>
+    <UserWorkspace>مساحة عمل</UserWorkspace>
+  </Permissions>
+  <PlacementComponent>
+    <MoveLeftFreeSpace>تحريك عنصر إلى يسار المنطقة الفارغة, زيادة ارتفاع العنصر بحسب ارتفاع المنطقة الفارغة.</MoveLeftFreeSpace>
+    <MoveRightFreeSpace>تحريك عنصر إلى يمين المنطقة الفارغة, زيادة ارتفاع العنصر بحسب ارتفاع المنطقة الفارغة.</MoveRightFreeSpace>
+  </PlacementComponent>
   <PropertyCategory>
     <AppearanceCategory>المظهر</AppearanceCategory>
+    <AreaCategory>المساحة</AreaCategory>
     <ArgumentCategory>حجة</ArgumentCategory>
+    <AxisCategory>محور</AxisCategory>
     <BarCodeAdditionalCategory>شريط المدونة إضافية</BarCodeAdditionalCategory>
     <BarCodeCategory>باركود</BarCodeCategory>
     <BehaviorCategory>سلوك</BehaviorCategory>
+    <CapNeedle>غطاء الإبرة</CapNeedle>
+    <CellCategory>خلية</CellCategory>
     <ChartAdditionalCategory>رسم إضافي</ChartAdditionalCategory>
     <ChartCategory>رسم بياني</ChartCategory>
+    <ChartMap>خريطة</ChartMap>
     <CheckCategory>فحص</CheckCategory>
     <ColorsCategory>ألوان</ColorsCategory>
     <ColumnsCategory>الأعمدة</ColumnsCategory>
@@ -1460,15 +2087,21 @@
     <DisplayCategory>يعرض</DisplayCategory>
     <ExportCategory>الصادرات</ExportCategory>
     <ExportEventsCategory>أحداث والتصدير</ExportEventsCategory>
+    <FooterTableCategory>جدول التذييل</FooterTableCategory>
+    <GridLinesCategory>خطوط الشبكة</GridLinesCategory>
+    <HeaderTableCategory>جدول الترويسة</HeaderTableCategory>
     <HierarchicalCategory>هرمي</HierarchicalCategory>
     <ImageAdditionalCategory>صورة إضافية</ImageAdditionalCategory>
     <ImageCategory>الصورة</ImageCategory>
+    <InterlacingCategory>التقاطع</InterlacingCategory>
+    <LegendCategory>المفاتيح</LegendCategory>
     <MainCategory>رئيسي</MainCategory>
     <MarkerCategory>العلامة</MarkerCategory>
     <MiscCategory>منوعات</MiscCategory>
     <MouseEventsCategory>أحداث الماوس</MouseEventsCategory>
     <NavigationCategory>الملاحة</NavigationCategory>
     <NavigationEventsCategory>الملاحة الأحداث</NavigationEventsCategory>
+    <Needle>إبرة</Needle>
     <OptionsCategory>خيارات</OptionsCategory>
     <PageAdditionalCategory>صفحة إضافية</PageAdditionalCategory>
     <PageCategory>صفحة</PageCategory>
@@ -1478,14 +2111,23 @@
     <PrimitiveCategory>بدائية</PrimitiveCategory>
     <PrintEventsCategory>اطبع الأحداث</PrintEventsCategory>
     <RenderEventsCategory>جعل الأحداث</RenderEventsCategory>
+    <SeriesLabelsCategory>أسماء السلسلة</SeriesLabelsCategory>
     <ShapeCategory>شكل</ShapeCategory>
+    <Size>الحجم</Size>
     <SubReportCategory>دون تقرير</SubReportCategory>
+    <TableCategory>جدول</TableCategory>
     <TextAdditionalCategory>نص إضافي</TextAdditionalCategory>
     <TextCategory>النص</TextCategory>
     <TitleCategory>العنوان</TitleCategory>
+    <TrendLineCategory>خط الاتجاه</TrendLineCategory>
     <ValueCategory>القيمة</ValueCategory>
+    <ValueCloseCategory>قيمة الإغلاق</ValueCloseCategory>
     <ValueEndCategory>قيمة النهاية</ValueEndCategory>
     <ValueEventsCategory>قيمة الأحداث</ValueEventsCategory>
+    <ValueHighCategory>أعلى قيمة</ValueHighCategory>
+    <ValueLowCategory>أدنى قيمة</ValueLowCategory>
+    <ValueOpenCategory>القيمة الافتتاحية</ValueOpenCategory>
+    <WeightCategory>الوزن</WeightCategory>
     <WinControlCategory>فوز مراقبة</WinControlCategory>
     <ZipCodeCategory>الرمز البريدي</ZipCodeCategory>
   </PropertyCategory>
@@ -1706,6 +2348,9 @@
     <StiAngleAngle270>270 درجة</StiAngleAngle270>
     <StiAngleAngle45>45 درجة</StiAngleAngle45>
     <StiAngleAngle90>90 درجة</StiAngleAngle90>
+    <StiArrowStyleArc>قوس</StiArrowStyleArc>
+    <StiArrowStyleArcAndCircle>قوس ودائرة</StiArrowStyleArcAndCircle>
+    <StiArrowStyleCircle>دائرة</StiArrowStyleCircle>
     <StiArrowStyleLines>خطوط</StiArrowStyleLines>
     <StiArrowStyleNone>بلا</StiArrowStyleNone>
     <StiArrowStyleTriangle>المثلث</StiArrowStyleTriangle>
@@ -1734,6 +2379,13 @@
     <StiBrushTypeSolid>الفرشة الصلبة</StiBrushTypeSolid>
     <StiCalculationModeCompilation>التوافقية</StiCalculationModeCompilation>
     <StiCalculationModeInterpretation>التداخل</StiCalculationModeInterpretation>
+    <StiCapStyleArrow>سهم</StiCapStyleArrow>
+    <StiCapStyleDiamond>ماسة</StiCapStyleDiamond>
+    <StiCapStyleNone>بلا</StiCapStyleNone>
+    <StiCapStyleOpen>مفتوح</StiCapStyleOpen>
+    <StiCapStyleOval>بيضاوي</StiCapStyleOval>
+    <StiCapStyleSquare>مربع</StiCapStyleSquare>
+    <StiCapStyleStealth>مخفي</StiCapStyleStealth>
     <StiChartTitleDockBottom>أسفل</StiChartTitleDockBottom>
     <StiChartTitleDockLeft>يسار</StiChartTitleDockLeft>
     <StiChartTitleDockRight>صحيح</StiChartTitleDockRight>
@@ -1754,18 +2406,28 @@
     <StiCode11CheckSumNone>بلا</StiCode11CheckSumNone>
     <StiCode11CheckSumOneDigit>الرقم واحد</StiCode11CheckSumOneDigit>
     <StiCode11CheckSumTwoDigits>رقمين</StiCode11CheckSumTwoDigits>
+    <StiColorScaleTypeColor2>2-نطاق ملون</StiColorScaleTypeColor2>
+    <StiColorScaleTypeColor3>3-نطاق ملون</StiColorScaleTypeColor3>
     <StiColumnDirectionAcrossThenDown>ثم تسقط عبر</StiColumnDirectionAcrossThenDown>
     <StiColumnDirectionDownThenAcross>ثم عبر</StiColumnDirectionDownThenAcross>
     <StiCrossHorAlignmentCenter>مركز</StiCrossHorAlignmentCenter>
     <StiCrossHorAlignmentLeft>يسار</StiCrossHorAlignmentLeft>
     <StiCrossHorAlignmentNone>بلا</StiCrossHorAlignmentNone>
     <StiCrossHorAlignmentRight>صحيح</StiCrossHorAlignmentRight>
+    <StiDateTimeTypeDate>تاريخ</StiDateTimeTypeDate>
+    <StiDateTimeTypeDateAndTime>تاريخ ووقت</StiDateTimeTypeDateAndTime>
+    <StiDateTimeTypeTime>وقت</StiDateTimeTypeTime>
     <StiDockStyleBottom>أسفل</StiDockStyleBottom>
     <StiDockStyleFill>يملأ</StiDockStyleFill>
     <StiDockStyleLeft>يسار</StiDockStyleLeft>
     <StiDockStyleNone>بلا</StiDockStyleNone>
     <StiDockStyleRight>صحيح</StiDockStyleRight>
     <StiDockStyleTop>أعلى</StiDockStyleTop>
+    <StiDrillDownModeMultiPage>صفحات متعددة</StiDrillDownModeMultiPage>
+    <StiDrillDownModeSinglePage>صفحة مفردة</StiDrillDownModeSinglePage>
+    <StiEanSupplementTypeFiveDigit>خمسة خانات</StiEanSupplementTypeFiveDigit>
+    <StiEanSupplementTypeNone>بلا</StiEanSupplementTypeNone>
+    <StiEanSupplementTypeTwoDigit>خانتين</StiEanSupplementTypeTwoDigit>
     <StiEmptySizeModeAlignFooterToBottom>محاذاة إلى أسفل الذيل</StiEmptySizeModeAlignFooterToBottom>
     <StiEmptySizeModeAlignFooterToTop>تؤيد الذيل إلى أعلى</StiEmptySizeModeAlignFooterToTop>
     <StiEmptySizeModeDecreaseLastRow>انخفاض آخر الصف</StiEmptySizeModeDecreaseLastRow>
@@ -1781,6 +2443,8 @@
     <StiFilterConditionEqualTo>يساوي</StiFilterConditionEqualTo>
     <StiFilterConditionGreaterThan>أكبر من</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>أكبر من أو تساوي</StiFilterConditionGreaterThanOrEqualTo>
+    <StiFilterConditionIsNotNull>ليس فارغ</StiFilterConditionIsNotNull>
+    <StiFilterConditionIsNull>فارغ</StiFilterConditionIsNull>
     <StiFilterConditionLessThan>أقل من</StiFilterConditionLessThan>
     <StiFilterConditionLessThanOrEqualTo>أقل من أو تساوي</StiFilterConditionLessThanOrEqualTo>
     <StiFilterConditionNotBetween>وليس بين</StiFilterConditionNotBetween>
@@ -1791,9 +2455,16 @@
     <StiFilterDataTypeExpression>التعبير</StiFilterDataTypeExpression>
     <StiFilterDataTypeNumeric>رقمية</StiFilterDataTypeNumeric>
     <StiFilterDataTypeString>سلسلة</StiFilterDataTypeString>
+    <StiFilterEngineReportEngine>محرك التقرير</StiFilterEngineReportEngine>
+    <StiFilterEngineSQLQuery>SQL استعلام</StiFilterEngineSQLQuery>
     <StiFilterItemArgument>حجة</StiFilterItemArgument>
     <StiFilterItemExpression>التعبير</StiFilterItemExpression>
     <StiFilterItemValue>القيمة</StiFilterItemValue>
+    <StiFilterItemValueClose>إغلاق القيمة</StiFilterItemValueClose>
+    <StiFilterItemValueEnd>نهاية القيمة</StiFilterItemValueEnd>
+    <StiFilterItemValueHigh>أعلى القيمة</StiFilterItemValueHigh>
+    <StiFilterItemValueLow>أقل القيمة</StiFilterItemValueLow>
+    <StiFilterItemValueOpen>قيمة الافتتاحية</StiFilterItemValueOpen>
     <StiFilterModeAnd>و</StiFilterModeAnd>
     <StiFilterModeOr>أو</StiFilterModeOr>
     <StiFormStartModeOnEnd>على الانتهاء</StiFormStartModeOnEnd>
@@ -1818,6 +2489,10 @@
     <StiImageRotationRotate180>تناوب 180 °</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>تدوير 90 درجة في الاتفاقية</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>تدوير 90 درجة الأسلحة الكيميائية</StiImageRotationRotate90CW>
+    <StiKeepDetailsKeepDetailsTogether>إبقاء التفاصيل معاً</StiKeepDetailsKeepDetailsTogether>
+    <StiKeepDetailsKeepFirstDetailTogether>إبقاء التفاصيل الأولى معاً</StiKeepDetailsKeepFirstDetailTogether>
+    <StiKeepDetailsKeepFirstRowTogether>إبقاء الصف الأول معاً</StiKeepDetailsKeepFirstRowTogether>
+    <StiKeepDetailsNone>بلا</StiKeepDetailsNone>
     <StiLabelsPlacementNone>بلا</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>خط واحد</StiLabelsPlacementOneLine>
     <StiLabelsPlacementTwoLines>سطرين</StiLabelsPlacementTwoLines>
@@ -1835,6 +2510,26 @@
     <StiLegendVertAlignmentCenter>مركز</StiLegendVertAlignmentCenter>
     <StiLegendVertAlignmentTop>أعلى</StiLegendVertAlignmentTop>
     <StiLegendVertAlignmentTopOutside>قمة خارج</StiLegendVertAlignmentTopOutside>
+    <StiMapIDAustralia>أستراليا</StiMapIDAustralia>
+    <StiMapIDAustria>النمسا</StiMapIDAustria>
+    <StiMapIDBrazil>البرازيل</StiMapIDBrazil>
+    <StiMapIDCanada>كندا</StiMapIDCanada>
+    <StiMapIDChina>الصين</StiMapIDChina>
+    <StiMapIDEU>الاتحاد الأوروبي</StiMapIDEU>
+    <StiMapIDEurope>أوروبا</StiMapIDEurope>
+    <StiMapIDFrance>فرنسا</StiMapIDFrance>
+    <StiMapIDGermany>ألمانيا</StiMapIDGermany>
+    <StiMapIDItaly>إيطاليا</StiMapIDItaly>
+    <StiMapIDNetherlands>هولندا</StiMapIDNetherlands>
+    <StiMapIDRussia>روسيا</StiMapIDRussia>
+    <StiMapIDUK>المملكة المتحدة</StiMapIDUK>
+    <StiMapIDUSA>الولايات المتحدة الأمريكية</StiMapIDUSA>
+    <StiMapIDWorld>العالم</StiMapIDWorld>
+    <StiMapTypeGroup>مجموعة</StiMapTypeGroup>
+    <StiMapTypeHeatmap>خريطة حرارية</StiMapTypeHeatmap>
+    <StiMapTypeHeatmapWithGroup>خريطة حرارية ضمن مجموعة</StiMapTypeHeatmapWithGroup>
+    <StiMapTypeNone>بلا</StiMapTypeNone>
+    <StiMapTypePoints>نقاط</StiMapTypePoints>
     <StiMarkerAlignmentLeft>يسار</StiMarkerAlignmentLeft>
     <StiMarkerAlignmentRight>صحيح</StiMarkerAlignmentRight>
     <StiMarkerTypeCircle>دائرة</StiMarkerTypeCircle>
@@ -1843,10 +2538,15 @@
     <StiMarkerTypeStar5>5 نجوم</StiMarkerTypeStar5>
     <StiMarkerTypeStar6>نجمة 6</StiMarkerTypeStar6>
     <StiMarkerTypeStar7>نجمة 7</StiMarkerTypeStar7>
+    <StiMarkerTypeStar8>نجمة ثمانية</StiMarkerTypeStar8>
     <StiMarkerTypeTriangle>المثلث</StiMarkerTypeTriangle>
+    <StiNestedFactorHigh>أعلى</StiNestedFactorHigh>
+    <StiNestedFactorLow>أقل</StiNestedFactorLow>
+    <StiNestedFactorNormal>عادي</StiNestedFactorNormal>
     <StiNumberOfPassDoublePass>ممر مزدوج</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>ممر واحد</StiNumberOfPassSinglePass>
     <StiOrientationHorizontal>أفقي</StiOrientationHorizontal>
+    <StiOrientationHorizontalRight>أفقي لليمين</StiOrientationHorizontalRight>
     <StiOrientationVertical>العمودي</StiOrientationVertical>
     <StiPageOrientationLandscape>المشهد</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>صورة</StiPageOrientationPortrait>
@@ -1857,6 +2557,8 @@
     <StiPenStyleDouble>المزدوجة</StiPenStyleDouble>
     <StiPenStyleNone>بلا</StiPenStyleNone>
     <StiPenStyleSolid>الصلبة</StiPenStyleSolid>
+    <StiPlesseyCheckSumModulo10>شكل عشري</StiPlesseyCheckSumModulo10>
+    <StiPlesseyCheckSumModulo11>شكل إحدى عشري</StiPlesseyCheckSumModulo11>
     <StiPlesseyCheckSumNone>بلا</StiPlesseyCheckSumNone>
     <StiPreviewModeDotMatrix>مصفوفة نقطة</StiPreviewModeDotMatrix>
     <StiPreviewModeStandard>القياسية</StiPreviewModeStandard>
@@ -1871,12 +2573,18 @@
     <StiPrintOnTypeOnlyFirstAndLastPage>إلا صفحة اولى واخيرة</StiPrintOnTypeOnlyFirstAndLastPage>
     <StiPrintOnTypeOnlyFirstPage>الصفحة الاولى فقط</StiPrintOnTypeOnlyFirstPage>
     <StiPrintOnTypeOnlyLastPage>إلا الصفحة الأخيرة</StiPrintOnTypeOnlyLastPage>
+    <StiProcessAtEndOfPage>نهاية الصفحة</StiProcessAtEndOfPage>
+    <StiProcessAtEndOfReport>نهاية التقرير</StiProcessAtEndOfReport>
+    <StiProcessAtNone>بلا</StiProcessAtNone>
     <StiProcessingDuplicatesTypeBasedOnTagHide>إخفاء بناء على معلمة</StiProcessingDuplicatesTypeBasedOnTagHide>
     <StiProcessingDuplicatesTypeBasedOnTagMerge>دمج بناء على معلمة</StiProcessingDuplicatesTypeBasedOnTagMerge>
     <StiProcessingDuplicatesTypeBasedOnTagRemoveText>إزالة النص بناء على معلمة</StiProcessingDuplicatesTypeBasedOnTagRemoveText>
     <StiProcessingDuplicatesTypeBasedOnValueAndTagHide>إخفاء بناء على قيمة ومعلمة</StiProcessingDuplicatesTypeBasedOnValueAndTagHide>
     <StiProcessingDuplicatesTypeBasedOnValueAndTagMerge>دمج بناء على قيمة ومعلمة</StiProcessingDuplicatesTypeBasedOnValueAndTagMerge>
     <StiProcessingDuplicatesTypeBasedOnValueRemoveText>إزالة بناء على قيمة نصية</StiProcessingDuplicatesTypeBasedOnValueRemoveText>
+    <StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagHide>إخفاء شامل استنادا الى قيمة او وسم</StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagHide>
+    <StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagMerge>دمج شامل استنادا الى قيمة او وسم</StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagMerge>
+    <StiProcessingDuplicatesTypeGlobalBasedOnValueRemoveText>ازالة شاملة استنادا الى قيمة او وسم</StiProcessingDuplicatesTypeGlobalBasedOnValueRemoveText>
     <StiProcessingDuplicatesTypeGlobalHide>إخفاء العالمية</StiProcessingDuplicatesTypeGlobalHide>
     <StiProcessingDuplicatesTypeGlobalMerge>دمج العالمية</StiProcessingDuplicatesTypeGlobalMerge>
     <StiProcessingDuplicatesTypeGlobalRemoveText>إزالة نص العالمية</StiProcessingDuplicatesTypeGlobalRemoveText>
@@ -1884,6 +2592,8 @@
     <StiProcessingDuplicatesTypeMerge>دمج</StiProcessingDuplicatesTypeMerge>
     <StiProcessingDuplicatesTypeNone>بلا</StiProcessingDuplicatesTypeNone>
     <StiProcessingDuplicatesTypeRemoveText>إزالة النص</StiProcessingDuplicatesTypeRemoveText>
+    <StiRadarStyleXFCircle>دائرة</StiRadarStyleXFCircle>
+    <StiRadarStyleXFPolygon>مضلع</StiRadarStyleXFPolygon>
     <StiReportCacheModeAuto>السيارات</StiReportCacheModeAuto>
     <StiReportCacheModeOff>بعيدا</StiReportCacheModeOff>
     <StiReportCacheModeOn>على</StiReportCacheModeOn>
@@ -1899,13 +2609,18 @@
     <StiRestrictionsAllowResize>السماح بحجم</StiRestrictionsAllowResize>
     <StiRestrictionsAllowSelect>اختر السماح</StiRestrictionsAllowSelect>
     <StiRestrictionsNone>بلا</StiRestrictionsNone>
+    <StiSelectionModeFirst>أول</StiSelectionModeFirst>
+    <StiSelectionModeFromVariable>من متغير</StiSelectionModeFromVariable>
+    <StiSelectionModeNothing>لا شيء</StiSelectionModeNothing>
     <StiSeriesLabelsValueTypeArgument>حجة</StiSeriesLabelsValueTypeArgument>
     <StiSeriesLabelsValueTypeArgumentValue>والحجة -- القيمة</StiSeriesLabelsValueTypeArgumentValue>
     <StiSeriesLabelsValueTypeSeriesTitle>سلسلة العنوان</StiSeriesLabelsValueTypeSeriesTitle>
     <StiSeriesLabelsValueTypeSeriesTitleArgument>سلسلة العنوان -- الوسيطة</StiSeriesLabelsValueTypeSeriesTitleArgument>
     <StiSeriesLabelsValueTypeSeriesTitleValue>سلسلة العنوان -- القيمة</StiSeriesLabelsValueTypeSeriesTitleValue>
+    <StiSeriesLabelsValueTypeTag>معلومة إضافية</StiSeriesLabelsValueTypeTag>
     <StiSeriesLabelsValueTypeValue>القيمة</StiSeriesLabelsValueTypeValue>
     <StiSeriesLabelsValueTypeValueArgument>القيمة -- الوسيطة</StiSeriesLabelsValueTypeValueArgument>
+    <StiSeriesLabelsValueTypeWeight>الوزن</StiSeriesLabelsValueTypeWeight>
     <StiSeriesSortDirectionAscending>الصعود</StiSeriesSortDirectionAscending>
     <StiSeriesSortDirectionDescending>التنازلي</StiSeriesSortDirectionDescending>
     <StiSeriesSortTypeArgument>حجة</StiSeriesSortTypeArgument>
@@ -1924,6 +2639,9 @@
     <StiShowSeriesLabelsFromChart>FromChart</StiShowSeriesLabelsFromChart>
     <StiShowSeriesLabelsFromSeries>FromSeries</StiShowSeriesLabelsFromSeries>
     <StiShowSeriesLabelsNone>بلا</StiShowSeriesLabelsNone>
+    <StiShowXAxisBoth>كلاهما</StiShowXAxisBoth>
+    <StiShowXAxisBottom>سفلي</StiShowXAxisBottom>
+    <StiShowXAxisCenter>وسط</StiShowXAxisCenter>
     <StiShowYAxisBoth>كلاهما</StiShowYAxisBoth>
     <StiShowYAxisCenter>الوسط</StiShowYAxisCenter>
     <StiShowYAxisLeft>اليسار</StiShowYAxisLeft>
@@ -1934,9 +2652,29 @@
     <StiSortTypeByValue>من حيث القيمة</StiSortTypeByValue>
     <StiSqlSourceTypeStoredProcedure>إجراءات مخزنة</StiSqlSourceTypeStoredProcedure>
     <StiSqlSourceTypeTable>جدول</StiSqlSourceTypeTable>
+    <StiStyleComponentTypeChart>مخطط</StiStyleComponentTypeChart>
+    <StiStyleComponentTypeCheckBox>مربع اختيار</StiStyleComponentTypeCheckBox>
+    <StiStyleComponentTypeCrossTab>جدول مبوب</StiStyleComponentTypeCrossTab>
+    <StiStyleComponentTypeImage>صورة</StiStyleComponentTypeImage>
+    <StiStyleComponentTypePrimitive>بدائي</StiStyleComponentTypePrimitive>
+    <StiStyleComponentTypeText>نص</StiStyleComponentTypeText>
+    <StiStyleConditionTypeComponentName>اسم المكون</StiStyleConditionTypeComponentName>
+    <StiStyleConditionTypeComponentType>نوع المكون</StiStyleConditionTypeComponentType>
+    <StiStyleConditionTypeLocation>الموقع</StiStyleConditionTypeLocation>
+    <StiStyleConditionTypePlacement>الوضع</StiStyleConditionTypePlacement>
     <StiSummaryValuesAllValues>كل القيم</StiSummaryValuesAllValues>
     <StiSummaryValuesSkipNulls>تخطى بلا قيم</StiSummaryValuesSkipNulls>
     <StiSummaryValuesSkipZerosAndNulls>تخطى الأصفار وبلا قيم</StiSummaryValuesSkipZerosAndNulls>
+    <StiTablceCellTypeCheckBox>خانة اختيار</StiTablceCellTypeCheckBox>
+    <StiTablceCellTypeImage>صورة</StiTablceCellTypeImage>
+    <StiTablceCellTypeRichText>نص غني</StiTablceCellTypeRichText>
+    <StiTablceCellTypeText>نص</StiTablceCellTypeText>
+    <StiTableAutoWidthNone>بلا</StiTableAutoWidthNone>
+    <StiTableAutoWidthPage>صفحة</StiTableAutoWidthPage>
+    <StiTableAutoWidthTable>جدول</StiTableAutoWidthTable>
+    <StiTableAutoWidthTypeFullTable>جدول كامل</StiTableAutoWidthTypeFullTable>
+    <StiTableAutoWidthTypeLastColumns>آخر أعمدة</StiTableAutoWidthTypeLastColumns>
+    <StiTableAutoWidthTypeNone>بلا</StiTableAutoWidthTypeNone>
     <StiTextHorAlignmentCenter>مركز</StiTextHorAlignmentCenter>
     <StiTextHorAlignmentLeft>يسار</StiTextHorAlignmentLeft>
     <StiTextHorAlignmentRight>صحيح</StiTextHorAlignmentRight>
@@ -1950,11 +2688,19 @@
     <StiTextQualityStandard>القياسية</StiTextQualityStandard>
     <StiTextQualityTypographic>مطبعي</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>تشاهده هو ما تحصل عليه</StiTextQualityWysiwyg>
+    <StiTitlePositionInside>داخل</StiTitlePositionInside>
+    <StiTitlePositionOutside>خارج</StiTitlePositionOutside>
+    <StiTypeModeList>قائمة</StiTypeModeList>
+    <StiTypeModeNullableValue>قيمة فارغة</StiTypeModeNullableValue>
+    <StiTypeModeRange>نطاق</StiTypeModeRange>
+    <StiTypeModeValue>قيمة</StiTypeModeValue>
     <StiVertAlignmentBottom>أسفل</StiVertAlignmentBottom>
     <StiVertAlignmentCenter>مركز</StiVertAlignmentCenter>
     <StiVertAlignmentTop>أعلى</StiVertAlignmentTop>
     <StiViewModeNormal>طبيعي</StiViewModeNormal>
     <StiViewModePageBreakPreview>الصفحة استراحة معاينة</StiViewModePageBreakPreview>
+    <StiXmlTypeAdoNetXml>ADO.NET XML</StiXmlTypeAdoNetXml>
+    <StiXmlTypeXml>XML</StiXmlTypeXml>
     <StringAlignmentCenter>مركز</StringAlignmentCenter>
     <StringAlignmentFar>بعيد</StringAlignmentFar>
     <StringAlignmentNear>قريب</StringAlignmentNear>
@@ -1989,8 +2735,10 @@
     <ExportingEvent>تصدير</ExportingEvent>
     <GetArgumentEvent>الحصول الوسيطة</GetArgumentEvent>
     <GetBookmarkEvent>الحصول احفظ</GetBookmarkEvent>
+    <GetCollapsedEvent>عند الإغلاق</GetCollapsedEvent>
     <GetCrossValueEvent>عبر الحصول على القيمة</GetCrossValueEvent>
-    <GetCuttedPieListEvent>الحصول على قائمة Cutted الفطيرة</GetCuttedPieListEvent>
+    <GetCutPieListEvent>الحصول على قائمة Cut الفطيرة</GetCutPieListEvent>
+    <GetDataUrlEvent>جلب عنوان البيانات</GetDataUrlEvent>
     <GetDisplayCrossValueEvent>الحصول على عرض الصليب القيمة</GetDisplayCrossValueEvent>
     <GetDrillDownReportEvent>الحصول على عينات أسفل تقرير</GetDrillDownReportEvent>
     <GetExcelSheetEvent>الحصول على ورقة اكسل</GetExcelSheetEvent>
@@ -1999,11 +2747,20 @@
     <GetImageDataEvent>الحصول على بيانات الصور</GetImageDataEvent>
     <GetImageURLEvent>الحصول على رابط الصورة</GetImageURLEvent>
     <GetListOfArgumentsEvent>الحصول على قائمة الحجج</GetListOfArgumentsEvent>
+    <GetListOfHyperlinksEvent>جلب قائمة الارتباطات التشعبية</GetListOfHyperlinksEvent>
+    <GetListOfTagsEvent>جلب قائمة البيانات الإضافية</GetListOfTagsEvent>
+    <GetListOfToolTipsEvent>جلب قائمة اللمحات التنبيهية</GetListOfToolTipsEvent>
+    <GetListOfValuesEndEvent>جلب قائمة نهاية القيم</GetListOfValuesEndEvent>
     <GetListOfValuesEvent>الحصول على قائمة القيم</GetListOfValuesEvent>
+    <GetListOfWeights>جلب قائمة الأوزان</GetListOfWeights>
+    <GetListOfWeightsEvent>جلب قائمة الأوزان</GetListOfWeightsEvent>
+    <GetSummaryExpressionEvent>الحصول على ملخص التعبير</GetSummaryExpressionEvent>
     <GetTagEvent>الحصول على علامة</GetTagEvent>
     <GetTitleEvent>الحصول على اللقب</GetTitleEvent>
     <GetToolTipEvent>الحصول على أداة تلميح</GetToolTipEvent>
+    <GetValueEndEvent>جلب نهاية القيمة</GetValueEndEvent>
     <GetValueEvent>الحصول على القيمة</GetValueEvent>
+    <GetWeightEvent>جلب الوزن</GetWeightEvent>
     <LeaveEvent>يغادر</LeaveEvent>
     <LoadFormEvent>تحميل الاستمارة</LoadFormEvent>
     <MouseDownEvent>فأر يسقط</MouseDownEvent>
@@ -2089,17 +2846,29 @@
     <Alignment>الانحياز</Alignment>
     <AllowApplyBorderColor>السماح لتطبيق لون</AllowApplyBorderColor>
     <AllowApplyBrush>السماح للتطبيق الفرشة</AllowApplyBrush>
+    <AllowApplyBrushNegative>السماح بتطبيق فرشة معكوسة</AllowApplyBrushNegative>
+    <AllowApplyColorNegative>السماح بتطبيق لون معكوس</AllowApplyColorNegative>
     <AllowApplyStyle>السماح للتطبيق النمط</AllowApplyStyle>
+    <AllowExpressions>السماح بالتعبيرات</AllowExpressions>
     <AllowHtmlTags>علامات تسمح هتمل</AllowHtmlTags>
+    <AllowSeries>السماح بالسلاسل</AllowSeries>
+    <AllowSeriesElements>السماح بعناصر السلاسل</AllowSeriesElements>
     <AllowSorting>السماح لفرز</AllowSorting>
+    <AllowUseBackColor>السماح باستخدام اللون </AllowUseBackColor>
     <AllowUseBorder>السماح باستخدام الحدود</AllowUseBorder>
+    <AllowUseBorderFormatting>السماح باستخدام تنسيق الحدود</AllowUseBorderFormatting>
+    <AllowUseBorderSides>السماح باستخدام جوانب الحدود</AllowUseBorderSides>
+    <AllowUseBorderSidesFromLocation>السماح باستخدام حدود الجوانب من الموقع</AllowUseBorderSidesFromLocation>
     <AllowUseBrush>السماح باستخدام الفرشة</AllowUseBrush>
     <AllowUseFont>السماح باستخدام الخط</AllowUseFont>
+    <AllowUseForeColor>السماح باستخدام لون المقدمة</AllowUseForeColor>
     <AllowUseHorAlignment>السماح باستخدام هور محاذاة</AllowUseHorAlignment>
     <AllowUseImage>السماح باستخدام الصور</AllowUseImage>
+    <AllowUserValues>قبول القيم المدخلة من قبل المستخدم</AllowUserValues>
     <AllowUseTextBrush>نص يسمح باستخدام الفرشة</AllowUseTextBrush>
     <AllowUseTextOptions>السماح باستخدام خيارات النص</AllowUseTextOptions>
     <AllowUseVertAlignment>السماح لاستخدام نبات أخضر محاذاة</AllowUseVertAlignment>
+    <AllowUsingAsSqlParameter>السماح باستخدام محددات SQL</AllowUsingAsSqlParameter>
     <AlternatingBackColor>يتناوب اللون العودة</AlternatingBackColor>
     <Angle>الزاوية</Angle>
     <Antialiasing>الحواف</Antialiasing>
@@ -2112,6 +2881,9 @@
     <AspectRatio>الجانب نسبة</AspectRatio>
     <Author>المؤلف</Author>
     <Auto>السيارات</Auto>
+    <AutoCalculateCenterPoint>حساب نقطة المنتصف تلقائيا</AutoCalculateCenterPoint>
+    <AutoDataColumns>أعمدة بيانات تلقائية</AutoDataColumns>
+    <AutoDataRows>صفوف بيانات تلقائية</AutoDataRows>
     <AutoLocalizeReportOnRun>تقرير عن السيارات موضع تشغيل</AutoLocalizeReportOnRun>
     <AutoRefresh>تجديد السيارات</AutoRefresh>
     <AutoRotate>تدوير السيارات</AutoRotate>
@@ -2121,27 +2893,38 @@
     <AutoSeriesTitleDataColumn>السيارات بيانات العمود عنوان السلسلة</AutoSeriesTitleDataColumn>
     <AutoWidth>عرض السيارات</AutoWidth>
     <AutoWidthType>نوع العرض التلقائي</AutoWidthType>
+    <AxisLabelsColor>لون المسميات</AxisLabelsColor>
+    <AxisLineColor>لون الخطوط</AxisLineColor>
+    <AxisTitleColor>لون العنوان</AxisTitleColor>
     <AxisValue>محور القيمة</AxisValue>
     <BackColor>عاد اللون</BackColor>
     <Background>خلفية</Background>
     <BackgroundColor>لون الخلفية</BackgroundColor>
     <BarCodeType>شريط المدونة نوع</BarCodeType>
     <BasicStyleColor>نمط الألوان الأساسية</BasicStyleColor>
+    <BindingColumn>عمود الربط</BindingColumn>
+    <Blend>مزج</Blend>
     <Bold>جريئة</Bold>
     <Bookmark>احفظ</Bookmark>
     <Border>الحدود</Border>
+    <BorderBrush>فرشة الحدود</BorderBrush>
     <BorderColor>لون</BorderColor>
     <Borders>الحدود</Borders>
+    <BorderSize>حجم الحدود</BorderSize>
     <BorderStyle>النمط الحدود</BorderStyle>
+    <BorderWidth>عرض الحدود</BorderWidth>
     <Bottom>أسفل</Bottom>
     <BottomSide>الذي يقبع في مؤخرة الدوري</BottomSide>
     <BreakIfLessThan>إذا كانت أقل من كسر</BreakIfLessThan>
     <Brush>فرشاة</Brush>
+    <BrushNegative>فرشة معكوسة</BrushNegative>
     <BrushType>نوع فرشاة</BrushType>
     <BusinessObject>كائن عمل</BusinessObject>
     <CacheAllData>مخبأ جميع البيانات</CacheAllData>
+    <CacheTotals>تخزين مؤقت للمجاميع</CacheTotals>
     <CalcInvisible>احسب الخفية</CalcInvisible>
     <CalculatedDataColumn>حسبت بيانات العمود</CalculatedDataColumn>
+    <CalculationMode>نمط الحساب</CalculationMode>
     <CanBreak>يمكن للاستراحة</CanBreak>
     <Cancel>الغاء</Cancel>
     <CanGrow>يمكن أن تنمو</CanGrow>
@@ -2149,14 +2932,22 @@
     <Categories>الفئات</Categories>
     <Category>الفئة</Category>
     <CategoryConnections>وصلات</CategoryConnections>
+    <CellDockStyle>نمط رسو الخلية</CellDockStyle>
     <CellHeight>خلية الطول</CellHeight>
+    <CellType>نوع الخلية</CellType>
     <CellWidth>خلية العرض</CellWidth>
+    <Center>توسيط</Center>
+    <CenterPoint>نقطة الوسط</CenterPoint>
+    <ChartAreaBorderColor>لون الحدود</ChartAreaBorderColor>
+    <ChartAreaBrush>فرشة المساحة</ChartAreaBrush>
+    <ChartAreaShowShadow>إظهار الظل</ChartAreaShowShadow>
     <ChartType>نوع الرسم البياني</ChartType>
     <Checked>دقق</Checked>
     <CheckOnClick>اضغط على فحص</CheckOnClick>
     <CheckStyle>فحص النمط</CheckStyle>
     <CheckStyleForFalse>للتأكد من النمط الزور</CheckStyleForFalse>
     <CheckStyleForTrue>صحيح للتحقق من النمط</CheckStyleForTrue>
+    <Checksum>مجموع التحقق</Checksum>
     <CheckSum>اختباري</CheckSum>
     <CheckSum1>CheckSum1</CheckSum1>
     <CheckSum2>CheckSum2</CheckSum2>
@@ -2166,12 +2957,16 @@
     <ClearFormat>شكل واضح</ClearFormat>
     <CloneContainer>استنساخ الحاويات</CloneContainer>
     <Code>مدونة</Code>
+    <CodePage>رمز الصفحة</CodePage>
     <Collapsed>انهار</Collapsed>
     <CollapseGroupFooter>انهيار مجموعة الذيل</CollapseGroupFooter>
     <CollapsingEnabled>انهيار تمكين</CollapsingEnabled>
     <Collate>جمع</Collate>
+    <CollectionName>اسم المجموعة</CollectionName>
     <Color>لون</Color>
     <ColorEach>كل الألوان</ColorEach>
+    <ColorScaleCondition>شرط النطاق الملون</ColorScaleCondition>
+    <ColorScaleType>نوع النطاق الملون</ColorScaleType>
     <Column>العمود</Column>
     <ColumnCount>العمود الكونت</ColumnCount>
     <ColumnDirection>عمود التوجيه</ColumnDirection>
@@ -2193,46 +2988,60 @@
     <Converting>تحويل</Converting>
     <ConvertNulls>تحويل بلا قيم</ConvertNulls>
     <Copies>نسخ</Copies>
+    <Count>اجمالي</Count>
     <CountData>عد البيانات</CountData>
     <Create>خلق</Create>
     <CreateFieldOnDoubleClick>خلق الميدانية على انقر نقرا مزدوجا</CreateFieldOnDoubleClick>
     <CreateLabel>خلق علامة</CreateLabel>
+    <Culture>الإقليم</Culture>
     <CustomFormat>شكل مخصص</CustomFormat>
-    <CuttedPieList>قائمة Cutted الفطيرة</CuttedPieList>
+    <CutPieList>قائمة Cut الفطيرة</CutPieList>
     <Data>بيانات</Data>
     <DataAdapter>بيانات محول</DataAdapter>
     <DataAdapters>بيانات المحولات</DataAdapters>
+    <DataBarCondition>شرط عمود البيانات</DataBarCondition>
     <DataBindings>بيانات الأغلفة</DataBindings>
     <DataColumn>بيانات العمود</DataColumn>
+    <DataColumns>أعمدة بيانات</DataColumns>
     <DataField>البيانات الميدانية</DataField>
     <DataRelation>بيانات العلاقة</DataRelation>
+    <DataRows>صفوف بيانات</DataRows>
     <DataSource>مصدر البيانات</DataSource>
     <DataSources>مصادر البيانات</DataSources>
     <DataTextField>نص البيانات الميدانية</DataTextField>
     <DataType>نوع البيانات</DataType>
     <DateInfo>وحتى الآن معلومات اضافية</DateInfo>
+    <DateTimeStep>خطوة وقت وتاريخ</DateTimeStep>
     <Default>افتراضي</Default>
     <DefaultHeightCell>الارتفاع الافتراضي للخلية</DefaultHeightCell>
     <DefaultNamespace>التقصير المجرد</DefaultNamespace>
+    <DependentColumn>عمود معتمد</DependentColumn>
+    <DependentValue>قيمة معتمدة</DependentValue>
     <Description>وصف</Description>
     <DetectUrls>الكشف عن عناوين المواقع</DetectUrls>
     <DialogResult>الحوار النتيجة</DialogResult>
     <Diameter>قطرها</Diameter>
     <Direction>الاتجاه</Direction>
+    <Disabled>معطل</Disabled>
     <DisplayValue>عرض القيمة</DisplayValue>
     <Distance>المسافة</Distance>
     <DistanceBetweenTabs>المسافة بين علامات التبويب</DistanceBetweenTabs>
+    <Dock>الإرساء</Dock>
     <DockableTable>جدول التنسيق</DockableTable>
     <DockStyle>حوض ستايل</DockStyle>
     <DrawBorder>رسم الحدود</DrawBorder>
+    <DrawHatch>رسم فتحة</DrawHatch>
     <DrawLine>رسم خط</DrawLine>
+    <DrillDown>التنقل للداخل</DrillDown>
     <DrillDownEnabled>الحفر أسفل تمكين</DrillDownEnabled>
+    <DrillDownMode>نمط التنقيب</DrillDownMode>
     <DrillDownPage>الحفر أسفل الصفحة</DrillDownPage>
     <DrillDownParameter1>الحفر أسفل المعلمة 1</DrillDownParameter1>
     <DrillDownParameter2>الحفر أسفل البارامتر 2</DrillDownParameter2>
     <DrillDownParameter3>الحفر أسفل المعلمة 3</DrillDownParameter3>
     <DrillDownParameter4>معلمة النزول لأسفل 4</DrillDownParameter4>
     <DrillDownParameter5>معلمة النزول لأسفل 5</DrillDownParameter5>
+    <DrillDownParameters>معاملات التنقل للداخل</DrillDownParameters>
     <DrillDownReport>تقرير لتسقط بين الحفر</DrillDownReport>
     <DropDownAlign>تسقط قطرة محاذاة</DropDownAlign>
     <DropDownStyle>تسقط قطرة ستايل</DropDownStyle>
@@ -2240,26 +3049,41 @@
     <DropShadow>انخفاض الظل</DropShadow>
     <Duplex>مزدوج</Duplex>
     <Editable>تعديل</Editable>
+    <EmptyBorderBrush>فرشة حدود فارغة</EmptyBorderBrush>
+    <EmptyBorderWidth>عرض حدود فارغ</EmptyBorderWidth>
+    <EmptyBrush>فرشة فارغة</EmptyBrush>
     <EmptyValue>القيمة فارغة</EmptyValue>
     <Enabled>مكن</Enabled>
     <EnableLog>تمكين تسجيل الدخول</EnableLog>
+    <EncodingMode>نظام الترميز</EncodingMode>
     <EncodingType>نوع الترميز</EncodingType>
+    <EndCap>غطاء النهاية</EndCap>
     <EndColor>لون النهاية</EndColor>
+    <EndValue>قيمة النهاية</EndValue>
+    <EndWidth>عرض النهاية</EndWidth>
     <EngineVersion>محرك الإصدار</EngineVersion>
     <EnumeratorSeparator>عد الفاصل</EnumeratorSeparator>
     <EnumeratorType>عد نوع</EnumeratorType>
+    <ErrorCorrectionLevel>مستوى تصحيح الخطأ</ErrorCorrectionLevel>
+    <ErrorsCorrectionLevel>مستوى تصحيح الأخطاء</ErrorsCorrectionLevel>
     <EvenStyle>حتى النمط</EvenStyle>
     <ExcelSheet>صحيفة تتفوق</ExcelSheet>
     <ExcelValue>تتفوق القيمة</ExcelValue>
+    <Exponential>الأسس</Exponential>
     <ExportAsImage>تصدير صورة</ExportAsImage>
     <Expression>التعبير</Expression>
     <FaqPage>الصفحة أسئلة وأجوبة</FaqPage>
     <FieldIs>الميدان</FieldIs>
     <File>ملف</File>
+    <Fill>ملء</Fill>
+    <FillColor>لون التعبئة</FillColor>
     <Filter>فلتر</Filter>
+    <FilterEngine>محرك التصفية</FilterEngine>
+    <FilterMode>نمط الترشيح</FilterMode>
     <FilterOn>وفي فلتر</FilterOn>
     <Filters>الفلاتر</Filters>
     <FirstTabOffset>أول علامة تبويب الموازنة</FirstTabOffset>
+    <FixedWidth>عرض ثابت</FixedWidth>
     <Flat>شقة</Flat>
     <FlatMode>شقة الأسلوب</FlatMode>
     <Focus>التركيز</Focus>
@@ -2285,6 +3109,7 @@
     <Footers>الهوامش</Footers>
     <ForeColor>لون الواجهة</ForeColor>
     <Format>الشكل</Format>
+    <From>من</From>
     <FullConvertExpression>تحويل التعبير الكامل</FullConvertExpression>
     <Function>وظيفة</Function>
     <Functions>وظائف</Functions>
@@ -2292,9 +3117,12 @@
     <GlobalizedName>الاسم المعولم</GlobalizedName>
     <GridLineColor>شبكة لون الخط</GridLineColor>
     <GridLinesHor>شبكة الخطوط الأفقية</GridLinesHor>
+    <GridLinesHorColor>لون خطوط الشبكة الأفقية</GridLinesHorColor>
     <GridLinesHorRight>شبكة الخطوط الأفقية الحق</GridLinesHorRight>
     <GridLineStyle>شبكة نمط الخط</GridLineStyle>
     <GridLinesVert>شبكة الخطوط العمودية</GridLinesVert>
+    <GridLinesVertColor>لون خطوط الشبكة العمودية</GridLinesVertColor>
+    <GridOutline>تفصيل شبكي</GridOutline>
     <GrowToHeight>الى الارتفاع في النمو</GrowToHeight>
     <HeaderBackColor>عودة رأس لون</HeaderBackColor>
     <HeaderCanBreak>هل رأس استراحة</HeaderCanBreak>
@@ -2311,6 +3139,7 @@
     <Headers>رؤوس</Headers>
     <HeaderText>رأس نصية</HeaderText>
     <Height>ارتفاع</Height>
+    <HideSeriesWithEmptyTitle>إخفاء المجموعات بدون عنوان</HideSeriesWithEmptyTitle>
     <HideZeros>إخفاء الأصفار</HideZeros>
     <High>عال</High>
     <HighlightCondition>تسليط الضوء على حالة</HighlightCondition>
@@ -2319,6 +3148,10 @@
     <HotkeyPrefix>Hotkey بادئة</HotkeyPrefix>
     <HtmlTags>هتمل العلامات</HtmlTags>
     <Hyperlink>وصلة</Hyperlink>
+    <HyperlinkDataColumn>عمود بيانات الارتباطات التشعبية</HyperlinkDataColumn>
+    <Icon>أيقونة</Icon>
+    <IconSet>مجموعة أيقونات</IconSet>
+    <IconSetCondition>شرط مجموعة أيقونات</IconSetCondition>
     <Idents>تزكي</Idents>
     <Image>الصورة</Image>
     <ImageAlign>محاذاة الصورة</ImageAlign>
@@ -2335,17 +3168,23 @@
     <ImportRelations>استيراد العلاقات</ImportRelations>
     <Increment>العلاوة</Increment>
     <Indent>بادئة</Indent>
+    <InitBy>بدء بـ</InitBy>
     <Insert>تضاف</Insert>
     <Interaction>تفاعل</Interaction>
     <InterlacedBrush>المتداخلة الفرشة</InterlacedBrush>
     <InterlacingHor>المشابكة الأفقي</InterlacingHor>
+    <InterlacingHorBrush>فرشة التقاطع الأفقية</InterlacingHorBrush>
     <InterlacingVert>المشابكة الراسي</InterlacingVert>
+    <InterlacingVertBrush>فرشة التقاطع العمودية</InterlacingVertBrush>
+    <Interpolation>التوليد</Interpolation>
+    <IsReversed>هل محجوز</IsReversed>
     <Italic>مائل</Italic>
     <Item>عنصر</Item>
     <ItemHeight>البند الطول</ItemHeight>
     <Items>البنود</Items>
     <KeepChildTogether>إبقاء الطفل معا</KeepChildTogether>
     <KeepCrossTabTogether>تبقي عبر معا علامة التبويب</KeepCrossTabTogether>
+    <KeepDetails>إبقاء التفاصيل</KeepDetails>
     <KeepDetailsTogether>إلى جانب الحفاظ على التفاصيل</KeepDetailsTogether>
     <KeepFooterTogether>إلى جانب الحفاظ على ذيلها</KeepFooterTogether>
     <KeepGroupFooterTogether>يبقي فريق الذيل معا</KeepGroupFooterTogether>
@@ -2354,8 +3193,11 @@
     <KeepHeaderTogether>الحفاظ على رأس معا</KeepHeaderTogether>
     <KeepReportSummaryTogether>إلى جانب الحفاظ على تقرير موجز</KeepReportSummaryTogether>
     <KeepSubReportTogether>الإبقاء على اللجنة الفرعية تقرير معا</KeepSubReportTogether>
+    <Key>مفتاح</Key>
     <KeyDataColumn>الرئيسية بيانات العمود</KeyDataColumn>
+    <Keys>مفاتيح</Keys>
     <LabelColor>لون الملصق</LabelColor>
+    <LabelRotationMode>نمط استدارة المسميات</LabelRotationMode>
     <Labels>العلامات</Labels>
     <LabelsColor>لون علامات</LabelsColor>
     <LabelsOffset>علامات الأوفست</LabelsOffset>
@@ -2365,10 +3207,17 @@
     <Left>يسار</Left>
     <LeftSide>في الجانب الأيسر</LeftSide>
     <Legend>أسطورة</Legend>
+    <LegendBorderColor>لون الحدود</LegendBorderColor>
+    <LegendBrush>فرشة المفاتيح</LegendBrush>
+    <LegendLabelsColor>لون المسميات</LegendLabelsColor>
+    <LegendTitleColor>لون العنوان</LegendTitleColor>
     <LegendValueType>الأسطورة نوع القيمة</LegendValueType>
     <Length>طول</Length>
+    <LengthUnderLabels>الطول أسفل العناوين</LengthUnderLabels>
     <Lighting>الإضاءة</Lighting>
+    <Linear>خطي</Linear>
     <LineColor>لون الخط</LineColor>
+    <LineColorNegative>عكس لون الخط</LineColorNegative>
     <LineLimit>خط الحد</LineLimit>
     <LineMarker>خط ماركر</LineMarker>
     <LinesOfUnderline>خط سفلي</LinesOfUnderline>
@@ -2376,14 +3225,30 @@
     <LineWidth>خط العرض</LineWidth>
     <Linked>يرتبط</Linked>
     <ListOfArguments>قائمة الحجج</ListOfArguments>
+    <ListOfHyperlinks>قائمة الارتباطات التشعبية</ListOfHyperlinks>
+    <ListOfTags>قائمة القيم الإضافية</ListOfTags>
+    <ListOfToolTips>قائمة اللمحات التنبيهية</ListOfToolTips>
     <ListOfValues>قائمة القيم</ListOfValues>
+    <ListOfValuesClose>قائمة قيم الإغلاق</ListOfValuesClose>
+    <ListOfValuesEnd>قائمة نهايات القيم</ListOfValuesEnd>
+    <ListOfValuesHigh>قائمة القيم العليا</ListOfValuesHigh>
+    <ListOfValuesLow>قائمة القيم الصغرى</ListOfValuesLow>
+    <ListOfValuesOpen>قائمة القيم الافتتاحية</ListOfValuesOpen>
+    <ListOfWeights>قائمة الأوزان</ListOfWeights>
     <Localizable>Localizable</Localizable>
     <Location>موقع</Location>
     <Locked>وتخوض</Locked>
+    <Logarithmic>لوغاريتمي</Logarithmic>
+    <LogarithmicScale>مقياس لوغاريتمي</LogarithmicScale>
     <Low>منخفض</Low>
+    <MajorInterval>مسافة مهمة</MajorInterval>
+    <MapID>معرف الخريطة</MapID>
+    <MapStyle>نمط</MapStyle>
+    <MapType>نوع الخريطة</MapType>
     <Margins>الهوامش</Margins>
     <Marker>العلامة</Marker>
     <MarkerAlignment>العلامة محاذاة</MarkerAlignment>
+    <MarkerBorder>العلامة الحدودية</MarkerBorder>
     <MarkerColor>لون تعليم</MarkerColor>
     <MarkerSize>مؤشر الحجم</MarkerSize>
     <MarkerType>نوع تعليم</MarkerType>
@@ -2395,6 +3260,7 @@
     <MaxDropDownItems>ماكس إسقاط البنود</MaxDropDownItems>
     <MaxHeight>ماكس الطول</MaxHeight>
     <Maximum>الحد الأقصى</Maximum>
+    <MaximumValue>القيمة العظمى</MaximumValue>
     <MaxLength>ماكس الطول</MaxLength>
     <MaxNumberOfLines>ماكس عدد الخطوط</MaxNumberOfLines>
     <MaxSize>ماكس الحجم</MaxSize>
@@ -2402,12 +3268,15 @@
     <MaxWidth>ماكس العرض</MaxWidth>
     <MergeDuplicates>دمج مكررات</MergeDuplicates>
     <MergeHeaders>دمج رؤوس</MergeHeaders>
+    <Mid>وسيط</Mid>
     <MinDate>تاريخ مين</MinDate>
     <MinHeight>مين الطول</MinHeight>
     <Minimum>الحد الأدنى</Minimum>
     <MinimumFontSize>الحد الأدنى لحجم الخط</MinimumFontSize>
+    <MinimumValue>القيمة الصغرى</MinimumValue>
     <MinorColor>الألوان البسيطة</MinorColor>
     <MinorCount>تعداد طفيفة</MinorCount>
+    <MinorInterval>مسافة هامشية</MinorInterval>
     <MinorLength>ثانوية الطول</MinorLength>
     <MinorStyle>الأناقة البسيطة</MinorStyle>
     <MinorVisible>ثانوية مرئي</MinorVisible>
@@ -2415,6 +3284,8 @@
     <MinSize>دقيقة الحجم</MinSize>
     <MinValue>مين القيمة</MinValue>
     <MinWidth>مين العرض</MinWidth>
+    <MirrorMargins>تطابق الهوامش</MirrorMargins>
+    <Mode>الأسلوب</Mode>
     <Module>وحدة</Module>
     <Move>حركة</Move>
     <Multiline>متعدد</Multiline>
@@ -2423,19 +3294,27 @@
     <NameInSource>في اسم المصدر</NameInSource>
     <NameParent>اسم الوالد</NameParent>
     <Namespaces>التسمية</Namespaces>
+    <Negative>سالب</Negative>
+    <NestedLevel>مستوى داخلي</NestedLevel>
     <NewColumnAfter>وبعد العمود جديدة</NewColumnAfter>
     <NewColumnBefore>وقبل أن العمود جديدة</NewColumnBefore>
     <NewPageAfter>صفحة جديدة بعد</NewPageAfter>
     <NewPageBefore>وقبل أن الصفحة الجديدة</NewPageBefore>
     <NextPage>الصفحة التالية</NextPage>
+    <NoIcon>بدون أيقونة</NoIcon>
     <NullText>نص لاغية</NullText>
     <NumberOfColumns>عدد الأعمدة</NumberOfColumns>
     <NumberOfCopies>عدد النسخ</NumberOfCopies>
     <NumberOfPass>عدد تصاريح الدخول</NumberOfPass>
+    <NumberOfValues>عدد القيم</NumberOfValues>
     <OddStyle>النمط الغريب</OddStyle>
+    <Offset>الموقع</Offset>
+    <OffsetAngle>زاوية الموقع</OffsetAngle>
     <OnlyText>النص فقط</OnlyText>
+    <Operation>عملية</Operation>
     <Options>خيارات</Options>
     <Orientation>الميل</Orientation>
+    <OthersText>نص البقية</OthersText>
     <PageHeight>الصفحة الطول</PageHeight>
     <PageNumbers>أرقام الصفحات</PageNumbers>
     <PageWidth>عرض الصفحة</PageWidth>
@@ -2445,14 +3324,19 @@
     <PaperSourceOfOtherPages>ورقة مصدر صفحات أخرى</PaperSourceOfOtherPages>
     <Parameter>معلمة</Parameter>
     <Parameters>البارامترات</Parameters>
+    <ParametersOrientation>معلمات التوجيه</ParametersOrientation>
     <ParentColumns>الأم أعمدة</ParentColumns>
     <ParentSource>الأم مصدر البيانات</ParentSource>
     <ParentValue>الأم القيمة</ParentValue>
     <PasswordChar>كلمة السر شار</PasswordChar>
+    <Path>مسار</Path>
+    <PathData>مسار بيانات</PathData>
+    <PathSchema>مخطط مسار</PathSchema>
     <Placement>التنسيب</Placement>
     <PlaceOnToolbox>على أدوات</PlaceOnToolbox>
     <PointAtCenter>نقطة في المركز</PointAtCenter>
     <Position>الموقف</Position>
+    <Positive>موجب</Positive>
     <PreferredColumnWidth>يفضل عرض العمود</PreferredColumnWidth>
     <PreferredRowHeight>الطول المفضل الصف</PreferredRowHeight>
     <PreventIntersection>منع التداخل</PreventIntersection>
@@ -2465,41 +3349,61 @@
     <PrintHeadersFootersFromPreviousPage>رؤوس الطباعة والهوامش من الصفحة السابقة</PrintHeadersFootersFromPreviousPage>
     <PrintIfDetailEmpty>اطبع إذا التفاصيل الفارغة</PrintIfDetailEmpty>
     <PrintIfEmpty>اطبع إذا الفارغة</PrintIfEmpty>
+    <PrintIfParentDisabled>طباعة في حالة تعطيل الأصل</PrintIfParentDisabled>
     <PrintOn>الطباعة على</PrintOn>
     <PrintOnAllPages>الطباعة على جميع الصفحات</PrintOnAllPages>
     <PrintOnEvenOddPages>المطبوعة على صفحات الشاذ حتى</PrintOnEvenOddPages>
     <PrintOnPreviousPage>المطبوعة على الصفحة السابقة</PrintOnPreviousPage>
+    <PrintTitleOnAllPages>طباعة العنوان على كافة الصفحات</PrintTitleOnAllPages>
+    <PrintVerticalBars>طباعة أعمدة عمودية</PrintVerticalBars>
+    <ProcessAt>تنفيذ في</ProcessAt>
     <ProcessAtEnd>في نهاية العملية</ProcessAtEnd>
     <ProcessingDuplicates>تجهيز مكررات</ProcessingDuplicates>
     <ProductHomePage>المنتجات الصفحة الرئيسية</ProductHomePage>
+    <RadarStyle>نمط رادار</RadarStyle>
+    <Radius>نصف القطر</Radius>
+    <RadiusMode>نمط نصف القطر</RadiusMode>
     <Range>نطاق</Range>
+    <RangeColorMode>نمط ألوان النطاقات</RangeColorMode>
+    <RangeFrom>من</RangeFrom>
+    <RangeScrollEnabled>تفعيل تمرير النطاق</RangeScrollEnabled>
+    <RangeTo>إلى</RangeTo>
     <Ratio>نسبة</Ratio>
+    <RatioY>نسبة ص</RatioY>
     <ReadOnly>قراءة فقط</ReadOnly>
     <ReconnectOnEachRow>اعادة على كل صف</ReconnectOnEachRow>
     <ReferencedAssemblies>الجمعيات المشار إليها</ReferencedAssemblies>
     <Refresh>تجديد</Refresh>
+    <RefreshTime>تحديث الوقت</RefreshTime>
     <Relation>وفيما يتعلق</Relation>
     <RelationName>وفيما يتعلق الاسم</RelationName>
     <Relations>العلاقات</Relations>
+    <RelativeHeight>ارتفاع نسبي</RelativeHeight>
+    <RelativeWidth>عرض نسبي</RelativeWidth>
     <RemoveUnusedDataBeforeStart>إزالة البيانات غير المستخدمة وقبل البدء</RemoveUnusedDataBeforeStart>
     <RenderTo>لتقديم</RenderTo>
     <ReportAlias>تقرير المستعار</ReportAlias>
     <ReportAuthor>التقرير المؤلف</ReportAuthor>
     <ReportCacheMode>تقرير الأسلوب المخبأ</ReportCacheMode>
     <ReportDescription>تقرير الوصف</ReportDescription>
+    <ReportImage>صورة التقرير</ReportImage>
     <ReportName>اسم التقرير</ReportName>
     <ReportUnit>تقرير وحدة</ReportUnit>
     <RequestFromUser>الطلب من المستخدم</RequestFromUser>
+    <RequestParameters>طلب متغيرات</RequestParameters>
     <ResetDataSource>إعادة البيانات المصدر</ResetDataSource>
     <ResetPageNumber>إعادة رقم الصفحة</ResetPageNumber>
     <Resize>تغيير الحجم</Resize>
     <Restrictions>القيود</Restrictions>
+    <RetrieveOnlyUsedData>استعادة البيانات المستخدمة فقط</RetrieveOnlyUsedData>
     <ReturnValue>عودة القيمة</ReturnValue>
     <ReverseHor>عكس اتجاه أفقي</ReverseHor>
     <ReverseVert>عكس الراسي</ReverseVert>
     <Right>صحيح</Right>
     <RightSide>الجانب الأيمن</RightSide>
     <RightToLeft>من اليمين إلى اليسار</RightToLeft>
+    <Rotation>استدارة</Rotation>
+    <RotationLabels>تسميات الاستدارة</RotationLabels>
     <Round>جولة</Round>
     <RowCount>الصف الكونت</RowCount>
     <RowHeadersVisible>صف رؤوس مرئي</RowHeadersVisible>
@@ -2511,12 +3415,18 @@
     <SegmentPerWidth>لكل شريحة العرض</SegmentPerWidth>
     <SelectedIndex>مؤشر مختارة</SelectedIndex>
     <SelectedItem>اختيار البند</SelectedItem>
+    <SelectedKey>المفتاح المحدد</SelectedKey>
     <SelectedValue>اختيار القيمة</SelectedValue>
+    <Selection>المحدد</Selection>
     <SelectionBackColor>اختيار لون العودة</SelectionBackColor>
+    <SelectionEnabled>دعم التحديد</SelectionEnabled>
     <SelectionForeColor>اختيار لون الصدارة</SelectionForeColor>
     <SelectionMode>اختيار الأسلوب</SelectionMode>
     <Series>سلسلة</Series>
     <SeriesLabels>سلسلة علامات</SeriesLabels>
+    <SeriesLabelsBorderColor>لون الحدود</SeriesLabelsBorderColor>
+    <SeriesLabelsBrush>فرشة المسميات</SeriesLabelsBrush>
+    <SeriesLabelsColor>لون المسميات</SeriesLabelsColor>
     <Shadow>ظل</Shadow>
     <ShadowBrush>الظل الفرشة</ShadowBrush>
     <ShadowColor>لون الظل</ShadowColor>
@@ -2532,15 +3442,21 @@
     <ShowInPercent>وتظهر في النسبة</ShowInPercent>
     <ShowLabels>وتظهر علامات</ShowLabels>
     <ShowLabelText>وتظهر علامة نصية</ShowLabelText>
+    <ShowLegend>عرض المفاتيح</ShowLegend>
     <ShowMarker>وتظهر ماركر</ShowMarker>
+    <ShowNulls>إظهار القيم الفارغة</ShowNulls>
     <ShowOnZeroValues>وتظهر على القيم صفر</ShowOnZeroValues>
+    <ShowOthers>اظهار البقية</ShowOthers>
     <ShowPercents>وتظهر بالمائة</ShowPercents>
     <ShowQuietZoneIndicator>وتظهر المنطقة الهادئة المؤشر</ShowQuietZoneIndicator>
+    <ShowQuietZones>عرض النطاقات المستقرة</ShowQuietZones>
+    <ShowScrollBar>إظهار شريط التمرير</ShowScrollBar>
     <ShowSeriesLabels>وتظهر سلسلة علامات</ShowSeriesLabels>
     <ShowShadow>وتظهر الظل</ShowShadow>
     <ShowTotal>وتظهر المجموع</ShowTotal>
     <ShowUpDown>وتظهر حتى تسقط</ShowUpDown>
     <ShowValue>وتظهر القيمة</ShowValue>
+    <ShowXAxis>عرض محور س</ShowXAxis>
     <ShowYAxis>عرض محور Y</ShowYAxis>
     <ShowZeros>وتظهر الأصفار</ShowZeros>
     <ShrinkFontToFit>تقلص حجم الخط لصالح</ShrinkFontToFit>
@@ -2550,7 +3466,13 @@
     <Simple>بسيطة</Simple>
     <Size>حجم</Size>
     <SizeMode>حجم الأسلوب</SizeMode>
+    <Skin>تصميم</Skin>
     <SkipFirst>تخطى الأولى</SkipFirst>
+    <SkipIndices>تجاوز الفهارس</SkipIndices>
+    <SkipIndicesObj>تجاوز الفهارس</SkipIndicesObj>
+    <SkipMajorValues>تجاوز القيم المهمة</SkipMajorValues>
+    <SkipValues>تجاوز القيم</SkipValues>
+    <SkipValuesObj>تجاوز القيم</SkipValuesObj>
     <Smoothing>تمهيد</Smoothing>
     <Sort>النوع</Sort>
     <SortBy>الترتيب حسب</SortBy>
@@ -2563,12 +3485,15 @@
     <Spacing>المباعدة</Spacing>
     <SqlCommand>Sql القيادة</SqlCommand>
     <StartAngle>بدء زاوية</StartAngle>
+    <StartCap>غطاء البداية</StartCap>
     <StartColor>بدء لون</StartColor>
     <StartFromZero>نبدأ من الصفر</StartFromZero>
     <StartMode>بدء الأسلوب</StartMode>
     <StartNewPage>بدء صفحة جديدة</StartNewPage>
     <StartNewPageIfLessThan>بدء صفحة جديدة إذا كانت أقل من</StartNewPageIfLessThan>
     <StartPosition>بدء الموقف</StartPosition>
+    <StartValue>القيمة الابتدائية</StartValue>
+    <StartWidth>العرض الابتدائي</StartWidth>
     <Step>خطوة</Step>
     <Stop>توقف</Stop>
     <StopBeforePage>وقبل وقف الصفحة</StopBeforePage>
@@ -2583,17 +3508,24 @@
     <Styles>أساليب</Styles>
     <SubReportPage>تقرير الصفحة الفرعية</SubReportPage>
     <Summary>موجز</Summary>
+    <SummaryExpression>تعبير تلخيصي</SummaryExpression>
+    <SummarySortDirection>اتجاه ترتيب التلخيص</SummarySortDirection>
+    <SummaryType>نوع التلخيص</SummaryType>
     <SummaryValues>موجز القيم</SummaryValues>
     <SupplementCode>ملحق المدونة</SupplementCode>
     <SupplementType>ملحق نوع</SupplementType>
+    <SweepAngle>زاوية الانحناء</SweepAngle>
     <SystemVariable>متغير نظام</SystemVariable>
     <SystemVariables>نظام المتغيرات</SystemVariables>
+    <Table>جدول</Table>
     <Tag>الوسم</Tag>
+    <TagDataColumn>عمود البيانات الإضافية</TagDataColumn>
     <TagValue>الوسم القيمة</TagValue>
     <Tension>التوتر</Tension>
     <Text>النص</Text>
     <TextAfter>وبعد النص</TextAfter>
     <TextAlign>محاذاة النص</TextAlign>
+    <TextAlignment>محاذاة النص</TextAlignment>
     <TextBefore>وقبل أن النص</TextBefore>
     <TextBrush>نص الفرشة</TextBrush>
     <TextColor>لون النص</TextColor>
@@ -2605,15 +3537,24 @@
     <Title>العنوان</Title>
     <TitleBeforeHeader>عنوان قبل رأس</TitleBeforeHeader>
     <TitleColor>لون العنوان</TitleColor>
+    <TitleDirection>اتجاه العنوان</TitleDirection>
     <TitleFont>عنوان فونت</TitleFont>
     <TitleVisible>مرئية</TitleVisible>
+    <To>إلى</To>
     <Today>اليوم</Today>
     <ToolTip>أداة تلميح</ToolTip>
+    <ToolTipDataColumn>عمود بيانات اللمحة التنبيهية</ToolTipDataColumn>
     <Top>أعلى</Top>
+    <Topmost>الأعلى</Topmost>
+    <TopmostLine>أعلى خط</TopmostLine>
+    <TopN>أعلى ن</TopN>
     <TopSide>رأس الجانب</TopSide>
     <Total>المجموع</Total>
     <Totals>المجاميع</Totals>
     <TransparentColor>لون شفاف</TransparentColor>
+    <TrendLine>خط متجه</TrendLine>
+    <TrendLineColor>اللون</TrendLineColor>
+    <TrendLineShowShadow>إظهار الظل</TrendLineShowShadow>
     <Trimming>التشذيب</Trimming>
     <Type>نوع</Type>
     <TypeName>نوع الاسم</TypeName>
@@ -2627,12 +3568,25 @@
     <UseAliases>استخدام الأسماء المستعارة</UseAliases>
     <UseExternalReport>استخدام تقرير الخارجية</UseExternalReport>
     <UseParentStyles>استخدام الأنماط دلاولا</UseParentStyles>
+    <UseRangeColor>استخدام نطاق ألوان</UseRangeColor>
     <UseRectangularSymbols>استخدام رموز والمستطيلة</UseRectangularSymbols>
     <UseSeriesColor>سلسلة استخدام الألوان</UseSeriesColor>
     <UseStyleOfSummaryInColumnTotal>استخدام النمط الموجزة في العمود المجموع</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>استخدام النمط الموجزة في صف المجموع</UseStyleOfSummaryInRowTotal>
+    <UseValuesFromTheSpecifiedRange>استخدام قيمة من نطاق محدد</UseValuesFromTheSpecifiedRange>
     <Value>القيمة</Value>
+    <ValueClose>إغلاق القيمة</ValueClose>
     <ValueDataColumn>بيانات قيمة العمود</ValueDataColumn>
+    <ValueDataColumnClose>إغلاق عمود بيانات القيمة</ValueDataColumnClose>
+    <ValueDataColumnEnd>عمود نهاية بيانات القيمة</ValueDataColumnEnd>
+    <ValueDataColumnHigh>أعلى عمود بيانات القيمة</ValueDataColumnHigh>
+    <ValueDataColumnLow>أدنى عمود بيانات القيمة</ValueDataColumnLow>
+    <ValueDataColumnOpen>افتتاح عمود بيانات القيمة</ValueDataColumnOpen>
+    <ValueEnd>نهاية القيمة</ValueEnd>
+    <ValueHigh>أعلى القيمة</ValueHigh>
+    <ValueLow>أدنى قيمة</ValueLow>
+    <ValueOpen>افتتاح القيمة</ValueOpen>
+    <Values>قيم</Values>
     <ValueType>نوع القيمة</ValueType>
     <ValueTypeSeparator>قيمة نوع الفاصل</ValueTypeSeparator>
     <Variable>متغير</Variable>
@@ -2643,6 +3597,8 @@
     <ViewMode>أسلوب العرض</ViewMode>
     <Visible>مرئية</Visible>
     <Watermark>العلامة المائية</Watermark>
+    <Weight>الوزن</Weight>
+    <WeightDataColumn>عمود بيانات الوزن</WeightDataColumn>
     <Width>عرض</Width>
     <WindowState>نافذة للدولة</WindowState>
     <WordWrap>كلمة ختامية</WordWrap>
@@ -2689,6 +3645,7 @@
     <BadFromObjectExpression>باطلة من وجوه التعبير!</BadFromObjectExpression>
     <BadObjectName>الاسم غير صحيح وجوه!</BadObjectName>
     <BadSelectStatement>اختر البيان غير صحيح!</BadSelectStatement>
+    <Collections>مجموعات</Collections>
     <CreateLinksFromForeignKeys>خلق روابط من الخارجية كيز</CreateLinksFromForeignKeys>
     <CriteriaAlias>الاسم المستعار</CriteriaAlias>
     <CriteriaCriteria>المعايير</CriteriaCriteria>
@@ -2750,6 +3707,7 @@
     <Views>آراء</Views>
   </QueryBuilder>
   <Questions>
+    <qnConfiguration>الرجاء اختيار نمط الإعدادات للوحة الخصائص. النمط يعتمد على عدد الخصائص المعروضة وحجم تعقيدها في التقرير. بإمكانك تغيير النمط لاحقا من القائمة المنسدلة للوحة الخصائص.</qnConfiguration>
     <qnDictionaryNew>هل ترغب في فتح فرص جديدة للقاموس؟</qnDictionaryNew>
     <qnLanguageNew>هل تغيرت لغة التقرير. وسيؤدي ذلك إلى تقرير جديد رمز جيل. أنت معينة تريد حفظ لغة جديدة؟</qnLanguageNew>
     <qnPageDelete>هل تريد حذف الصفحة؟</qnPageDelete>
@@ -2766,18 +3724,26 @@
   <Report>
     <Alphabetical>الأبجدية</Alphabetical>
     <Bands>العصابات</Bands>
+    <Basic>أساسي</Basic>
+    <BasicConfiguration>أقبل عدد ممكن من خصائص العنصر المطلوبة لإنشاء تقرير مبدئي.</BasicConfiguration>
     <BusinessObjects>كائنات عمل</BusinessObjects>
     <Categorized>تصنيف</Categorized>
     <Charts>الخرائط</Charts>
+    <ClickForMoreDetails>اضغط لتفاصيل أكثر</ClickForMoreDetails>
     <CollapseAll>طي الكل</CollapseAll>
+    <Collection>مجموعة</Collection>
     <CompilingReport>تجميع تقرير</CompilingReport>
+    <Complete>كامل</Complete>
     <Components>المكونات</Components>
     <ConnectingToData>بيانات الاتصال</ConnectingToData>
+    <CopyOf>نسخ</CopyOf>
     <CreateNewReportPageForm>إنشاء تقرير جديد, إضافة صفحة,إضافة نموذج</CreateNewReportPageForm>
     <CreatingReport>إنشاء تقرير</CreatingReport>
     <CrossBands>عبر الفرق</CrossBands>
+    <Dashboard>لوحة قيادية</Dashboard>
     <Dialogs>الحوارات</Dialogs>
     <EditStyles>[تحرير الأنماط]</EditStyles>
+    <Errors>أخطاء</Errors>
     <EventsTab>علامة تبويب الأحداث</EventsTab>
     <ExpandAll>توسيع الكل</ExpandAll>
     <FilterAnd>و</FilterAnd>
@@ -2785,17 +3751,23 @@
     <FinishingReport>الانتهاء من تقرير</FinishingReport>
     <FirstPass>أول ممر</FirstPass>
     <GenerateNewCode>مدونة جديدة</GenerateNewCode>
+    <Infographics>رسوم بيانية</Infographics>
+    <InfoMessage>{0} - {1} وجدت.</InfoMessage>
+    <InformationMessages>رسائل معلومات</InformationMessages>
     <LabelAlias>الاسم المستعار :</LabelAlias>
     <LabelAuthor>الكاتب :</LabelAuthor>
     <LabelBackground>خلفية :</LabelBackground>
     <LabelCategory>الفئة :</LabelCategory>
     <LabelCentimeters>سنتيمترات :</LabelCentimeters>
+    <LabelCollectionName>اسم المجموعة:</LabelCollectionName>
     <LabelColor>اللون :</LabelColor>
+    <LabelCommandTimeout>:انتهاء وقت الأمر</LabelCommandTimeout>
     <LabelCountData>عد البيانات :</LabelCountData>
     <LabelDataBand>DataBand :</LabelDataBand>
     <LabelDataColumn>بيانات العمود :</LabelDataColumn>
     <LabelDefaultValue>القيمة الافتراضية :</LabelDefaultValue>
     <LabelExpression>التعبير :</LabelExpression>
+    <LabelFactorLevel>عامل متداخل:</LabelFactorLevel>
     <LabelFontName>الخط الاسم :</LabelFontName>
     <LabelFunction>الوظيفة :</LabelFunction>
     <LabelHundredthsOfInch>المئات من البوصة :</LabelHundredthsOfInch>
@@ -2803,6 +3775,7 @@
     <LabelMillimeters>ملليمتر :</LabelMillimeters>
     <LabelName>الاسم :</LabelName>
     <LabelNameInSource>في اسم المصدر :</LabelNameInSource>
+    <LabelNestedLevel>مستوى متداخل:</LabelNestedLevel>
     <LabelPassword>كلمة السر :</LabelPassword>
     <LabelPixels>بكسل :</LabelPixels>
     <LabelSystemVariable>متغير النظام :</LabelSystemVariable>
@@ -2818,6 +3791,8 @@
     <Office2010Back>عودة</Office2010Back>
     <PageNofM>صفحة {0} من {1}</PageNofM>
     <PreparingReport>إعداد تقرير</PreparingReport>
+    <Professional>متقدم</Professional>
+    <ProfessionalConfiguration>كافة خصائص العنصر</ProfessionalConfiguration>
     <PropertiesTab>خصائص علامة التبويب</PropertiesTab>
     <RangeAll>الكل</RangeAll>
     <RangeCurrentPage>الصفحة الحالية</RangeCurrentPage>
@@ -2825,10 +3800,14 @@
     <RangePage>صفحة المدى</RangePage>
     <RangePages>الصفحات :</RangePages>
     <ReportChecker>مدقق التقرير</ReportChecker>
+    <ReportRenderingMessages>رسائل عرض التقرير</ReportRenderingMessages>
     <RestartDesigner>يجب إعادة تشغيل مصمم التقارير</RestartDesigner>
     <SaveReportPagesOrFormsFromReport>حفظ التقرير ، الصفحة  ، النموذج</SaveReportPagesOrFormsFromReport>
     <SavingReport>تقرير لإنقاذ</SavingReport>
     <SecondPass>ممر الثانية</SecondPass>
+    <Shapes>أشكال</Shapes>
+    <Standard>عادي</Standard>
+    <StandardConfiguration>خصائص العنصر الأساسية باستثناء الخصائص ناردة الاستخدام</StandardConfiguration>
     <StiEmptyBrush>فارغ</StiEmptyBrush>
     <StiGlareBrush>وهج</StiGlareBrush>
     <StiGlassBrush>الزجاج</StiGlassBrush>
@@ -2841,7 +3820,25 @@
     <StyleNormal>طبيعي</StyleNormal>
     <StyleNote>علما</StyleNote>
     <StyleWarning>تحذير</StyleWarning>
+    <Warnings>تحذيرات</Warnings>
+    <When>عندما {0} {1}</When>
+    <WhenAnd>عندما {0} {1} و</WhenAnd>
+    <WhenValueIs>عندما تكون القيمة</WhenValueIs>
   </Report>
+  <ReportInfo>
+    <CheckIssuesAdditionalDescription>التحقق من الأخطاء في التقرير وتحري الدقة فيه.</CheckIssuesAdditionalDescription>
+    <CheckIssuesDescription>تفقد الوثيقة</CheckIssuesDescription>
+    <EncryptWithPassword>تشفير باستخدام كلمة مرور</EncryptWithPassword>
+    <EncryptWithPasswordAdditionalDescription>حدد كلمة مرور لتلافي الاستخدام الغير مصرح للوثيقة.</EncryptWithPasswordAdditionalDescription>
+    <EncryptWithPasswordDescription>حماية الوثيقة</EncryptWithPasswordDescription>
+    <Info>معلومات</Info>
+    <ReportOptions>خيارات التقرير</ReportOptions>
+    <ReportOptionsAdditionalDescription>تجهيز المعلومات الأساسية و المعاملات في التقرير.</ReportOptionsAdditionalDescription>
+  </ReportInfo>
+  <ReportOpen>
+    <Browse>تصفح</Browse>
+    <Import>استيراد</Import>
+  </ReportOpen>
   <Services>
     <categoryContextTools>أدوات السياق</categoryContextTools>
     <categoryDesigner>مصمم</categoryDesigner>
@@ -2857,13 +3854,16 @@
   </Services>
   <Shapes>
     <Arrow>السهم</Arrow>
+    <BasicShapes>رسوم أساسية</BasicShapes>
     <BentArrow>سهم</BentArrow>
+    <BlockArrows>أسهم</BlockArrows>
     <Chevron>شيفرون</Chevron>
     <ComplexArrow>سهم معقد</ComplexArrow>
     <DiagonalDownLine>الخط القطري يسقط</DiagonalDownLine>
     <DiagonalUpLine>وحتى الخط القطري</DiagonalUpLine>
     <Division>قسمة</Division>
     <Equal>مساواة</Equal>
+    <EquationShapes>رسوم معادلات</EquationShapes>
     <FlowchartCard>تخطيط انسيابي: بطاقة</FlowchartCard>
     <FlowchartCollate>تخطيط انسيابي: تجميع</FlowchartCollate>
     <FlowchartDecision>تخطيط انسيابي: قرار</FlowchartDecision>
@@ -2873,16 +3873,21 @@
     <FlowchartSort>تخطيط انسيابي: ترتيب</FlowchartSort>
     <Frame>إطار</Frame>
     <HorizontalLine>الخط الأفقي</HorizontalLine>
+    <InsertShapes>إضافة رسوم</InsertShapes>
     <LeftAndRightLine>اليمين واليسار الخط</LeftAndRightLine>
+    <Lines>خطوط</Lines>
     <Minus>طرح</Minus>
     <Multiply>ضرب</Multiply>
+    <Octagon>مثمن</Octagon>
     <Oval>البيضاوي</Oval>
     <Parallelogram>متوازي أضلاع</Parallelogram>
     <Plus>جمع</Plus>
     <Rectangle>المستطيل</Rectangle>
+    <Rectangles>مستطيلات</Rectangles>
     <RegularPentagon>خماسي</RegularPentagon>
     <RoundedRectangle>مقربة مستطيل</RoundedRectangle>
     <ServiceCategory>الأشكال</ServiceCategory>
+    <ShapeStyles>نمط الرسوم</ShapeStyles>
     <SnipDiagonalSideCornerRectangle>مستطيل مقصوص الأركان</SnipDiagonalSideCornerRectangle>
     <SnipSameSideCornerRectangle>مستطيل محدد الأركان</SnipSameSideCornerRectangle>
     <TopAndBottomLine>أعلى وأسفل الخط</TopAndBottomLine>
@@ -2890,6 +3895,33 @@
     <Triangle>المثلث</Triangle>
     <VerticalLine>الخط الرأسي</VerticalLine>
   </Shapes>
+  <SystemVariables>
+    <Column>رقم العمود الحالي (يبدأ من 1).</Column>
+    <GroupLine>رقم سطر المجموعة الحالية (يبدأ من  1).</GroupLine>
+    <IsFirstPage>يعود بقيمة صح في اللحظة التي تمت طباعة الصفحة الأولى</IsFirstPage>
+    <IsFirstPageThrough>يعود بقيمة صح عند طباعة الصفحة الأولى مع تجاهل إعادة ترقيم الصفحات، من اللازم تنفيذ تمريرين لحساب متغير بشكل صحيح</IsFirstPageThrough>
+    <IsLastPage>يعود بقيمة صح في اللحظة التي يتم فيها طباعة الصفحة الأخيرة، من اللازم تنفيذ تمريرين لحساب متغير بشكل صحيح</IsLastPage>
+    <IsLastPageThrough>يعود بقيمة صح في اللحظة التي يتم فيها طباعة الصفحة الأخيرة، من اللازم تنفيذ تمريرين لحساب متغير بشكل صحيح مع تجاهل إعادة ترقيم الصفحات</IsLastPageThrough>
+    <Line>رقم السطر الحالي (يبدأ من 1).</Line>
+    <LineABC>الترقيم الأبجدي لرقم السطر الحالي</LineABC>
+    <LineRoman>الترقيم الروماني لرقم السطر الحالي</LineRoman>
+    <LineThrough>رقم السطر الحالي (يبدأ من 1). مع تجاهل إعادة الترقيم للمجموعات</LineThrough>
+    <PageCopyNumber>ترجع رقم النسخة الحالية من الصفحة (تبدأ من 1).</PageCopyNumber>
+    <PageNofM>نص مترجم يظهر "صفحة س من ص" حيث س يمثل رقم الصفحة الحالية و ص مجموع عدد الصفحات</PageNofM>
+    <PageNofMThrough>نص مترجم يظهر "صفحة س من ص" حيث س يمثل رقم الصفحة الحالية و ص مجموع عدد الصفحات مع تجاهل إعادة ترقيم الصفحات</PageNofMThrough>
+    <PageNumber>رقم الصفحة الحالية (يبدأ من  1).</PageNumber>
+    <PageNumberThrough>رقم الصفحة الحالية (يبدأ من  1). مع تجاهل إعادة ترقيم الصفحات</PageNumberThrough>
+    <ReportAlias>الاسم المستعار للتقرير (بالامكان تغيير هذه الخاصية)</ReportAlias>
+    <ReportAuthor>محرر التقرير (بالامكان تغيير هذه الخاصية)</ReportAuthor>
+    <ReportChanged>تاريخ تغيير التقرير</ReportChanged>
+    <ReportCreated>تاريخ انشاء التقرير</ReportCreated>
+    <ReportDescription>وصف التقرير (بالامكان تغيير هذه الخاصية)</ReportDescription>
+    <ReportName>اسم التقرير (بالامكان تغيير هذه الخاصية)</ReportName>
+    <Time>الوقت الحالي</Time>
+    <Today>التاريخ الحالي</Today>
+    <TotalPageCount>إجمالي عدد الصفحات</TotalPageCount>
+    <TotalPageCountThrough>إجمالي عدد الصفحات مع تجاهل إعادة ترقيم الصفحات</TotalPageCountThrough>
+  </SystemVariables>
   <TableRibbon>
     <BuiltIn>مضمنة</BuiltIn>
     <Delete>حذف</Delete>
@@ -2987,6 +4019,7 @@
     <DataRelation>وفيما يتعلق</DataRelation>
     <DataSource>مصدر البيانات</DataSource>
     <DataSources>مصادر البيانات</DataSources>
+    <DefaultThemes>السمة الافتراضية</DefaultThemes>
     <Filters>الفلاتر</Filters>
     <FromReportTemplate>من نموذج تقرير</FromReportTemplate>
     <groupCreateNewPageOrForm>إنشاء صفحة جديدة أو نموذج</groupCreateNewPageOrForm>
@@ -3004,6 +4037,7 @@
     <infoRelation>اختيار واحد من العلاقة البيانات المتاحة.</infoRelation>
     <infoSelectColumns>اختر الأعمدة التي يتم عرض المعلومات.</infoSelectColumns>
     <infoSort>حدد فرز البيانات. يمكن فرز فورا على عدة أعمدة.</infoSort>
+    <infoThemes>اختر سمة لتقريرك</infoThemes>
     <infoTotals>إضافة إلى معلومات موجزة تقريرك.</infoTotals>
     <LabelDirection>الاتجاه :</LabelDirection>
     <LabelHeight>الطول :</LabelHeight>
@@ -3027,9 +4061,11 @@
     <OpenExistingReport>تقرير لفتح القائمة</OpenExistingReport>
     <Preview>معاينة</Preview>
     <Reset>إعادة</Reset>
+    <Results>النتائج</Results>
     <SelectColumns>اختيار أعمدة</SelectColumns>
     <Sort>النوع</Sort>
     <StandardReport>تقرير القياسية</StandardReport>
+    <Themes>السمات</Themes>
     <title>تقرير جديد</title>
     <Totals>المجاميع</Totals>
     <UsingReportWizard>تقرير باستخدام معالج</UsingReportWizard>

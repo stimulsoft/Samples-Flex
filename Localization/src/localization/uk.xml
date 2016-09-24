@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<Localization language="Ukrainian" description="Українська" cultureName="ua">
+<Localization language="Ukrainian" description="Українська" cultureName="uk">
   <A_WebViewer>
+    <AbbreviatedDayFriday>Пт</AbbreviatedDayFriday>
+    <AbbreviatedDayMonday>Пн</AbbreviatedDayMonday>
+    <AbbreviatedDaySaturday>Сб</AbbreviatedDaySaturday>
+    <AbbreviatedDaySunday>Нд</AbbreviatedDaySunday>
+    <AbbreviatedDayThursday>Чт</AbbreviatedDayThursday>
+    <AbbreviatedDayTuesday>Вт</AbbreviatedDayTuesday>
+    <AbbreviatedDayWednesday>Ср</AbbreviatedDayWednesday>
+    <Attachment>Вкладення:</Attachment>
     <DayFriday>П'ятниця</DayFriday>
     <DayMonday>Понеділок</DayMonday>
     <DaySaturday>Субота</DaySaturday>
@@ -8,9 +16,14 @@
     <DayThursday>Четвер</DayThursday>
     <DayTuesday>Вівторок</DayTuesday>
     <DayWednesday>Середа</DayWednesday>
+    <Email>Email:</Email>
+    <EmailOptions>Налаштування відправки Email</EmailOptions>
     <FirstPage>Перша сторінка</FirstPage>
+    <Hours>Години</Hours>
     <LastPage>Остання сторінка</LastPage>
     <Loading>Завантаження...</Loading>
+    <Message>Повідомлення:</Message>
+    <Minutes>Хвилини</Minutes>
     <MonthApril>Квітень</MonthApril>
     <MonthAugust>Серпень</MonthAugust>
     <MonthDecember>Грудень</MonthDecember>
@@ -35,6 +48,7 @@
     <PrintWithoutPreview>Друкувати без попереднього перегляду</PrintWithoutPreview>
     <PrintWithPreview>Друкувати з попереднім переглядом</PrintWithPreview>
     <SaveReport>Зберегти</SaveReport>
+    <Subject>Тема:</Subject>
     <TodayDate>Сьогодні</TodayDate>
     <WholeReport>Весь звіт</WholeReport>
   </A_WebViewer>
@@ -42,7 +56,7 @@
     <AdapterBusinessObjects>Дані з Business Objects</AdapterBusinessObjects>
     <AdapterConnection>Дані з {0}</AdapterConnection>
     <AdapterCrossTabDataSource>Дані на основі Крос-Таблиці</AdapterCrossTabDataSource>
-    <AdapterCsvFiles>Дані з Csv файлів</AdapterCsvFiles>
+    <AdapterCsvFiles>Дані з CSV файлів</AdapterCsvFiles>
     <AdapterDataTables>Дані з DataSet, DataTables</AdapterDataTables>
     <AdapterDataViews>Дані з DataViews</AdapterDataViews>
     <AdapterDB2Connection>Дані з IBM DB2 з'єднання</AdapterDB2Connection>
@@ -50,14 +64,15 @@
     <AdapterFirebirdConnection>Дані з Firebird з'єднання</AdapterFirebirdConnection>
     <AdapterInformixConnection>Дані з Informix з'єднання</AdapterInformixConnection>
     <AdapterMySQLConnection>Дані з  MySQL з'єднання</AdapterMySQLConnection>
-    <AdapterOdbcConnection>Дані з Odbc з'єднання</AdapterOdbcConnection>
-    <AdapterOleDbConnection>Дані з OleDb з'єднання</AdapterOleDbConnection>
+    <AdapterOdbcConnection>Дані з ODBC з'єднання</AdapterOdbcConnection>
+    <AdapterOleDbConnection>Дані з OLE DB з'єднання</AdapterOleDbConnection>
     <AdapterOracleConnection>Дані з Oracle з'єднання</AdapterOracleConnection>
     <AdapterOracleODPConnection>Дані з Oracle ODP.NET з'єднання</AdapterOracleODPConnection>
     <AdapterPostgreSQLConnection>Дані з PostgreSQL з'єднання</AdapterPostgreSQLConnection>
-    <AdapterSqlCeConnection>Дані з SqlCe з'єднання</AdapterSqlCeConnection>
-    <AdapterSqlConnection>Дані з Sql з'єднання</AdapterSqlConnection>
+    <AdapterSqlCeConnection>Дані з SQLCe з'єднання</AdapterSqlCeConnection>
+    <AdapterSqlConnection>Дані з SQL з'єднання</AdapterSqlConnection>
     <AdapterSQLiteConnection>Дані з SQLite з'єднання</AdapterSQLiteConnection>
+    <AdapterTeradataConnection>Дані з Teradata з'єднання</AdapterTeradataConnection>
     <AdapterUniDirectConnection>Дані з Однонаправленого з'єднання</AdapterUniDirectConnection>
     <AdapterUserSources>Дані з User Sources</AdapterUserSources>
     <AdapterVirtualSource>Дані з іншого Набору Даних (Data Source)</AdapterVirtualSource>
@@ -75,6 +90,7 @@
     <Duplicate>Дублювати</Duplicate>
     <Export>Експорт</Export>
     <Help>Допомога</Help>
+    <LoadDataSet>Завантажити DataSet (*.data)</LoadDataSet>
     <MoveLeft>Перемістити вліво</MoveLeft>
     <MoveRight>Перемістити вправо</MoveRight>
     <No>&amp;Ні</No>
@@ -107,22 +123,27 @@
     <AxisX>Вісь X</AxisX>
     <AxisY>Вісь Y</AxisY>
     <Bubble>Бульбашкова</Bubble>
+    <Candlestick>Японські свічки</Candlestick>
     <ChartConditionsCollectionForm>Умова</ChartConditionsCollectionForm>
     <ChartFiltersCollectionForm>Фільтри</ChartFiltersCollectionForm>
     <ChartType>Тип діаграми</ChartType>
     <CheckBoxAutoRotation>Автоповорот</CheckBoxAutoRotation>
     <ClusteredBar>Лінійчата</ClusteredBar>
     <ClusteredColumn>Гістограма</ClusteredColumn>
+    <Common>Основні</Common>
     <ConstantLine>Постійна Лінія</ConstantLine>
     <ConstantLinesEditorForm>Редактор Постійних Ліній</ConstantLinesEditorForm>
     <DataColumns>Стовпчики даних</DataColumns>
     <Doughnut>Кільцева</Doughnut>
+    <Financial>Фінансова</Financial>
     <FullStackedArea>Нормована область</FullStackedArea>
     <FullStackedBar>Нормована лінійчата</FullStackedBar>
     <FullStackedColumn>Нормована гістограма</FullStackedColumn>
     <FullStackedLine>Нормована лінія</FullStackedLine>
     <FullStackedSpline>Нормована згладжена лінія</FullStackedSpline>
     <FullStackedSplineArea>Нормована згладжена область</FullStackedSplineArea>
+    <Funnel>Воронка</Funnel>
+    <FunnelWeightedSlices>Зважена воронка</FunnelWeightedSlices>
     <Gantt>Графік Гантта</Gantt>
     <GridInterlaced>Переплетена</GridInterlaced>
     <GridLines>Лінії сітки</GridLines>
@@ -132,8 +153,13 @@
     <LabelAngle>Кут:</LabelAngle>
     <LabelArgumentDataColumn>Стовпчик даних аргументу:</LabelArgumentDataColumn>
     <LabelAutoRotation>Автоматичне повертання:</LabelAutoRotation>
+    <LabelCloseValueDataColumn>Стовпчик закриваючих значень:</LabelCloseValueDataColumn>
+    <LabelEndValueDataColumn>Стовпчик кінцевих значень:</LabelEndValueDataColumn>
+    <LabelHighValueDataColumn>Стовпчик максимумів:</LabelHighValueDataColumn>
     <LabelHorizontal>Горизонтальний:</LabelHorizontal>
+    <LabelLowValueDataColumn>Стовпчик мінімумів:</LabelLowValueDataColumn>
     <LabelMinorCount>Кількість проміжних ліній:</LabelMinorCount>
+    <LabelOpenValueDataColumn>Стовпчик відкриваючих значень:</LabelOpenValueDataColumn>
     <Labels>Написи</Labels>
     <LabelsCenter>По центру</LabelsCenter>
     <LabelSeriesName>Назва ряду:</LabelSeriesName>
@@ -168,9 +194,11 @@
     <Pie>Кругова</Pie>
     <Radar>Пелюсткова</Radar>
     <RadarArea>Пелюсткова з областю</RadarArea>
+    <RadarColumn>Пелюсткова з колонками</RadarColumn>
     <RadarLine>Пелюсткова з лінією</RadarLine>
     <RadarPoint>Пелюсткова з крапками</RadarPoint>
     <Range>Діапазон</Range>
+    <RangeBar>Стовпчастий діапазон</RangeBar>
     <RemoveCondition>&amp;Видалити умову</RemoveCondition>
     <RemoveConstantLine>Видалити постійну лінію</RemoveConstantLine>
     <RemoveFilter>&amp;Видалити фільтр</RemoveFilter>
@@ -186,6 +214,7 @@
     <Serieses>Ряди</Serieses>
     <Spline>Згладжена лінія</Spline>
     <SplineArea>Згладжена область</SplineArea>
+    <SplineRange>Згладжений діапазон</SplineRange>
     <StackedArea>Область з накопиченням</StackedArea>
     <StackedBar>Лінійчата з накопиченням</StackedBar>
     <StackedColumn>Гістограма з накопиченням</StackedColumn>
@@ -195,6 +224,7 @@
     <SteppedArea>Покрокова область</SteppedArea>
     <SteppedLine>Покрокова лінія</SteppedLine>
     <SteppedRange>Покроковий діапазон</SteppedRange>
+    <Stock>Біржова</Stock>
     <Strip>Стрічка</Strip>
     <StripsEditorForm>Форма редагування стрічок</StripsEditorForm>
     <Style>Стиль</Style>
@@ -323,6 +353,7 @@
     <StiCrossSummary>Крос-сума</StiCrossSummary>
     <StiCrossSummaryHeader>Заголовок Крос-суми</StiCrossSummaryHeader>
     <StiCrossTab>Крос-таблиця</StiCrossTab>
+    <StiCrossTitle>Крос-заголовок</StiCrossTitle>
     <StiDataBand>Дані</StiDataBand>
     <StiEmptyBand>Порожні дані</StiEmptyBand>
     <StiFooterBand>Підсумок даних</StiFooterBand>
@@ -361,19 +392,21 @@
     <DatabaseFirebird>Firebird з'єднання</DatabaseFirebird>
     <DatabaseInformix>Informix з'єднання</DatabaseInformix>
     <DatabaseMySQL>MySQL з'єднання</DatabaseMySQL>
-    <DatabaseOdbc>Odbc з'єднання</DatabaseOdbc>
-    <DatabaseOleDb>OleDB з'єднання</DatabaseOleDb>
+    <DatabaseOdbc>ODBC з'єднання</DatabaseOdbc>
+    <DatabaseOleDb>OLE DB з'єднання</DatabaseOleDb>
     <DatabaseOracle>Oracle з'єднання</DatabaseOracle>
     <DatabaseOracleODP>Oracle ODP.NET з'єднання</DatabaseOracleODP>
     <DatabasePostgreSQL>PostgreSQL з'єднання</DatabasePostgreSQL>
-    <DatabaseSql>Sql з'єднання</DatabaseSql>
+    <DatabaseSql>SQL з'єднання</DatabaseSql>
     <DatabaseSqlCe>SQLServerCE з'єднання</DatabaseSqlCe>
     <DatabaseSQLite>SQLite з'єднання</DatabaseSQLite>
+    <DatabaseTeradata>Teradata з'єднання</DatabaseTeradata>
     <DatabaseUniDirect>Однонаправлене з'єднання</DatabaseUniDirect>
     <DatabaseVistaDB>VistaDB з'єднання</DatabaseVistaDB>
-    <DatabaseXml>Xml дані</DatabaseXml>
+    <DatabaseXml>XML дані</DatabaseXml>
   </Database>
   <DesignerFx>
+    <AlreadyExists>'{0}' вже існує.</AlreadyExists>
     <CanNotLoadThisReportTemplate>Неможливо завантажити шаблон звіту.</CanNotLoadThisReportTemplate>
     <CloseDataSourceEditor>Ви бажаєте закрити редактор джерела даних?</CloseDataSourceEditor>
     <CloseEditor>Ви дійсно бажаєте закрити редактор тексту?</CloseEditor>
@@ -383,6 +416,8 @@
     <ConnectionSuccessfull>З'єднання успішно встановлено</ConnectionSuccessfull>
     <Continue>Продовжити</Continue>
     <DecryptionError>Помилка: Невірно вказано пароль або файл пошкоджено.</DecryptionError>
+    <EmailSuccessfullySent>Email повідомлення відправлене успішно.</EmailSuccessfullySent>
+    <ErrorAtSaving>Помилка при збереженні</ErrorAtSaving>
     <ErrorCode>Помилка при збереженні. Код помилки: {0}</ErrorCode>
     <ErrorServer>Помилка при збереженні. Сервер не відповідає.</ErrorServer>
     <ExportingReport>Експорт звіту</ExportingReport>
@@ -394,6 +429,8 @@
     <LoadingLanguage>Завантаження локалізації</LoadingLanguage>
     <LoadingReport>Завантаження звіту</LoadingReport>
     <PreviewAs>Попередній перегляд як {0}</PreviewAs>
+    <RenderingReport>Побудова звіту</RenderingReport>
+    <ReportSuccessfullySaved>Звіт збережений успішно.</ReportSuccessfullySaved>
     <RetrieveError>Помилка отримання колонок</RetrieveError>
     <RetrievingColumns>Отримання колонок</RetrievingColumns>
     <SavingConfiguration>Збереження конфігурації</SavingConfiguration>
@@ -478,19 +515,30 @@
   </Errors>
   <Export>
     <AddPageBreaks>Додати розриви сторінок</AddPageBreaks>
+    <AllBands>Всі бенди</AllBands>
     <AllowAddOrModifyTextAnnotations>Дозволити додавати або модифікувати текстові анотації</AllowAddOrModifyTextAnnotations>
     <AllowCopyTextAndGraphics>Дозволити копіювати текст і графіку</AllowCopyTextAndGraphics>
+    <AllowEditable>Дозволити редагування:</AllowEditable>
     <AllowModifyContents>Дозволити редагування документа</AllowModifyContents>
     <AllowPrintDocument>Дозволити друкувати документ</AllowPrintDocument>
+    <BandsFilter>Фільтр бендів:</BandsFilter>
     <Color>Колір</Color>
     <Compressed>Стислий</Compressed>
+    <CompressToArchive>Стиснути в архів</CompressToArchive>
     <ContinuousPages>Неперервні сторінки</ContinuousPages>
+    <DataAndHeadersFooters>Дані та Заголовки/Підсумки</DataAndHeadersFooters>
+    <DataOnly>Тільки дані</DataOnly>
     <DigitalSignature>Цифровий підпис</DigitalSignature>
+    <DigitalSignatureCertificateNotSelected>Сертифікат не вибрано</DigitalSignatureCertificateNotSelected>
+    <DigitalSignatureError>Помилка цифрового підпису на кроці</DigitalSignatureError>
     <DocumentSecurity>Безпека документа</DocumentSecurity>
     <DotMatrixMode>Матричний метод</DotMatrixMode>
     <EmbeddedFonts>Вмонтувати шрифти</EmbeddedFonts>
+    <EmbeddedImageData>Вбудувати зображення</EmbeddedImageData>
     <Encoding>Кодування:</Encoding>
+    <EncryptionError>Помилка шифрування на кроці</EncryptionError>
     <EscapeCodes>Escape коди</EscapeCodes>
+    <ExceptEditableFields>Крім редагованих полів</ExceptEditableFields>
     <ExportDataOnly>Експортувати тільки дані</ExportDataOnly>
     <ExportEachPageToSheet>Експортувати кожну сторінку на окремий лист</ExportEachPageToSheet>
     <ExportingCalculatingCoordinates>Обчислення координат</ExportingCalculatingCoordinates>
@@ -506,28 +554,30 @@
     <ExportTypeBmpFile>BMP зображення...</ExportTypeBmpFile>
     <ExportTypeCalcFile>OpenDocument Calc файл...</ExportTypeCalcFile>
     <ExportTypeCsvFile>CSV файл...</ExportTypeCsvFile>
+    <ExportTypeDataFile>Файл даних...</ExportTypeDataFile>
     <ExportTypeDbfFile>DBF файл...</ExportTypeDbfFile>
     <ExportTypeDifFile>Data Interchange Format (DIF) файл...</ExportTypeDifFile>
-    <ExportTypeExcel2007File>Microsoft Excel 2007/2010 файл...</ExportTypeExcel2007File>
+    <ExportTypeExcel2007File>Microsoft Excel 2007 файл...</ExportTypeExcel2007File>
     <ExportTypeExcelFile>Microsoft Excel файл...</ExportTypeExcelFile>
     <ExportTypeExcelXmlFile>Microsoft Excel Xml файл...</ExportTypeExcelXmlFile>
     <ExportTypeGifFile>GІF зображення...</ExportTypeGifFile>
     <ExportTypeHtml5File>HTML5 файл...</ExportTypeHtml5File>
     <ExportTypeHtmlFile>HTML файл...</ExportTypeHtmlFile>
+    <ExportTypeImageFile>Файл зображення...</ExportTypeImageFile>
     <ExportTypeJpegFile>JPEG зображення...</ExportTypeJpegFile>
     <ExportTypeMetafile>Windows Metafile...</ExportTypeMetafile>
     <ExportTypeMhtFile>MHT Web архів...</ExportTypeMhtFile>
     <ExportTypePcxFile>PCX зображення...</ExportTypePcxFile>
     <ExportTypePdfFile>Adobe PDF файл...</ExportTypePdfFile>
     <ExportTypePngFile>PNG зображення...</ExportTypePngFile>
-    <ExportTypePpt2007File>Microsoft PowerPoint 2007/2010 файл...</ExportTypePpt2007File>
+    <ExportTypePpt2007File>Microsoft PowerPoint файл...</ExportTypePpt2007File>
     <ExportTypeRtfFile>Rich Text файл...</ExportTypeRtfFile>
     <ExportTypeSvgFile>Scalable Vector Graphics (SVG) зображення...</ExportTypeSvgFile>
     <ExportTypeSvgzFile>Compressed SVG (SVGZ) зображення...</ExportTypeSvgzFile>
     <ExportTypeSylkFile>Symbolic Link (SYLK) файл...</ExportTypeSylkFile>
     <ExportTypeTiffFile>TIFF зображення...</ExportTypeTiffFile>
     <ExportTypeTxtFile>Text файл...</ExportTypeTxtFile>
-    <ExportTypeWord2007File>Microsoft Word 2007/2010 файл...</ExportTypeWord2007File>
+    <ExportTypeWord2007File>Microsoft Word файл...</ExportTypeWord2007File>
     <ExportTypeWriterFile>OpenDocument Writer файл...</ExportTypeWriterFile>
     <ExportTypeXmlFile>XML файл...</ExportTypeXmlFile>
     <ExportTypeXpsFile>Microsoft XPS файл...</ExportTypeXpsFile>
@@ -550,6 +600,8 @@
     <OpenAfterExport>Відкрити після експорту</OpenAfterExport>
     <PdfACompliance>PDF/A стандарт</PdfACompliance>
     <RemoveEmptySpaceAtBottom>Видалити порожнє місце внизу сторінки</RemoveEmptySpaceAtBottom>
+    <RestrictEditing>Обмежити редагування:</RestrictEditing>
+    <Scale>Масштаб:</Scale>
     <Separator>Роздільник:</Separator>
     <Settings>Настройки</Settings>
     <SkipColumnHeaders>Пропустити заголовки стовпчиків</SkipColumnHeaders>
@@ -565,6 +617,7 @@
     <TxtKillSpaceGraphLines>Видаляти порожні графічні лінії</TxtKillSpaceGraphLines>
     <TxtKillSpaceLines>Видаляти порожні лінії</TxtKillSpaceLines>
     <TxtPutFeedPageCode>Позначати кінець сторінки</TxtPutFeedPageCode>
+    <Type>Тип:</Type>
     <UseDefaultSystemEncoding>Використовувати кодування за замовчуванням</UseDefaultSystemEncoding>
     <UseDigitalSignature>Використовувати цифровий підпис</UseDigitalSignature>
     <UseEscapeCodes>Використовувати Escape коди</UseEscapeCodes>
@@ -591,7 +644,7 @@
     <EmfFiles>Metafile (*.emf)|*.emf</EmfFiles>
     <EncryptedDocumentFiles>Шифровані файли документів (*.mdx)|*.mdx</EncryptedDocumentFiles>
     <EncryptedReportFiles>Шифровані файли звітів (*.mrx)|*.mrx</EncryptedReportFiles>
-    <Excel2007Files>Файли Microsoft Excel 2007/2010 (*.xlsx)|*.xlsx</Excel2007Files>
+    <Excel2007Files>Файли Microsoft Excel 2007/2013 (*.xlsx)|*.xlsx</Excel2007Files>
     <ExcelFiles>Microsoft Excel файли (*.xls)|*.xls</ExcelFiles>
     <ExcelXmlFiles>Microsoft Excel XML файли (*.xls)|*.xls</ExcelXmlFiles>
     <ExeFiles>EXE файли (*.exe)|*.exe</ExeFiles>
@@ -609,7 +662,7 @@
     <PcxFiles>PCX зображення (*.pcx)|*.pcx</PcxFiles>
     <PdfFiles>Adobe PDF файли (*.pdf)|*.pdf</PdfFiles>
     <PngFiles>PNG зображення (*.png)|*.png</PngFiles>
-    <Ppt2007Files>Microsoft PowerPoint 2007/2010 файли (*.pptx)|*.pptx</Ppt2007Files>
+    <Ppt2007Files>Microsoft PowerPoint 2007/2013 файли (*.pptx)|*.pptx</Ppt2007Files>
     <ReportFiles>Файли звітів (*.mrt)|*.mrt</ReportFiles>
     <RtfFiles>Текст в форматі Rich Text (*.rtf)|*.rtf</RtfFiles>
     <StandaloneReportFiles>Автономний звіт (*.exe)|*.exe</StandaloneReportFiles>
@@ -619,10 +672,11 @@
     <SylkFiles>SYLK файли (*.slk)|*.slk</SylkFiles>
     <TiffFiles>TІFF зображення (*.tіff)|*.tіff</TiffFiles>
     <TxtFiles>Звичайний текст (*.txt)|*.txt</TxtFiles>
-    <Word2007Files>Файли Microsoft Word 2007/2010 (*.docx)|*.docx</Word2007Files>
+    <Word2007Files>Файли Microsoft Word 2007/2013 (*.docx)|*.docx</Word2007Files>
     <WriterFiles>OpenDocument Writer файли (*.odt)|*.odt</WriterFiles>
     <XmlFiles>XML файли (*.xml)|*.xml</XmlFiles>
     <XpsFiles>Microsoft XPS файли (*.xps)|*.xps</XpsFiles>
+    <ZipArchives>ZIP архіви (*.zip)|*.zip</ZipArchives>
   </FileFilters>
   <Formats>
     <custom01>d</custom01>
@@ -682,6 +736,7 @@
   <FormColorBoxPopup>
     <Color>Кольори</Color>
     <Custom>На вибір</Custom>
+    <NoColor>Без кольору</NoColor>
     <Others>Інші</Others>
     <System>Система</System>
     <Web>Web</Web>
@@ -720,10 +775,10 @@
     <MySQLEdit>Редагування MySQL з'єднання</MySQLEdit>
     <MySQLNew>Нове MySQL з'єднання</MySQLNew>
     <NewConnection>Нове {0} з'єднання</NewConnection>
-    <OdbcEdit>Редагування Odbc з'єднання</OdbcEdit>
-    <OdbcNew>Нове Odbc з'єднання</OdbcNew>
-    <OleDbEdit>Редагування OleDb з'єднання</OleDbEdit>
-    <OleDbNew>Нове OleDb з'єднання</OleDbNew>
+    <OdbcEdit>Редагування ODBC з'єднання</OdbcEdit>
+    <OdbcNew>Нове ODBC з'єднання</OdbcNew>
+    <OleDbEdit>Редагування OLE DB з'єднання</OleDbEdit>
+    <OleDbNew>Нове OLE DB з'єднання</OleDbNew>
     <OracleEdit>Редагування Oracle з'єднання</OracleEdit>
     <OracleNew>Нове Oracle з'єднання</OracleNew>
     <OracleODPEdit>Редагування Oracle ODP.NET з'єднання</OracleODPEdit>
@@ -735,18 +790,21 @@
     <PromptUserNameAndPassword>Запит імені користувача та пароля</PromptUserNameAndPassword>
     <SqlCeEdit>Редагування SQLServerCE з'єднання</SqlCeEdit>
     <SqlCeNew>Нове SQLServerCE з'єднання</SqlCeNew>
-    <SqlEdit>Редагування Sql з'єднання</SqlEdit>
+    <SqlEdit>Редагування SQL з'єднання</SqlEdit>
     <SQLiteEdit>Редагування SQLite з'єднання</SQLiteEdit>
     <SQLiteNew>Створити SQLite з'эднання</SQLiteNew>
-    <SqlNew>Нове Sql з'єднання</SqlNew>
+    <SqlNew>Нове SQL з'єднання</SqlNew>
+    <TeradataEdit>Редагування Teradata з'єднання</TeradataEdit>
+    <TeradataNew>Нове Teradata з'єднання</TeradataNew>
     <UniDirectEdit>Редагувати Однонаправлене з'єднання</UniDirectEdit>
     <UniDirectNew>Нове Однонаправлене з'єднання</UniDirectNew>
     <VistaDBEdit>Редагування VistaDB з'єднання</VistaDBEdit>
     <VistaDBNew>Нове VistaDB з'єднання</VistaDBNew>
-    <XmlEdit>Редагування Xml даних</XmlEdit>
-    <XmlNew>Нові Xml дані</XmlNew>
+    <XmlEdit>Редагування XML даних</XmlEdit>
+    <XmlNew>Нові XML дані</XmlNew>
   </FormDatabaseEdit>
   <FormDesigner>
+    <Others>Інші</Others>
     <Code>Код</Code>
     <ColumnsOne>Один</ColumnsOne>
     <ColumnsThree>Три</ColumnsThree>
@@ -764,6 +822,7 @@
     <Pages>Сторінки</Pages>
     <Preview>Попередній перегляд</Preview>
     <PropertyChange>Зміна властивості '{0}'</PropertyChange>
+    <RTPreview>WinRT перегляд</RTPreview>
     <SetupToolbox>Настройка інструментарію</SetupToolbox>
     <ShowDescription>Показувати опис</ShowDescription>
     <SLPreview>Silverlight перегляд</SLPreview>
@@ -782,10 +841,17 @@
     <ChildSource>Підлегле джерело даних:</ChildSource>
     <ColumnEdit>Зміна стовпчика</ColumnEdit>
     <ColumnNew>Новий &amp;стовпчик</ColumnNew>
+    <CsvSeparatorComma>Кома</CsvSeparatorComma>
+    <CsvSeparatorOther>Інший</CsvSeparatorOther>
+    <CsvSeparatorSemicolon>Крапка з комою</CsvSeparatorSemicolon>
+    <CsvSeparatorSpace>Пробіл</CsvSeparatorSpace>
+    <CsvSeparatorSystem>Системний роздільник</CsvSeparatorSystem>
+    <CsvSeparatorTab>Табуляція</CsvSeparatorTab>
     <DatabaseEdit>Зміна бази даних</DatabaseEdit>
     <DatabaseNew>Нова база даних</DatabaseNew>
     <DataParameterEdit>Редагувати параметр</DataParameterEdit>
     <DataParameterNew>Новий параметр</DataParameterNew>
+    <DataSetToBusinessObjects>DataSet у бізнес-об'єкти</DataSetToBusinessObjects>
     <DataSourceEdit>Зміна джерела даних</DataSourceEdit>
     <DataSourceNew>Нове &amp;джерело даних</DataSourceNew>
     <DataSourcesNew>Нові джерела даних</DataSourcesNew>
@@ -800,6 +866,7 @@
     <ExpressionNew>Новий вираз</ExpressionNew>
     <GetColumnsFromAssembly>Взяти стовпчики зі збірки</GetColumnsFromAssembly>
     <ImportRelations>Імпортувати зв'язки</ImportRelations>
+    <LabelSeparator>Роздільник:</LabelSeparator>
     <MarkUsedItems>Позначити використовувані елементи</MarkUsedItems>
     <NewBusinessObject>Новий бізнес-об'єкт</NewBusinessObject>
     <NewItem>Новий елемент</NewItem>
@@ -911,6 +978,8 @@
     <MarkersStyleCorners>Кути</MarkersStyleCorners>
     <MarkersStyleDashedRectangle>Прямокутник</MarkersStyleDashedRectangle>
     <MarkersStyleNone>Немає</MarkersStyleNone>
+    <MessageLeftRightNotValid>Ліве та праве значення не вірні!</MessageLeftRightNotValid>
+    <MessageTopBottomNotValid>Верхнє та нижнє значення не вірні!</MessageTopBottomNotValid>
     <Minutes>{0} хвилин(и)</Minutes>
     <SaveReportEvery>Зберігати звіт кожні</SaveReportEvery>
     <SelectUILanguage>Виберіть мову інтерфейсу</SelectUILanguage>
@@ -994,6 +1063,7 @@
     <CreateStylesFromColor>Створити стиль з обраного кольору</CreateStylesFromColor>
     <Duplicate>Дублювати стиль</Duplicate>
     <GetStyle>Створити стиль на основі вибраних компонентів</GetStyle>
+    <MoreStyles>Більше стилів</MoreStyles>
     <Open>Відкрити стиль</Open>
     <qnApplyStyleCollection>Ви дійсно бажаєте застосувати колекцію стилів до компонентів звіту?</qnApplyStyleCollection>
     <Remove>Видалити стиль</Remove>
@@ -1029,6 +1099,7 @@
     <DataSourceSelectForm>Виберіть джерело даних</DataSourceSelectForm>
     <DataSourcesNewForm>Нові джерела даних</DataSourcesNewForm>
     <DataStoreViewerForm>Сховище даних</DataStoreViewerForm>
+    <DesignerApplication>Дизайнер звітів</DesignerApplication>
     <EventEditorForm>Редактор подій</EventEditorForm>
     <ExpressionEditorForm>Редактор виразів</ExpressionEditorForm>
     <GroupConditionForm>Умова групування</GroupConditionForm>
@@ -1082,7 +1153,7 @@
     <Print>Друк</Print>
     <qnPageDelete>Видалити поточну сторінку?</qnPageDelete>
     <Save>Зберегти</Save>
-    <SendEMail>Відправити по E-Maіl...</SendEMail>
+    <SendEMail>Відправити по Emaіl...</SendEMail>
     <StatusBar>Панель статусу</StatusBar>
     <Thumbnails>Ескізи</Thumbnails>
     <title>Попередній перегляд</title>
@@ -1275,6 +1346,7 @@
     <Close>Закрити дизайнер звітів.</Close>
     <Columns>Розбити сторінку на стовпчики.</Columns>
     <ComponentSize>Змінити розмір виділених компонентів.</ComponentSize>
+    <CopyStyle>Копіювати стиль</CopyStyle>
     <CopyToClipboard>Скопіювати до буферу обміну</CopyToClipboard>
     <CurrencySymbol>Вибрати символ валюти.</CurrencySymbol>
     <DataStore>Показати дані, зареєстровані для звіту.</DataStore>
@@ -1353,6 +1425,7 @@
     <PageSetup>Показати діалог настройки параметрів сторінки.</PageSetup>
     <PageSize>Вибрати розміри для поточної сторінки звіту.</PageSize>
     <PagesManager>Запускає менеджер сторінок.</PagesManager>
+    <PressF1>Натисніть F1 для довідки</PressF1>
     <Redo>Повторити раніше відмінені зміни в дизайнері звітів.</Redo>
     <ReportNew>Створити новий звіт.</ReportNew>
     <ReportOpen>Відкрити звіт у дизайнері.</ReportOpen>
@@ -1366,7 +1439,9 @@
     <ShowBehind>Показувати текст водяного знаку позаду сторінки.</ShowBehind>
     <ShowImageBehind>Показувати зображення водяного знаку позаду сторінки.</ShowImageBehind>
     <ShowToolbox>Показувати інструментарій.</ShowToolbox>
+    <StimulsoftHelp>Допомога Stimulsoft</StimulsoftHelp>
     <StyleDesigner>Запустити редактор стилів.</StyleDesigner>
+    <TellMeMore>Докладніше</TellMeMore>
     <Text>Текст водяного знаку.</Text>
     <TextBrush>Змінити колір тексту.</TextBrush>
     <TextBrushWatermark>Змінити колір тексту водяного знаку.</TextBrushWatermark>
@@ -1398,14 +1473,55 @@
     <StiTreeViewControl>Представляє елемент керування для відображення ієрархічних даних у вигляді дерева з можливістю розгортання та згортання елементів.</StiTreeViewControl>
   </HelpDialogs>
   <HelpViewer>
+    <AddPageBreaks>Додати роздільники сторінок.</AddPageBreaks>
+    <AllowAddOrModifyTextAnnotations>Дозволити додавати або змінювати примітки.</AllowAddOrModifyTextAnnotations>
+    <AllowCopyTextAndGraphics>Дозволити копіювати текст і графіку.</AllowCopyTextAndGraphics>
+    <AllowEditable>Дозволяє змінювати тільки компоненти з увімкненою властивістю "Редагований".</AllowEditable>
+    <AllowModifyContents>Дозволити редагування документа.</AllowModifyContents>
+    <AllowPrintDocument>Дозволити друк документа.</AllowPrintDocument>
     <Bookmarks>Показує панель закладок, що служить для швидкої навігації по звіту за допомогою закладок.</Bookmarks>
+    <BorderType>Тип границі компонентів: проста - формування границь компонентів символами +, -, |. Unicode одинарна - формування границь компонентів одинарними символами псевдографіки, Unicode подвійна - формування границь компонентів подвійними символами псевдографіки.</BorderType>
     <Close>Закрити попередній перегляд.</Close>
     <CloseDotMatrix>Закрити попередній перегляд для матричних принтерів.</CloseDotMatrix>
+    <Compressed>Стиснення кінцевого документа. Рекомендується завжди вмикати стиснення файлу.</Compressed>
+    <CompressToArchive>Упакувати всі файли і папки в ZIP архів.</CompressToArchive>
+    <ContinuousPages>Режим розташування сторінок звіту у вигляді вертикальної стрічки.</ContinuousPages>
+    <CurrentPage>Обробка поточної сторінки, тобто якщо обрано цей параметр, то оброблятися буде виділена сторінка звіту.</CurrentPage>
+    <CutEdges>Обрізати границі сторінок звіту.</CutEdges>
+    <CutLongLines>Обрізати довгі лінії (рядки тексту) по границях компонента.</CutLongLines>
+    <DigitalSignature>Цифровий підпис файлу.</DigitalSignature>
+    <DitheringType>Тип монохромного змішування: Ні - без дезірінга, Ordered, FloydSt - з дезірінгом.</DitheringType>
     <DotMatrixMode>Цей режим дозволяє побачити, як звіт буде виглядати, якщо надрукувати його на матричний принтер.</DotMatrixMode>
+    <DrawBorder>Формування границь компонентів символами графіки.</DrawBorder>
     <Edit>Редагувати елементи звіту.</Edit>
+    <EmbeddedFonts>Вбудувати файли шрифтів у файл PDF.</EmbeddedFonts>
+    <EmbeddedImageData>Вбудувати зображення безпосередньо в HTML файл.</EmbeddedImageData>
+    <Encoding>Кодування тексту звіту після експорту.</Encoding>
+    <EncodingData>Кодування файлу даних.</EncodingData>
+    <EncryptionKeyLength>Довжина ключа шифрування для документа. Чим більше довжина, тим складніше розшифрувати документ, і відповідно безпека документа вище.</EncryptionKeyLength>
+    <ExportDataOnly>Експорт тільки бендів Дані (компонент Таблиця, бенд Дерево).</ExportDataOnly>
+    <ExportEachPageToSheet>Експортувати кожну сторінку звіту на окремий лист в Excel.</ExportEachPageToSheet>
+    <ExportMode>Застосувати умову фільтрації при експорті. Тільки дані - експортуватимуться тільки бенди Дані (компонент Таблиця, бенд Дерево), Дані та Заголовки/Підсумки - експортуватимуться бенди Дані (компонент Таблиця, бенд Дерево) та їх заголовки/підсумки, за наявності, Всі бенди - експортуватимуться всі бенди звіту.</ExportMode>
+    <ExportModeHtml>Cпособ розмітки HTML сторінки.</ExportModeHtml>
+    <ExportModeRtf>Представлення даних звіту після експорту. Таблиця - звіт буде представлено у вигляді таблиці, де кожен компонент звіту - клітинка в таблиці. Рамка - кожен компонент буде являти собою окрему рамку, але взаємозв'язків між ними не буде.</ExportModeRtf>
+    <ExportObjectFormatting>Застосовувати форматування до експорту з бендів Дані (компонент Таблиця, бенд Дерево).</ExportObjectFormatting>
+    <ExportPageBreaks>Відобразити границі сторінок звіту на сторінці в Excel.</ExportPageBreaks>
+    <ExportRtfTextAsImage>Конвертація Rtf тексту в картинку при експорті. Якщо параметр вимкнено, то RichText при експорті розкладається на більш прості примітиви, підтримувані форматом PDF. RichText зі складним форматуванням (вкладені зображення, таблиці) не завжди може бути перетворений коректно. У цьому випадку рекомендується увімкнути цей параметр.</ExportRtfTextAsImage>
     <Find>Пошук тексту в звіті.</Find>
     <FullScreen>Повноекранний перегляд звіту.</FullScreen>
+    <GetCertificateFromCryptoUI>Використання інтерфейсу системної бібліотеки криптографії.</GetCertificateFromCryptoUI>
+    <ImageCompressionMethod>Метод стиснення: JPEG - це стиснення з втратами, Flate - стиснення без втрат, Simple, Ordered, FloydSt. - зображення в монохромному режимі.</ImageCompressionMethod>
+    <ImageFormat>Формат зображень в кінцевому файлі.</ImageFormat>
+    <ImageQuality>Дозволяє вибрати співвідношення якість зображення/розмір файлу. Чим вища якість, тим більше розмір вихідного файлу.</ImageQuality>
+    <ImageQualityPdf>Параметр доступний тільки при стисканні JPEG і дозволяє вибрати співвідношення якість зображення/розмір файлу. Чим вища якість, тим більший розмір вихідного файлу.</ImageQualityPdf>
+    <ImageResolution>Кількість пікселів на дюйм зображення. Чим більша дана кількість пікселів, тим вище чіткість зображення і легкість сприйняття, але й розмір вихідного файлу набагато більший.</ImageResolution>
+    <ImageType>Колірна схема зображення: колір - зображення після експорту буде повністю відповідати зображенню у формі перегляду; сірий - зображення після експорту буде сірого відтінку; монохромний - зображення буде суто чорно-біле. При цьому слід враховувати, що монохромні зображення мають три режими: None, Ordered, FloydSt.</ImageType>
+    <KillSpaceLines>Видалити порожні лінії (рядки) в документі.</KillSpaceLines>
+    <MultipleFiles>Кожна сторінка звіту окремим файлом.</MultipleFiles>
     <Open>Відкрити раніше збережений звіт.</Open>
+    <OpenAfterExport>Автоматичне відкриття створеного документа (після завершення експорту) програмою, встановленою за замовчуванням для цих типів файлів.</OpenAfterExport>
+    <OwnerPassword>Пароль доступу до операцій з файлом.</OwnerPassword>
+    <PageAll>Обробка всіх сторінок звіту.</PageAll>
     <PageDelete>Видалити вибрану сторінку звіту.</PageDelete>
     <PageDesign>Змінити вибрану сторінку в дизайнері звітів.</PageDesign>
     <PageFirst>Перейти на першу сторінку звіту.</PageFirst>
@@ -1416,11 +1532,29 @@
     <PagePrevious>Перейти на попередню сторінку звіту.</PagePrevious>
     <PageSize>Змінити параметри сторінки звіту.</PageSize>
     <Parameters>Відображення панелі параметрів звіту.</Parameters>
+    <PdfACompliance>Підтримка стандарту довгострокового архівного зберігання електронних документів.</PdfACompliance>
     <Print>Надрукувати звіт.</Print>
+    <PutFeedPageCode>Розділяти сторінки в кінцевому документі за допомогою спеціального символу.</PutFeedPageCode>
+    <RangePages>Номери сторінок, які необхідно обробити. Вказати можна одну сторінку, список сторінок (використовуючи коми як роздільник), а також, вказати діапазон, задавши початкову сторінку діапазону, роздільник "-" і кінцеву сторінку діапазону. Для прикладу: 1,3,5-12.</RangePages>
+    <RemoveEmptySpaceAtBottom>Мінімізувати порожнє місце внизу сторінки.</RemoveEmptySpaceAtBottom>
+    <RestrictEditing>Обмежити редагування в документі Word.</RestrictEditing>
     <Save>Зберегти звіт для подальшого використання.</Save>
-    <SendEMail>Надіслати звіт по e-mail.</SendEMail>
+    <ScaleHtml>Розмір (масштаб) сторінок звіту та елементів звіту після експорту.</ScaleHtml>
+    <ScaleImage>Розмір (масштаб) звіту після експорту. Чим менше масштаб, тим більше кількість пікселів на дюйм і навпаки.</ScaleImage>
+    <SendEMail>Надіслати звіт по Email.</SendEMail>
+    <Separator>Символ-роздільник даних у файлі CSV.</Separator>
+    <SkipColumnHeaders>Увімкнути/вимкнути заголовки колонок.</SkipColumnHeaders>
+    <StandardPdfFonts>14 стандартних шрифтів Adobe. Якщо цей параметр увімкнено, то в PDF файлі після експорту будуть використані тільки стандартні 14 шрифтів, і всі шрифти звіту будуть перетворені в них.</StandardPdfFonts>
+    <SubjectNameString>Ідентифікатор сертифіката. Ідентифікатор - це ім'я власника сертифіката (повний рядок) або частина імені (частина рядка).</SubjectNameString>
     <Thumbnails>Відображення панелі ескізів, яку можна використовувати для швидкої навігації по звіту за допомогою маленьких зображень кожної сторінки.</Thumbnails>
+    <TiffCompressionScheme>Схема стиснення для файлів TIFF.</TiffCompressionScheme>
     <ToolEditor>Цей інструмент дозволяє редагувати вміст текстових компонентів безпосередньо у вікні перегляду звіту.</ToolEditor>
+    <TypeExport>Тип файлу, в який буде перетворено звіт.</TypeExport>
+    <UseDefaultSystemEncoding>Використовувати кодування системи за замовчуванням або задати кодування за стандартом.</UseDefaultSystemEncoding>
+    <UseOnePageHeaderAndFooter>Визначити бенди Заголовок сторінки і Підсумок сторінки як верхній і нижній колонтитул документа в MS Word.</UseOnePageHeaderAndFooter>
+    <UsePageHeadersAndFooters>Визначити бенди Заголовок сторінки і Підсумок сторінки як верхній і нижній колонтитул документа в MS Word.</UsePageHeadersAndFooters>
+    <UserPassword>Пароль необхідний для відкриття документа.</UserPassword>
+    <UseUnicode>Розширена підтримка кодування символів. Впливає на внутрішнє кодування символів всередині PDF файлу і покращує копіювання тексту з PDF файлу.</UseUnicode>
     <ViewModeContinuous>Показувати всі сторінки звіту у вигляді вертикальної стрічки.</ViewModeContinuous>
     <ViewModeMultiplePages>Показувати стільки сторінок звіту, скільки вміщується у вікні перегляду.</ViewModeMultiplePages>
     <ViewModeSinglePage>Показувати тільки одну сторінку у вікні перегляду.</ViewModeSinglePage>
@@ -1428,15 +1562,21 @@
     <ZoomOnePage>Встановити такий масштаб відображення звіту, щоб висота поточної сторінки займала всю доступну висоту вікна перегляду.</ZoomOnePage>
     <ZoomPageWidth>Встановити такий масштаб відображення звіту, щоб ширина поточної сторінки займала всю доступну ширину вікна перегляду.</ZoomPageWidth>
     <ZoomTwoPages>Встановити такий масштаб відображення звіту, щоб у вікні перегляду відображувалися дві сторінки поряд.</ZoomTwoPages>
+    <ZoomTxt>Розмір (масштаб) звіту: X - змінити масштаб по горизонталі, Y - змінити масштаб по вертикалі.</ZoomTxt>
   </HelpViewer>
   <MainMenu>
     <menuCheckIssues>Перевірити звіт</menuCheckIssues>
     <menuContextClone>Клонувати...</menuContextClone>
     <menuContextDesign>Редагувати...</menuContextDesign>
     <menuContextTextFormat>Формат...</menuContextTextFormat>
+    <menuConvertToCheckBox>Конвертувати в Прапорець</menuConvertToCheckBox>
+    <menuConvertToImage>Конвертувати в зображення</menuConvertToImage>
+    <MenuConvertToRichText>Конвертувати в Rich текст</MenuConvertToRichText>
+    <menuConvertToText>Конвертувати в текст</menuConvertToText>
     <menuDeleteColumn>Видалити стовпчик</menuDeleteColumn>
     <menuDeleteRow>Видалити рядок</menuDeleteRow>
     <menuEdit>&amp;Редагування</menuEdit>
+    <menuEditBusinessObjectFromDataSetNew>Новий бізнес-об'єкт з набору даних...</menuEditBusinessObjectFromDataSetNew>
     <menuEditBusinessObjectNew>Новий бізнес-об'єкт...</menuEditBusinessObjectNew>
     <menuEditCalcColumnNew>Новий розрахунковий стовпчик...</menuEditCalcColumnNew>
     <menuEditCantRedo>Не можна повторити</menuEditCantRedo>
@@ -1490,6 +1630,7 @@
     <menuFileReportSaveAsToGoogleDocs>Зберегти звіт в Google Docs...</menuFileReportSaveAsToGoogleDocs>
     <menuFileReportSetup>Властивості звіту...</menuFileReportSetup>
     <menuFileReportWizardNew>Створити звіт з &amp;Майстром...</menuFileReportWizardNew>
+    <menuFileSave>&amp;Зберегти</menuFileSave>
     <menuFileSaveAs>Зберегти як...</menuFileSaveAs>
     <menuHelp>Допомога</menuHelp>
     <menuHelpAboutProgramm>Про програму...</menuHelpAboutProgramm>
@@ -1574,6 +1715,8 @@
     <DisplayCategory>Відображення</DisplayCategory>
     <ExportCategory>Експорт</ExportCategory>
     <ExportEventsCategory>Експортувати події</ExportEventsCategory>
+    <FooterTableCategory>Підсумок таблиці</FooterTableCategory>
+    <HeaderTableCategory>Заголовок таблиці</HeaderTableCategory>
     <HierarchicalCategory>Ієрархія</HierarchicalCategory>
     <ImageAdditionalCategory>Зображення, додаткові</ImageAdditionalCategory>
     <ImageCategory>Зображення</ImageCategory>
@@ -1594,12 +1737,17 @@
     <RenderEventsCategory>Побудова</RenderEventsCategory>
     <ShapeCategory>Форма</ShapeCategory>
     <SubReportCategory>Вкладений звіт</SubReportCategory>
+    <TableCategory>Таблиця</TableCategory>
     <TextAdditionalCategory>Текст, додаткові</TextAdditionalCategory>
     <TextCategory>Текст</TextCategory>
     <TitleCategory>Заголовок</TitleCategory>
     <ValueCategory>Значення</ValueCategory>
+    <ValueCloseCategory>Закриваюче значення</ValueCloseCategory>
     <ValueEndCategory>Кінцеве значення</ValueEndCategory>
     <ValueEventsCategory>Значення</ValueEventsCategory>
+    <ValueHighCategory>Максимум</ValueHighCategory>
+    <ValueLowCategory>Мінімум</ValueLowCategory>
+    <ValueOpenCategory>Відкриваюче значення</ValueOpenCategory>
     <WeightCategory>Вага</WeightCategory>
     <WinControlCategory>Win компонент</WinControlCategory>
     <ZipCodeCategory>Поштовий індекс</ZipCodeCategory>
@@ -1902,6 +2050,8 @@
     <StiDockStyleNone>Немає</StiDockStyleNone>
     <StiDockStyleRight>Справа</StiDockStyleRight>
     <StiDockStyleTop>Зверху</StiDockStyleTop>
+    <StiDrillDownModeMultiPage>Кілька сторінок</StiDrillDownModeMultiPage>
+    <StiDrillDownModeSinglePage>Одна сторінка</StiDrillDownModeSinglePage>
     <StiEanSupplementTypeFiveDigit>П'ять цифр</StiEanSupplementTypeFiveDigit>
     <StiEanSupplementTypeNone>Ні</StiEanSupplementTypeNone>
     <StiEanSupplementTypeTwoDigit>Дві цифри</StiEanSupplementTypeTwoDigit>
@@ -1920,6 +2070,8 @@
     <StiFilterConditionEqualTo>дорівнює</StiFilterConditionEqualTo>
     <StiFilterConditionGreaterThan>більше ніж</StiFilterConditionGreaterThan>
     <StiFilterConditionGreaterThanOrEqualTo>більше ніж або дорівнює</StiFilterConditionGreaterThanOrEqualTo>
+    <StiFilterConditionIsNotNull>не дорівнює null</StiFilterConditionIsNotNull>
+    <StiFilterConditionIsNull>дорівнює null</StiFilterConditionIsNull>
     <StiFilterConditionLessThan>менше ніж</StiFilterConditionLessThan>
     <StiFilterConditionLessThanOrEqualTo>менше ніж або дорівнює</StiFilterConditionLessThanOrEqualTo>
     <StiFilterConditionNotBetween>не між</StiFilterConditionNotBetween>
@@ -1935,6 +2087,11 @@
     <StiFilterItemArgument>Аргумент</StiFilterItemArgument>
     <StiFilterItemExpression>Вираз</StiFilterItemExpression>
     <StiFilterItemValue>Значення</StiFilterItemValue>
+    <StiFilterItemValueClose>Значення, що закриває</StiFilterItemValueClose>
+    <StiFilterItemValueEnd>Кінцеве значення</StiFilterItemValueEnd>
+    <StiFilterItemValueHigh>Максимум</StiFilterItemValueHigh>
+    <StiFilterItemValueLow>Мінімум</StiFilterItemValueLow>
+    <StiFilterItemValueOpen>Значення, що відкриває</StiFilterItemValueOpen>
     <StiFilterModeAnd>І</StiFilterModeAnd>
     <StiFilterModeOr>Або</StiFilterModeOr>
     <StiFormStartModeOnEnd>На завершення</StiFormStartModeOnEnd>
@@ -1959,6 +2116,10 @@
     <StiImageRotationRotate180>Повернути на 180°</StiImageRotationRotate180>
     <StiImageRotationRotate90CCW>Повернути на 90° проти годинникової стрілки</StiImageRotationRotate90CCW>
     <StiImageRotationRotate90CW>Повернути на 90° за годинниковою стрілкою</StiImageRotationRotate90CW>
+    <StiKeepDetailsKeepDetailsTogether>Тримати деталі разом</StiKeepDetailsKeepDetailsTogether>
+    <StiKeepDetailsKeepFirstDetailTogether>Тримати першу деталь</StiKeepDetailsKeepFirstDetailTogether>
+    <StiKeepDetailsKeepFirstRowTogether>Тримати перший рядок</StiKeepDetailsKeepFirstRowTogether>
+    <StiKeepDetailsNone>Ні</StiKeepDetailsNone>
     <StiLabelsPlacementNone>Немає</StiLabelsPlacementNone>
     <StiLabelsPlacementOneLine>В одну лінію</StiLabelsPlacementOneLine>
     <StiLabelsPlacementTwoLines>У дві лінії</StiLabelsPlacementTwoLines>
@@ -1992,6 +2153,7 @@
     <StiNumberOfPassDoublePass>Подвійний прохід</StiNumberOfPassDoublePass>
     <StiNumberOfPassSinglePass>Одинарний прохід</StiNumberOfPassSinglePass>
     <StiOrientationHorizontal>Горизонтальна</StiOrientationHorizontal>
+    <StiOrientationHorizontalRight>Горизонтальний (праворуч)</StiOrientationHorizontalRight>
     <StiOrientationVertical>Вертикальна</StiOrientationVertical>
     <StiPageOrientationLandscape>Альбом</StiPageOrientationLandscape>
     <StiPageOrientationPortrait>Портрет</StiPageOrientationPortrait>
@@ -2027,6 +2189,9 @@
     <StiProcessingDuplicatesTypeBasedOnValueAndTagHide>Приховати базуючись на Значенні та властивості Тег</StiProcessingDuplicatesTypeBasedOnValueAndTagHide>
     <StiProcessingDuplicatesTypeBasedOnValueAndTagMerge>Об'єднати базуючись на Значенні та властивості Тег</StiProcessingDuplicatesTypeBasedOnValueAndTagMerge>
     <StiProcessingDuplicatesTypeBasedOnValueRemoveText>Видалити текст базуючись на Значенні</StiProcessingDuplicatesTypeBasedOnValueRemoveText>
+    <StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagHide>Сховати глобально в залежності від Значення і властивості Тег</StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagHide>
+    <StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagMerge>Об'єднати глобально в залежності від Значення і властивості Тег</StiProcessingDuplicatesTypeGlobalBasedOnValueAndTagMerge>
+    <StiProcessingDuplicatesTypeGlobalBasedOnValueRemoveText>Видалити глобально в залежності від Значення</StiProcessingDuplicatesTypeGlobalBasedOnValueRemoveText>
     <StiProcessingDuplicatesTypeGlobalHide>Приховати глобально</StiProcessingDuplicatesTypeGlobalHide>
     <StiProcessingDuplicatesTypeGlobalMerge>З'єднати глобально</StiProcessingDuplicatesTypeGlobalMerge>
     <StiProcessingDuplicatesTypeGlobalRemoveText>Видалити текст глобально</StiProcessingDuplicatesTypeGlobalRemoveText>
@@ -2037,8 +2202,8 @@
     <StiRadarStyleXFCircle>Коло</StiRadarStyleXFCircle>
     <StiRadarStyleXFPolygon>Багатокутник</StiRadarStyleXFPolygon>
     <StiReportCacheModeAuto>Авто</StiReportCacheModeAuto>
-    <StiReportCacheModeOff>Вкл</StiReportCacheModeOff>
-    <StiReportCacheModeOn>Викл</StiReportCacheModeOn>
+    <StiReportCacheModeOff>Вимкнено</StiReportCacheModeOff>
+    <StiReportCacheModeOn>Увімкнено</StiReportCacheModeOn>
     <StiReportUnitTypeCentimeters>Сантиметри</StiReportUnitTypeCentimeters>
     <StiReportUnitTypeHundredthsOfInch>Соті дюйма</StiReportUnitTypeHundredthsOfInch>
     <StiReportUnitTypeInches>Дюйми</StiReportUnitTypeInches>
@@ -2059,6 +2224,7 @@
     <StiSeriesLabelsValueTypeTag>Тег</StiSeriesLabelsValueTypeTag>
     <StiSeriesLabelsValueTypeValue>Значення</StiSeriesLabelsValueTypeValue>
     <StiSeriesLabelsValueTypeValueArgument>Значення - Аргумент</StiSeriesLabelsValueTypeValueArgument>
+    <StiSeriesLabelsValueTypeWeight>Вага</StiSeriesLabelsValueTypeWeight>
     <StiSeriesSortDirectionAscending>За зростанням</StiSeriesSortDirectionAscending>
     <StiSeriesSortDirectionDescending>За спаданням</StiSeriesSortDirectionDescending>
     <StiSeriesSortTypeArgument>Аргумент</StiSeriesSortTypeArgument>
@@ -2092,6 +2258,7 @@
     <StiSqlSourceTypeTable>Таблиця</StiSqlSourceTypeTable>
     <StiStyleComponentTypeAny>Будь-який</StiStyleComponentTypeAny>
     <StiStyleComponentTypeChart>Діаграма</StiStyleComponentTypeChart>
+    <StiStyleComponentTypeCheckBox>Прапорець</StiStyleComponentTypeCheckBox>
     <StiStyleComponentTypeCrossTab>Крос-таблиця</StiStyleComponentTypeCrossTab>
     <StiStyleComponentTypeImage>Зображення</StiStyleComponentTypeImage>
     <StiStyleComponentTypePrimitive>Примітив</StiStyleComponentTypePrimitive>
@@ -2128,6 +2295,8 @@
     <StiTextQualityStandard>Стандартна</StiTextQualityStandard>
     <StiTextQualityTypographic>Типографічна</StiTextQualityTypographic>
     <StiTextQualityWysiwyg>Wysiwyg - Що бачиш, те маєш</StiTextQualityWysiwyg>
+    <StiTitlePositionInside>Всередині</StiTitlePositionInside>
+    <StiTitlePositionOutside>Зовні</StiTitlePositionOutside>
     <StiTypeModeList>Список</StiTypeModeList>
     <StiTypeModeNullableValue>Значення з null</StiTypeModeNullableValue>
     <StiTypeModeRange>Діапазон</StiTypeModeRange>
@@ -2175,6 +2344,7 @@
     <GetCrossValueEvent>Отримати крос-значення</GetCrossValueEvent>
     <GetCutPieListEvent>Отримати список висунутих сегментів</GetCutPieListEvent>
     <GetCuttedPieListEvent>Взяти список висунитих сегментів</GetCuttedPieListEvent>
+    <GetDataUrlEvent>Взяти гіперпосилання на дані</GetDataUrlEvent>
     <GetDisplayCrossValueEvent>Отримати відображуване крос-значення</GetDisplayCrossValueEvent>
     <GetDrillDownReportEvent>Отримати звіт деталізації</GetDrillDownReportEvent>
     <GetExcelSheetEvent>Отримати сторінку Excel</GetExcelSheetEvent>
@@ -2333,6 +2503,7 @@
     <BackgroundColor>Колір заднього фону</BackgroundColor>
     <BarCodeType>Тип штрих-коду</BarCodeType>
     <BasicStyleColor>Основний колір стилю</BasicStyleColor>
+    <BindingColumn>Колонка прив'язки</BindingColumn>
     <Blend>Змішування</Blend>
     <Bold>Жирний</Bold>
     <Bookmark>Закладка</Bookmark>
@@ -2409,10 +2580,12 @@
     <Converting>Конвертація</Converting>
     <ConvertNulls>Перетворювати Nulls</ConvertNulls>
     <Copies>Копії</Copies>
+    <Count>Кількість</Count>
     <CountData>Кількість елементів</CountData>
     <Create>Створення</Create>
     <CreateFieldOnDoubleClick>Створювати поле при подвійному натисканні</CreateFieldOnDoubleClick>
     <CreateLabel>Створити мітку</CreateLabel>
+    <Culture>Культура</Culture>
     <CustomFormat>Форматування на вибір</CustomFormat>
     <CutPieList>Список висунутих сегментів</CutPieList>
     <CuttedPieList>Список висунутих сегментів</CuttedPieList>
@@ -2431,9 +2604,12 @@
     <DataTextField>Поле даних</DataTextField>
     <DataType>Тип даних</DataType>
     <DateInfo>Інформація про дати</DateInfo>
+    <DateTimeStep>Крок часу</DateTimeStep>
     <Default>За замовчуванням</Default>
     <DefaultHeightCell>Висота клітинки за замовчуванням</DefaultHeightCell>
     <DefaultNamespace>Простір імен</DefaultNamespace>
+    <DependentColumn>Залежний стовпчик</DependentColumn>
+    <DependentValue>Залежне значення</DependentValue>
     <Description>Опис</Description>
     <DetectUrls>Автоматично визначати лінки (Url)</DetectUrls>
     <DialogResult>Результат діалогу</DialogResult>
@@ -2448,13 +2624,16 @@
     <DrawBorder>Малювати границю</DrawBorder>
     <DrawHatch>Штриховка</DrawHatch>
     <DrawLine>Малювати лінію</DrawLine>
+    <DrillDown>Деталізація</DrillDown>
     <DrillDownEnabled>Деталізацію увімкнено</DrillDownEnabled>
+    <DrillDownMode>Режим деталізації</DrillDownMode>
     <DrillDownPage>Сторінка деталізації</DrillDownPage>
     <DrillDownParameter1>Параметр деталізації 1</DrillDownParameter1>
     <DrillDownParameter2>Параметр деталізації 2</DrillDownParameter2>
     <DrillDownParameter3>Параметр деталізації 3</DrillDownParameter3>
     <DrillDownParameter4>Параметр деталізації 4</DrillDownParameter4>
     <DrillDownParameter5>Параметр деталізації 5</DrillDownParameter5>
+    <DrillDownParameters>Параметри</DrillDownParameters>
     <DrillDownReport>Звіт деталізації</DrillDownReport>
     <DropDownAlign>Вирівнювання списку</DropDownAlign>
     <DropDownStyle>Стиль списку</DropDownStyle>
@@ -2477,6 +2656,7 @@
     <EvenStyle>Стиль парних рядків</EvenStyle>
     <ExcelSheet>Сторінка Excel</ExcelSheet>
     <ExcelValue>Excel значення</ExcelValue>
+    <Exponential>Експоненціальна</Exponential>
     <ExportAsImage>Експортувати як зображення</ExportAsImage>
     <Expression>Вираз</Expression>
     <FaqPage>Сторінка Faq</FaqPage>
@@ -2485,6 +2665,7 @@
     <Fill>Заповнення</Fill>
     <Filter>Фільтр</Filter>
     <FilterEngine>Режим фільтрації</FilterEngine>
+    <FilterMode>Режим фильтрації</FilterMode>
     <FilterOn>Фільтр включений</FilterOn>
     <Filters>Фільтри</Filters>
     <FirstTabOffset>Позиція першого символу</FirstTabOffset>
@@ -2525,6 +2706,7 @@
     <GridLinesHorRight>Горизонтальні лінії сітки cправа</GridLinesHorRight>
     <GridLineStyle>Стиль лінії сітки</GridLineStyle>
     <GridLinesVert>Вертикальні лінії сітки</GridLinesVert>
+    <GridOutline>Контур таблиці</GridOutline>
     <GrowToHeight>Рости у висоту</GrowToHeight>
     <HeaderBackColor>Колір заголовка</HeaderBackColor>
     <HeaderCanBreak>Заголовок може розриватися</HeaderCanBreak>
@@ -2576,12 +2758,14 @@
     <InterlacedBrush>Пензлик чергування</InterlacedBrush>
     <InterlacingHor>Горизонтальне чергування</InterlacingHor>
     <InterlacingVert>Вертикальне чергування</InterlacingVert>
+    <Interpolation>Інтерполяція</Interpolation>
     <Italic>Похилий</Italic>
     <Item>Елемент</Item>
     <ItemHeight>Висота елемента</ItemHeight>
     <Items>Елементи</Items>
     <KeepChildTogether>Тримати підлеглі разом</KeepChildTogether>
     <KeepCrossTabTogether>Тримати Крос-таблицю разом</KeepCrossTabTogether>
+    <KeepDetails>Тримати деталі</KeepDetails>
     <KeepDetailsTogether>Тримати деталі разом</KeepDetailsTogether>
     <KeepFooterTogether>Тримати підвал разом</KeepFooterTogether>
     <KeepGroupFooterTogether>Тримати підсумок групи разом</KeepGroupFooterTogether>
@@ -2607,6 +2791,7 @@
     <Length>Довжина</Length>
     <LengthUnderLabels>Довжина під підписом</LengthUnderLabels>
     <Lighting>Освітлення</Lighting>
+    <Linear>Лінійна</Linear>
     <LineColor>Колір лінії</LineColor>
     <LineColorNegative>Колір лінії негативних значень</LineColorNegative>
     <LineLimit>Обмеження рядка</LineLimit>
@@ -2620,15 +2805,22 @@
     <ListOfTags>Список тегів</ListOfTags>
     <ListOfToolTips>Список підказок</ListOfToolTips>
     <ListOfValues>Список значень</ListOfValues>
+    <ListOfValuesClose>Список значень закриття</ListOfValuesClose>
     <ListOfValuesEnd>Список кінцевих значень</ListOfValuesEnd>
+    <ListOfValuesHigh>Список максимумів</ListOfValuesHigh>
+    <ListOfValuesLow>Список мінімумів</ListOfValuesLow>
+    <ListOfValuesOpen>Список значень відкриття</ListOfValuesOpen>
     <ListOfWeights>Список вагових значень</ListOfWeights>
     <Localizable>Локалізувати</Localizable>
     <Location>Позиція</Location>
     <Locked>Замок</Locked>
+    <Logarithmic>Логарифмічна</Logarithmic>
+    <LogarithmicScale>Логарифмічна шкала</LogarithmicScale>
     <Low>Низьке</Low>
     <Margins>Поля</Margins>
     <Marker>Маркер</Marker>
     <MarkerAlignment>Вирівнювання маркера</MarkerAlignment>
+    <MarkerBorder>Границя маркера</MarkerBorder>
     <MarkerColor>Колір маркера</MarkerColor>
     <MarkerSize>Розмір маркера</MarkerSize>
     <MarkerType>Тип маркера</MarkerType>
@@ -2661,6 +2853,7 @@
     <MinSize>Мінімальний розмір</MinSize>
     <MinValue>Мінімальне значення</MinValue>
     <MinWidth>Мінімальна ширина</MinWidth>
+    <Mode>Режим</Mode>
     <Module>Модуль</Module>
     <Move>Переміщення</Move>
     <Multiline>Багаторядковий</Multiline>
@@ -2681,11 +2874,13 @@
     <NumberOfColumns>Кількість стовпчиків</NumberOfColumns>
     <NumberOfCopies>Кількість копій</NumberOfCopies>
     <NumberOfPass>Кількість проходів</NumberOfPass>
+    <NumberOfValues>Кількість значень</NumberOfValues>
     <OddStyle>Стиль непарних рядків</OddStyle>
     <OnlyText>Тільки текст</OnlyText>
     <Operation>Операція</Operation>
     <Options>Параметри</Options>
     <Orientation>Орієнтація</Orientation>
+    <OthersText>Текст для інших значень</OthersText>
     <PageHeight>Висота</PageHeight>
     <PageNumbers>Номери сторінок</PageNumbers>
     <PageWidth>Ширина</PageWidth>
@@ -2768,6 +2963,7 @@
     <RightSide>Права сторона</RightSide>
     <RightToLeft>Справа наліво</RightToLeft>
     <Rotation>Поворот</Rotation>
+    <RotationLabels>Поворот написів</RotationLabels>
     <Round>Округлість</Round>
     <RowCount>Кількість рядків</RowCount>
     <RowHeadersVisible>Видимість заголовків</RowHeadersVisible>
@@ -2781,6 +2977,7 @@
     <SelectedItem>Обраний елемент</SelectedItem>
     <SelectedKey>Вибраний ключ</SelectedKey>
     <SelectedValue>Обране значення</SelectedValue>
+    <Selection>Вибір</Selection>
     <SelectionBackColor>Колір вибору</SelectionBackColor>
     <SelectionEnabled>Вибір увімкнено</SelectionEnabled>
     <SelectionForeColor>Колір тексту вибору</SelectionForeColor>
@@ -2805,6 +3002,7 @@
     <ShowMarker>Показувати маркер</ShowMarker>
     <ShowNulls>Показувати невизначені</ShowNulls>
     <ShowOnZeroValues>Показувати при нульових значеннях</ShowOnZeroValues>
+    <ShowOthers>Показувати інші значення</ShowOthers>
     <ShowPercents>Показувати відсотки</ShowPercents>
     <ShowQuietZoneIndicator>Показувати Quiet Zone індикатор</ShowQuietZoneIndicator>
     <ShowQuietZones>Відображати Quiet Zones</ShowQuietZones>
@@ -2866,6 +3064,7 @@
     <SupplementType>Тип доповнення</SupplementType>
     <SystemVariable>Системна змінна</SystemVariable>
     <SystemVariables>Системні змінні</SystemVariables>
+    <Table>Таблиця</Table>
     <Tag>Тег</Tag>
     <TagDataColumn>Колонка даних тегів</TagDataColumn>
     <TagValue>Значення тегу</TagValue>
@@ -2894,10 +3093,13 @@
     <ToolTipDataColumn>Колонка даних підказок</ToolTipDataColumn>
     <Top>Зверху</Top>
     <Topmost>Самий верхній</Topmost>
+    <TopmostLine>Лінія зверху</TopmostLine>
+    <TopN>Кращі значення</TopN>
     <TopSide>Верхня сторона</TopSide>
     <Total>Підсумок</Total>
     <Totals>Підсумки</Totals>
     <TransparentColor>Колір прозорості</TransparentColor>
+    <TrendLine>Лінія тренду</TrendLine>
     <Trimming>Обрізка</Trimming>
     <Type>Тип</Type>
     <TypeName>Назва типу</TypeName>
@@ -2916,9 +3118,17 @@
     <UseStyleOfSummaryInColumnTotal>Використовувати стиль результату в стовпчику підсумку</UseStyleOfSummaryInColumnTotal>
     <UseStyleOfSummaryInRowTotal>Використовувати стиль результату в стрічці підсумку</UseStyleOfSummaryInRowTotal>
     <Value>Значення</Value>
+    <ValueClose>Значення закриття</ValueClose>
     <ValueDataColumn>Стовпчик даних значень</ValueDataColumn>
+    <ValueDataColumnClose>Стовпчик даних значень закриття</ValueDataColumnClose>
     <ValueDataColumnEnd>Колонка даних кінцевих значень</ValueDataColumnEnd>
+    <ValueDataColumnHigh>Стовпчик даних максимумів</ValueDataColumnHigh>
+    <ValueDataColumnLow>Стовпчик даних мінімумів</ValueDataColumnLow>
+    <ValueDataColumnOpen>Стовпчик даних значень відкриття</ValueDataColumnOpen>
     <ValueEnd>Кінцеве значення</ValueEnd>
+    <ValueHigh>Значення максимуму</ValueHigh>
+    <ValueLow>Значення мінімуму</ValueLow>
+    <ValueOpen>Значення відкриття</ValueOpen>
     <Values>Значення</Values>
     <ValueType>Тип значення</ValueType>
     <ValueTypeSeparator>Тип роздільника значень</ValueTypeSeparator>
@@ -3071,7 +3281,7 @@
     <CopyOf>Копія</CopyOf>
     <CreateNewReportPageForm>Створити новий звіт, додати сторінки, додати форму</CreateNewReportPageForm>
     <CreatingReport>Створення Звіту</CreatingReport>
-    <CrossBands>Крос-бенди</CrossBands>
+    <CrossBands>Крос</CrossBands>
     <Dialogs>Елементи керування</Dialogs>
     <EditStyles>[Редагувати стилі]</EditStyles>
     <Errors>Помилки</Errors>
@@ -3134,6 +3344,7 @@
     <SaveReportPagesOrFormsFromReport>Зберегти звіт, сторінки або форми</SaveReportPagesOrFormsFromReport>
     <SavingReport>Збереження звіту</SavingReport>
     <SecondPass>Другий прохід</SecondPass>
+    <Shapes>Примітиви</Shapes>
     <Standard>Стандартний</Standard>
     <StandardConfiguration>Основні властивості об'єктів, за виключенням властивостей, що рідко використовуються.</StandardConfiguration>
     <StiEmptyBrush>Немає</StiEmptyBrush>
@@ -3219,6 +3430,7 @@
     <LineABC>Літерний аналог номеру поточної лінії.</LineABC>
     <LineRoman>Номер поточної лінії, що представлена римськими цифрами.</LineRoman>
     <LineThrough>Номер поточної лінії (Починається з 1). При розрахунку ігноруються всі групи в звіті, та розрахунок ведеться з початку звіту.</LineThrough>
+    <PageCopyNumber>Повертає номер поточного копії сторінки (починаючи з 1).</PageCopyNumber>
     <PageNofM>Локалізований рядок, що відображає напис "Сторінка N із M", де N це номер поточної сторінки, а M - це загальна кількість сторінок в звіті.</PageNofM>
     <PageNofMThrough>Локалізований рядок, що відображає напис "Сторінка N із M", де N це номер поточної сторінки, а M - це загальна кількість сторінок в звіті. При розрахунку змінної, всі параметри, що скидають номер сторінки ігноруються. Розрахунок ведеться з початку звіту.</PageNofMThrough>
     <PageNumber>Поточний номер сторінки (Починається з 1).</PageNumber>
