@@ -6,7 +6,7 @@
 This repository has many examples (Flash Builder 4.7 projects) each in different folders:
 * Change Viewer Theme
 * Connect to the Database
-* Customize ViewerFx
+* Customize Viewer
 * Design and View
 * Design Report
 * Designer Save Event
