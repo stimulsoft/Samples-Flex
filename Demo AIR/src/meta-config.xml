@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flex-config xmlns="http://www.adobe.com/2006/flex-config">
+	<compiler>
+		<keep-as3-metadata>
+			<name>Browsable</name>
+			<name>Serializable</name>
+			<name>SerializeValue</name>
+			<name>SerializeName</name>
+			<name>ReadOnly</name>
+			<name>Category</name>
+			<name>Description</name>
+			<name>DefaultValue</name>
+			<name>Order</name>
+			<name>TypeEditor</name>
+			<name>TypeConverter</name>
+			<name>Type</name>
+			<name>EnumType</name>
+			<name>Localization</name>
+			<name>NotSupported</name>
+			<name>ShowInnerProperties</name>
+			<name>PropertyLevel</name>
+			<name>RefreshProperties</name>
+		</keep-as3-metadata>
+	</compiler>
+</flex-config>

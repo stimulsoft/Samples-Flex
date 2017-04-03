@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Window xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	xmlns:designer="stimulsoft.report.design.*"
+	xmlns:additional="stimulsoft.controls.visual.additional.*" 
+	showStatusBar="false" showTitleBar="false" showGripper="false" frameRate="30"
+	backgroundColor="0xe8e8e8" backgroundAlpha="0" borderStyle="none" title="Designer"
+	width="1070" height="700" minWidth="600" minHeight="450"
+	systemChrome="none" transparent="true"
+	displayStateChange="onDisplayStateChange(event)" initialize="onInitialize()" creationComplete="onCreationComplete()">
+	
+	<mx:Script>
+		<![CDATA[
+			import flash.filters.DropShadowFilter;
+			
+			import mx.events.ResizeEvent;
+			
+			import stimulsoft.base.sti_internal;
+			import stimulsoft.base.api.StiApiProvider;
+			import stimulsoft.base.api.StiApiProviderAIR;
+			import stimulsoft.base.api.events.StiApiProviderEvent;
+			import stimulsoft.base.drawing.StiSolidBrush;
+			import stimulsoft.base.localization.StiLocalization;
+			import stimulsoft.controls.mouse.StiCursorManager;
+			import stimulsoft.flex.base.StiString;
+			import stimulsoft.flex.base.geometry.StiRectangle;
+			import stimulsoft.flex.graphics.StiColor;
+			import stimulsoft.flex.graphics.StiGraphics;
+			import stimulsoft.flex.graphics.StiPen;
+			import stimulsoft.report.design.events.StiDesignerEvent;
+			use namespace sti_internal;
+		
+//--------------------------------------
+//  Resources
+//--------------------------------------
+			
+			[Embed(source="../designer/images/topLeftBorder.png")]
+			private var topLeftBorder: Class;
+			
+			[Embed(source="../designer/images/topBorder.png")]
+			private var topBorder: Class;
+			
+			[Embed(source="../designer/images/topRightBorder.png")]
+			private var topRightBorder: Class;
+			
+			[Embed(source="../designer/images/leftBorder.png")]
+			private var leftBorder: Class;
+			
+			[Embed(source="../designer/images/rightBorder.png")]
+			private var rightBorder: Class;
+			
+			[Embed(source="../designer/images/bottomLeftBorder.png")]
+			private var bottomLeftBorder: Class;
+			
+			[Embed(source="../designer/images/bottomRightBorder.png")]
+			private var bottomRightBorder: Class;
+			
+			[Embed(source="../designer/images/bottomBorder.png")]
+			private var bottomBorder: Class;
+			
+//--------------------------------------
+//  Fields
+//--------------------------------------
+			
+			private var resizeSide: int = 0;
+			private var setDefaultCursor: Boolean = true;
+			private var isOverTitleButton: Boolean = false;
+			private var isPressedTitleButton: Boolean = false;
+			private var isOverTitle: Boolean = false;
+			
+//--------------------------------------
+//  Properties: States
+//--------------------------------------
+
+			protected function isMouseOnForm(event: MouseEvent): Boolean
+			{
+				if (Theme.isTheme2013)
+				{
+					var topLeftPoint: Point = localToGlobal(new Point(designer.x + 4, designer.y + 4 - 26));
+					var rect: Rectangle = new Rectangle(topLeftPoint.x, topLeftPoint.y, designer.width - 8, designer.height - 8 + 26);
+					
+					return rect.contains(event.stageX, event.stageY);
+				}
+				
+				var point: Point = new Point(designer.x - 4, designer.y - 4);
+				return (event.stageX >= localToGlobal(point).x && event.stageX <= localToGlobal(point).x + designer.width + 18 &&
+					event.stageY >= localToGlobal(point).y && event.stageY <= localToGlobal(point).y + designer.height + 18)
+			}
+			
+			protected function isMouseOnTitle(event: MouseEvent): Boolean
+			{
+				if (Theme.isTheme2013)
+				{
+					var topLeftPoint: Point = localToGlobal(new Point(designer.x + 4, designer.y + 4 - 26));
+					var rect: Rectangle = new Rectangle(topLeftPoint.x, topLeftPoint.y, designer.width - 8, 22);
+					
+					return rect.contains(event.stageX, event.stageY);
+				}
+				
+				var point: Point = new Point(designer.x, designer.y);
+				
+				return isMouseOnForm(event) && 
+					(event.stageY < localToGlobal(point).y + 25) && (event.stageY > localToGlobal(point).y) &&
+					(event.stageX > localToGlobal(point).x + 80);
+			}
+			
+			protected function isMouseOnTop(event: MouseEvent): Boolean
+			{
+				if (Theme.isTheme2013)
+				{
+					var topLeftPoint: Point = localToGlobal(new Point(designer.x, designer.y - 26));
+					var rect: Rectangle = new Rectangle(topLeftPoint.x, topLeftPoint.y, designer.width, 4);
+					
+					return rect.contains(event.stageX, event.stageY);
+				}
+				
+				var point: Point = new Point(designer.x - 4, designer.y - 5);
+				return isMouseOnForm(event) && (event.stageY < localToGlobal(point).y + 8) && (event.stageY > localToGlobal(point).y);
+			}
+			
+			protected function isMouseOnBottom(event: MouseEvent): Boolean
+			{
+				if (Theme.isTheme2013)
+				{
+					var topLeftPoint: Point = localToGlobal(new Point(designer.x, designer.y + designer.height - 4));
+					var rect: Rectangle = new Rectangle(topLeftPoint.x, topLeftPoint.y, designer.width, 4);
+					
+					return rect.contains(event.stageX, event.stageY);
+				}
+				
+				var point: Point = new Point(designer.x - 4, designer.height + 19);
+				return isMouseOnForm(event) && (event.stageY > localToGlobal(point).y - 8) && (event.stageY < localToGlobal(point).y);
+			}
+			
+			protected function isMouseOnLeft(event: MouseEvent): Boolean
+			{
+				if (Theme.isTheme2013)
+				{
+					var topLeftPoint: Point = localToGlobal(new Point(designer.x, designer.y - 26));
+					var rect: Rectangle = new Rectangle(topLeftPoint.x, topLeftPoint.y, 4, designer.height + 26);
+					
+					return rect.contains(event.stageX, event.stageY);
+				}
+				
+				var point: Point = new Point(designer.x - 5, designer.y - 4);
+				return isMouseOnForm(event) && (event.stageX < localToGlobal(point).x + 8) && (event.stageX > localToGlobal(point).x);
+			}
+			
+			protected function isMouseOnRight(event: MouseEvent): Boolean
+			{
+				if (Theme.isTheme2013)
+				{
+					var topLeftPoint: Point = localToGlobal(new Point(designer.x + designer.width - 4, designer.y - 26));
+					var rect: Rectangle = new Rectangle(topLeftPoint.x, topLeftPoint.y, 4, designer.height + 26);
+					
+					return rect.contains(event.stageX, event.stageY);
+				}
+				
+				var point: Point = new Point(designer.width + 19, designer.y - 4);
+				return isMouseOnForm(event) && (event.stageX > localToGlobal(point).x - 8) && (event.stageX < localToGlobal(point).x);
+			}
+			
+//--------------------------------------
+//  Methods
+//--------------------------------------
+			
+			protected override function updateDisplayList(unscaledWidth: Number, unscaledHeight: Number): void
+			{
+				if (Theme.isTheme2013) updateDisplayList2013(unscaledWidth, unscaledHeight);
+				else updateDisplayList2007(unscaledWidth, unscaledHeight);
+			}
+			
+			private function updateDisplayList2013(unscaledWidth: Number, unscaledHeight: Number): void
+			{
+				super.updateDisplayList(unscaledWidth, unscaledHeight);
+				
+				var g: StiGraphics = new StiGraphics(designer.graphics);
+				g.clear();
+				
+				var pen: StiPen = new StiPen(1, StiColor.fromFlexColor(0x2b569a));
+				var rect: StiRectangle = new StiRectangle(-1, -26, designer.width + 1, 26);
+				g.drawRectangle(rect, null, StiSolidBrush.White);
+				g.drawLineXY(rect.x, rect.y, rect.width - 1, rect.y, pen);
+				g.drawLineXY(rect.x, rect.y, rect.x, designer.height - 1, pen);
+				g.drawLineXY(rect.width - 1, rect.y, rect.width - 1, designer.height - 1, pen);
+			}
+			
+			private function updateDisplayList2007(unscaledWidth: Number, unscaledHeight: Number): void
+			{
+				super.updateDisplayList(unscaledWidth, unscaledHeight);
+				
+				var g: StiGraphics = new StiGraphics(designer.graphics);
+				g.clear();
+				
+				g.drawImage(topLeftBorder, new StiRectangle(-4, -3, 4, 30));
+				g.drawImage(topBorder, new StiRectangle(0, -4, designer.width, 4));
+				g.drawImage(topRightBorder, new StiRectangle(designer.width, -3, 4, 30));
+				
+				g.drawImage(leftBorder, new StiRectangle(-4, 27, 4, designer.height - 49));
+				g.drawImage(rightBorder, new StiRectangle(designer.width, 27, 4, designer.height - 49));
+				
+				g.drawImage(bottomLeftBorder, new StiRectangle(-4, designer.height - 22, 4, 22));
+				g.drawImage(bottomRightBorder, new StiRectangle(designer.width, designer.height - 22, 4, 22));
+				
+				g.drawImage(bottomBorder, new StiRectangle(0, designer.height, designer.width, 1));
+			}
+			
+			private function getMouseOverSides(event: MouseEvent): int
+			{
+				var side: int = 0;
+				isOverTitle = false;
+				if (!buttonMaximizeRestore.isMaximized)
+				{
+					if (isMouseOnTop(event)) side += 1;
+					if (isMouseOnRight(event)) side += 2;
+					if (isMouseOnBottom(event)) side += 4;
+					if (isMouseOnLeft(event)) side += 8;
+					if (side == 0 && isMouseOnTitle(event)) isOverTitle = true;
+				}
+				
+				return side;
+			}
+
+//--------------------------------------
+//  Events: Mouse Move
+//--------------------------------------
+		
+		    private function onMouseMove(event: MouseEvent): void
+			{
+				var overSides: int = getMouseOverSides(event);
+				if ((overSides == 0 && !setDefaultCursor) || isOverTitleButton || isPressedTitleButton)
+				{
+					StiCursorManager.setDefault();
+					setDefaultCursor = true;
+					return;
+				}
+				
+				switch (overSides)
+				{
+					case  1: StiCursorManager.setResizeVertical(); setDefaultCursor = false; break;
+					case  2: StiCursorManager.setResizeHorizontal(); setDefaultCursor = false; break;
+					case  3: StiCursorManager.setResizeDiagonalRightLeft(); setDefaultCursor = false; break;
+					case  4: StiCursorManager.setResizeVertical(); setDefaultCursor = false; break;
+					case  6: StiCursorManager.setResizeDiagonalLeftRight(); setDefaultCursor = false; break;
+					case  8: StiCursorManager.setResizeHorizontal(); setDefaultCursor = false; break;
+					case  9: StiCursorManager.setResizeDiagonalLeftRight(); setDefaultCursor = false; break;
+					case 12: StiCursorManager.setResizeDiagonalRightLeft(); setDefaultCursor = false; break;
+				}
+			}
+			
+			private function onMouseOut(event: MouseEvent): void
+			{
+				if (event.currentTarget == event.target && !setDefaultCursor) StiCursorManager.setDefault();
+			}
+		
+//--------------------------------------
+//  Events: Resize
+//--------------------------------------
+		
+			private function onMouseDownResize(event: MouseEvent): void
+			{
+				if (isOverTitleButton || isPressedTitleButton) return;
+				
+				resizeSide = getMouseOverSides(event);
+				if (resizeSide > 0)
+				{
+					stage.addEventListener(MouseEvent.MOUSE_MOVE, onStageMouseMoveResize);
+					stage.addEventListener(MouseEvent.MOUSE_UP, onStageMouseUpResize);
+				}
+				else
+				{
+					if (isOverTitle) stage.nativeWindow.startMove();
+				}
+			}
+			
+			protected function onStageMouseMoveResize(event: MouseEvent): void
+			{
+				if (!setDefaultCursor)
+				{
+					switch (resizeSide)
+					{ 
+						case 1: stage.nativeWindow.startResize(NativeWindowResize.TOP); break;
+						case 2: stage.nativeWindow.startResize(NativeWindowResize.RIGHT); break;
+						case 3: stage.nativeWindow.startResize(NativeWindowResize.TOP_RIGHT); break;
+						case 4: stage.nativeWindow.startResize(NativeWindowResize.BOTTOM); break;
+						case 6: stage.nativeWindow.startResize(NativeWindowResize.BOTTOM_RIGHT); break;
+						case 8: stage.nativeWindow.startResize(NativeWindowResize.LEFT); break;
+						case 9: stage.nativeWindow.startResize(NativeWindowResize.TOP_LEFT); break;
+						case 12: stage.nativeWindow.startResize(NativeWindowResize.BOTTOM_LEFT); break;
+					}
+
+					StiCursorManager.setDefault();
+					setDefaultCursor = true;
+				}
+			}
+			
+			protected function onStageMouseUpResize(event: MouseEvent): void
+			{
+				stage.removeEventListener(MouseEvent.MOUSE_MOVE, onStageMouseMoveResize);
+				stage.removeEventListener(MouseEvent.MOUSE_UP, onStageMouseUpResize);
+				
+				onMouseOut(event);
+				onMouseMove(event);
+			}
+	    
+//--------------------------------------
+//  Events: Title Close Button
+//--------------------------------------
+	    
+		    private function onTitleButtonMouseOver(event: MouseEvent): void
+			{
+				isOverTitleButton = true;
+				StiCursorManager.setDefault();
+			}
+			
+			private function onTitleButtonMouseOut(event: MouseEvent): void
+			{
+				isOverTitleButton = false;
+			}
+			
+			private function onTitleButtonMouseDown(event: MouseEvent): void
+			{
+				isPressedTitleButton = true;
+				stage.addEventListener(MouseEvent.MOUSE_UP, onTitleButtonMouseUp);
+			}
+			
+			private function onTitleButtonMouseUp(event: MouseEvent): void
+			{
+				isPressedTitleButton = false;
+				stage.removeEventListener(MouseEvent.MOUSE_UP, onTitleButtonMouseUp);
+				onMouseMove(event);
+			}
+			
+//--------------------------------------
+//  Events
+//--------------------------------------
+
+			private function onInitialize(): void
+			{
+				StiApiProvider.provider = new StiApiProviderAIR(StiApiProvider.AppDesignerFx);
+			}
+			
+			private function onCreationComplete(): void
+			{
+				addEventListener(MouseEvent.MOUSE_MOVE, onMouseMove);
+				addEventListener(MouseEvent.MOUSE_DOWN, onMouseDownResize);
+				
+				designer.addEventListener(ResizeEvent.RESIZE, onResize);
+				designer.addEventListener(StiDesignerEvent.EXIT, onDesignerExit);
+				StiApiProvider.provider.addEventListener(StiApiProviderEvent.CHANGE_TITLE_START, onChangeTitle);
+				
+				buttonMinimize.addEventListener(MouseEvent.MOUSE_OVER, onTitleButtonMouseOver);
+				buttonMinimize.addEventListener(MouseEvent.MOUSE_OUT, onTitleButtonMouseOut);
+				buttonMinimize.addEventListener(MouseEvent.MOUSE_DOWN, onTitleButtonMouseDown);
+				
+				buttonMaximizeRestore.addEventListener(MouseEvent.MOUSE_OVER, onTitleButtonMouseOver);
+				buttonMaximizeRestore.addEventListener(MouseEvent.MOUSE_OUT, onTitleButtonMouseOut);
+				buttonMaximizeRestore.addEventListener(MouseEvent.MOUSE_DOWN, onTitleButtonMouseDown);
+				
+				buttonClose.addEventListener(MouseEvent.MOUSE_OVER, onTitleButtonMouseOver);
+				buttonClose.addEventListener(MouseEvent.MOUSE_OUT, onTitleButtonMouseOut);
+				buttonClose.addEventListener(MouseEvent.MOUSE_DOWN, onTitleButtonMouseDown);
+				
+				var shadow: DropShadowFilter = new DropShadowFilter(3, 45, 0, 0.4, 7, 7);
+				designer.filters = [shadow];
+				
+				onResize(null);
+			}
+			
+			private function onDesignerExit(event: StiDesignerEvent): void
+			{
+				close();
+			}
+
+			private function onResize(event: ResizeEvent): void
+			{
+				if (labelTitle != null)
+				{
+					labelTitle.validateProperties();
+					labelTitle.x = (designer.width - labelTitle.textWidth) / 2;
+				}
+			}
+			
+			private function onChangeTitle(event: StiApiProviderEvent): void
+			{
+				// Divide the full path to the file into component parts
+				var fileName: String = "Report.mrt";
+				var fileNameParts: Array = [];
+				if (!StiString.isNullOrEmpty(event.fileName)) fileNameParts = event.fileName.split("\\");
+				if (fileNameParts.length > 0)
+				{
+					fileNameParts = fileNameParts[fileNameParts.length - 1].split("/");
+					fileName = fileNameParts[fileNameParts.length - 1];
+				}
+				
+				// Change the window title
+				labelTitle.htmlText = '<font color="black">' + fileName + '</font><font color="#3E6AAA"> - ' + StiLocalization.getValue("FormDesigner", "title") + '</font>';
+				labelTitle.invalidateSize();
+				onResize(null);
+				
+				// Change the title of an application
+				title = fileName + " - " + StiLocalization.getValue("FormDesigner", "title");
+			}
+
+			private function onDisplayStateChange(event: NativeWindowDisplayStateEvent): void
+			{
+				buttonMaximizeRestore.isMaximized = event.afterDisplayState == NativeWindowDisplayState.MAXIMIZED;
+				
+				var delta: Number = 10;
+				if (event.afterDisplayState == NativeWindowDisplayState.MAXIMIZED) delta = 0;
+				if (Capabilities.os == "Windows 7") delta += 4;
+				
+				designer.left = delta + 4;
+				designer.top = delta + 4;
+				designer.right = delta + 4;
+				designer.bottom = delta + 4;
+				
+				buttonClose.top = delta + 4;
+				buttonClose.right = delta + 4;
+				
+				buttonMaximizeRestore.top = delta + 4;
+				buttonMaximizeRestore.right = delta + 29;
+				
+				buttonMinimize.top = delta + 4;
+				buttonMinimize.right = delta + 54;
+				
+				labelTitle.top = delta + 7;
+				
+				if (Theme.isTheme2013)
+				{
+					designer.top += 26;
+					
+					buttonClose.top = delta + 9;
+					buttonClose.right = delta + 9;
+					
+					buttonMaximizeRestore.top = delta + 9;
+					buttonMaximizeRestore.right = delta + 34;
+					
+					buttonMinimize.top = delta + 9;
+					buttonMinimize.right = delta + 59;
+				}
+			}
+			
+			private function onMaximizeRestoreButtonClick(): void
+			{
+				if (buttonMaximizeRestore.isMaximized) restore();
+				else maximize();
+			}
+
+			private function onCloseButtonClick(): void
+			{
+				close();
+			}
+		
+		]]>
+	</mx:Script>
+	
+
+	<designer:StiDesignerFx id="designer" left="14" right="14" top="14" bottom="13" />
+
+	<additional:StiMinimizeButton id="buttonMinimize" top="14" right="64" click="minimize()" />
+	<additional:StiMaximizeRestoreButton id="buttonMaximizeRestore" top="14" right="39" click="onMaximizeRestoreButtonClick()" />
+	<additional:StiCloseButton id="buttonClose" top="14" right="14" click="onCloseButtonClick()" />
+	<mx:Label id="labelTitle" top="17" htmlText="Designer" fontSize="12"/>
+	
+</mx:Window>

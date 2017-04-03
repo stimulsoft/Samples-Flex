@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Demo>
+  <Localization>
+    <ButtonDesign>Design Report</ButtonDesign>
+    <ButtonDocumentation>Documentation</ButtonDocumentation>
+    <ButtonForum>Forum</ButtonForum>
+    <ButtonHelpResources>Help Resources</ButtonHelpResources>
+    <ButtonKnowledgebase>Knowledgebase</ButtonKnowledgebase>
+    <ButtonPurchase>Purchase</ButtonPurchase>
+    <ButtonSupport>Support</ButtonSupport>
+    <ButtonVideos>All Videos</ButtonVideos>
+    <DescDemo>&lt;font size="17"&gt;DEMO&lt;/font&gt;&lt;br&gt;Run the application in which you can view the finished reports, as well as to open the designer and try your skills at creating your own ones.&lt;/br&gt;</DescDemo>
+    <DescDocumentation>&lt;font size="17"&gt;DOCUMENTATION&lt;/font&gt;&lt;br&gt;Start using the reporting tool with reading the user manual. This is necessary to improve your knowledge and experience in creating reports of any complexity.&lt;/br&gt;</DescDocumentation>
+    <DescForum>&lt;font size="17"&gt;FORUM&lt;/font&gt;&lt;br&gt;Join a users community and discuss issues related to the software. On the message board you can share your experience with other forum participants.&lt;/br&gt;</DescForum>
+    <DescSampleProject>&lt;font size="17"&gt;SAMPLE PROJECT&lt;/font&gt;&lt;br&gt;In this section you can find lots of project ideas using the report generator. You are able to immediately put them into practice in your applications.&lt;/br&gt;</DescSampleProject>
+    <DescSupport>&lt;font size="17"&gt;SUPPORT&lt;/font&gt;&lt;br&gt;Something goes wrong with your reports? Ask our technical managers. Experienced professionals are ready to relieve the problems and issues you may have.&lt;/br&gt;</DescSupport>
+    <DescVideo>&lt;font size="17"&gt;VIDEO&lt;/font&gt;&lt;br&gt;Dozens of clips to create reports of any complexity are available on our website. For easy viewing, video tutorials are thematically joined into categories.&lt;/br&gt;</DescVideo>
+    <DisplayWelcomeScreenAgain>Display Welcome Screen Again</DisplayWelcomeScreenAgain>
+    <JumpToWelcomeScreen>Jump To Welcome Screen</JumpToWelcomeScreen>
+    <LabelHelp>Help</LabelHelp>
+    <LabelSamples>Samples</LabelSamples>
+    <LabelVideos>Videos</LabelVideos>
+    <Welcome>WELCOME</Welcome>
+    <WelcomeDesc>We are pleased you are running now reporting tool &lt;b&gt;Stimulsoft Reports.Net&lt;/b&gt;. The product is carefully designed for WinForms and used for creating reports of a high quality for you, your business and your customers. An exciting moment is coming! In a few moments you will be able to start designing your own reports.&lt;br&gt;&lt;br&gt;Have a good time in making the first steps with Stimulsoft Reports.&lt;/br&gt;&lt;/br&gt;</WelcomeDesc>
+  </Localization>
+  <Category name="Basic Reports">
+    <Report name="Simple List" file="SimpleList.mrt">
+      <desc>This sample demonstrates how to create a simple list report.</desc>
+      <video name="How to Create Simple List" desc="">http://www.stimulsoft.com/livedemos/quickstart/How_to_create_Simple_List.html</video>
+      <video name="How to Create List Report" desc="">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_List_Report.html</video>
+      <video name="How to Create Report Using Dictionary" desc="">http://www.stimulsoft.com/livedemos/ReportCreation/How_to_create_Report_using_Dictionary.html</video>
+      <video name="How to Use Word Wrap and Grow to Height" desc="">http://www.stimulsoft.com/livedemos/ReportCreation/How_to_Use_Word_Wrap_and_Grow_to_Height.html</video>
+      <sample name="Print Table" vb="False" desc="">WinForms\CSharp\PrintTable\PrintTable.sln</sample>
+      <sample name="Print Table" vb="True" desc="">WinForms\VB.Net\PrintTable\PrintTable.sln</sample>
+      <sample name="Runtime Table Creation" vb="False" desc="">WinForms\CSharp\RuntimeTableCreation\RuntimeTableCreation.sln</sample>
+      <sample name="Runtime Table Creation" vb="True" desc="">WinForms\VB.Net\RuntimeTableCreation\RuntimeTableCreation.sln</sample>
+    </Report>
+    <Report name="Two Simple Lists" file="TwoSimpleLists.mrt">
+      <desc>This sample demonstrates how to create two simple list reports.</desc>
+      <video name="How to Create MultiPage Report " desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_MultiPage_Report.html</video>
+    </Report>
+    <Report name="Highlight Condition" file="HighlightCondition.mrt">
+      <desc>This sample demonstrates how to use highlight condition to create a report.</desc>
+      <video name="How to Create Report with Highlight Condition" desc="">http://www.stimulsoft.com/livedemos/conditions/How_to_Create_Report_with_Highlight_Condition.html</video>
+      <video name="How to create Report with Highlight Condition" desc="">http://www.stimulsoft.com/livedemos/ReportCreation/How_to_create_Report_with_Highlight_Condition.html</video>
+      <video name="How to create Report with Hightlight Condition using Styles" desc="">http://www.stimulsoft.com/livedemos/ReportCreation/How_to_create_Report_with_Hightlight_Condition_using_Styles.html</video>
+      <video name="How to Create Report with Conditions (Assigning Expression)" desc="">http://www.stimulsoft.com/livedemos/conditions/How_to_Create_Report_with_Conditions_(Assigning%20Expression).html</video>
+    </Report>
+    <Report name="Shapes" file="Shapes.mrt">
+      <desc>This sample demonstrates how to create a report with shapes.</desc>
+    </Report>
+    <Report name="Images" file="Images.mrt">
+      <desc>This sample demonstrates how to create a report with images.</desc>
+    </Report>
+    <Report name="Watermark" asp="False" file="Watermark.mrt">
+      <desc>This sample demonstrates how to create a report with watermark.</desc>
+    </Report>
+    <Report name="Bar-Codes" asp="False" file="BarCodes.mrt">
+      <desc>This sample demonstrates how to create a report with Bar-Codes.</desc>
+    </Report>
+    <Report name="HTML Tags" asp="False" file="HtmlTags.mrt">
+      <desc>This sample demonstrates how to create a report with using HTML tags.</desc>
+    </Report>
+    <Report name="Invoice" file="Invoice.mrt">
+      <desc>A simple invoice.</desc>
+    </Report>
+  </Category>
+  <Category name="Reports with Columns">
+    <Report name="Multi-Column List" file="MultiColumnList.mrt">
+      <desc>This sample demonstrates how to create a report with multiple columns. To create a report with columns set the Columns property of a page to two or more.</desc>
+      <video name="How to Create Report with Columns on Page " desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Report_with_Columns_on_Page.html</video>
+      <video name="How to Create Report with Columns 1" desc="">http://www.stimulsoft.com/livedemos/ReportCreation/How_to_create_Report_with_Columns.html</video>
+      <video name="How to Create Report with Columns 2" desc="">http://www.stimulsoft.com/livedemos/ReportCreation/How_to_create_Report_with_Columns_2.html</video>
+    </Report>
+    <Report name="Multi-Column Bands, Across-Down" file="MultiColumnBandsAcrossThenDown.mrt">
+      <desc>This sample demonstrates how to create a report with multiple columns on the bands. Multicolumn direction - across then down.</desc>
+      <video name="How to Create Report with Column on DataBand" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Report_with_Column_on_DataBand.html</video>
+    </Report>
+    <Report name="Multi-Column Bands, Down-Across" file="MultiColumnBandsDownThenAcross.mrt">
+      <desc>This sample demonstrates how to create a report with multiple columns on the bands. Multicolumn direction - down then across.</desc>
+      <video name="How to Create Report with Column on DataBand" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Report_with_Column_on_DataBand.html</video>
+    </Report>
+    <Report name="Labels" file="Labels.mrt">
+      <desc>This sample demonstrates how to create a report with labels.</desc>
+      <video name="How to Create a Report with the Label Report Wizard " desc="">http://www.stimulsoft.com/livedemos/reportwizard/How_to_Create_Report_with_Label_Report_Wizard.html</video>
+    </Report>
+  </Category>
+  <Category name="Master-Detail Reports">
+    <Report name="Master-Detail" file="Master-Detail.mrt">
+      <desc>This sample demonstrates how to create a Master-Detail report.</desc>
+      <video name="How to Create Master-Detail Report" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Master-Detail_Report.html</video>
+      <video name="How to Create a Report with the Master-Detail Report Wizard" desc="">http://www.stimulsoft.com/livedemos/reportwizard/How_to_Create_Report_with_Master-Detail_Report_Wizard.html</video>
+    </Report>
+    <Report name="Two Masters on One Detail" file="TwoMastersOnOneDetail.mrt">
+      <desc>This sample demonstrates how to create a report with two master-detail links. And detail for both links is the same.</desc>
+    </Report>
+    <Report name="Master-Detail with zero Height" file="Master-DetailWithZeroHeight.mrt">
+      <desc>This sample demonstrates how to create a Master-Detail report in which one of the bands has the zero height.</desc>
+    </Report>
+    <Report name="Master-Detail on DataBand" file="Master-Detail on DataBand.mrt">
+      <desc>This sample demonstrates how to create a Master-Detail report in which one of the bands is placed on another one.</desc>
+    </Report>
+  </Category>
+  <Category name="Reports with Groups">
+    <Report name="Simple Group" file="SimpleGroup.mrt">
+      <desc>This sample demonstrates how to create a simple group report with one group.</desc>
+      <video name="How to Create Report with Groups" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Report_with_Groups.html</video>
+    </Report>
+    <Report name="Top Sales" file="GroupsTopSales.mrt">
+      <desc>This sample demonstrates how to sort group by its totals.</desc>
+    </Report>
+    <Report name="Master-Detail with Groups" file="Master-DetailWithGroups.mrt">
+      <desc>This sample demonstrates how to create a Master-Detail report with groups.</desc>
+      <video name="How to Create Report with Groups" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Report_with_Groups.html</video>
+    </Report>
+    <Report name="Multi-Column Group" file="MultiColumnGroup.mrt">
+      <desc>This sample demonstrates how to create a simple group report with two columns on a page.</desc>
+    </Report>
+    <Report name="Groups with Ranges" file="GroupsWithRanges.mrt">
+      <desc>This sample demonstrates how to create groups with ranges in a report.</desc>
+    </Report>
+    <Report name="Simple Group with Columns" file="SimpleGroupWithColumns.mrt">
+      <desc>This sample demonstrates how to create a simple group report with multiple columns on the bands. Multicolumn direction - across then down.</desc>
+      <video name="How to create Report with Groups" desc="">http://www.stimulsoft.com/livedemos/ReportCreation/How_to_create_Report_with_Groups.html</video>
+    </Report>
+    <Report name="All GroupFooters at End" file="AllGroupFootersAtEnd.mrt">
+      <desc>This sample shows all group footers at the bottom of a report.</desc>
+    </Report>
+    <Report name="Invoice with Groups" file="InvoiceWithGroups.mrt">
+      <desc>An invoice with categories.</desc>
+    </Report>
+  </Category>
+  <Category name="Parameters">
+    <Report name="Selecting Country" file="ParametersSelectingCountry.mrt">
+      <desc>Showing data only by selected countries.</desc>
+      <video name="How to Create Report with Parameters(Selecting Country)" desc="">http://www.stimulsoft.com/livedemos/parameters/How_to_Create_Report_with_Parameters(Selecting_Country).html</video>
+    </Report>
+    <Report name="Invoice" asp="False" file="ParametersInvoice.mrt">
+      <desc>This sample requests parameters for printing an invoice.</desc>
+    </Report>
+  </Category>
+  <Category name="Interactive Reports">
+    <Report name="Interactive Sorting" asp="False" file="DrillDownSorting.mrt">
+      <desc>This sample demonstrates how to use interactive sorting.</desc>
+      <video name="How to Create Report with Interaction Sorting" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Report_with_Interaction_Sorting.html</video>
+    </Report>
+    <Report name="Bookmarks, Hyperlinks" asp="False" file="BookmarksHyperlinks.mrt">
+      <desc>This sample demonstrates how to use bookmarks and hyperlinks.</desc>
+    </Report>
+    <Report name="Anchors" asp="False" file="Anchors.mrt">
+      <desc>This sample demonstrates how to use anchors.</desc>
+      <video name="How to Create Report with Anchors" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Report_with_Anchors.html</video>
+    </Report>
+  </Category>
+  <Category name="Charts">
+    <Report name="Population" file="Chart_of_Population.mrt">
+      <desc>This sample demonstrates how to use Clustered Bar Series.</desc>
+      <video name="How to Create Report with Chart on Page" desc="This video will show you how quickly you can design a report with the Chart component on a page.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Report_with_Chart_on_Page.html</video>
+      <video name="How to Create Report with Charts 1" desc="This video introduces one of the ways of creating a report with the chart.">http://www.stimulsoft.com/livedemos/Charts/How_to_create_Report_with_Charts_1.html</video>
+      <video name="How to Create Report with Charts 2" desc="This video shows you one of the ways of creating a report with the chart.">http://www.stimulsoft.com/livedemos/Charts/How_to_create_Report_with_Charts_2.html</video>
+      <video name="How to Create Report with Charts 3" desc="This video provides a description one of the ways of creating a report with the chart.">http://www.stimulsoft.com/livedemos/Charts/How_to_create_Report_with_Charts_3.html</video>
+      <video name="How to Create Drill-Down Report with Chart (Using Page). Part - 1" desc="In this video you will be shown how to design a drill-down report with the Chart component.">http://www.stimulsoft.com/livedemos/ChartsInteraction/How_to_Create_Drill_Down_Report_with_Chart_-_1_(Using_Page).html</video>
+      <video name="How to Create Drill-Down Report with Chart (Using Page). Part - 2" desc="This video is a continuation of the first video showing how to design a drill-down report with the Chart component.">http://www.stimulsoft.com/livedemos/ChartsInteraction/How_to_Create_Drill_Down_Report_with_Chart_-_2_(Using_Page).html</video>
+      <video name="How to Create Report with Tags. Part - 1" desc="This video will show you how easy you can build a report with tags.">http://www.stimulsoft.com/livedemos/ChartsInteraction/How_to_Create_Report_with_Tags_(Part_-_1).html</video>
+      <video name="How to Create Report with Tags. Part - 2" desc="This video is a continuation of the first video showing how easy you can build a report with tags.">http://www.stimulsoft.com/livedemos/ChartsInteraction/How_to_Create_Report_with_Tags_(Part_-_2).html</video>
+      <video name="How to Create Drill-Down Report with Chart (Using Report)" desc="In this video see how to properly create a drill-down report with the Chart component.">http://www.stimulsoft.com/livedemos/ChartsInteraction/How_to_Create_Drill-Down_Report_with_Chart_(Using_Report).html</video>
+    </Report>
+    <Report name="GDP Growth 2005-2010" file="Chart_of_GDP_Growth_2005-2010.mrt">
+      <desc>This sample demonstrates how to use Clustered Column Series.</desc>
+    </Report>
+    <Report name="Global Growth 2006 and 2008" file="Chart_of_Global_Growth_2006_and_2008.mrt">
+      <desc>This sample demonstrates how to use Stacked Column Series.</desc>
+    </Report>
+    <Report name="Global Growth 2008" file="Chart_of_Global_Growth_2008.mrt">
+      <desc>This sample demonstrates how to use Pie Series.</desc>
+    </Report>
+    <Report name="Migration by Decade in USA" file="Chart_of_Migration_by_Decade_in_USA.mrt">
+      <desc>This sample demonstrates how to use Line Series.</desc>
+    </Report>
+    <Report name="Foreign official reserves in Euro" file="Chart_of_Foreign_official_reserves_in_Euro.mrt">
+      <desc>This sample demonstrates how to use Stepped Area Series.</desc>      
+    </Report>
+    <Report name="Oil Extraction by Countries" file="Chart_of_Oil_Extraction_by_Countries.mrt">
+      <desc>This sample demonstrates how to use Stacked Spline Area Series.</desc>
+    </Report>    
+    <Report name="Produced Cars" file="Chart_of_Produced_Cars.mrt">
+      <desc>This sample demonstrates how to use Line Series.</desc>
+    </Report>
+    <Report name="Chart Styles" file="Chart_Styles.mrt">
+      <desc>This sample demonstrates how to use Chart Styles.</desc>
+    </Report>
+    <Report name="Chart on DataBand" file="ChartOnDataband.mrt">
+      <desc>This sample demonstrates how to use a chart with DataBand.</desc>
+      <video name="How to Create Report with Chart on DataBand" desc="This video shows creating a report with the Chart component on the data band.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Report_with_Chart_on_DataBand.html</video>
+    </Report>
+  </Category>
+  <Category name="Cross-Tabs Reports">
+    <Report name="Standard Cross-Tabs" file="StandardCrossTab.mrt">
+      <desc>This sample demonstrates how to create a report using a Cross-tab component.</desc>
+      <video name="How to Create Report with Cross-Tab" desc="">http://www.stimulsoft.com/livedemos/ReportCreation/How_to_create_report_with_Cross-Tab.html</video>
+      <video name="How to Create Report with Cross-Tab Wizard" desc="">http://www.stimulsoft.com/livedemos/reportwizard/How_to_Create_Report_with_Cross-Tab_Wizard.html</video>
+      <video name="How to Create Report with Cross-Tab on Page and Segments" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Report_with_Cross-Tab_on_Page_and_Segments.html</video>
+    </Report>
+    <Report name="Cross-Tab without Columns" file="CrossTabWithoutColumns.mrt">
+      <desc>This sample demonstrates how to create a report using a Cross-tab component without columns.</desc>
+    </Report>
+    <Report name="Cross-Tab without Rows" file="CrossTabWithoutRows.mrt">
+      <desc>This sample demonstrates how to create report using a cross-tab component without rows.</desc>
+    </Report>
+    <Report name="Cross-Tab with Condition 1" file="CrossTabWithHighlightCondition.mrt">
+      <desc>This sample demonstrates how to create a report using a Cross-tab component with highlight condition</desc>
+    </Report>
+    <Report name="Cross-Tab with Condition 2" file="CrossTabWithHighlightCondition2.mrt">
+      <desc>This sample demonstrates how to create a report using a Cross-tab component with highlight condition</desc>
+    </Report>
+    <Report name="Cross-Tab with Two Summaries" file="CrossTabWithTwoSummaries.mrt">
+      <desc>This sample demonstrates how to create a report using a Cross-tab component with two summaries.</desc>
+    </Report>
+    <Report name="Wrapped Cross-Tabs" file="WrappedCrossTab.mrt">
+      <desc>This sample demonstrates how to create a report with wrapped Cross-tab.</desc>
+    </Report>
+  </Category>
+  <Category name="Reports with EmptyBand">
+    <Report name="Simple List with Empty Lines" file="SimpleListWithEmptyLines.mrt">
+      <desc>This sample demonstrates how to create a simple list report with empty lines on the bottom of a page.</desc>
+      <video name="How to Create Report with EmptyBand" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Report_with_EmptyBand.html</video>
+      <video name="How to Create Report with EmptyBand 1" desc="">http://www.stimulsoft.com/livedemos/ReportCreation/How_to_create_Report_with_Empty_Band.html</video>
+    </Report>
+    <Report name="Master-Detail with Empty Lines" file="Master-DetailWithEmptyLines.mrt">
+      <desc>This sample demonstrates how to create a Master-Detail report with empty lines on the bottom of a page.</desc>
+      <video name="How to Create Report with EmptyBand" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Report_with_EmptyBand.html</video>
+    </Report>
+    <Report name="Invoice with Empty Band" file="InvoiceWithEmptyBand.mrt">
+      <desc>An invoice created using an Empty Band.</desc>
+      <video name="How to create Report with Empty Band" desc="">http://www.stimulsoft.com/livedemos/ReportCreation/How_to_create_Report_with_Empty_Band.html</video>
+    </Report>
+  </Category>
+  <Category name="Containers">
+    <Report name="Side-by-Side Lists" file="SideBySideListWithContainers.mrt">
+      <desc>This sample demonstrates how to create a report that contains two side by side lists with containers.</desc>
+      <video name="How to Create Side-by-Side Report" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Side-by-Side_Report.html</video>
+    </Report>
+    <Report name="Multi-Column List" file="MultiColumnListContainers.mrt">
+      <desc>This sample demonstrates how to create a report with multiple columns using containers.</desc>
+    </Report>
+    <Report name="Multi-Containers" file="MultiContainers.mrt">
+      <desc>This sample demonstrates how to create a report with multiple containers on a page.</desc>
+    </Report>
+    <Report name="Master-Detail Cards" file="Master-DetailCards.mrt">
+      <desc>This sample demonstrates how to create a Master-Detail report which data are grouped as cards.</desc>
+    </Report>
+  </Category>
+  <Category name="SubReports">
+    <Report name="Side-by-Side Lists" file="SideBySideListWithSubReports.mrt">
+      <desc>This sample demonstrates how to create a report that contains two side by side lists with Sub-Reports.</desc>
+      <video name="How to Create Side-by-Side Report" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Side-by-Side_Report.html</video>
+    </Report>
+    <Report name="Side-by-Side Lists on DataBand" file="SideBySideListWithSubReportsOnDataBand.mrt">
+      <desc>This sample demonstrates how to create a report that contains two side by side lists with Sub-Reports on a DataBand.</desc>
+      <video name="How to Create Report with SubReport Component on DataBand" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Report_with_SubReportComponent_on_DataBand.html</video>
+    </Report>
+    <Report name="Master-Detail" file="Master-DetailWithSubReports.mrt">
+      <desc>This sample demonstrates how to create a Master-Detail report with Sub-Reports.</desc>
+      <video name="How to Create Master-Detail Report with SubReport Component" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Master-Detail_Report_with_SubReportComponent.html</video>
+    </Report>
+  </Category>
+  <Category name="Page segments">
+    <Report name="Two Segments on Width" file="TwoSegmentsOnWidth.mrt">
+      <desc>This sample demonstrates how to create a report with the width of some pages. Use the SegmentPerWidth and SegmentPerHeight properties to set the number of segments of a page.</desc>
+      <video name="How to Create Report with Cross-Tab on Page and Segments" desc="Basic steps for this video are described in the User Manual the section Getting Started. The user manual is delivered in the product installation pack.">http://www.stimulsoft.com/livedemos/step-by-step/How_to_Create_Report_with_Cross-Tab_on_Page_and_Segments.html</video>
+    </Report>
+    <Report name="Unlimited Height" file="UnlimitedHeight.mrt">
+      <desc>This sample demonstrates how to create a report with the unlimited height. Use the UnlimitedHeight property to set the unlimited height of a page.</desc>
+    </Report>
+    <Report name="Group and List" file="GroupAndList.mrt">
+      <desc>This sample demonstrates how to combine printing of a list and group.</desc>
+    </Report>
+	</Category>	
+</Demo>

@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:WindowedApplication
+	xmlns:mx="http://www.adobe.com/2006/mxml" layout="absolute"
+	xmlns:viewer="stimulsoft.viewer.*" xmlns:visual="stimulsoft.controls.visual.*"
+	backgroundColor="0xe8e8e8" showStatusBar="false" title="Stimulsoft Reports.Fx Demo"
+	width="1060" height="690" minWidth="700" minHeight="500"
+	initialize="onInitialize()" addedToStage="onAddedToStage()">
+	
+	<mx:Script>
+		<![CDATA[
+			import flash.filters.DropShadowFilter;
+			
+			import mx.events.FlexEvent;
+			
+			import stimulsoft.air.demo_fx.StiDesignerWindow;
+			import stimulsoft.base.sti_internal;
+			import stimulsoft.base.api.StiApiProvider;
+			import stimulsoft.base.api.StiApiProviderAIR;
+			import stimulsoft.base.localization.StiLocalization;
+			import stimulsoft.base.localization.StiLocalizationEvent;
+			import stimulsoft.base.settings.StiSettings;
+			import stimulsoft.controls.animation.StiTransition;
+			import stimulsoft.controls.app.StiApplication;
+			import stimulsoft.controls.mouse.StiCursorManager;
+			import stimulsoft.controls.visual.StiPopupMenu;
+			import stimulsoft.controls.visual.additional.StiTreeNode;
+			import stimulsoft.controls.visual.events.StiMenuItemClickEvent;
+			import stimulsoft.flex.base.StiArrayList;
+			import stimulsoft.flex.base.StiString;
+			import stimulsoft.flex.serialize.StiTypeConverter;
+			import stimulsoft.report.StiOptions;
+			import stimulsoft.report.StiReport;
+			import stimulsoft.viewer.events.StiViewerEvent;
+			
+			use namespace sti_internal;
+			
+//--------------------------------------
+//  Fileds
+//--------------------------------------
+			
+			private var report: StiReport;
+			private var designerWindow: StiDesignerWindow = null;
+			private var treeTimer: Timer;
+			private var helpPopupMenu: StiPopupMenu;
+			
+			private var itemDocumentation: String = "Documentation";
+			private var itemForum: String = "Forum";
+			private var itemHelpResources: String = "Help Resources";
+			private var itemKnowledgebase: String = "Knowledgebase";
+			private var itemPurchase: String = "Purchase";
+			private var itemSupport: String = "Support";
+			private var itemVideos: String = "All Videos";
+			private var itemJumpToWelcomeScreen: String = "Jump To Welcome Screen";
+			
+//--------------------------------------
+//  Resources
+//--------------------------------------
+			
+			[Embed(source="Reports_en.xml", mimeType="application/octet-stream")]
+			private static var reports_en: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/DocumentFile.png")]
+			private static var IconDocumentFile: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/Report.png")]
+			private static var IconReport: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/Items.png")]
+			private static var IconItems: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/CSharpProject.png")]
+			private static var CSharpProject: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/Documentation.png")]
+			private static var Documentation: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/Forum.png")]
+			private static var Forum: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/Knowledgebase.png")]
+			private static var Knowledgebase: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/Purchase.png")]
+			private static var Purchase: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/Support.png")]
+			private static var Support: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/VBProject.png")]
+			private static var VBProject: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/Video.png")]
+			private static var Video: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/Videos.png")]
+			private static var Videos: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/LogoFlex.png")]
+			private static var LogoFlex: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/LogoJava.png")]
+			private static var LogoJava: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/LogoPHP.png")]
+			private static var LogoPHP: Class;
+			
+			private static var Logo: Class = LogoFlex;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/defaultDemo.png")]
+			private static var IconDefaultDemo: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/defaultDocumentation.png")]
+			private static var IconDefaultDocumentation: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/defaultForum.png")]
+			private static var IconDefaultForum: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/defaultSample.png")]
+			private static var IconDefaultSampleProjects: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/defaultSupport.png")]
+			private static var IconDefaultSupport: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/defaultVideo.png")]
+			private static var IconDefaultVideo: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/overDemo.png")]
+			private static var IconOverDemo: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/overDocumentation.png")]
+			private static var IconOverDocumentation: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/overForum.png")]
+			private static var IconOverForum: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/overSample.png")]
+			private static var IconOverSampleProjects: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/overSupport.png")]
+			private static var IconOverSupport: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/overVideo.png")]
+			private static var IconOverVideo: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/pressedDemo.png")]
+			private static var IconPressedDemo: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/pressedDocumentation.png")]
+			private static var IconPressedDocumentation: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/pressedForum.png")]
+			private static var IconPressedForum: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/pressedSample.png")]
+			private static var IconPressedSampleProjects: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/pressedSupport.png")]
+			private static var IconPressedSupport: Class;
+			
+			[Embed(source="stimulsoft/air/demo_fx/images/pressedVideo.png")]
+			private static var IconPressedVideo: Class;
+							
+			private function onInitialize(): void
+			{
+				StiLocalization.addUpdateListener(onUpdateLocalization);
+				
+				StiSettings.load();
+				checkBoxDisplayWelcomeScreenAgain.selected = StiSettings.getValue("DisplayWelcomeScreenAgain", "DisplayWelcomeScreenAgain", true);
+				if (checkBoxDisplayWelcomeScreenAgain.selected) welcomeCanvas.visible = true;
+				else welcomeCanvas.visible = false;
+				
+				Logo = LogoFlex;
+CONFIG::PHP {
+				StiOptions.applicationType = StiApplicationType.PHP;
+				StiOptions.designer.database.adapterSql = true;
+				StiOptions.designer.database.adapterOdbc = true;
+				StiOptions.designer.database.adapterPostgreSQL = true;
+				StiOptions.designer.database.adapterOracle = true;
+				StiOptions.designer.database.adapterFirebird = true;
+				StiOptions.designer.database.adapterMongoDB = true;
+				
+				Logo = LogoPHP;
+}
+
+CONFIG::Java {
+				StiOptions.applicationType = StiApplicationType.Java;
+				StiOptions.connection.enableDataLogger = true;
+				StiOptions.designer.database.adapterSql = true;
+				StiOptions.designer.database.adapterJdbc = true;
+				StiOptions.designer.database.adapterPostgreSQL = true;
+				StiOptions.designer.database.adapterOracle = true;
+				StiOptions.engine.flexAdapterMySql = false;
+				
+				Logo = LogoJava;
+}
+				
+				StiOptions.viewer.toolbar.showExitButton = false;
+				StiOptions.viewer.toolbar.showDesignButton = true;
+				
+				StiApiProvider.provider = new StiApiProviderAIR(StiApiProvider.AppDesignerFx);
+				
+				helpPopupMenu = new StiPopupMenu();
+				helpPopupMenu.addEventListener(StiMenuItemClickEvent.STI_MENUITEMCLICK, onMenuItemClick);
+				
+				viewer.panelMain.helpResourcesButton.dropDownMenu = helpPopupMenu;
+				
+				viewer.panelMain.helpResourcesButton.visible = true;
+				viewer.panelMain.designReportSeparator.visible = true;
+				viewer.panelMain.aboutFunction = onButtonAboutClick;
+				
+				viewer.addEventListener(StiViewerEvent.DESIGN_CLICK, onDesignReportButtonClick);
+				
+				
+				maximize();
+				
+				var shadow: DropShadowFilter = new DropShadowFilter();
+				shadow.distance = 0;
+				shadow.alpha = 0.4;
+				
+				treeCanvas.filters = [shadow];
+				tree.dataProvider = loadXMLNode(StiTypeConverter.byteArrayToXml(new reports_en()));
+				tree.validateNow();
+				tree.expandItem(tree.dataProvider[0], true);
+				tree.selectedItem = tree.dataProvider[0].items[0];
+				
+				treeTimer = new Timer(500, 1);
+				treeTimer.addEventListener(TimerEvent.TIMER, onTreeTimer);
+				
+				logoImage.source = Logo;
+				
+				resetImage();
+			}
+			
+//--------------------------------------
+//  Methods
+//--------------------------------------
+			
+			private function resetImage(): void
+			{
+				buttonDemo.source = IconDefaultDemo;
+				buttonVideo.source = IconDefaultVideo;
+				buttonForum.source = IconDefaultForum;
+				buttonSupport.source = IconDefaultSupport;
+				buttonDocumentation.source = IconDefaultDocumentation;
+				buttonSampleProject.source = IconDefaultSampleProjects;
+			}
+
+			private function showReportFile(filePath: String, description: String): void
+			{
+				var request: URLRequest = new URLRequest(filePath);
+                var loader: URLLoader = new URLLoader();
+                loader.addEventListener(Event.COMPLETE, onLoadComplete);
+                loader.load(request);
+			}
+			
+			private function showDocumentFile(filePath: String, description: String): void
+			{
+				
+			}
+			
+			private function loadXMLNode(xml: XMLNode): Array
+			{
+				var categories: Array = [];
+				if (xml != null)
+				{
+					for each (var categoryNode: XMLNode in xml.childNodes)
+					{
+						if (categoryNode.localName == "Localization")
+						{
+							for each (var localizationNode: XMLNode in categoryNode.childNodes)
+							{
+								if (localizationNode.nodeName == "ButtonDesign") viewer.panelMain.designReportButton.label = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "ButtonDocumentation") itemDocumentation = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "ButtonForum") itemForum = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "ButtonHelpResources") viewer.panelMain.helpResourcesButton.label = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "ButtonKnowledgebase") itemKnowledgebase = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "ButtonPurchase") itemPurchase = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "ButtonSupport") itemSupport = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "ButtonVideos") itemVideos = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "DescDemo") labelDemo.htmlText = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "DescDocumentation") labelDocumentation.htmlText = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "DescForum") labelForum.htmlText = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "DescSampleProject") labelSampleProject.htmlText = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "DescSupport") labelSupport.htmlText = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "DescVideo") labelVideo.htmlText = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "DisplayWelcomeScreenAgain") checkBoxDisplayWelcomeScreenAgain.label = localizationNode.firstChild.nodeValue;
+								//else if (localizationNode.nodeName == "JumpToWelcomeScreen");
+								//else if (localizationNode.nodeName == "LabelHelp");
+								//else if (localizationNode.nodeName == "LabelSamples");
+								//else if (localizationNode.nodeName == "LabelVideos");
+								else if (localizationNode.nodeName == "Welcome") labelWelcome.htmlText = localizationNode.firstChild.nodeValue;
+								else if (localizationNode.nodeName == "WelcomeDesc") labelWelcomeDescription.htmlText = localizationNode.firstChild.nodeValue.replace("Reports.Net", "Reports.Fx").replace("WinForms", "Web");
+							}
+						}
+						else if (categoryNode.localName == "Category")
+						{
+							var category: StiTreeNode = new StiTreeNode(categoryNode.attributes.name, IconItems);
+							category.children = new StiArrayList();
+							
+							for each (var reportNode: XMLNode in categoryNode.childNodes)
+							{
+								var reportDescription: String = "";
+								var videos: Array = [];
+								var samples: Array = [];
+								for each (var keyNode: XMLNode in reportNode.childNodes)
+								{
+									if (keyNode.localName == "desc")
+									{
+										reportDescription = keyNode.firstChild.nodeValue;
+									}
+									else if (keyNode.localName == "video")
+									{
+										var videoName: String = keyNode.attributes.name;
+										var videoDescription: String = keyNode.attributes.desc;
+										var videoValue: String = keyNode.firstChild.nodeValue;
+										
+										videos.push({name: videoName, description: videoDescription, value: videoValue});
+									}
+									else if (keyNode.localName == "sample")
+									{
+										var sampleName: String = keyNode.attributes.name;
+										var sampleDescription: String = keyNode.attributes.desc;
+										var sampleVb: String = keyNode.attributes.desc;
+										var sampleValue: String = keyNode.firstChild.nodeValue;
+										
+										samples.push({name: sampleName, description: sampleDescription, vb: sampleVb, value: sampleValue});
+									}
+								}
+								var report: StiTreeNode = new StiTreeNode(reportNode.attributes.name, IconReport);
+								report.tag = {
+									reportFile: reportNode.attributes.file,
+										reportAsp: reportNode.attributes.asp,
+										reportDescription: reportDescription,
+										reportVideos: videos,
+										reportSamples: samples};
+								
+								category.children.push(report);
+							}
+							
+							categories.push(category);
+						}
+					}
+				}
+				
+				return categories;
+			}
+			
+			private function getMenuItems(): Array
+			{
+				var items: Array = [];
+				
+				if (tree.selectedItem && tree.selectedItem.tag)
+				{
+					for each(var video: Object in tree.selectedItem.tag.reportVideos)
+					{
+						items.push({type: "video", label: video.name, icon: Video, videoValue: video.value, videoDescription: video.description});
+					}
+					
+					for each(var sample: Object in tree.selectedItem.tag.reportSamples)
+					{
+					}
+				}
+				
+				if (items.length > 0) items[items.length - 1].separator = true;
+				
+				items.push({label: itemDocumentation, icon: Documentation, url: "https://www.stimulsoft.com/en/documentation"});
+				items.push({label: itemKnowledgebase, icon: Knowledgebase, url: "https://stimulsoft.zendesk.com/hc/en-us"});
+				items.push({label: itemForum, icon: Forum,url: "https://forum.stimulsoft.com"});
+				items.push({label: itemSupport, icon: Support,url: "https://www.stimulsoft.com/en/support"});
+				items.push({label: itemPurchase, icon: Purchase,url: "https://www.stimulsoft.com/en/online-store"});
+				items.push({label: itemVideos, icon: Videos,url: "https://www.stimulsoft.com/en/videos"});
+				
+				return items;
+			}
+			
+//--------------------------------------
+//  Events
+//--------------------------------------
+			
+			private function onUpdateLocalization(event: StiLocalizationEvent): void
+			{
+				viewer.panelMain.buttonAbout.superToolTip = {caption: itemJumpToWelcomeScreen};
+			}
+			
+			private function onMenuItemClick(event: StiMenuItemClickEvent): void
+			{
+				var url: String = "";
+				if (event.item.type == "video")
+				{
+					url = event.item.videoValue;
+				}
+				else if (event.item.hasOwnProperty("url"))
+				{
+					url = event.item.url;
+				}
+				
+				if (!StiString.isNullOrEmpty(url))
+				{
+					var request: URLRequest = new URLRequest(url);
+					navigateToURL(request, "_blank");
+				}
+			}
+			
+			private function onTreeChange(): void
+			{
+				treeTimer.stop();
+				treeTimer.start();
+			}
+			
+			private function onTreeTimer(event: TimerEvent): void
+			{
+				if (tree.selectedItem.tag != null)
+				{
+					var reportFile: String = tree.selectedItem.tag.reportFile;
+					if (StiString.isNullOrEmpty(reportFile) == false) showReportFile("reports/" + reportFile, tree.selectedItem.tag.reportDescription);
+					
+					helpPopupMenu.items = getMenuItems();
+				}
+			}
+			
+			private function onLoadComplete(event: Event): void
+            {
+                var loader: URLLoader = event.target as URLLoader;
+                
+                report = new StiReport();
+                report.loadReportFromString(loader.data as String);
+                report.show(viewer);
+				
+				viewer.panelMain.helpResourcesButton.enabled = true;
+				viewer.panelMain.designReportSeparator.enabled = true;
+				viewer.panelMain.designReportButton.enabled = true;
+				
+				if (helpPopupMenu.items.length > 6)
+				{
+					var timer: Timer = new Timer(500, 7);
+					var first: Boolean = true;
+					timer.addEventListener(TimerEvent.TIMER,
+						function(event: TimerEvent): void
+						{
+							if (first) viewer.panelMain.helpResourcesButton.selected = false
+							else viewer.panelMain.helpResourcesButton.selected = !viewer.panelMain.helpResourcesButton.selected;
+							
+							first = false;
+						}
+					);
+					
+					timer.addEventListener(TimerEvent.TIMER_COMPLETE,
+						function(event: TimerEvent): void
+						{
+							viewer.panelMain.helpResourcesButton.selected = false;
+						}
+					);
+					timer.start();
+				}
+            }
+            
+            private function onDesignReportButtonClick(event: StiViewerEvent): void
+            {
+				if (report == null) report = new StiReport();
+				
+				designerWindow = new StiDesignerWindow();
+				designerWindow.addEventListener(Event.CLOSE, onDesignerFormClose);
+				designerWindow.open(true);
+            	designerWindow.activate();
+            	designerWindow.maximize();
+				
+				StiApplication.main = designerWindow;
+				
+            	report.design(designerWindow.designer);
+				this.enabled = false;
+            }
+            
+            private function onDesignerFormClose(event: Event): void
+            {
+				this.enabled = true;
+				StiApplication.main = null;
+            }
+			
+			private function onHyperlinkClick(event: MouseEvent): void
+			{
+				var request: URLRequest = new URLRequest("https://www.stimulsoft.com");
+				navigateToURL(request, "_blank");
+			}
+			
+			private function onImageMouseUp(event: MouseEvent): void
+			{
+				resetImage();
+			}
+			
+			private function onImageMouseDown(event: MouseEvent, type: String): void
+			{
+				if (type == "demo") buttonDemo.source = IconPressedDemo;
+				if (type == "video") buttonVideo.source = IconPressedVideo;
+				if (type == "forum") buttonForum.source = IconPressedForum;
+				if (type == "support") buttonSupport.source = IconPressedSupport;
+				if (type == "documentation") buttonDocumentation.source = IconPressedDocumentation;
+				if (type == "sample") buttonSampleProject.source = IconPressedSampleProjects;
+				
+				stage.addEventListener(MouseEvent.MOUSE_UP, onImageMouseUp);
+			}
+			
+			private function onImageMouseOver(event: MouseEvent, type: String): void
+			{
+				if (!event.buttonDown)
+				{
+					if (type == "demo") buttonDemo.source = IconOverDemo;
+					if (type == "video") buttonVideo.source = IconOverVideo;
+					if (type == "forum") buttonForum.source = IconOverForum;
+					if (type == "support") buttonSupport.source = IconOverSupport;
+					if (type == "documentation") buttonDocumentation.source = IconOverDocumentation;
+					if (type == "sample") buttonSampleProject.source = IconOverSampleProjects;
+				}
+			}
+			
+			private function onImageMouseOut(event: MouseEvent, type: String): void
+			{
+				if (!event.buttonDown)
+				{
+					if (type == "demo") buttonDemo.source = IconDefaultDemo;
+					if (type == "video") buttonVideo.source = IconDefaultVideo;
+					if (type == "forum") buttonForum.source = IconDefaultForum;
+					if (type == "support") buttonSupport.source = IconDefaultSupport;
+					if (type == "documentation") buttonDocumentation.source = IconDefaultDocumentation;
+					if (type == "sample") buttonSampleProject.source = IconDefaultSampleProjects;
+				}
+			}
+			
+			private function onImageClick(event: MouseEvent, type: String): void
+			{
+				var url: String = "";
+				if (type == "demo")
+				{
+					welcomeCanvas.visible = false;
+					onTreeChange();
+				}
+				if (type == "video") url = "https://www.stimulsoft.com/en/videos";
+				if (type == "forum") url = "https://forum.stimulsoft.com";
+				if (type == "support") url = "https://www.stimulsoft.com/en/support";
+				if (type == "documentation") url = "https://www.stimulsoft.com/en/documentation";
+				if (type == "sample") url = "https://www.stimulsoft.com/en/samples";
+				
+				if (!StiString.isNullOrEmpty(url))
+				{
+					var request: URLRequest = new URLRequest(url);
+					navigateToURL(request, "_blank");
+				}
+			}
+			
+			private function onButtonAboutClick(): void
+			{
+				welcomeCanvas.visible = true;
+			}
+			
+			private function onDisplayWelcomeScreenAgainChange(event:Event):void
+			{
+				StiSettings.load();
+				StiSettings.setValue("DisplayWelcomeScreenAgain", "DisplayWelcomeScreenAgain", checkBoxDisplayWelcomeScreenAgain.selected);
+				StiSettings.save();
+			}
+			
+			protected function onAddedToStage(): void
+			{
+				if (welcomeCanvas.visible == true)
+				{
+					var transition: StiTransition = new StiTransition(welcomeCanvas2, "alpha", 0, 1, 650, 0);
+					transition.start();
+				}
+				else
+				{
+					welcomeCanvas2.alpha = 1;
+				}
+			}
+			
+		]]>
+	</mx:Script>
+	
+	<mx:Canvas id="treeCanvas" left="0" top="0" bottom="0" width="290" borderStyle="solid" borderColor="0xa0a0a0" backgroundColor="White" >
+		<mx:Image id="logoImage" left="1" right="1" top="8" scaleContent="false"/>
+		<mx:Image left="1" right="1" top="85" scaleContent="false" source="@Embed(source='stimulsoft/air/demo_fx/images/Separator.png')"/>
+  		<visual:StiTreeView id="tree" left="4" right="4" top="90" bottom="37" rowHeight="22" borderStyle="none" defaultLeafIcon="@Embed(source='stimulsoft/air/demo_fx/images/Report.png')" change="onTreeChange()"/>
+		<mx:Image left="1" right="1" bottom="32" scaleContent="false" source="@Embed(source='stimulsoft/air/demo_fx/images/Separator.png')"/>
+		<mx:Image left="1" right="1" bottom="8" scaleContent="false" verticalAlign="middle" horizontalAlign="center" source="@Embed(source='stimulsoft/air/demo_fx/images/Hyperlink.png')"
+				  click="onHyperlinkClick(event)" mouseOver="StiCursorManager.setHand()" mouseOut="StiCursorManager.setDefault();"/>
+	</mx:Canvas>
+  	<viewer:StiViewerFx id="viewer" left="295" right="0" top="0" bottom="0"/>
+	<mx:Canvas id="welcomeCanvas" left="0" right="0" top="0" bottom="0" backgroundColor="White">
+		<mx:Canvas id="welcomeCanvas2" width="900" height="550" horizontalCenter="0" alpha="0"
+				   horizontalScrollPolicy="off" verticalCenter="0" verticalScrollPolicy="off">
+			
+			<visual:StiTextArea id="labelWelcome" left="0" top="0" width="900" height="70"
+								color="#636363" fontFamily="Segoe UI" fontSize="65" paddingTop="-40"
+								text="WELCOME" textAlign="center" useTheme="false"/>
+			<visual:StiTextArea id="labelWelcomeDescription" left="0" top="68" width="900" height="142"  useTheme="false" fontFamily="Segoe UI" fontSize="17" color="#2D2D2D"
+								htmlText="We are pleased you are running now reporting tool &lt;b>Stimulsoft Reports.Fx&lt;/b>. The product is carefully designed for Web and used for creating reports of a high quality for you, your business and your customers. An exciting moment is coming! In a few moments you will be able to start designing your own reports.&lt;br>&lt;br>Have a good time in making the first steps with Stimulsoft Reports.&lt;/br>&lt;/br>" wordWrap="true"/>
+			
+			<mx:Canvas left="0" top="210" width="900" height="340" verticalScrollPolicy="off" horizontalScrollPolicy="off">
+				
+				<mx:Image id="buttonSampleProject" width="67" height="67" left="471" top="226"
+						  mouseDown="onImageMouseDown(event, 'sample')" click="onImageClick(event, 'sample')" mouseOver="onImageMouseOver(event, 'sample')" mouseOut="onImageMouseOut(event, 'sample')"/>
+				<mx:Image id="buttonDocumentation" width="67" height="67" left="471" top="125" 
+						  mouseDown="onImageMouseDown(event, 'documentation')" click="onImageClick(event, 'documentation')" mouseOver="onImageMouseOver(event, 'documentation')" mouseOut="onImageMouseOut(event, 'documentation')"/>
+				<mx:Image id="buttonSupport" width="67" height="67" left="471" top="29" 
+						  mouseDown="onImageMouseDown(event, 'support')" click="onImageClick(event, 'support')" mouseOver="onImageMouseOver(event, 'support')" mouseOut="onImageMouseOut(event, 'support')"/>
+				<mx:Image id="buttonForum" width="67" height="67" left="5" top="226" 
+						  mouseDown="onImageMouseDown(event, 'forum')" click="onImageClick(event, 'forum')" mouseOver="onImageMouseOver(event, 'forum')" mouseOut="onImageMouseOut(event, 'forum')"/>
+				<mx:Image id="buttonVideo" width="67" height="67" left="5" top="125" 
+						  mouseDown="onImageMouseDown(event, 'video')" click="onImageClick(event, 'video')" mouseOver="onImageMouseOver(event, 'video')" mouseOut="onImageMouseOut(event, 'video')"/>
+				<mx:Image id="buttonDemo" width="67" height="67" left="5" top="29" 
+						  mouseDown="onImageMouseDown(event, 'demo')" click="onImageClick(event, 'demo')" mouseOver="onImageMouseOver(event, 'demo')" mouseOut="onImageMouseOut(event, 'demo')"/>
+				
+				<visual:StiTextArea id="labelSampleProject" left="545" top="219" width="357" height="81" useTheme="false" color="#4D4C4B" fontFamily="Segoe UI" fontSize="11"
+									mouseDown="onImageMouseDown(event, 'sample')" click="onImageClick(event, 'sample')" mouseOver="onImageMouseOver(event, 'sample')" mouseOut="onImageMouseOut(event, 'sample')"
+									htmlText="&lt;font size='23'>SAMPLE PROJECT&lt;/font>&lt;br>In this section you can find lots of project ideas using the report generator. You are able to immediately put them into practice in your applications.&lt;/br>" />
+				
+				<visual:StiTextArea id="labelDocumentation" left="545" top="118" width="357" height="81" useTheme="false" color="#4D4C4B" fontFamily="Segoe UI" fontSize="11"
+									mouseDown="onImageMouseDown(event, 'documentation')" click="onImageClick(event, 'documentation')" mouseOver="onImageMouseOver(event, 'documentation')" mouseOut="onImageMouseOut(event, 'documentation')"
+									htmlText="&lt;font size='23'>DOCUMENTATION&lt;/font>&lt;br>Start using the reporting tool with reading the user manual. This is necessary to improve your knowledge and experience in creating reports of any complexity.&lt;/br>" />
+				
+				<visual:StiTextArea id="labelSupport" left="545" top="23" width="357" height="81" useTheme="false" color="#4D4C4B" fontFamily="Segoe UI" fontSize="11"
+									mouseDown="onImageMouseDown(event, 'support')" click="onImageClick(event, 'support')" mouseOver="onImageMouseOver(event, 'support')" mouseOut="onImageMouseOut(event, 'support')"
+									htmlText="&lt;font size='23'>SUPPORT&lt;/font>&lt;br>Something goes wrong with your reports? Ask our technical managers. Experienced professionals are ready to relieve the problems and issues you may have.&lt;/br>" />
+				
+				<visual:StiTextArea id="labelForum" left="80" top="219" width="357" height="81" useTheme="false" color="#4D4C4B" fontFamily="Segoe UI" fontSize="11"
+									mouseDown="onImageMouseDown(event, 'forum')" click="onImageClick(event, 'forum')" mouseOver="onImageMouseOver(event, 'forum')" mouseOut="onImageMouseOut(event, 'forum')"
+									htmlText="&lt;font size='23'>FORUM&lt;/font>&lt;br>Join a users’ community and discuss issues relate d to the software. On the message board you can share your experience with other forum participants.&lt;/br>" />
+				
+				<visual:StiTextArea id="labelVideo" left="80" top="118" width="357" height="81" useTheme="false" color="#4D4C4B" fontFamily="Segoe UI" fontSize="11"
+									mouseDown="onImageMouseDown(event, 'video')" click="onImageClick(event, 'video')" mouseOver="onImageMouseOver(event, 'video')" mouseOut="onImageMouseOut(event, 'video')"
+									htmlText="&lt;font size='23'>VIDEO&lt;/font>&lt;br>Dozens of clips to create reports of any complexi ty are available on our website. For easy viewing, video tutorials are thematically joined into categories.&lt;/br>" />
+				
+				<visual:StiTextArea id="labelDemo" left="80" top="22" width="357" height="81" useTheme="false" color="#4D4C4B"  fontFamily="Segoe UI" fontSize="11"
+									mouseDown="onImageMouseDown(event, 'demo')" click="onImageClick(event, 'demo')" mouseOver="onImageMouseOver(event, 'demo')" mouseOut="onImageMouseOut(event, 'demo')"
+									htmlText="&lt;font size='23'>DEMO&lt;/font>&lt;br>Run the application in which you can view the finished reports, as well as to open the designer and try your skills at creating your own ones.&lt;/br>" />
+				
+				<visual:StiCheckBox id="checkBoxDisplayWelcomeScreenAgain" right="3" top="314"
+									height="23" label="Display Welcome Screen Again" color="#4D4C4B"
+									fontFamily="Segoe UI" fontSize="11" selected="true"
+									useTheme="false" change="onDisplayWelcomeScreenAgainChange(event)"/>
+			</mx:Canvas>
+		</mx:Canvas>
+	</mx:Canvas>
+</mx:WindowedApplication>
