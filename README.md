@@ -37,3 +37,5 @@ You can try the [Live Demo](http://flex.stimulsoft.com)
 Read more about [Stimulsoft Reports.Flex](https://www.stimulsoft.com/en/products/reports-flex)
 
 [Free Download](https://www.stimulsoft.com/en/downloads)
+
+[License](LICENSE.md)
