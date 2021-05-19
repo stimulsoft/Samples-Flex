@@ -1,3 +1,9 @@
+## Attention!
+
+This repository is archived, and the source code of these examples is no longer updated, because the technology used in the examples is outdated and no longer supported. You can read more in [this article](https://www.stimulsoft.com/en/blog/news/the-end-of-support-for-flash-components).
+
+---
+
 # Flex ActionScript samples for Stimulsoft Reports.Flex
 
 #### This repository contains the source code of the examples of usage Stimulsoft Reports.Flex reporting tool in the Flex/AIR applications, using ActionScript code and Flash components.
